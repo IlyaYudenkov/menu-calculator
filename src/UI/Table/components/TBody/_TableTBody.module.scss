@@ -1,0 +1,9 @@
+.TableTBody {
+    display: flex;
+    flex-direction: column;
+
+    & td {
+        display: flex;
+        width: 100%;
+    }
+}

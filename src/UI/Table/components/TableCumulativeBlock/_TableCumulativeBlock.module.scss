@@ -1,0 +1,16 @@
+.groceriesBody{
+    display: grid;
+
+    & td{
+        text-align: left;
+    }
+}
+
+.tenDays{
+    grid-template-columns: 2fr repeat(11, 1fr);
+
+}
+
+.fourteenDays{
+    grid-template-columns: 2fr repeat(15, 1fr);
+}

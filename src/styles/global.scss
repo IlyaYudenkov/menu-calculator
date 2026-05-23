@@ -1,0 +1,28 @@
+@import url('./nullstyle.scss');
+
+:root {
+  --text-h: #08060d;
+
+  --text: #f4f3ec;
+  --text-gray: rgba(244, 243, 236, 0.5);
+  --bg: linear-gradient(135deg, #0b4e60 0%, #051c2c 20%, #051c2c 80%, #0b4e60 100%);
+  --border: rgba(244, 243, 236, 0.5);
+
+  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
+
+  font: 16px/145% var(--sans);
+  letter-spacing: 0.18px;
+  color: var(--text);
+  background: var(--bg);
+
+
+  @media (max-width: 1024px) {
+    font-size: 14px;
+  }
+}
+
+button{
+  background: transparent;
+  outline: none;
+  border: none;
+}

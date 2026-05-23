@@ -1,0 +1,13 @@
+.Table {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 1px solid var(--border);
+
+    & td {
+        padding: 10px;
+        border: 1px solid var(--border);
+        text-align: center;
+        word-break: break-all;
+    }
+}

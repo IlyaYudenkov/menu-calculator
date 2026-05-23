@@ -1,0 +1,21 @@
+.SwitchSelector {
+    display: flex;
+    gap: 8px;
+
+    button {
+        padding: 6px;
+        border-radius: 8px;
+        border: 1px solid var(--border);
+        background-color: white;
+        cursor: pointer;
+        transition: background-color 0.2s ease-in,
+            color 0.2s ease-in;
+    }
+}
+
+
+.active {
+    border: 1px solid white;
+    background-color: #0b4e60 !important;
+    color: var(--text);
+}

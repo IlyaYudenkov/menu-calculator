@@ -1,0 +1,102 @@
+.wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.control {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    background-color: transparent;
+    padding: 5px 10px;
+
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    color: var(--text);
+
+    cursor: pointer;
+    transition: box-shadow 0.2s ease-in;
+
+    &:hover {
+        border-color: var(--border);
+    }
+}
+
+.control:focus,
+.control:active {
+    box-shadow: 0 0 0 2px var(--border);
+}
+
+.disabled,
+.placeholder {
+    color: var(--text-gray);
+}
+
+.disabled {
+    cursor: not-allowed;
+}
+
+.arrow {
+    border: solid var(--border);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transition: transform 0.2s ease-in;
+}
+
+.arrowOpen {
+    margin-top: 4px;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+.dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    
+    width: 100%;
+
+    background-color: #051c2c;
+    border: 1px solid var(--border);
+    border-top: none;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+
+    max-height: 200px;
+    overflow-y: auto;
+
+    z-index: 10;
+
+    opacity: 0;
+    transform: translateY(-20px);
+    pointer-events: none;
+
+    transition:
+        opacity 0.2s ease,
+        transform 0.2s ease;
+}
+
+.open {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+.option {
+    padding: 8px 10px;
+    cursor: pointer;
+    color: var(--text);
+    text-align: left;
+
+    transition: background 0.15s ease;
+
+    &:hover {
+        background-color: var(--border);
+    }
+}

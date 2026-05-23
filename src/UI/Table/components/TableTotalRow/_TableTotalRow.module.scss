@@ -1,0 +1,9 @@
+.TableTotalRow {
+    display: grid;
+    grid-template-columns: 60% repeat(5, 8%);
+
+    & td:not(:first-child) {
+        display: flex;
+        justify-content: center;
+    }
+}

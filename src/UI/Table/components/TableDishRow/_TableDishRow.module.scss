@@ -1,0 +1,25 @@
+.TableDishRow {
+    display: grid;
+    grid-template-columns: 50% 10% repeat(6, 8%);
+
+    & td {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        & button {
+            padding: 5px 12px;
+            color: currentColor;
+            border: 2px solid var(--border);
+            border-radius: 50%;
+            transition:
+                background-color 0.2s ease-in,
+                color 0.2s ease-in;
+
+            &:hover {
+                background-color: #fff;
+                color: #051c2c;
+            }
+        }
+    }
+}

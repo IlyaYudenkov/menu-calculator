@@ -1,0 +1,32 @@
+.TableTHead {
+    width: 100%;
+
+    & tr {
+        display: grid;
+        width: 100%;
+    }
+}
+
+.tenDays {
+    & tr {
+        grid-template-columns: 2fr repeat(11, 1fr);
+    }
+}
+
+.fourteenDays {
+    & tr {
+        grid-template-columns: 2fr repeat(15, 1fr);
+    }
+}
+
+.dayTHead {
+    & tr {
+        grid-template-columns: 50% 10% repeat(6, 8%);
+    }
+}
+
+.averageTable {
+    & tr {
+        grid-template-columns: 1fr;
+    }
+}

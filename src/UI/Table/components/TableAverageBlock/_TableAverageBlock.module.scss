@@ -1,0 +1,14 @@
+.TableAverageBlock {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.title{
+    display: grid;
+    grid-template-columns: 1fr;
+    td{
+        font-weight: 700;
+        font-size: 16px;
+        font-style: italic;
+    }
+}
