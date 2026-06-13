@@ -1,10 +1,10 @@
 import type { IDish } from "../../model/dish.model"
 
 const SANDWICH_W_BUTTER: IDish = {
-    id: '1',
+    id: '1.1',
     variants: [
         {
-            id: '1.1',
+            id: '1.1.1',
             name: 'Бутерброд с маслом (15/20)',
             currentOutput: 35,
             components: {
@@ -19,7 +19,7 @@ const SANDWICH_W_BUTTER: IDish = {
             caloricity: 417
         },
         {
-            id: '1.2',
+            id: '1.1.2',
             name: 'Бутерброд с маслом (10/20)',
             currentOutput: 30,
             components: {
@@ -37,11 +37,11 @@ const SANDWICH_W_BUTTER: IDish = {
 }
 
 const SANDWICH_W_JAM: IDish = {
-    id: '2',
+    id: '1.2',
     generalOutput: 40,
     variants: [
         {
-            id: '2.1',
+            id: '1.2.1',
             name: 'Бутерброд с джемом, повидлом',
             components: {
                 breadWheat: 20,
@@ -56,7 +56,7 @@ const SANDWICH_W_JAM: IDish = {
             caloricity: 199
         },
         {
-            id: '2.2',
+            id: '1.2.2',
             name: 'Бутерброд с вареньем',
             components: {
                 breadWheat: 20,
@@ -71,7 +71,7 @@ const SANDWICH_W_JAM: IDish = {
             caloricity: 320
         },
         {
-            id: '2.3',
+            id: '1.2.3',
             name: 'Бутерброд с медом',
             components: {
                 breadWheat: 20,
@@ -89,11 +89,11 @@ const SANDWICH_W_JAM: IDish = {
 }
 
 const SANDWICH_W_CHEESE: IDish = {
-    id: '3',
+    id: '1.3',
     generalOutput: 40,
     variants: [
         {
-            id: '3.1',
+            id: '1.3.1',
             name: 'Бутерброд с сыром',
             components: {
                 breadWheat: 20,
@@ -111,11 +111,11 @@ const SANDWICH_W_CHEESE: IDish = {
 }
 
 const SANDWICH_W_BOILED_MEAT_PRODUCTS: IDish = {
-    id: '4',
+    id: '1.4',
     generalOutput: 40,
     variants: [
         {
-            id: '4.1',
+            id: '1.4.1',
             name: 'Бутерброд отварными мясными продуктами (говядиной)',
             components: {
                 breadWheat: 20,
@@ -129,7 +129,7 @@ const SANDWICH_W_BOILED_MEAT_PRODUCTS: IDish = {
             caloricity: 189
         },
         {
-            id: '4.2',
+            id: '1.4.2',
             name: 'Бутерброд отварными мясными продуктами (свининой)',
             components: {
                 breadWheat: 20,
@@ -143,7 +143,7 @@ const SANDWICH_W_BOILED_MEAT_PRODUCTS: IDish = {
             caloricity: 176 //бред
         },
         {
-            id: '4.3',
+            id: '1.4.3',
             name: 'Бутерброд отварными мясными продуктами (телятина)',
             components: {
                 breadWheat: 20,
@@ -157,7 +157,7 @@ const SANDWICH_W_BOILED_MEAT_PRODUCTS: IDish = {
             caloricity: 176
         },
         {
-            id: '4.4',
+            id: '1.4.4',
             name: 'Бутерброд отварными мясными продуктами (говяжий язык)',
             components: {
                 breadWheat: 20,
@@ -171,7 +171,7 @@ const SANDWICH_W_BOILED_MEAT_PRODUCTS: IDish = {
             caloricity: 238
         },
         {
-            id: '4.5',
+            id: '1.4.5',
             name: 'Бутерброд отварными мясными продуктами (свиной язык)',
             components: {
                 breadWheat: 20,
@@ -188,11 +188,11 @@ const SANDWICH_W_BOILED_MEAT_PRODUCTS: IDish = {
 }
 
 const SANDWICH_W_MEAT_GASTRONOMIC_PRODUCTS: IDish = {
-    id: '5',
+    id: '1.5',
     generalOutput: 45,
     variants: [
         {
-            id: '5.1',
+            id: '1.5.1',
             name: 'Бутерброд с мясными гастрономическими продуктами (колбаса вареная)',
             components: {
                 breadWheat: 20,
@@ -206,7 +206,7 @@ const SANDWICH_W_MEAT_GASTRONOMIC_PRODUCTS: IDish = {
             caloricity: 244
         },
         {
-            id: '5.2',
+            id: '1.5.2',
             name: 'Бутерброд с мясными гастрономическими продуктами (колбаса полукопченая)',
             components: {
                 breadWheat: 20,
@@ -220,7 +220,7 @@ const SANDWICH_W_MEAT_GASTRONOMIC_PRODUCTS: IDish = {
             caloricity: 317
         },
         {
-            id: '5.3',
+            id: '1.5.3',
             name: 'Бутерброд с мясными гастрономическими продуктами (ветчина в оболочке)',
             components: {
                 breadWheat: 20,
@@ -237,11 +237,11 @@ const SANDWICH_W_MEAT_GASTRONOMIC_PRODUCTS: IDish = {
 }
 
 const SANDWICH_W_HERRING: IDish = {
-    id: '6',
+    id: '1.6',
     generalOutput: 45,
     variants: [
         {
-            id: '6.1',
+            id: '1.6.1',
             name: 'Бутерброд с сельдью (атлантической)',
             components: {
                 breadWheat: 20,
@@ -256,7 +256,7 @@ const SANDWICH_W_HERRING: IDish = {
             caloricity: 240
         },
         {
-            id: '6.2',
+            id: '1.6.2',
             name: 'Бутерброд с сельдью (тихоокеанской)',
             components: {
                 breadWheat: 20,
@@ -274,11 +274,11 @@ const SANDWICH_W_HERRING: IDish = {
 }
 
 const CLOSED_SANDWICH_W_MEAT_PRODUCTS: IDish = {
-    id: '7',
+    id: '1.7',
     generalOutput: 40,
     variants: [
         {
-            id: '7.1',
+            id: '1.7.1',
             name: 'Закрытый бутерброд с мясными продуктами (говядина)',
             components: {
                 breadWheat: 20,
@@ -292,7 +292,7 @@ const CLOSED_SANDWICH_W_MEAT_PRODUCTS: IDish = {
             caloricity: 208
         },
         {
-            id: '7.2',
+            id: '1.7.2',
             name: 'Закрытый бутерброд с мясными продуктами (свинина)',
             components: {
                 breadWheat: 20,
@@ -309,11 +309,11 @@ const CLOSED_SANDWICH_W_MEAT_PRODUCTS: IDish = {
 }
 
 const CLOSED_SANDWICH_W_MEAT_GASTRONOMIC_PRODUCTS: IDish = {
-    id: '8',
+    id: '1.8',
     generalOutput: 40,
     variants: [
         {
-            id: '8.1',
+            id: '1.8.1',
             name: 'Закрытый бутерброд с мясными гастрономическими продуктами (колбаса вареная)',
             components: {
                 breadWheat: 20,
@@ -327,7 +327,7 @@ const CLOSED_SANDWICH_W_MEAT_GASTRONOMIC_PRODUCTS: IDish = {
             caloricity: 241
         },
         {
-            id: '8.2',
+            id: '1.8.2',
             name: 'Закрытый бутерброд с мясными продуктами (колбаса полукопченая)',
             components: {
                 breadWheat: 20,
@@ -344,11 +344,11 @@ const CLOSED_SANDWICH_W_MEAT_GASTRONOMIC_PRODUCTS: IDish = {
 }
 
 const CLOSED_SANDWICH_W_CHEESE: IDish = {
-    id: '9',
+    id: '1.9',
     generalOutput: 40,
     variants: [
         {
-            id: '9.1',
+            id: '1.9.1',
             name: 'Закрытый бутерброд с сыром (российским)',
             components: {
                 breadWheat: 50,
@@ -363,7 +363,7 @@ const CLOSED_SANDWICH_W_CHEESE: IDish = {
             caloricity: 333
         },
         {
-            id: '9.2',
+            id: '1.9.2',
             name: 'Закрытый бутерброд с сыром (голландским)',
             components: {
                 breadWheat: 50,
@@ -378,7 +378,7 @@ const CLOSED_SANDWICH_W_CHEESE: IDish = {
             caloricity: 325
         },
         {
-            id: '9.3',
+            id: '1.9.3',
             name: 'Закрытый бутерброд с сыром (пошехонским)',
             components: {
                 breadWheat: 50,
@@ -393,7 +393,7 @@ const CLOSED_SANDWICH_W_CHEESE: IDish = {
             caloricity: 325
         },
         {
-            id: '9.4',
+            id: '1.9.4',
             name: 'Закрытый бутерброд с сыром (плавленным)',
             components: {
                 breadWheat: 50,
@@ -411,11 +411,11 @@ const CLOSED_SANDWICH_W_CHEESE: IDish = {
 }
 
 const SANDWICH_W_CHOPPED_EGGS: IDish = {
-    id: '10',
+    id: '1.10',
     generalOutput: 50,
     variants: [
         {
-            id: '10.1',
+            id: '1.10.1',
             name: 'Бутерброд с рубленными яйцами',
             components: {
                 breadWheat: 20,
@@ -433,11 +433,11 @@ const SANDWICH_W_CHOPPED_EGGS: IDish = {
 }
 
 const SANDWICH_W_BACKED_CANNED_FISH: IDish = {
-    id: '11',
+    id: '1.11',
     generalOutput: 65,
     variants: [
         {
-            id: '11.1',
+            id: '1.11.1',
             name: 'Бутерброд с рыбными консервами запеченный',
             components: {
                 breadWheat: 20,
@@ -456,11 +456,11 @@ const SANDWICH_W_BACKED_CANNED_FISH: IDish = {
 }
 
 const SANDWICH_ZVICHAYNII: IDish = {
-    id: '12',
+    id: '1.12',
     generalOutput: 48,
     variants: [
         {
-            id: '12.1',
+            id: '1.12.1',
             name: 'Бутерброд "Звычайны"',
             components: {
                 breadWheat: 20,
@@ -479,11 +479,11 @@ const SANDWICH_ZVICHAYNII: IDish = {
 }
 
 const SANDWICH_W_BAKED_HAM: IDish = {
-    id: '13',
+    id: '1.13',
     generalOutput: 53,
     variants: [
         {
-            id: '13.1',
+            id: '1.13.1',
             name: 'Бутерброд с ветчиной запеченный',
             components: {
                 breadWheat: 20,
@@ -502,11 +502,11 @@ const SANDWICH_W_BAKED_HAM: IDish = {
 }
 
 const SANDWICH_W_BAKED_SAUSAGE: IDish = {
-    id: '14',
+    id: '1.14',
     generalOutput: 40,
     variants: [
         {
-            id: '14.1',
+            id: '1.14.1',
             name: 'Бутерброд с колбасой запеченный',
             components: {
                 breadWheat: 15,
@@ -525,11 +525,11 @@ const SANDWICH_W_BAKED_SAUSAGE: IDish = {
 }
 
 const SANDWICH_OSENNII: IDish = {
-    id: '15',
+    id: '1.15',
     generalOutput: 55,
     variants: [
         {
-            id: '15.1',
+            id: '1.15.1',
             name: 'Бутерброд "Осенний"',
             components: {
                 breadWheat: 20,
@@ -547,11 +547,11 @@ const SANDWICH_OSENNII: IDish = {
 }
 
 const SANDWICH_KUPALLE: IDish = {
-    id: '16',
+    id: '1.16',
     generalOutput: 45,
     variants: [
         {
-            id: '16.1',
+            id: '1.16.1',
             name: 'Бутерброд "Купалле"',
             components: {
                 breadWheat: 20,
@@ -569,11 +569,11 @@ const SANDWICH_KUPALLE: IDish = {
 }
 
 const SANDWICH_YABLOKO_BAKED: IDish = {
-    id: '17',
+    id: '1.17',
     generalOutput: 40,
     variants: [
         {
-            id: '17.1',
+            id: '1.17.1',
             name: 'Бутерброд "Яблоко" (запеченный)',
             components: {
                 breadWheat: 20,
@@ -591,11 +591,11 @@ const SANDWICH_YABLOKO_BAKED: IDish = {
 }
 
 const SANDWICH_W_BAKED_SAUSAGE_N_CHEESE: IDish = {
-    id: '18',
+    id: '1.18',
     generalOutput: 50,
     variants: [
         {
-            id: '18.1',
+            id: '1.18.1',
             name: 'Бутерброд с колбасой полукопченной и сыром запеченный',
             components: {
                 breadWheat: 20,
@@ -614,11 +614,11 @@ const SANDWICH_W_BAKED_SAUSAGE_N_CHEESE: IDish = {
 }
 
 const BUTTER_IN_PORTIONS: IDish = {
-    id: '19',
+    id: '1.19',
     generalOutput: 10,
     variants: [
         {
-            id: '19.1',
+            id: '1.19.1',
             name: 'Масло (порциями)',
             components: {
                 butter: 10,
@@ -634,11 +634,11 @@ const BUTTER_IN_PORTIONS: IDish = {
 }
 
 const CHEESE_IN_PORTIONS: IDish = {
-    id: '20',
+    id: '1.20',
     generalOutput: 30,
     variants: [
         {
-            id: '20.1',
+            id: '1.20.1',
             name: 'Сыр порциями (российский)',
             components: {
                 cheese: 10,
@@ -651,7 +651,7 @@ const CHEESE_IN_PORTIONS: IDish = {
             caloricity: 108
         },
         {
-            id: '20.2',
+            id: '1.20.2',
             name: 'Сыр порциями (пошехонский, голландский)',
             components: {
                 cheese: 10,
@@ -664,7 +664,7 @@ const CHEESE_IN_PORTIONS: IDish = {
             caloricity: 105
         },
         {
-            id: '20.3',
+            id: '1.20.3',
             name: 'Сыр порциями (плавленный)',
             components: {
                 cheese: 10,
@@ -681,11 +681,11 @@ const CHEESE_IN_PORTIONS: IDish = {
 
 //SALADS
 const SALAD_W_FRESH_CUCUMBERS: IDish = {
-    id: '21',
+    id: '1.21',
     generalOutput: 100,
     variants: [
         {
-            id: '21.1',
+            id: '1.21.1',
             name: 'Салат из свежих огурцов со сметаной',
             components: {
                 sourCream: 20,
@@ -699,7 +699,7 @@ const SALAD_W_FRESH_CUCUMBERS: IDish = {
             caloricity: 50
         },
         {
-            id: '21.2',
+            id: '1.21.2',
             name: 'Салат из свежих огурцов с маслом растительным',
             components: {
                 oil: 11.1,
@@ -716,11 +716,11 @@ const SALAD_W_FRESH_CUCUMBERS: IDish = {
 }
 
 const SALAD_W_FRESH_TOMATOES: IDish = {
-    id: '22',
+    id: '1.22',
     generalOutput: 100,
     variants: [
         {
-            id: '22.1',
+            id: '1.22.1',
             name: 'Салат из свежих помидоров со сметаной',
             components: {
                 sourCream: 20,
@@ -734,7 +734,7 @@ const SALAD_W_FRESH_TOMATOES: IDish = {
             caloricity: 59
         },
         {
-            id: '22.2',
+            id: '1.22.2',
             name: 'Салат из свежих помидоров с маслом растительным',
             components: {
                 oil: 11.1,
@@ -751,11 +751,11 @@ const SALAD_W_FRESH_TOMATOES: IDish = {
 }
 
 const SALAD_W_FRESH_TOMATOES_N_CUCUMBERS: IDish = {
-    id: '23',
+    id: '1.23',
     generalOutput: 100,
     variants: [
         {
-            id: '23.1',
+            id: '1.23.1',
             name: 'Салат из свежих помидоров и огурцов со сметаной',
             components: {
                 sourCream: 20,
@@ -769,7 +769,7 @@ const SALAD_W_FRESH_TOMATOES_N_CUCUMBERS: IDish = {
             caloricity: 55
         },
         {
-            id: '23.2',
+            id: '1.23.2',
             name: 'Салат из свежих помидоров и огурцов с маслом растительным',
             components: {
                 oil: 11.1,
@@ -786,11 +786,11 @@ const SALAD_W_FRESH_TOMATOES_N_CUCUMBERS: IDish = {
 }
 
 const SALAD_SLUCH: IDish = {
-    id: '24',
+    id: '1.24',
     generalOutput: 100,
     variants: [
         {
-            id: '24.1',
+            id: '1.24.1',
             name: 'Салат "Случь"',
             components: {
                 oil: 9,
@@ -807,11 +807,11 @@ const SALAD_SLUCH: IDish = {
 }
 
 const SALAD_SHKOLNIE_GODY: IDish = {
-    id: '25',
+    id: '1.25',
     generalOutput: 100,
     variants: [
         {
-            id: '25.1',
+            id: '1.25.1',
             name: 'Салат "Школьные годы"',
             components: {
                 oil: 5,
@@ -828,11 +828,11 @@ const SALAD_SHKOLNIE_GODY: IDish = {
 }
 
 const SALAD_BELOSNEZHKA: IDish = {
-    id: '26',
+    id: '1.26',
     generalOutput: 100,
     variants: [
         {
-            id: '26.1',
+            id: '1.26.1',
             name: 'Салат "Белоснежка"',
             components: {
                 eggs: 14,
@@ -851,11 +851,11 @@ const SALAD_BELOSNEZHKA: IDish = {
 }
 
 const SALAD_CARROT_W_SUGAR: IDish = {
-    id: '27',
+    id: '1.27',
     generalOutput: 100,
     variants: [
         {
-            id: '27.1',
+            id: '1.27.1',
             name: 'Морковь с сахаром',
             components: {
                 sugar: 5,
@@ -872,11 +872,11 @@ const SALAD_CARROT_W_SUGAR: IDish = {
 }
 
 const SALAD_SVEZHEST: IDish = {
-    id: '28',
+    id: '1.28',
     generalOutput: 100,
     variants: [
         {
-            id: '28.1',
+            id: '1.28.1',
             name: 'Салат "Свежесть"',
             components: {
                 fruits: 7,
@@ -895,11 +895,11 @@ const SALAD_SVEZHEST: IDish = {
 }
 
 const SALAD_CVETNOI: IDish = {
-    id: '29',
+    id: '1.29',
     generalOutput: 100,
     variants: [
         {
-            id: '29.1',
+            id: '1.29.1',
             name: 'Салат "Цветной"',
             components: {
                 oil: 7.5,
@@ -917,11 +917,11 @@ const SALAD_CVETNOI: IDish = {
 }
 
 const SALAD_VOSTORG: IDish = {
-    id: '30',
+    id: '1.30',
     generalOutput: 100,
     variants: [
         {
-            id: '30.1',
+            id: '1.30.1',
             name: 'Салат "Восторг"',
             components: {
                 fruits: 25,
@@ -940,11 +940,11 @@ const SALAD_VOSTORG: IDish = {
 }
 
 const SALAD_METELKA: IDish = {
-    id: '31',
+    id: '1.31',
     generalOutput: 100,
     variants: [
         {
-            id: '31.1',
+            id: '1.31.1',
             name: 'Салат "Метелка"',
             components: {
                 fruits: 41,
@@ -961,11 +961,11 @@ const SALAD_METELKA: IDish = {
 }
 
 const SALAD_VITAMINNII: IDish = {
-    id: '32',
+    id: '1.32',
     generalOutput: 100,
     variants: [
         {
-            id: '32.1',
+            id: '1.32.1',
             name: 'Салат витаминный со сметаной',
             components: {
                 fruits: 4.2,
@@ -981,7 +981,7 @@ const SALAD_VITAMINNII: IDish = {
             caloricity: 78
         },
         {
-            id: '32.2',
+            id: '1.32.2',
             name: 'Салат витаминный с маслом растительным',
             components: {
                 fruits: 4.4,
@@ -1000,11 +1000,11 @@ const SALAD_VITAMINNII: IDish = {
 }
 
 const SALAD_W_WHITE_CABBAGE_N_OIL: IDish = {
-    id: '33',
+    id: '1.33',
     generalOutput: 100,
     variants: [
         {
-            id: '33.1',
+            id: '1.33.1',
             name: 'Салат из белокочанной капусты с маслом растительным',
             components: {
                 oil: 5,
@@ -1022,11 +1022,11 @@ const SALAD_W_WHITE_CABBAGE_N_OIL: IDish = {
 }
 
 const SALAD_W_WHITE_CABBAGE_N_CUCUMBERS: IDish = {
-    id: '34',
+    id: '1.34',
     generalOutput: 100,
     variants: [
         {
-            id: '34.1',
+            id: '1.34.1',
             name: 'Салат из белокочанной капусты с огурцами',
             components: {
                 oil: 5,
@@ -1044,11 +1044,11 @@ const SALAD_W_WHITE_CABBAGE_N_CUCUMBERS: IDish = {
 }
 
 const SALAD_W_WHITE_CABBAGE_N_CUCUMBERS_N_CARROT: IDish = {
-    id: '35',
+    id: '1.35',
     generalOutput: 100,
     variants: [
         {
-            id: '35.1',
+            id: '1.35.1',
             name: 'Салат из белокочанной капусты с огурцами и морковью',
             components: {
                 oil: 9,
@@ -1066,11 +1066,11 @@ const SALAD_W_WHITE_CABBAGE_N_CUCUMBERS_N_CARROT: IDish = {
 }
 
 const SALAD_W_WHITE_CABBAGE_N_GREEN_PERS_N_ONION: IDish = {
-    id: '36',
+    id: '1.36',
     generalOutput: 100,
     variants: [
         {
-            id: '36.1',
+            id: '1.36.1',
             name: 'Салат из белокочанной капусты с зеленым горошком и луком',
             components: {
                 eggs: 15,
@@ -1088,11 +1088,11 @@ const SALAD_W_WHITE_CABBAGE_N_GREEN_PERS_N_ONION: IDish = {
 }
 
 const SALAD_W_CARROT_N_CUCUMBERS_N_GREAN_PEAS: IDish = {
-    id: '37',
+    id: '1.37',
     generalOutput: 100,
     variants: [
         {
-            id: '37.1',
+            id: '1.37.1',
             name: 'Салат из моркови с огурцами и зеленым горошком',
             components: {
                 oil: 8,
@@ -1109,11 +1109,11 @@ const SALAD_W_CARROT_N_CUCUMBERS_N_GREAN_PEAS: IDish = {
 }
 
 const SALAD_AGENCHICK: IDish = {
-    id: '38',
+    id: '1.38',
     generalOutput: 100,
     variants: [
         {
-            id: '38.1',
+            id: '1.38.1',
             name: 'Салат "Агенчык" с майонезом',
             components: {
                 mayonnaise: 20,
@@ -1127,7 +1127,7 @@ const SALAD_AGENCHICK: IDish = {
             caloricity: 155
         },
         {
-            id: '38.2',
+            id: '1.38.2',
             name: 'Салат "Агенчык" с маслом растительным',
             components: {
                 oil: 11.1,
@@ -1144,11 +1144,11 @@ const SALAD_AGENCHICK: IDish = {
 }
 
 const SALAD_W_POTATO: IDish = {
-    id: '39',
+    id: '1.39',
     generalOutput: 100,
     variants: [
         {
-            id: '39.1',
+            id: '1.39.1',
             name: 'Салат картофельный со сметаной',
             components: {
                 potato: 72,
@@ -1163,7 +1163,7 @@ const SALAD_W_POTATO: IDish = {
             caloricity: 94
         },
         {
-            id: '39.2',
+            id: '1.39.2',
             name: 'Салат картофельный с маслом растительным',
             components: {
                 oil: 10.5,
@@ -1181,11 +1181,11 @@ const SALAD_W_POTATO: IDish = {
 }
 
 const SALAD_W_POTATO_N_CUCUMBERS: IDish = {
-    id: '40',
+    id: '1.40',
     generalOutput: 100,
     variants: [
         {
-            id: '40.1',
+            id: '1.40.1',
             name: 'Салат картофельный с огурцами со сметаной',
             components: {
                 potato: 42.4,
@@ -1200,7 +1200,7 @@ const SALAD_W_POTATO_N_CUCUMBERS: IDish = {
             caloricity: 75
         },
         {
-            id: '40.2',
+            id: '1.40.2',
             name: 'Салат картофельный с огурцами с маслом растительным',
             components: {
                 oil: 10.5,
@@ -1218,11 +1218,11 @@ const SALAD_W_POTATO_N_CUCUMBERS: IDish = {
 }
 
 const SALAD_W_POTATO_N_GREEN_PEAS: IDish = {
-    id: '41',
+    id: '1.41',
     generalOutput: 100,
     variants: [
         {
-            id: '41.1',
+            id: '1.41.1',
             name: 'Салат картофельный с зеленым горошком со сметаной',
             components: {
                 eggs: 12,
@@ -1238,7 +1238,7 @@ const SALAD_W_POTATO_N_GREEN_PEAS: IDish = {
             caloricity: 93
         },
         {
-            id: '41.2',
+            id: '1.41.2',
             name: 'Салат картофельный с зеленым горошком с маслом растительным',
             components: {
                 eggs: 12.6,
@@ -1257,11 +1257,11 @@ const SALAD_W_POTATO_N_GREEN_PEAS: IDish = {
 }
 
 const SALAD_STUDENCHESKIY: IDish = {
-    id: '42',
+    id: '1.42',
     generalOutput: 100,
     variants: [
         {
-            id: '42.1',
+            id: '1.42.1',
             name: 'Салат "Студенческий"',
             components: {
                 eggs: 16,
@@ -1280,11 +1280,11 @@ const SALAD_STUDENCHESKIY: IDish = {
 }
 
 const SALAD_APPETITNIY: IDish = {
-    id: '43',
+    id: '1.43',
     generalOutput: 100,
     variants: [
         {
-            id: '43.1',
+            id: '1.43.1',
             name: 'Салат "Аппетитный"',
             components: {
                 oil: 9,
@@ -1302,11 +1302,11 @@ const SALAD_APPETITNIY: IDish = {
 }
 
 const SALAD_SHCHEDRAYA_OSEN: IDish = {
-    id: '44',
+    id: '1.44',
     generalOutput: 100,
     variants: [
         {
-            id: '44.1',
+            id: '1.44.1',
             name: 'Салат "Щедрая осень" со сметаной',
             components: {
                 eggs: 13,
@@ -1321,7 +1321,7 @@ const SALAD_SHCHEDRAYA_OSEN: IDish = {
             caloricity: 74
         },
         {
-            id: '44.2',
+            id: '1.44.2',
             name: 'Салат "Щедрая осень" с майонезом',
             components: {
                 eggs: 13,
@@ -1336,7 +1336,7 @@ const SALAD_SHCHEDRAYA_OSEN: IDish = {
             caloricity: 159
         },
         {
-            id: '44.3',
+            id: '1.44.3',
             name: 'Салат "Щедрая осень" с маслом растительным',
             components: {
                 eggs: 14.4,
@@ -1354,11 +1354,11 @@ const SALAD_SHCHEDRAYA_OSEN: IDish = {
 }
 
 const SALAD_W_VEGETABLES_W_SEA_CABBAGE: IDish = {
-    id: '45',
+    id: '1.45',
     generalOutput: 100,
     variants: [
         {
-            id: '45.1',
+            id: '1.45.1',
             name: 'Салат из овощей с морской капустой',
             components: {
                 oil: 7,
@@ -1376,11 +1376,11 @@ const SALAD_W_VEGETABLES_W_SEA_CABBAGE: IDish = {
 }
 
 const SALAD_W_SEA_N_WHITE_CABBAGE: IDish = {
-    id: '46',
+    id: '1.46',
     generalOutput: 100,
     variants: [
         {
-            id: '46.1',
+            id: '1.46.1',
             name: 'Салат из морской и белокочанной капусты',
             components: {
                 oil: 5,
@@ -1398,11 +1398,11 @@ const SALAD_W_SEA_N_WHITE_CABBAGE: IDish = {
 }
 
 const SALAD_W_BEETROOT_N_CHEESE_N_GARLIC: IDish = {
-    id: '47',
+    id: '1.47',
     generalOutput: 100,
     variants: [
         {
-            id: '47.1',
+            id: '1.47.1',
             name: 'Салат из свеклы с сыром и чесноком с маслом растительным',
             components: {
                 cheese: 15.8,
@@ -1417,7 +1417,7 @@ const SALAD_W_BEETROOT_N_CHEESE_N_GARLIC: IDish = {
             caloricity: 181
         },
         {
-            id: '47.2',
+            id: '1.47.2',
             name: 'Салат из свеклы с сыром и чесноком с майонезом',
             components: {
                 cheese: 15,
@@ -1435,11 +1435,11 @@ const SALAD_W_BEETROOT_N_CHEESE_N_GARLIC: IDish = {
 }
 
 const SALAD_ROZOVIY: IDish = {
-    id: '48',
+    id: '1.48',
     generalOutput: 100,
     variants: [
         {
-            id: '48.1',
+            id: '1.48.1',
             name: 'Салат "Розовый" с маслом растительным',
             components: {
                 eggs: 44.4,
@@ -1454,7 +1454,7 @@ const SALAD_ROZOVIY: IDish = {
             caloricity: 170
         },
         {
-            id: '48.2',
+            id: '1.48.2',
             name: 'Салат "Розовый" с майонезом',
             components: {
                 eggs: 40,
@@ -1472,11 +1472,11 @@ const SALAD_ROZOVIY: IDish = {
 }
 
 const SALAD_ZARYA: IDish = {
-    id: '49',
+    id: '1.49',
     generalOutput: 100,
     variants: [
         {
-            id: '49.1',
+            id: '1.49.1',
             name: 'Салат "Заря" с маслом растительным',
             components: {
                 eggs: 10.5,
@@ -1491,7 +1491,7 @@ const SALAD_ZARYA: IDish = {
             caloricity: 141
         },
         {
-            id: '49.2',
+            id: '1.49.2',
             name: 'Салат "Заря" с майонезом',
             components: {
                 eggs: 10,
@@ -1509,11 +1509,11 @@ const SALAD_ZARYA: IDish = {
 }
 
 const SALAD_BURYACHOK: IDish = {
-    id: '50',
+    id: '1.50',
     generalOutput: 100,
     variants: [
         {
-            id: '50.1',
+            id: '1.50.1',
             name: 'Салат "Бурячок"',
             components: {
                 fruits: 17,
@@ -1531,11 +1531,11 @@ const SALAD_BURYACHOK: IDish = {
 }
 
 const SALAD_ZDOROVYE: IDish = {
-    id: '51',
+    id: '1.51',
     generalOutput: 100,
     variants: [
         {
-            id: '51.1',
+            id: '1.51.1',
             name: 'Салат "Здоровье"',
             components: {
                 oil: 10,
@@ -1552,11 +1552,11 @@ const SALAD_ZDOROVYE: IDish = {
 }
 
 const SALAD_W_BEETROOT_N_APPLES: IDish = {
-    id: '52',
+    id: '1.52',
     generalOutput: 100,
     variants: [
         {
-            id: '52.1',
+            id: '1.52.1',
             name: 'Салат из свеклы с яблоками с маслом растительным',
             components: {
                 fruits: 27,
@@ -1575,11 +1575,11 @@ const SALAD_W_BEETROOT_N_APPLES: IDish = {
 }
 
 const SALAD_SVEKOLKA: IDish = {
-    id: '53',
+    id: '1.53',
     generalOutput: 100,
     variants: [
         {
-            id: '53.1',
+            id: '1.53.1',
             name: 'Салат "Свеколка"',
             components: {
                 fruitsDried: 83,
@@ -1597,11 +1597,11 @@ const SALAD_SVEKOLKA: IDish = {
 }
 
 const SALAD_OSENNIY: IDish = {
-    id: '54',
+    id: '1.54',
     generalOutput: 100,
     variants: [
         {
-            id: '54.1',
+            id: '1.54.1',
             name: 'Салат "Осенний" с маслом растительным',
             components: {
                 fruits: 22.2,
@@ -1616,7 +1616,7 @@ const SALAD_OSENNIY: IDish = {
             caloricity: 133
         },
         {
-            id: '54.2',
+            id: '1.54.2',
             name: 'Салат "Осенний" с майонезом',
             components: {
                 fruits: 20,
@@ -1634,11 +1634,11 @@ const SALAD_OSENNIY: IDish = {
 }
 
 const SALAD_SHKOLNIY: IDish = {
-    id: '55',
+    id: '1.55',
     generalOutput: 100,
     variants: [
         {
-            id: '55.1',
+            id: '1.55.1',
             name: 'Салат "Школьный"',
             components: {
                 oil: 8,
@@ -1655,11 +1655,11 @@ const SALAD_SHKOLNIY: IDish = {
 }
 
 const SALAD_W_CORN_PRUNE: IDish = {
-    id: '56',
+    id: '1.56',
     generalOutput: 100,
     variants: [
         {
-            id: '56.1',
+            id: '1.56.1',
             name: 'Салат из кукурузы с черносливом с маслом растительным',
             components: {
                 cheese: 16.9,
@@ -1675,7 +1675,7 @@ const SALAD_W_CORN_PRUNE: IDish = {
             caloricity: 260
         },
         {
-            id: '56.2',
+            id: '1.56.2',
             name: 'Салат из кукурузы с черносливом с майонезом',
             components: {
                 cheese: 15.2,
@@ -1695,11 +1695,11 @@ const SALAD_W_CORN_PRUNE: IDish = {
 }
 
 const VINAIGRETTE_W_VEGETABLES: IDish = {
-    id: '57',
+    id: '1.57',
     generalOutput: 100,
     variants: [
         {
-            id: '57.1',
+            id: '1.57.1',
             name: 'Винегрет овощной',
             components: {
                 oil: 10,
@@ -1717,11 +1717,11 @@ const VINAIGRETTE_W_VEGETABLES: IDish = {
 }
 
 const VINAIGRETTE_SEA: IDish = {
-    id: '58',
+    id: '1.58',
     generalOutput: 100,
     variants: [
         {
-            id: '58.1',
+            id: '1.58.1',
             name: 'Винегрет морской',
             components: {
                 oil: 10,
@@ -1740,11 +1740,11 @@ const VINAIGRETTE_SEA: IDish = {
 }
 
 const SALAD_CHAIKA: IDish = {
-    id: '59',
+    id: '1.59',
     generalOutput: 100,
     variants: [
         {
-            id: '59.1',
+            id: '1.59.1',
             name: 'Салат "Чайка" с маслом растительным',
             components: {
                 cheese: 37.8,
@@ -1760,7 +1760,7 @@ const SALAD_CHAIKA: IDish = {
             caloricity: 273
         },
         {
-            id: '59.2',
+            id: '1.59.2',
             name: 'Салат "Чайка" с майонезом',
             components: {
                 cheese: 34,
@@ -1779,11 +1779,11 @@ const SALAD_CHAIKA: IDish = {
 }
 
 const SALAD_OSTRIY: IDish = {
-    id: '60',
+    id: '1.60',
     generalOutput: 100,
     variants: [
         {
-            id: '60.1',
+            id: '1.60.1',
             name: 'Салат "Острый"',
             components: {
                 cheese: 30,
@@ -1802,11 +1802,11 @@ const SALAD_OSTRIY: IDish = {
 }
 
 const IKRA_SVEKOLNAYA: IDish = {
-    id: '61',
+    id: '1.61',
     generalOutput: 100,
     variants: [
         {
-            id: '61.1',
+            id: '1.61.1',
             name: 'Икра свекольная',
             components: {
                 oil: 7.5,
@@ -1824,11 +1824,11 @@ const IKRA_SVEKOLNAYA: IDish = {
 }
 
 const SALAD_DARY_MORYA: IDish = {
-    id: '62',
+    id: '1.62',
     generalOutput: 100,
     variants: [
         {
-            id: '62.1',
+            id: '1.62.1',
             name: 'Салат "Дары моря"',
             components: {
                 cheese: 15.5,
@@ -1848,11 +1848,11 @@ const SALAD_DARY_MORYA: IDish = {
 }
 
 const SELD_S_LUKOM: IDish = {
-    id: '63',
+    id: '1.63',
     generalOutput: 50,
     variants: [
         {
-            id: '63.1',
+            id: '1.63.1',
             name: 'Сельдь с луком',
             components: {
                 fish: 25,
@@ -1870,11 +1870,11 @@ const SELD_S_LUKOM: IDish = {
 }
 
 const ZHARENAYA_RYBA_POD_MARINADOM: IDish = {
-    id: '64',
+    id: '1.64',
     generalOutput: 100,
     variants: [
         {
-            id: '64.1',
+            id: '1.64.1',
             name: 'Жареная рыба под маринадом',
             components: {
                 fish: 60,
@@ -1895,11 +1895,11 @@ const ZHARENAYA_RYBA_POD_MARINADOM: IDish = {
 }
 
 const SALAD_SEKUNDA: IDish = {
-    id: '65',
+    id: '1.65',
     generalOutput: 100,
     variants: [
         {
-            id: '65.1',
+            id: '1.65.1',
             name: 'Салат "Секунда"',
             components: {
                 eggs: 26,
@@ -1918,11 +1918,11 @@ const SALAD_SEKUNDA: IDish = {
 }
 
 const SALAD_ZARNICA: IDish = {
-    id: '66',
+    id: '1.66',
     generalOutput: 100,
     variants: [
         {
-            id: '66.1',
+            id: '1.66.1',
             name: 'Салат "Зарница"',
             components: {
                 oil: 5,

@@ -1,6 +1,6 @@
 import type { IDish } from "@/model/dish.model"
 
-export const BORSCH: IDish = {
+const BORSCH: IDish = {
     id: '2.1',
     generalOutput: 250,
     variants: [
@@ -40,7 +40,7 @@ export const BORSCH: IDish = {
     ]
 }
 
-export const BORSCH_W_CABBAGE_N_POTATO: IDish = {
+const BORSCH_W_CABBAGE_N_POTATO: IDish = {
     id: '2.2',
     generalOutput: 250,
     variants: [
@@ -82,7 +82,7 @@ export const BORSCH_W_CABBAGE_N_POTATO: IDish = {
     ]
 }
 
-export const BORSCH_W_POTATO: IDish = {
+const BORSCH_W_POTATO: IDish = {
     id: '2.3',
     generalOutput: 250,
     variants: [
@@ -124,7 +124,7 @@ export const BORSCH_W_POTATO: IDish = {
     ]
 }
 
-export const BORSCH_W_BEANS: IDish = {
+const BORSCH_W_BEANS: IDish = {
     id: '2.4',
     generalOutput: 250,
     variants: [
@@ -166,7 +166,7 @@ export const BORSCH_W_BEANS: IDish = {
     ]
 }
 
-export const BORSCH_W_BEANS_N_POTATO: IDish = {
+const BORSCH_W_BEANS_N_POTATO: IDish = {
     id: '2.5',
     generalOutput: 250,
     variants: [
@@ -210,7 +210,7 @@ export const BORSCH_W_BEANS_N_POTATO: IDish = {
     ]
 }
 
-export const BORSCH_PO_SLUCKI: IDish = {
+const BORSCH_PO_SLUCKI: IDish = {
     id: '2.6',
     generalOutput: 250,
     variants: [
@@ -253,7 +253,7 @@ export const BORSCH_PO_SLUCKI: IDish = {
     ]
 }
 
-export const BORSCH_SO_SHCHAVELEM: IDish = {
+const BORSCH_SO_SHCHAVELEM: IDish = {
     id: '2.7',
     generalOutput: 250,
     variants: [
@@ -297,7 +297,7 @@ export const BORSCH_SO_SHCHAVELEM: IDish = {
     ]
 }
 
-export const SHCHI_IZ_SVEZHEY_KAPUSTI: IDish = {
+const SHCHI_IZ_SVEZHEY_KAPUSTI: IDish = {
     id: '2.8',
     generalOutput: 250,
     variants: [
@@ -337,7 +337,7 @@ export const SHCHI_IZ_SVEZHEY_KAPUSTI: IDish = {
     ]
 }
 
-export const SHCHI_IZ_SVEZHEY_KAPUSTI_W_KARTOFELEM: IDish = {
+const SHCHI_IZ_SVEZHEY_KAPUSTI_W_KARTOFELEM: IDish = {
     id: '2.9',
     generalOutput: 250,
     variants: [
@@ -377,7 +377,7 @@ export const SHCHI_IZ_SVEZHEY_KAPUSTI_W_KARTOFELEM: IDish = {
     ]
 }
 
-export const SHCHI_IZ_SVEZHEY_KAPUSTI_W_YABLOKAMI: IDish = {
+const SHCHI_IZ_SVEZHEY_KAPUSTI_W_YABLOKAMI: IDish = {
     id: '2.10',
     generalOutput: 250,
     variants: [
@@ -417,7 +417,7 @@ export const SHCHI_IZ_SVEZHEY_KAPUSTI_W_YABLOKAMI: IDish = {
     ]
 }
 
-export const SHCHI_IZ_KVASHENOY_KAPUSTI: IDish = {
+const SHCHI_IZ_KVASHENOY_KAPUSTI: IDish = {
     id: '2.11',
     generalOutput: 250,
     variants: [
@@ -457,7 +457,7 @@ export const SHCHI_IZ_KVASHENOY_KAPUSTI: IDish = {
     ]
 }
 
-export const SHCHI_IZ_KVASHENOY_KAPUSTI_W_KARTOFELEM: IDish = {
+const SHCHI_IZ_KVASHENOY_KAPUSTI_W_KARTOFELEM: IDish = {
     id: '2.12',
     generalOutput: 250,
     variants: [
@@ -497,7 +497,7 @@ export const SHCHI_IZ_KVASHENOY_KAPUSTI_W_KARTOFELEM: IDish = {
     ]
 }
 
-export const SHCHI_PO_URALSKI: IDish = {
+const SHCHI_PO_URALSKI: IDish = {
     id: '2.13',
     generalOutput: 250,
     variants: [
@@ -537,7 +537,7 @@ export const SHCHI_PO_URALSKI: IDish = {
     ]
 }
 
-export const RASSOLNIK: IDish = {
+const RASSOLNIK: IDish = {
     id: '2.14',
     generalOutput: 250,
     variants: [
@@ -575,7 +575,7 @@ export const RASSOLNIK: IDish = {
     ]
 }
 
-export const RASSOLNIK_DOMASHNIY: IDish = {
+const RASSOLNIK_DOMASHNIY: IDish = {
     id: '2.15',
     generalOutput: 250,
     variants: [
@@ -613,7 +613,7 @@ export const RASSOLNIK_DOMASHNIY: IDish = {
     ]
 }
 
-export const RASSOLNIK_LENINGRADSKIY: IDish = {
+const RASSOLNIK_LENINGRADSKIY: IDish = {
     id: '2.16',
     generalOutput: 250,
     variants: [
@@ -653,7 +653,7 @@ export const RASSOLNIK_LENINGRADSKIY: IDish = {
     ]
 }
 
-export const SOUP_KARTOFELNIY: IDish = {
+const SOUP_KARTOFELNIY: IDish = {
     id: '2.17',
     generalOutput: 250,
     variants: [
@@ -691,7 +691,7 @@ export const SOUP_KARTOFELNIY: IDish = {
     ]
 }
 
-export const SOUP_LUBITELSKIY: IDish = {
+const SOUP_LUBITELSKIY: IDish = {
     id: '2.18',
     generalOutput: 250,
     variants: [
@@ -714,7 +714,7 @@ export const SOUP_LUBITELSKIY: IDish = {
     ]
 }
 
-export const SOUP_KRESTYANSKIY_W_CEREAL: IDish = {
+const SOUP_KRESTYANSKIY_W_CEREAL: IDish = {
     id: '2.19',
     generalOutput: 250,
     variants: [
@@ -785,7 +785,7 @@ export const SOUP_KRESTYANSKIY_W_CEREAL: IDish = {
     ]
 }
 
-export const SOUP_IZ_VEGETABLES: IDish = {
+const SOUP_IZ_VEGETABLES: IDish = {
     id: '2.20',
     generalOutput: 250,
     variants: [
@@ -823,7 +823,7 @@ export const SOUP_IZ_VEGETABLES: IDish = {
     ]
 }
 
-export const SOUP_KARTOFELNIY_W_SORREL: IDish = {
+const SOUP_KARTOFELNIY_W_SORREL: IDish = {
     id: '2.21',
     generalOutput: 250,
     variants: [
@@ -861,7 +861,7 @@ export const SOUP_KARTOFELNIY_W_SORREL: IDish = {
     ]
 }
 
-export const SOUP_KARTOFELNIY_W_CEREAL: IDish = {
+const SOUP_KARTOFELNIY_W_CEREAL: IDish = {
     id: '2.22',
     generalOutput: 250,
     variants: [
@@ -966,7 +966,7 @@ export const SOUP_KARTOFELNIY_W_CEREAL: IDish = {
     ]
 }
 
-export const SOUP_KARTOFELNIY_W_LEGUMES: IDish = {
+const SOUP_KARTOFELNIY_W_LEGUMES: IDish = {
     id: '2.23',
     generalOutput: 250,
     variants: [
@@ -1039,7 +1039,7 @@ export const SOUP_KARTOFELNIY_W_LEGUMES: IDish = {
     ]
 }
 
-export const SOUP_KARTOFELNIY_W_PASTA_PRODUCTS: IDish = {
+const SOUP_KARTOFELNIY_W_PASTA_PRODUCTS: IDish = {
     id: '2.24',
     generalOutput: 250,
     variants: [
@@ -1079,7 +1079,7 @@ export const SOUP_KARTOFELNIY_W_PASTA_PRODUCTS: IDish = {
     ]
 }
 
-export const SOUP_KARTOFELNIY_W_MEAT_OR_FISH_MEATBALLS: IDish = {
+const SOUP_KARTOFELNIY_W_MEAT_OR_FISH_MEATBALLS: IDish = {
     id: '2.25',
     generalOutput: 250,
     variants: [
@@ -1118,7 +1118,7 @@ export const SOUP_KARTOFELNIY_W_MEAT_OR_FISH_MEATBALLS: IDish = {
     ]
 }
 
-export const SOUP_KARTOFELNIY_W_FISH: IDish = {
+const SOUP_KARTOFELNIY_W_FISH: IDish = {
     id: '2.26',
     generalOutput: 250,
     variants: [
@@ -1191,7 +1191,7 @@ export const SOUP_KARTOFELNIY_W_FISH: IDish = {
     ]
 }
 
-export const SOUP_KARTOFELNIY_W_DUMPLINGS: IDish = {
+const SOUP_KARTOFELNIY_W_DUMPLINGS: IDish = {
     id: '2.27',
     generalOutput: 250,
     variants: [
@@ -1265,11 +1265,11 @@ export const SOUP_KARTOFELNIY_W_DUMPLINGS: IDish = {
             },
             caloricity: 64
         },
-        
+
     ]
 }
 
-export const NOODLE_SOUP_W_CHICKEN_BROTH: IDish = {
+const NOODLE_SOUP_W_CHICKEN_BROTH: IDish = {
     id: '2.28',
     generalOutput: 250,
     variants: [
@@ -1309,7 +1309,7 @@ export const NOODLE_SOUP_W_CHICKEN_BROTH: IDish = {
     ]
 }
 
-export const SOUP_W_CEREAL_N_TOMATO: IDish = {
+const SOUP_W_CEREAL_N_TOMATO: IDish = {
     id: '2.29',
     generalOutput: 250,
     variants: [
@@ -1444,7 +1444,7 @@ export const SOUP_W_CEREAL_N_TOMATO: IDish = {
     ]
 }
 
-export const SOUP_W_CEREAL_N_MEAT_MEATBALLS: IDish = {
+const SOUP_W_CEREAL_N_MEAT_MEATBALLS: IDish = {
     id: '2.30',
     generalOutput: 250,
     variants: [
@@ -1481,7 +1481,7 @@ export const SOUP_W_CEREAL_N_MEAT_MEATBALLS: IDish = {
     ]
 }
 
-export const SOUP_W_LEGUMES: IDish = { //Взял БЖУ супа с фасолью
+const SOUP_W_LEGUMES: IDish = { //Взял БЖУ супа с фасолью
     id: '2.31',
     generalOutput: 250,
     variants: [
@@ -1519,7 +1519,7 @@ export const SOUP_W_LEGUMES: IDish = { //Взял БЖУ супа с фасол�
     ]
 }
 
-export const MILK_SOUP_W_PASTA_PRODUCTS: IDish = {
+const MILK_SOUP_W_PASTA_PRODUCTS: IDish = {
     id: '2.32',
     generalOutput: 250,
     variants: [
@@ -1542,7 +1542,7 @@ export const MILK_SOUP_W_PASTA_PRODUCTS: IDish = {
     ]
 }
 
-export const MILK_SOUP_W_CEREAL: IDish = {
+const MILK_SOUP_W_CEREAL: IDish = {
     id: '2.33',
     generalOutput: 250,
     variants: [
@@ -1597,7 +1597,7 @@ export const MILK_SOUP_W_CEREAL: IDish = {
     ]
 }
 
-export const MILK_SOUP_W_VEGETABLES: IDish = {
+const MILK_SOUP_W_VEGETABLES: IDish = {
     id: '2.34',
     generalOutput: 250,
     variants: [
@@ -1620,7 +1620,7 @@ export const MILK_SOUP_W_VEGETABLES: IDish = {
     ]
 }
 
-export const ZATIRKA_W_MILK: IDish = {
+const ZATIRKA_W_MILK: IDish = {
     id: '2.35',
     generalOutput: 250,
     variants: [
@@ -1644,7 +1644,7 @@ export const ZATIRKA_W_MILK: IDish = {
     ]
 }
 
-export const MILK_SOUP_W_CARROT_N_CEREAL: IDish = {
+const MILK_SOUP_W_CARROT_N_CEREAL: IDish = {
     id: '2.36',
     generalOutput: 250,
     variants: [
@@ -1657,7 +1657,7 @@ export const MILK_SOUP_W_CARROT_N_CEREAL: IDish = {
                 milkAndFermentedMilkProducts: 150,
                 vegetables: 79,
                 sugar: 2.5
-                
+
             },
             macronutrients: {
                 proteins: 2.2,
@@ -1669,7 +1669,7 @@ export const MILK_SOUP_W_CARROT_N_CEREAL: IDish = {
     ]
 }
 
-export const MILK_SOUP_PO_MOGILEVSKI: IDish = {
+const MILK_SOUP_PO_MOGILEVSKI: IDish = {
     id: '2.37',
     generalOutput: 250,
     variants: [
@@ -1693,7 +1693,7 @@ export const MILK_SOUP_PO_MOGILEVSKI: IDish = {
     ]
 }
 
-export const MILK_SOUP_PO_SELYANSKI: IDish = {
+const MILK_SOUP_PO_SELYANSKI: IDish = {
     id: '2.38',
     generalOutput: 250,
     variants: [
@@ -1717,7 +1717,7 @@ export const MILK_SOUP_PO_SELYANSKI: IDish = {
     ]
 }
 
-export const MILK_SOUP_W_POTATO_N_CARROT: IDish = {
+const MILK_SOUP_W_POTATO_N_CARROT: IDish = {
     id: '2.39',
     generalOutput: 250,
     variants: [
@@ -1741,7 +1741,7 @@ export const MILK_SOUP_W_POTATO_N_CARROT: IDish = {
     ]
 }
 
-export const MILK_SOUP_W_POTATO_DUMPLINGS: IDish = {
+const MILK_SOUP_W_POTATO_DUMPLINGS: IDish = {
     id: '2.40',
     generalOutput: 250,
     variants: [
@@ -1764,7 +1764,7 @@ export const MILK_SOUP_W_POTATO_DUMPLINGS: IDish = {
     ]
 }
 
-export const MILK_SOUP_PO_LIDSKI: IDish = {
+const MILK_SOUP_PO_LIDSKI: IDish = {
     id: '2.41',
     generalOutput: 250,
     variants: [
@@ -1787,7 +1787,7 @@ export const MILK_SOUP_PO_LIDSKI: IDish = {
     ]
 }
 
-export const MASHED_POTATO_SOUP: IDish = {
+const MASHED_POTATO_SOUP: IDish = {
     id: '2.42',
     generalOutput: 250,
     variants: [
@@ -1812,7 +1812,7 @@ export const MASHED_POTATO_SOUP: IDish = {
     ]
 }
 
-export const COLD_BORSCH: IDish = {
+const COLD_BORSCH: IDish = {
     id: '2.43',
     generalOutput: 250,
     variants: [
@@ -1834,7 +1834,7 @@ export const COLD_BORSCH: IDish = {
     ]
 }
 
-export const GREEN_SHCHI_W_EGG: IDish = { // не закончена ТК
+const GREEN_SHCHI_W_EGG: IDish = { // не закончена ТК
     id: '2.44',
     generalOutput: 250,
     variants: [
@@ -1855,7 +1855,7 @@ export const GREEN_SHCHI_W_EGG: IDish = { // не закончена ТК
     ]
 }
 
-export const MEAT_MEATBALLS: IDish = {
+const MEAT_MEATBALLS: IDish = {
     id: '2.50.1',  //ЗАМЕНИТЬ НОМЕР (50) ID КОГДА НАПИШУ ВСЕ СУПЫ
     generalOutput: 30,
     variants: [
@@ -1877,7 +1877,7 @@ export const MEAT_MEATBALLS: IDish = {
     ]
 }
 
-export const FISH_MEATBALLS: IDish = {
+const FISH_MEATBALLS: IDish = {
     id: '2.51.1',  //ЗАМЕНИТЬ НОМЕР (50) ID КОГДА НАПИШУ ВСЕ СУПЫ
     generalOutput: 30,
     variants: [

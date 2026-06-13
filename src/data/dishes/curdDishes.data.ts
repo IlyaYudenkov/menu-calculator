@@ -1,6 +1,6 @@
 import type { IDish } from "@/model/dish.model"
 
-export const VARENIKI_LENIVIE: IDish = { 
+const VARENIKI_LENIVIE: IDish = {
     id: '6.1',
     generalOutput: 100,
     variants: [
@@ -16,14 +16,14 @@ export const VARENIKI_LENIVIE: IDish = {
             macronutrients: {
                 proteins: 14,
                 fats: 6.9,
-                carbohydrates:13.6
+                carbohydrates: 13.6
             },
             caloricity: 173
         }
     ]
 }
 
-export const SYRNIKI_IZ_TVOROGA: IDish = { 
+const SYRNIKI_IZ_TVOROGA: IDish = {
     id: '6.2',
     generalOutput: 100,
     variants: [
@@ -47,7 +47,7 @@ export const SYRNIKI_IZ_TVOROGA: IDish = {
     ]
 }
 
-export const SYRNIKI_IZ_TVOROGA_N_KARTOFELYA: IDish = { 
+const SYRNIKI_IZ_TVOROGA_N_KARTOFELYA: IDish = {
     id: '6.3',
     generalOutput: 100,
     variants: [
@@ -71,7 +71,7 @@ export const SYRNIKI_IZ_TVOROGA_N_KARTOFELYA: IDish = {
     ]
 }
 
-export const SYRNIKI_W_MORKOV: IDish = { 
+const SYRNIKI_W_MORKOV: IDish = {
     id: '6.4',
     generalOutput: 100,
     variants: [
@@ -86,7 +86,7 @@ export const SYRNIKI_W_MORKOV: IDish = {
                 flourWheat: 12,
                 oil: 4.5,
                 sugar: 8,
-                vegetables: 22 
+                vegetables: 22
             },
             macronutrients: {
                 proteins: 13.2,
@@ -98,7 +98,7 @@ export const SYRNIKI_W_MORKOV: IDish = {
     ]
 }
 
-export const BAKED_CURD_PUDDING: IDish = { 
+const BAKED_CURD_PUDDING: IDish = {
     id: '6.5',
     generalOutput: 100,
     variants: [
@@ -112,7 +112,7 @@ export const BAKED_CURD_PUDDING: IDish = {
                 curd: 75,
                 eggs: 5,
                 fruitsDried: 10,
-                sourCream: 2.5, 
+                sourCream: 2.5,
                 sugar: 7.5
             },
             macronutrients: {
@@ -125,7 +125,7 @@ export const BAKED_CURD_PUDDING: IDish = {
     ]
 }
 
-export const CURD_CASSEROLE: IDish = { 
+const CURD_CASSEROLE: IDish = {
     id: '6.6',
     generalOutput: 100,
     variants: [

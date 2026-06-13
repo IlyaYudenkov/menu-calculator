@@ -1,6 +1,6 @@
 import type { IDish } from "@/model/dish.model"
 
-export const VISCOUS_PORRIDGE_W_PRUNES_N_BUTTER: IDish = {
+const VISCOUS_PORRIDGE_W_PRUNES_N_BUTTER: IDish = {
     id: '4.1',
     generalOutput: 130,
     variants: [
@@ -70,7 +70,7 @@ export const VISCOUS_PORRIDGE_W_PRUNES_N_BUTTER: IDish = {
     ]
 }
 
-export const VISCOUS_PORRIDGE_W_CARROTS_N_BUTTER: IDish = {
+const VISCOUS_PORRIDGE_W_CARROTS_N_BUTTER: IDish = {
     id: '4.2',
     generalOutput: 105,
     variants: [
@@ -126,7 +126,7 @@ export const VISCOUS_PORRIDGE_W_CARROTS_N_BUTTER: IDish = {
     ]
 }
 
-export const FRUIT_PILAF: IDish = {
+const FRUIT_PILAF: IDish = {
     id: '4.4',
     generalOutput: 125,
     variants: [
@@ -149,7 +149,7 @@ export const FRUIT_PILAF: IDish = {
     ]
 }
 
-export const KRUPENNIK: IDish = {
+const KRUPENNIK: IDish = {
     id: '4.5',
     generalOutput: 125,
     variants: [
@@ -196,7 +196,7 @@ export const KRUPENNIK: IDish = {
     ]
 }
 
-export const CASSEROLE_RICE_OR_MILLET_OR_SEMOLINA: IDish = {
+const CASSEROLE_RICE_OR_MILLET_OR_SEMOLINA: IDish = {
     id: '4.6',
     generalOutput: 100,
     variants: [
@@ -275,7 +275,7 @@ export const CASSEROLE_RICE_OR_MILLET_OR_SEMOLINA: IDish = {
     ]
 }
 
-export const CASSEROLE_RICE_W_CURD: IDish = {
+const CASSEROLE_RICE_W_CURD: IDish = {
     id: '4.7',
     generalOutput: 100,
     variants: [
@@ -301,7 +301,7 @@ export const CASSEROLE_RICE_W_CURD: IDish = {
     ]
 }
 
-export const CASSEROLE_W_FRESH_FRUITS: IDish = {
+const CASSEROLE_W_FRESH_FRUITS: IDish = {
     id: '4.8',
     generalOutput: 125,
     variants: [
@@ -368,7 +368,7 @@ export const CASSEROLE_W_FRESH_FRUITS: IDish = {
     ]
 }
 
-export const PUDDING_W_RICE_OR_SEMOLINA_OR_MILLET: IDish = {
+const PUDDING_W_RICE_OR_SEMOLINA_OR_MILLET: IDish = {
     id: '4.9',
     generalOutput: 100,
     variants: [
@@ -432,7 +432,7 @@ export const PUDDING_W_RICE_OR_SEMOLINA_OR_MILLET: IDish = {
     ]
 }
 
-export const CUE_BALL_OR_CUTLETS_OF_MILLET_OR_WHEAT_OR_PEARL_OR_BARLEY: IDish = {
+const CUE_BALL_OR_CUTLETS_OF_MILLET_OR_WHEAT_OR_PEARL_OR_BARLEY: IDish = {
     id: '4.10',
     generalOutput: 100,
     variants: [
@@ -503,7 +503,7 @@ export const CUE_BALL_OR_CUTLETS_OF_MILLET_OR_WHEAT_OR_PEARL_OR_BARLEY: IDish = 
     ]
 }
 
-export const CUE_BALL_OR_CUTLETS_OF_SEMOLINA_OR_RICE: IDish = {//учитывал БЖУ со сметаной но выход без нее 
+const CUE_BALL_OR_CUTLETS_OF_SEMOLINA_OR_RICE: IDish = {//учитывал БЖУ со сметаной но выход без нее 
     id: '4.11',
     generalOutput: 100,
     variants: [
@@ -542,7 +542,7 @@ export const CUE_BALL_OR_CUTLETS_OF_SEMOLINA_OR_RICE: IDish = {//учитыва�
     ]
 }
 
-export const MANNIK: IDish = {
+const MANNIK: IDish = {
     id: '4.12',
     generalOutput: 100,
     variants: [
@@ -566,7 +566,7 @@ export const MANNIK: IDish = {
     ]
 }
 
-export const BEEN_OR_POTATO_CASSEROLE: IDish = {//учитывал выход  и БЖУ со сметаной
+const BEEN_OR_POTATO_CASSEROLE: IDish = {//учитывал выход  и БЖУ со сметаной
     id: '4.13',
     generalOutput: 115,
     variants: [
@@ -592,7 +592,7 @@ export const BEEN_OR_POTATO_CASSEROLE: IDish = {//учитывал выход  �
     ]
 }
 
-export const PASTA_W_CHEESE: IDish = { //учитывал выход  и БЖУ с сыром
+const PASTA_W_CHEESE: IDish = { //учитывал выход  и БЖУ с сыром
     id: '4.14',
     generalOutput: 110,
     variants: [
@@ -614,7 +614,7 @@ export const PASTA_W_CHEESE: IDish = { //учитывал выход  и БЖУ 
     ]
 }
 
-export const BAKED_PASTA_W_EGG: IDish = {//учитывал выход  и БЖУ с маслом сливочным 
+const BAKED_PASTA_W_EGG: IDish = {//учитывал выход  и БЖУ с маслом сливочным 
     id: '4.16',
     generalOutput: 140,
     variants: [
@@ -638,7 +638,7 @@ export const BAKED_PASTA_W_EGG: IDish = {//учитывал выход  и БЖ�
     ]
 }
 
-export const BAKED_PASTA_W_CHEESE: IDish = {//учитывал выход  и БЖУ с маслом сливочным 
+const BAKED_PASTA_W_CHEESE: IDish = {//учитывал выход  и БЖУ с маслом сливочным 
     id: '4.17',
     generalOutput: 105,
     variants: [
@@ -660,7 +660,7 @@ export const BAKED_PASTA_W_CHEESE: IDish = {//учитывал выход  и Б
     ]
 }
 
-export const MAKARONNIK: IDish = {//учитывал выход  и БЖУ с маслом сливочным 
+const MAKARONNIK: IDish = {//учитывал выход  и БЖУ с маслом сливочным 
     id: '4.18',
     generalOutput: 105,
     variants: [
@@ -684,7 +684,7 @@ export const MAKARONNIK: IDish = {//учитывал выход  и БЖУ с м
     ]
 }
 
-export const LAPSHEVNIK_W_CURD: IDish = {
+const LAPSHEVNIK_W_CURD: IDish = {
     id: '4.19',
     generalOutput: 125,
     variants: [
@@ -710,7 +710,7 @@ export const LAPSHEVNIK_W_CURD: IDish = {
     ]
 }
 
-export const MUESLI_W_MILK: IDish = { //мюсли определил в крупы
+const MUESLI_W_MILK: IDish = { //мюсли определил в крупы
     id: '4.20',
     generalOutput: 100,
     variants: [

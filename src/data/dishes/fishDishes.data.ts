@@ -1,6 +1,6 @@
 import type { IDish } from "@/model/dish.model"
 
-export const BOILED_FISH: IDish = {
+const BOILED_FISH: IDish = {
     id: '7.1',
     generalOutput: 50,
     variants: [
@@ -49,7 +49,7 @@ export const BOILED_FISH: IDish = {
     ]
 }
 
-export const POACHED_FISH: IDish = {
+const POACHED_FISH: IDish = {
     id: '7.2',
     generalOutput: 50,
     variants: [
@@ -98,7 +98,7 @@ export const POACHED_FISH: IDish = {
     ]
 }
 
-export const FISH_STEWED_IN_TOMATOES_W_VEGETABLES: IDish = {
+const FISH_STEWED_IN_TOMATOES_W_VEGETABLES: IDish = {
     id: '7.3',
     generalOutput: 100,
     variants: [
@@ -190,7 +190,7 @@ export const FISH_STEWED_IN_TOMATOES_W_VEGETABLES: IDish = {
     ]
 }
 
-export const FISH_STEWED_IN_SOUR_CREAM: IDish = {
+const FISH_STEWED_IN_SOUR_CREAM: IDish = {
     id: '7.4',
     generalOutput: 60,
     variants: [
@@ -245,7 +245,7 @@ export const FISH_STEWED_IN_SOUR_CREAM: IDish = {
     ]
 }
 
-export const FRIED_FISH: IDish = {
+const FRIED_FISH: IDish = {
     id: '7.5',
     generalOutput: 50,
     variants: [
@@ -297,7 +297,7 @@ export const FRIED_FISH: IDish = {
     ]
 }
 
-export const BAKED_FISH_W_MILK_SAUSE_W_MASHED_POTATOES: IDish = {
+const BAKED_FISH_W_MILK_SAUSE_W_MASHED_POTATOES: IDish = {
     id: '7.7',
     generalOutput: 175,
     variants: [
@@ -342,7 +342,7 @@ export const BAKED_FISH_W_MILK_SAUSE_W_MASHED_POTATOES: IDish = {
     ]
 }
 
-export const BAKED_FISH_IN_SOUR_CREAM_W_CARROTS: IDish = {
+const BAKED_FISH_IN_SOUR_CREAM_W_CARROTS: IDish = {
     id: '7.8',
     generalOutput: 62.5,
     variants: [
@@ -383,7 +383,7 @@ export const BAKED_FISH_IN_SOUR_CREAM_W_CARROTS: IDish = {
     ]
 }
 
-export const BAKED_FISH_W_CARROTS: IDish = {
+const BAKED_FISH_W_CARROTS: IDish = {
     id: '7.9',
     generalOutput: 50,
     variants: [
@@ -438,7 +438,7 @@ export const BAKED_FISH_W_CARROTS: IDish = {
     ]
 }
 
-export const FISH_CUTLETS: IDish = {
+const FISH_CUTLETS: IDish = {
     id: '7.10',
     generalOutput: 50,
     variants: [
@@ -507,7 +507,7 @@ export const FISH_CUTLETS: IDish = {
     ]
 }
 
-export const FISH_MEATBALLS: IDish = {
+const FISH_MEATBALLS: IDish = {
     id: '7.11',
     generalOutput: 80,
     variants: [
@@ -674,7 +674,7 @@ export const FISH_MEATBALLS: IDish = {
     ]
 }
 
-export const FISH_MEATBALLS_LYUBITELSKIYE: IDish = {
+const FISH_MEATBALLS_LYUBITELSKIYE: IDish = {
     id: '7.12',
     generalOutput: 100,
     variants: [
@@ -721,7 +721,7 @@ export const FISH_MEATBALLS_LYUBITELSKIYE: IDish = {
     ]
 }
 
-export const RYBNIK: IDish = {
+const RYBNIK: IDish = {
     id: '7.14',
     generalOutput: 50,
     variants: [
@@ -764,7 +764,7 @@ export const RYBNIK: IDish = {
     ]
 }
 
-export const SQUID_IN_SOUR_CREAM_SAUSE: IDish = {
+const SQUID_IN_SOUR_CREAM_SAUSE: IDish = {
     id: '7.15',
     generalOutput: 100,
     variants: [
@@ -801,7 +801,7 @@ export const SQUID_IN_SOUR_CREAM_SAUSE: IDish = {
     ]
 }
 
-export const FISH_SOUFFLE: IDish = {
+const FISH_SOUFFLE: IDish = {
     id: '7.16',
     generalOutput: 70,
     variants: [
@@ -825,7 +825,7 @@ export const FISH_SOUFFLE: IDish = {
     ]
 }
 
-export const FISH_CUTLET_FANTAZIA: IDish = {
+const FISH_CUTLET_FANTAZIA: IDish = {
     id: '7.17',
     generalOutput: 100,
     variants: [
@@ -980,7 +980,7 @@ export const FISH_CUTLET_FANTAZIA: IDish = {
     ]
 }
 
-export const FISH_SAUSAGES: IDish = {
+const FISH_SAUSAGES: IDish = {
     id: '7.18',
     generalOutput: 50,
     variants: [

@@ -1,6 +1,6 @@
 import type { IDish } from "@/model/dish.model"
 
-export const BOILED_MEAT: IDish = {
+const BOILED_MEAT: IDish = {
     id: '8.1',
     generalOutput: 50,
     variants: [
@@ -35,7 +35,7 @@ export const BOILED_MEAT: IDish = {
     ]
 }
 
-export const BOILED_TONGUE: IDish = {
+const BOILED_TONGUE: IDish = {
     id: '8.2',
     generalOutput: 50,
     variants: [
@@ -70,7 +70,7 @@ export const BOILED_TONGUE: IDish = {
     ]
 }
 
-export const BOILED_SAUSAGES: IDish = {
+const BOILED_SAUSAGES: IDish = {
     id: '8.3',
     generalOutput: 50,
     variants: [
@@ -116,7 +116,7 @@ export const BOILED_SAUSAGES: IDish = {
     ]
 }
 
-export const BEEF_STROGANOFF: IDish = {
+const BEEF_STROGANOFF: IDish = {
     id: '8.4',
     variants: [
         {
@@ -230,7 +230,7 @@ export const BEEF_STROGANOFF: IDish = {
     ]
 }
 
-export const T0ASTING_MEAT: IDish = {
+const T0ASTING_MEAT: IDish = {
     id: '8.5',
     variants: [
         {
@@ -440,7 +440,7 @@ export const T0ASTING_MEAT: IDish = {
     ]
 }
 
-export const PECHEN_PO_STROGANOVSKI: IDish = {
+const PECHEN_PO_STROGANOVSKI: IDish = {
     id: '8.7',
     variants: [
         {
@@ -725,7 +725,7 @@ export const PECHEN_PO_STROGANOVSKI: IDish = {
     ]
 }
 
-export const STEWED_MEAT: IDish = {
+const STEWED_MEAT: IDish = {
     id: '8.8',
     variants: [
         {
@@ -875,7 +875,7 @@ export const STEWED_MEAT: IDish = {
     ]
 }
 
-export const MYASO_SHPIGOVANNOE: IDish = {
+const MYASO_SHPIGOVANNOE: IDish = {
     id: '8.9',
     variants: [
         {
@@ -1025,7 +1025,7 @@ export const MYASO_SHPIGOVANNOE: IDish = {
     ]
 }
 
-export const MYASO_PO_BELORUSSKI: IDish = {
+const MYASO_PO_BELORUSSKI: IDish = {
     id: '8.10',
     generalOutput: 100,
     variants: [
@@ -1048,7 +1048,7 @@ export const MYASO_PO_BELORUSSKI: IDish = {
     ]
 }
 
-export const HOMEMADE_ROAST: IDish = {
+const HOMEMADE_ROAST: IDish = {
     id: '8.11',
     generalOutput: 175,
     variants: [
@@ -1123,7 +1123,7 @@ export const HOMEMADE_ROAST: IDish = {
     ]
 }
 
-export const GOULASH: IDish = {
+const GOULASH: IDish = {
     id: '8.12',
     generalOutput: 100,
     variants: [
@@ -1198,7 +1198,7 @@ export const GOULASH: IDish = {
     ]
 }
 
-export const LIVER_STEWED_IN_SAUSE: IDish = {
+const LIVER_STEWED_IN_SAUSE: IDish = {
     id: '8.13',
     generalOutput: 100,
     variants: [
@@ -1238,7 +1238,7 @@ export const LIVER_STEWED_IN_SAUSE: IDish = {
     ]
 }
 
-export const BEEF_STEWED_IN_PRUNES: IDish = {
+const BEEF_STEWED_IN_PRUNES: IDish = {
     id: '8.14',
     generalOutput: 125,
     variants: [
@@ -1279,7 +1279,7 @@ export const BEEF_STEWED_IN_PRUNES: IDish = {
     ]
 }
 
-export const PILAF: IDish = { //убрать возможность менять выход у блюда с выходом 25/120 //БЖУ этого выхода примерное
+const PILAF: IDish = { //убрать возможность менять выход у блюда с выходом 25/120 //БЖУ этого выхода примерное
     id: '8.15',
     generalOutput: 170,
     variants: [
@@ -1490,7 +1490,7 @@ export const PILAF: IDish = { //убрать возможность менять
     ]
 }
 
-export const CHOPPED_STEAK: IDish = {
+const CHOPPED_STEAK: IDish = {
     id: '8.16',
     generalOutput: 50,
     variants: [
@@ -1526,7 +1526,7 @@ export const CHOPPED_STEAK: IDish = {
     ]
 }
 
-export const NATURAL_CHOPPED_SCHNITZEL: IDish = {
+const NATURAL_CHOPPED_SCHNITZEL: IDish = {
     id: '8.17',
     generalOutput: 75,
     variants: [
@@ -1549,7 +1549,7 @@ export const NATURAL_CHOPPED_SCHNITZEL: IDish = {
     ]
 }
 
-export const CUTLETS_OR_CUE_BALLS_OR_SCHNITZELS: IDish = {
+const CUTLETS_OR_CUE_BALLS_OR_SCHNITZELS: IDish = {
     id: '8.18',
     generalOutput: 50,
     variants: [
@@ -1571,7 +1571,7 @@ export const CUTLETS_OR_CUE_BALLS_OR_SCHNITZELS: IDish = {
     ]
 }
 
-export const CUTLETS: IDish = {
+const CUTLETS: IDish = {
     id: '8.19',
     variants: [
         {
@@ -1645,7 +1645,7 @@ export const CUTLETS: IDish = {
     ]
 }
 
-export const KOLBASKI_PO_SLUCKI: IDish = {
+const KOLBASKI_PO_SLUCKI: IDish = {
     id: '8.20',
     generalOutput: 65,
     variants: [
@@ -1669,7 +1669,7 @@ export const KOLBASKI_PO_SLUCKI: IDish = {
     ]
 }
 
-export const KOLBASKI_PO_MOGILEVSKI: IDish = {
+const KOLBASKI_PO_MOGILEVSKI: IDish = {
     id: '8.21',
     generalOutput: 50,
     variants: [
@@ -1692,7 +1692,7 @@ export const KOLBASKI_PO_MOGILEVSKI: IDish = {
     ]
 }
 
-export const CHOPPED_ZRAZY: IDish = {
+const CHOPPED_ZRAZY: IDish = {
     id: '8.22',
     generalOutput: 70,
     variants: [
@@ -1734,7 +1734,7 @@ export const CHOPPED_ZRAZY: IDish = {
     ]
 }
 
-export const ONION_N_EGG_ROLL: IDish = {
+const ONION_N_EGG_ROLL: IDish = {
     id: '8.23',
     generalOutput: 70,
     variants: [
@@ -1776,7 +1776,7 @@ export const ONION_N_EGG_ROLL: IDish = {
     ]
 }
 
-export const MEATBALLS: IDish = {
+const MEATBALLS: IDish = {
     id: '8.24',
     variants: [
         {
@@ -1950,7 +1950,7 @@ export const MEATBALLS: IDish = {
     ]
 }
 
-export const MEATBALLS_SECOND_VARIANT: IDish = { //выход 60/50 нельзя менять
+const MEATBALLS_SECOND_VARIANT: IDish = { //выход 60/50 нельзя менять
     id: '8.25',
     variants: [
         {
@@ -2131,7 +2131,7 @@ export const MEATBALLS_SECOND_VARIANT: IDish = { //выход 60/50 нельзя
     ]
 }
 
-export const MEATBALLS_YOZHIKI: IDish = { //выход 60/50 нельзя менять
+const MEATBALLS_YOZHIKI: IDish = { //выход 60/50 нельзя менять
     id: '8.26',
     variants: [
         {
@@ -2221,7 +2221,7 @@ export const MEATBALLS_YOZHIKI: IDish = { //выход 60/50 нельзя мен
     ]
 }
 
-export const MEATBALLS_IN_SAUSE: IDish = {
+const MEATBALLS_IN_SAUSE: IDish = {
     id: '8.27',
     generalOutput: 105,
     variants: [
@@ -2264,7 +2264,7 @@ export const MEATBALLS_IN_SAUSE: IDish = {
     ]
 }
 
-export const STEAM_CUTLETS: IDish = {
+const STEAM_CUTLETS: IDish = {
     id: '8.28',
     generalOutput: 50,
     variants: [
@@ -2301,7 +2301,7 @@ export const STEAM_CUTLETS: IDish = {
     ]
 }
 
-export const BEEF_DUMPLINGS: IDish = {
+const BEEF_DUMPLINGS: IDish = {
     id: '8.29',
     generalOutput: 50,
     variants: [
@@ -2324,7 +2324,7 @@ export const BEEF_DUMPLINGS: IDish = {
     ]
 }
 
-export const BEEF_PUDDING: IDish = {
+const BEEF_PUDDING: IDish = {
     id: '8.30',
     generalOutput: 70,
     variants: [
@@ -2347,7 +2347,7 @@ export const BEEF_PUDDING: IDish = {
     ]
 }
 
-export const LIVER_FRITTERS: IDish = {
+const LIVER_FRITTERS: IDish = {
     id: '8.31',
     generalOutput: 50,
     variants: [
@@ -2386,7 +2386,7 @@ export const LIVER_FRITTERS: IDish = {
     ]
 }
 
-export const ZUCCHINI_OR_PEPPERS_STUFFED_W_MEAT_N_RICE: IDish = {
+const ZUCCHINI_OR_PEPPERS_STUFFED_W_MEAT_N_RICE: IDish = {
     id: '8.32',
     variants: [
         {
@@ -2468,7 +2468,7 @@ export const ZUCCHINI_OR_PEPPERS_STUFFED_W_MEAT_N_RICE: IDish = {
     ]
 }
 
-export const CABBAGE_ROLLS_W_MEAT_N_RICE: IDish = {
+const CABBAGE_ROLLS_W_MEAT_N_RICE: IDish = {
     id: '8.33',
     generalOutput: 158,
     variants: [
@@ -2511,7 +2511,7 @@ export const CABBAGE_ROLLS_W_MEAT_N_RICE: IDish = {
     ]
 }
 
-export const CABBAGE_ROLLS_LYUBITELSKIE: IDish = {
+const CABBAGE_ROLLS_LYUBITELSKIE: IDish = {
     id: '8.34',
     generalOutput: 165,
     variants: [
@@ -2596,7 +2596,7 @@ export const CABBAGE_ROLLS_LYUBITELSKIE: IDish = {
     ]
 }
 
-export const CUE_CARDS_PO_BELORUSSKI: IDish = {
+const CUE_CARDS_PO_BELORUSSKI: IDish = {
     id: '8.35',
     generalOutput: 75,
     variants: [
@@ -2636,7 +2636,7 @@ export const CUE_CARDS_PO_BELORUSSKI: IDish = {
     ]
 }
 
-export const POTATO_PANCAKES_STUFFED_W_MEAT: IDish = {
+const POTATO_PANCAKES_STUFFED_W_MEAT: IDish = {
     id: '8.36',
     variants: [
         {
@@ -2681,7 +2681,7 @@ export const POTATO_PANCAKES_STUFFED_W_MEAT: IDish = {
     ]
 }
 
-export const POTATO_PIES_W_MEAT: IDish = {
+const POTATO_PIES_W_MEAT: IDish = {
     id: '8.37',
     variants: [
         {
@@ -2765,7 +2765,7 @@ export const POTATO_PIES_W_MEAT: IDish = {
     ]
 }
 
-export const POTATO_CASSEROLE_W_MEAT: IDish = {
+const POTATO_CASSEROLE_W_MEAT: IDish = {
     id: '8.38',
     generalOutput: 200,
     variants: [
@@ -2807,7 +2807,7 @@ export const POTATO_CASSEROLE_W_MEAT: IDish = {
     ]
 }
 
-export const ZRAZI_VYDUMKA: IDish = {
+const ZRAZI_VYDUMKA: IDish = {
     id: '8.39',
     generalOutput: 80,
     variants: [
@@ -2890,7 +2890,7 @@ export const ZRAZI_VYDUMKA: IDish = {
     ]
 }
 
-export const CUE_CARDS_SHKOLNIK: IDish = {
+const CUE_CARDS_SHKOLNIK: IDish = {
     id: '8.40',
     generalOutput: 50,
     variants: [
