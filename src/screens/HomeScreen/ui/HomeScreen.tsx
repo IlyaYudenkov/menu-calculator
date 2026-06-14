@@ -41,8 +41,9 @@ export const HomeScreen = () => {
         SIX_TO_TEN_AGE_CATEGORIES_CCAL_ITEM
     )
 
-    const [menuDuration, setMenuDuration] = useState<IOption>(JSON.parse(localStorage.getItem(MENU_DURATION_LS_VARIABLE)));
-    
+    const [menuDuration, setMenuDuration] = useState<IOption>(JSON.parse(localStorage.getItem(MENU_DURATION_LS_VARIABLE))
+        || TEN_DAYS_DURATION_MENU_ITEM);
+
     useEffect(() => {
         if (menuDuration) {
             localStorage.setItem(

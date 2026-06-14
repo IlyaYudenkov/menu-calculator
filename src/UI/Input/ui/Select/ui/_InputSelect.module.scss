@@ -17,11 +17,17 @@
     color: var(--text);
 
     cursor: pointer;
-    transition: box-shadow 0.2s ease-in;
+    transition: box-shadow 0.2s ease-in,
+    border-radius 0.2s ease-in;
 
     &:hover {
         border-color: var(--border);
     }
+}
+
+.openControl{
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
 }
 
 .control:focus,

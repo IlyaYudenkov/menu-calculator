@@ -2,10 +2,12 @@ import type { IDish, IDishMeta } from "@/model/dish.model";
 import { SNACKS_ARRAY } from "./snacks.data";
 import type { IOption } from "@/model/option.model";
 import { SOUPS_ARRAY } from "./soups.data";
+import { POTATO_N_VEGETABLES_DISHES_ARRAY } from "./potatoNVegetablesDishes.data";
 
 export const ALL_DISHES_ARRAY: IDish[] = [
     ...SNACKS_ARRAY,
-    ...SOUPS_ARRAY
+    ...SOUPS_ARRAY,
+    ...POTATO_N_VEGETABLES_DISHES_ARRAY
 ]
 
 export const DISHES_TO_OPTION: IOption<IDishMeta>[] = ALL_DISHES_ARRAY.flatMap((dish: IDish): IOption<IDishMeta>[] =>
@@ -64,35 +66,35 @@ export const GROCERIES_DATA_ARRAY = [
     { key: 'legumes', label: 'Бобовые' },
     { key: 'jam', label: 'Варенье' },
     { key: 'yeasts', label: 'Дрожжи' },
-    { key: 'eggs', label: 'Яйца' },
     { key: 'cocoa', label: 'Какао' },
     { key: 'potato', label: 'Картофель' },
+    { key: 'sausageProducts', label: 'Колбасные изделия' },
+    { key: 'confectioneryProducts', label: 'Кондитерские изделия' },
     { key: 'coffeeDrink', label: 'Кофейный напиток' },
+    { key: 'potatoStarch', label: 'Крахмал' },
     { key: 'cereals', label: 'Крупы' },
-    { key: 'pastaProducts', label: 'Макаронные изделия' },
     { key: 'mayonnaise', label: 'Майонез' },
-    { key: 'butter', label: 'Масло сливочное' },
+    { key: 'pastaProducts', label: 'Макаронные изделия' },
     { key: 'oil', label: 'Масло растительное' },
-    { key: 'meat', label: 'Мясо' },
+    { key: 'butter', label: 'Масло сливочное' },
+    { key: 'honey', label: 'Мёд' },
     { key: 'milkAndFermentedMilkProducts', label: 'Молочные продукты' },
     { key: 'flourWheat', label: 'Мука пшеничная' },
-    { key: 'honey', label: 'Мёд' },
+    { key: 'meat', label: 'Мясо' },
     { key: 'vegetables', label: 'Овощи' },
     { key: 'poultry', label: 'Птица' },
     { key: 'fish', label: 'Рыба' },
     { key: 'sugar', label: 'Сахар' },
-    { key: 'sausageProducts', label: 'Колбасные изделия' },
-    { key: 'confectioneryProducts', label: 'Кондитерские изделия' },
-    { key: 'potatoStarch', label: 'Крахмал' },
     { key: 'sourCream', label: 'Сметана' },
     { key: 'juices', label: 'Соки' },
     { key: 'byProducts', label: 'Субпродукты' },
+    { key: 'fruitsDried', label: 'Сухофрукты' },
     { key: 'cheese', label: 'Сыр' },
     { key: 'curd', label: 'Творог' },
     { key: 'tomatoPuree', label: 'Томатное пюре' },
     { key: 'fruits', label: 'Фрукты' },
-    { key: 'fruitsDried', label: 'Сухофрукты' },
     { key: 'breadWheat', label: 'Хлеб пшеничный' },
     { key: 'breadRye', label: 'Хлеб ржаной' },
-    { key: 'tea', label: 'Чай' }
+    { key: 'tea', label: 'Чай' },
+    { key: 'eggs', label: 'Яйца' }
 ] as const;

@@ -31,7 +31,13 @@ export const TableMealBlock = <T,> ({
                     ? m
                     : {
                         ...m,
-                        dishes: [...(m.dishes ?? []), option],
+                        dishes: [
+                        ...(m.dishes ?? []),
+                        {
+                            ...option,
+                            id: `${option.id}-${crypto.randomUUID()}`
+                        },
+                    ],
                         caloricity: calcMealTotal(meal, 'caloricity')
                     }
             )

@@ -41,7 +41,11 @@ export const InputSelect = <T,>({
     return (
         <div className={cl.wrapper} ref={ref}>
             <div
-                className={cls(cl.control, disabled ? cl.disabled : '')}
+                className={cls(
+                    cl.control,
+                     disabled ? cl.disabled : '',
+                     open ? cl.openControl : ''
+                    )}
                 onClick={() => !disabled && setOpen(prev => !prev)}
             >
                 <span className={!selectedValue ? cl.placeholder : ''}>

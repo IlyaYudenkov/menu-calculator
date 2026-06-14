@@ -30,7 +30,7 @@ export const TableTotalRow = ({
                     {calcMealPercentage(caloricity, selectedAgeCategoryValue)}
                 </td>
             }
-            {totalMealPercentage && <td>
+            {totalMealPercentage && <td className={cl.totalCell}>
                 {totalMealPercentage}
             </td>}
         </tr>

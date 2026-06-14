@@ -24,7 +24,6 @@ export const InputTextAndSelect = <T,>({
     // STATE
     const [isDropdownOpen, setIsDropdownOpen] = useState(false)
     const [inputValue, setInputValue] = useState(defaultValue?.label || '')
-    const [selectedOption, setSelectedOption] = useState<IOption>()
 
     // REF
     const ref = useRef<HTMLDivElement>(null)
@@ -47,7 +46,13 @@ export const InputTextAndSelect = <T,>({
     )
 
     return (
-        <div className={cls(cl.wrapper, disabled ? cl.disabled : '')} ref={ref}>
+        <div className={cls(
+            cl.wrapper,
+            disabled ? cl.disabled : '',
+            isDropdownOpen ? cl.openWrapper : ''
+        )}
+            ref={ref}
+        >
 
             <input
                 {...inputProps}
@@ -67,14 +72,14 @@ export const InputTextAndSelect = <T,>({
 
             <div className={cls(cl.dropdown, isDropdownOpen ? cl.open : '')}>
                 {filteredOptions.length > 0 ? (
-                    filteredOptions.map(opt => (
+                    filteredOptions.map((opt, idx) => (
                         <div
-                            key={opt.value}
+                            key={`${opt.value}.${idx}`}
                             className={cl.option}
                             onClick={() => {
-                                setSelectedOption(opt)
                                 setInputValue(opt.label)
                                 onSelectChange?.(opt.value, opt)
+                                setInputValue('')
                                 setIsDropdownOpen(false)
                             }}
                         >

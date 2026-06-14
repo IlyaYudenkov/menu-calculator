@@ -4,6 +4,10 @@
     & tr {
         display: grid;
         width: 100%;
+        
+        & td:last-child{
+            border-right: none;
+        }
     }
 }
 
