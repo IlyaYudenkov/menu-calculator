@@ -585,12 +585,301 @@ const POULTRY_SOUFFLE_W_RICE: IDish = {
     ]
 }
 
-const POTATO_CASSEROLE_W_POULTRY: IDish = {
-    id: '9.50', //ПОМЕНЯТЬ ID, КОГДА ВНЕСУ ВСЕ БЛЮДА ИЗ ПТИЦЫ
+const POULTRY_DUMPLINGS_W_RICE: IDish = {
+    id: '9.14',
+    generalOutput: 60,
+    variants: [
+        {
+            id: '9.14.1',
+            name: 'Кнели из птицы с рисом (цыплята-бройлеры)',
+            components: {
+                butter: 2.3,
+                cereals: 5.3,
+                milkAndFermentedMilkProducts: 6,
+                poultry: 57
+            },
+            macronutrients: {
+                proteins: 17.3,
+                fats: 15.8,
+                carbohydrates: 6.2
+            },
+            caloricity: 237
+        },
+        {
+            id: '9.14.2',
+            name: 'Кнели из птицы с рисом (куры)',
+            components: {
+                butter: 2.3,
+                cereals: 5.3,
+                milkAndFermentedMilkProducts: 6,
+                poultry: 57
+            },
+            macronutrients: {
+                proteins: 16.8,
+                fats: 17.8,
+                carbohydrates: 6.3
+            },
+            caloricity: 253
+        },
+        {
+            id: '9.14.3',
+            name: 'Кнели из птицы с рисом (индейка)',
+            components: {
+                butter: 2.3,
+                cereals: 5.3,
+                milkAndFermentedMilkProducts: 6,
+                poultry: 57
+            },
+            macronutrients: {
+                proteins: 17.3,
+                fats: 15.8,
+                carbohydrates: 6.2
+            },
+            caloricity: 237
+        },
+    ]
+}
+
+const BEEF_STROGANOFF_FROM_TURKEY_FILLET: IDish = {
+    id: '9.15',
+    variants: [
+        {
+            id: '9.15.1',
+            name: 'Бефстроганов из филе индейки выход 50/50',
+            defaultOutput: 100,
+            components: {
+                butter: 7,
+                flourWheat: 4,
+                poultry: 68,
+                sourCream: 23,
+                vegetables: 24,
+            },
+            macronutrients: {
+                proteins: 13.8,
+                fats: 21.7,
+                carbohydrates: 5.3
+            },
+            caloricity: 272
+        },
+        {
+            id: '9.15.2',
+            name: 'Бефстроганов из филе индейки выход 50/30',
+            defaultOutput: 80,
+            components: {
+                butter: 4.2,
+                flourWheat: 2.4,
+                poultry: 68,
+                sourCream: 13.8,
+                vegetables: 14.4,
+            },
+            macronutrients: {
+                proteins: 16.6,
+                fats: 22.9,
+                carbohydrates: 3.9
+            },
+            caloricity: 287
+        }
+    ]
+}
+
+const GOULASH_FROM_TURKEY_FILLET: IDish = {
+    id: '9.16',
+    variants: [
+        {
+            id: '9.16.1',
+            name: 'Гуляш из филе индейки выход 50/50',
+            defaultOutput: 100,
+            components: {
+                butter: 3.5,
+                flourWheat: 2.5,
+                poultry: 68,
+                tomatoPuree: 7.5,
+                vegetables: 10
+            },
+            macronutrients: {
+                proteins: 16.3,
+                fats: 18.1,
+                carbohydrates: 2.4
+            },
+            caloricity: 238
+        },
+        {
+            id: '9.16.2',
+            name: 'Гуляш из филе индейки выход 50/30',
+            defaultOutput: 80,
+            components: {
+                butter: 2.1,
+                flourWheat: 1.5,
+                poultry: 68,
+                tomatoPuree: 4.5,
+                vegetables: 6
+            },
+            macronutrients: {
+                proteins: 16.6,
+                fats: 22.9,
+                carbohydrates: 3.9
+            },
+            caloricity: 287
+        }
+    ]
+}
+
+const HOMEMADE_POULTRY_ROAST: IDish = {
+    id: '9.17',
+    generalOutput: 150,
+    variants: [
+        {
+            id: '9.17.1',
+            name: 'Жаркое по-домашнему из птицы (цыплята-бройлеры)',
+            components: {
+                butter: 5,
+                potato: 100,
+                poultry: 68,
+                tomatoPuree: 6,
+                vegetables: 10,
+            },
+            macronutrients: {
+                proteins: 13.2,
+                fats: 13,
+                carbohydrates: 16.6
+            },
+            caloricity: 235
+        },
+        {
+            id: '9.17.2',
+            name: 'Жаркое по-домашнему из птицы (индейка)',
+            components: {
+                butter: 5,
+                potato: 100,
+                poultry: 68,
+                tomatoPuree: 6,
+                vegetables: 10,
+            },
+            macronutrients: {
+                proteins: 14.7,
+                fats: 16.7,
+                carbohydrates: 16.4
+            },
+            caloricity: 274
+        }
+    ]
+}
+
+const POTATO_FLITTERS_STUFFED_W_POULTRY_MEAT: IDish = {
+    id: '9.18',
     generalOutput: 200,
     variants: [
         {
-            id: '9.50.1',
+            id: '9.18.1',
+            name: 'Оладьи картофельные, фаршированные мясом птицы (цыплята-бройлеры)',
+            components: {
+                eggs: 6,
+                flourWheat: 8,
+                oil: 8,
+                potato: 173,
+                poultry: 62,
+                vegetables: 6,
+            },
+            macronutrients: {
+                proteins: 7.9,
+                fats: 8.6,
+                carbohydrates: 15.8
+            },
+            caloricity: 172
+        },
+        {
+            id: '9.18.2',
+            name: 'Оладьи картофельные, фаршированные мясом птицы (индейка)',
+            components: {
+                eggs: 6,
+                flourWheat: 8,
+                oil: 8,
+                potato: 173,
+                poultry: 62,
+                vegetables: 6,
+            },
+            macronutrients: {
+                proteins: 7.9,
+                fats: 8.6,
+                carbohydrates: 15.8
+            },
+            caloricity: 172
+        }
+    ]
+}
+
+const POULTRY_CUTLETS_ORIGINALNIYE: IDish = {
+    id: '9.19',
+    generalOutput: 50,
+    variants: [
+        {
+            id: '9.19.1',
+            name: 'Котлеты из птицы "Оригинальные"',
+            components: {
+                breadWheat: 5,
+                eggs: 4,
+                oil: 6,
+                poultry: 43,
+                vegetables: 14.5,
+            },
+            macronutrients: {
+                proteins: 17.4,
+                fats: 23.6,
+                carbohydrates: 8.8
+            },
+            caloricity: 316
+        }
+    ]
+}
+
+const CHICKEN_CHOPS_W_CHEESE: IDish = {
+    id: '9.20',
+    generalOutput: 75,
+    variants: [
+        {
+            id: '9.20.1',
+            name: 'Биточки куриные с сыром (на молоке)',
+            components: {
+                breadWheat: 17,
+                cheese: 7,
+                milkAndFermentedMilkProducts: 14,
+                oil: 6.5,
+                poultry: 48,
+                vegetables: 8
+            },
+            macronutrients: {
+                proteins: 13.5,
+                fats: 17.6,
+                carbohydrates: 11
+            },
+            caloricity: 255
+        },
+        {
+            id: '9.20.2',
+            name: 'Биточки куриные с сыром (на воде)',
+            components: {
+                breadWheat: 17,
+                cheese: 7,
+                oil: 6.5,
+                poultry: 48,
+                vegetables: 8
+            },
+            macronutrients: {
+                proteins: 13.5,
+                fats: 17.6,
+                carbohydrates: 11
+            },
+            caloricity: 255
+        }
+    ]
+}
+
+const POTATO_CASSEROLE_W_POULTRY: IDish = {
+    id: '9.21',
+    generalOutput: 200,
+    variants: [
+        {
+            id: '9.21.1',
             name: 'Запеканка картофельная с птицей (масло растительное)',
             components: {
                 breadWheat: 4,
@@ -607,7 +896,7 @@ const POTATO_CASSEROLE_W_POULTRY: IDish = {
             caloricity: 155
         },
         {
-            id: '9.50.2',
+            id: '9.21.2',
             name: 'Запеканка картофельная с птицей (масло сливочное)',
             components: {
                 breadWheat: 4,
@@ -638,5 +927,12 @@ export const POULTRY_DISHES_ARRAY = [
     POULTRY_STEWED_IN_SAUCE_W_VEGETABLES,
     POULTRY_SOUFFLE,
     POULTRY_SOUFFLE_W_RICE,
+    POULTRY_DUMPLINGS_W_RICE,
+    BEEF_STROGANOFF_FROM_TURKEY_FILLET,
+    GOULASH_FROM_TURKEY_FILLET,
+    HOMEMADE_POULTRY_ROAST,
+    POTATO_FLITTERS_STUFFED_W_POULTRY_MEAT,
+    POULTRY_CUTLETS_ORIGINALNIYE,
+    CHICKEN_CHOPS_W_CHEESE,
     POTATO_CASSEROLE_W_POULTRY,
 ]
