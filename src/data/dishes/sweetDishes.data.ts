@@ -739,6 +739,291 @@ const MULTILAYERED_JELLY: IDish = {
     ]
 }
 
+const SOUR_CREAM_JELLY_W_COCOA: IDish = {
+    id: '12.21',
+    generalOutput: 100,
+    variants: [
+        {
+            id: '12.21.1',
+            name: 'Желе из сметаны с какао',
+            components: {
+                cocoa: 1.5,
+                sourCream: 67,
+                sugar: 13
+            },
+            macronutrients: {
+                proteins: 4.2,
+                fats: 15,
+                carbohydrates: 13.7
+            },
+            caloricity: 206
+        }
+    ]
+}
+
+const JELLY_MOZAIKA: IDish = {
+    id: '12.22',
+    generalOutput: 100,
+    variants: [
+        {
+            id: '12.22.1',
+            name: 'Желе "Мозайка" (сироп в соки)',
+            components: {
+                juices: 15.5,
+                milkAndFermentedMilkProducts: 22.5,
+                sugar: 7.2
+            },
+            macronutrients: {
+                proteins: 3.1,
+                fats: 0.6,
+                carbohydrates: 9
+            },
+            caloricity: 52
+        },
+        {
+            id: '12.22.2',
+            name: 'Желе "Мозайка" (сироп в кондитерские изделия)',
+            components: {
+                confectioneryProducts: 8,
+                juices: 7.5,
+                milkAndFermentedMilkProducts: 22.5,
+                sugar: 7.2
+            },
+            macronutrients: {
+                proteins: 3.1,
+                fats: 0.6,
+                carbohydrates: 9
+            },
+            caloricity: 52
+        }
+    ]
+}
+
+const BAKED_APPLES: IDish = {
+    id: '12.23',
+    variants: [
+        {
+            id: '12.23.1',
+            name: 'Яблоки печеные',
+            defaultOutput: 60,
+            components: {
+                fruits: 69,
+                sugar: 5,
+            },
+            macronutrients: {
+                proteins: 0.3,
+                fats: 0.3,
+                carbohydrates: 17.6
+            },
+            caloricity: 74
+        },
+        {
+            id: '12.23.2',
+            name: 'Яблоки печеные c сахарной пудрой',
+            defaultOutput: 65,
+            components: {
+                fruits: 69,
+                sugar: 10,
+            },
+            macronutrients: {
+                proteins: 0.3,
+                fats: 0.3,
+                carbohydrates: 24
+            },
+            caloricity: 99
+        },
+        {
+            id: '12.23.3',
+            name: 'Яблоки печеные с вареньем',
+            defaultOutput: 80,
+            components: {
+                confectioneryProducts: 20,
+                fruits: 69,
+                sugar: 5,
+            },
+            macronutrients: {
+                proteins: 0.4,
+                fats: 0.3,
+                carbohydrates: 30.8
+            },
+            caloricity: 125
+        },
+    ]
+}
+
+const APPLES_STUFFED_W_CURD: IDish = {
+    id: '12.24',
+    variants: [
+        {
+            id: '12.24.1',
+            name: 'Яблоки, фаршированные творогом',
+            defaultOutput: 100,
+            components: {
+                curd: 17,
+                eggs: 4.6,
+                fruits: 100,
+                sugar: 3,
+            },
+            macronutrients: {
+                proteins: 3.4,
+                fats: 2.1,
+                carbohydrates: 11.8
+            },
+            caloricity: 81
+        },
+        {
+            id: '12.24.2',
+            name: 'Яблоки, фаршированные творогом с сахарной пудрой',
+            defaultOutput: 105,
+            components: {
+                curd: 17,
+                eggs: 4.6,
+                fruits: 100,
+                sugar: 8,
+            },
+            macronutrients: {
+                proteins: 3.2,
+                fats: 2,
+                carbohydrates: 15.9
+            },
+            caloricity: 94
+        },
+        {
+            id: '12.24.3',
+            name: 'Яблоки, фаршированные творогом с вареньем',
+            defaultOutput: 115,
+            components: {
+                confectioneryProducts: 15,
+                curd: 17,
+                eggs: 4.6,
+                fruits: 100,
+                sugar: 3,
+            },
+            macronutrients: {
+                proteins: 3,
+                fats: 1.8,
+                carbohydrates: 19.3
+            },
+            caloricity: 105
+        },
+    ]
+}
+
+const APPLES_STUFFED_W_RICE_N_RAISINS: IDish = {
+    id: '12.25',
+    generalOutput: 100,
+    variants: [
+        {
+            id: '12.25.1',
+            name: 'Яблоки, фаршированные рисом и изюмом',
+            components: {
+                butter: 4,
+                cereals: 6.5,
+                eggs: 30,
+                fruits: 100,
+                fruitsDried: 5,
+                milkAndFermentedMilkProducts: 10.5,
+                sourCream: 10,
+                sugar: 3.5,
+            },
+            macronutrients: {
+                proteins: 5,
+                fats: 8.5,
+                carbohydrates: 20.2
+            },
+            caloricity: 177
+        }
+    ]
+}
+
+const APPLES_PO_BRESTSKI: IDish = {//нужно дописать БЖУ
+    id: '12.26',
+    generalOutput: 100,
+    variants: [
+        {
+            id: '12.26.1',
+            name: 'Яблоки по-брестски',
+            components: {
+                butter: 2,
+                eggs: 4,
+                fruits: 95,
+                fruitsDried: 4,
+                milkAndFermentedMilkProducts: 16,
+                sugar: 5,
+                potatoStarch: 3,
+            },
+            macronutrients: {
+                proteins: 5,
+                fats: 8.5,
+                carbohydrates: 20.2
+            },
+            caloricity: 177
+        },
+        {
+            id: '12.26.2',
+            name: 'Яблоки по-брестски с сахарной пудрой',
+            defaultOutput: 105,
+            components: {
+                butter: 2,
+                eggs: 4,
+                fruits: 95,
+                fruitsDried: 4,
+                milkAndFermentedMilkProducts: 16,
+                sugar: 10,
+                potatoStarch: 3,
+            },
+            macronutrients: {
+                proteins: 5,
+                fats: 8.5,
+                carbohydrates: 20.2
+            },
+            caloricity: 177
+        },
+        {
+            id: '12.26.3',
+            name: 'Яблоки по-брестски с сиропом плодовым или ягодным',
+            defaultOutput: 115,
+            components: {
+                butter: 2,
+                eggs: 4,
+                fruits: 95,
+                fruitsDried: 4,
+                juices: 15,
+                milkAndFermentedMilkProducts: 16,
+                sugar: 5,
+                potatoStarch: 3,
+            },
+            macronutrients: {
+                proteins: 5,
+                fats: 8.5,
+                carbohydrates: 20.2
+            },
+            caloricity: 177
+        },
+        {
+            id: '12.26.4',
+            name: 'Яблоки по-брестски с вареньем',
+            defaultOutput: 130,
+            components: {
+                butter: 2,
+                eggs: 4,
+                confectioneryProducts: 30,
+                fruits: 95,
+                fruitsDried: 4,
+                milkAndFermentedMilkProducts: 16,
+                sugar: 5,
+                potatoStarch: 3,
+            },
+            macronutrients: {
+                proteins: 5,
+                fats: 8.5,
+                carbohydrates: 20.2
+            },
+            caloricity: 177
+        }
+    ]
+}
+
 
 export const SWEET_DISHES_ARRAY: IDish[] = [
     FRESH_FRUITS_OR_BERRIES,
@@ -760,5 +1045,11 @@ export const SWEET_DISHES_ARRAY: IDish[] = [
     MILK_KISSEL,
     MILK_JELLY_SNEZHANA,
     JELLY_OF_FRESH_FRUITS_OR_BERRIES,
-    MULTILAYERED_JELLY
+    MULTILAYERED_JELLY,
+    SOUR_CREAM_JELLY_W_COCOA,
+    JELLY_MOZAIKA,
+    BAKED_APPLES,
+    APPLES_STUFFED_W_CURD,
+    APPLES_STUFFED_W_RICE_N_RAISINS,
+    APPLES_PO_BRESTSKI
 ]
