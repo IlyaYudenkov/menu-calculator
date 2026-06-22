@@ -936,13 +936,13 @@ const APPLES_STUFFED_W_RICE_N_RAISINS: IDish = {
     ]
 }
 
-const APPLES_PO_BRESTSKI: IDish = {//нужно дописать БЖУ
+const APPLES_PO_BRESTSKI: IDish = {
     id: '12.26',
-    generalOutput: 100,
     variants: [
         {
             id: '12.26.1',
             name: 'Яблоки по-брестски',
+            defaultOutput: 100,
             components: {
                 butter: 2,
                 eggs: 4,
@@ -953,11 +953,11 @@ const APPLES_PO_BRESTSKI: IDish = {//нужно дописать БЖУ
                 potatoStarch: 3,
             },
             macronutrients: {
-                proteins: 5,
-                fats: 8.5,
-                carbohydrates: 20.2
+                proteins: 1.3,
+                fats: 2.4,
+                carbohydrates: 18.3
             },
-            caloricity: 177
+            caloricity: 100
         },
         {
             id: '12.26.2',
@@ -973,11 +973,11 @@ const APPLES_PO_BRESTSKI: IDish = {//нужно дописать БЖУ
                 potatoStarch: 3,
             },
             macronutrients: {
-                proteins: 5,
-                fats: 8.5,
-                carbohydrates: 20.2
+                proteins: 1.4,
+                fats: 2.4,
+                carbohydrates: 39.2
             },
-            caloricity: 177
+            caloricity: 183
         },
         {
             id: '12.26.3',
@@ -994,11 +994,11 @@ const APPLES_PO_BRESTSKI: IDish = {//нужно дописать БЖУ
                 potatoStarch: 3,
             },
             macronutrients: {
-                proteins: 5,
-                fats: 8.5,
-                carbohydrates: 20.2
+                proteins: 1.1,
+                fats: 1.8,
+                carbohydrates: 30.2
             },
-            caloricity: 177
+            caloricity: 141
         },
         {
             id: '12.26.4',
@@ -1015,15 +1015,14 @@ const APPLES_PO_BRESTSKI: IDish = {//нужно дописать БЖУ
                 potatoStarch: 3,
             },
             macronutrients: {
-                proteins: 5,
-                fats: 8.5,
-                carbohydrates: 20.2
+                proteins: 1.1,
+                fats: 1.8,
+                carbohydrates: 30.2
             },
-            caloricity: 177
+            caloricity: 141
         }
     ]
 }
-
 
 export const SWEET_DISHES_ARRAY: IDish[] = [
     FRESH_FRUITS_OR_BERRIES,
