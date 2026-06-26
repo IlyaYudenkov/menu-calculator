@@ -1232,6 +1232,984 @@ const OLADYI: IDish = {
     ]
 }
 
+const OLADYI_W_APPLES_OR_RAISIN: IDish = {
+    id: '14.10',
+    variants: [
+        {
+            id: '14.10.1',
+            name: 'Оладьи с яблоками (на молоке, масло растительное)',
+            defaultOutput: 100,
+            components: {
+                eggs: 2.5,
+                flourWheat: 51.6,
+                fruits: 10,
+                milkAndFermentedMilkProducts: 51.6,
+                oil: 6,
+                sugar: 1.8,
+                yeasts: 1.5
+            },
+            macronutrients: {
+                proteins: 6.9,
+                fats: 6.3,
+                carbohydrates: 37.2
+            },
+            caloricity: 233
+        },
+        {
+            id: '14.10.2',
+            name: 'Оладьи с яблоками (на воде, масло растительное)',
+            defaultOutput: 100,
+            components: {
+                eggs: 2.5,
+                flourWheat: 51.6,
+                fruits: 10,
+                oil: 6,
+                sugar: 1.8,
+                yeasts: 1.5
+            },
+            macronutrients: {
+                proteins: 6.9,
+                fats: 6.3,
+                carbohydrates: 37.2
+            },
+            caloricity: 233
+        },
+        {
+            id: '14.10.3',
+            name: 'Оладьи с яблоками (на молоке, масло сливочное)',
+            defaultOutput: 100,
+            components: {
+                butter: 6,
+                eggs: 2.5,
+                flourWheat: 51.6,
+                fruits: 10,
+                milkAndFermentedMilkProducts: 51.6,
+                sugar: 1.8,
+                yeasts: 1.5
+            },
+            macronutrients: {
+                proteins: 6.9,
+                fats: 6.3,
+                carbohydrates: 37.2
+            },
+            caloricity: 233
+        },
+        {
+            id: '14.10.4',
+            name: 'Оладьи с яблоками (на воде, масло сливочное)',
+            defaultOutput: 100,
+            components: {
+                butter: 6,
+                eggs: 2.5,
+                flourWheat: 51.6,
+                fruits: 10,
+                sugar: 1.8,
+                yeasts: 1.5
+            },
+            macronutrients: {
+                proteins: 6.9,
+                fats: 6.3,
+                carbohydrates: 37.2
+            },
+            caloricity: 233
+        },
+        {
+            id: '14.10.5',
+            name: 'Оладьи с яблоками с маслом сливочным (на молоке, масло растительное)',
+            defaultOutput: 110,
+            components: {
+                butter: 10,
+                eggs: 2.5,
+                flourWheat: 51.6,
+                fruits: 10,
+                milkAndFermentedMilkProducts: 51.6,
+                oil: 6,
+                sugar: 1.8,
+                yeasts: 1.5
+            },
+            macronutrients: {
+                proteins: 6.4,
+                fats: 12.3,
+                carbohydrates: 33.9
+            },
+            caloricity: 272
+        },
+        {
+            id: '14.10.6',
+            name: 'Оладьи с яблоками с маслом сливочным (на воде, масло растительное)',
+            defaultOutput: 110,
+            components: {
+                butter: 10,
+                eggs: 2.5,
+                flourWheat: 51.6,
+                fruits: 10,
+                oil: 6,
+                sugar: 1.8,
+                yeasts: 1.5
+            },
+            macronutrients: {
+                proteins: 6.4,
+                fats: 12.3,
+                carbohydrates: 33.9
+            },
+            caloricity: 272
+        },
+        {
+            id: '14.10.7',
+            name: 'Оладьи с яблоками с маслом сливочным (на молоке, масло сливочное)',
+            defaultOutput: 110,
+            components: {
+                butter: 16,
+                eggs: 2.5,
+                flourWheat: 51.6,
+                fruits: 10,
+                milkAndFermentedMilkProducts: 51.6,
+                sugar: 1.8,
+                yeasts: 1.5
+            },
+            macronutrients: {
+                proteins: 6.4,
+                fats: 12.3,
+                carbohydrates: 33.9
+            },
+            caloricity: 272
+        },
+        {
+            id: '14.10.8',
+            name: 'Оладьи с яблоками с маслом сливочным (на воде, масло сливочное)',
+            defaultOutput: 110,
+            components: {
+                butter: 16,
+                eggs: 2.5,
+                flourWheat: 51.6,
+                fruits: 10,
+                sugar: 1.8,
+                yeasts: 1.5
+            },
+            macronutrients: {
+                proteins: 6.4,
+                fats: 12.3,
+                carbohydrates: 33.9
+            },
+            caloricity: 272
+        },
+        {
+            id: '14.10.9',
+            name: 'Оладьи с яблоками со сметаной (на молоке, масло растительное)',
+            defaultOutput: 115,
+            components: {
+                eggs: 2.5,
+                flourWheat: 51.6,
+                fruits: 10,
+                milkAndFermentedMilkProducts: 51.6,
+                oil: 6,
+                sourCream: 15,
+                sugar: 1.8,
+                yeasts: 1.5
+            },
+            macronutrients: {
+                proteins: 6.4,
+                fats: 8.1,
+                carbohydrates: 32.8
+            },
+            caloricity: 230
+        },
+        {
+            id: '14.10.10',
+            name: 'Оладьи с яблоками со сметаной (на воде, масло растительное)',
+            defaultOutput: 115,
+            components: {
+                eggs: 2.5,
+                flourWheat: 51.6,
+                fruits: 10,
+                oil: 6,
+                sourCream: 15,
+                sugar: 1.8,
+                yeasts: 1.5
+            },
+            macronutrients: {
+                proteins: 6.4,
+                fats: 8.1,
+                carbohydrates: 32.8
+            },
+            caloricity: 230
+        },
+        {
+            id: '14.10.11',
+            name: 'Оладьи с яблоками со сметаной (на молоке, масло сливочное)',
+            defaultOutput: 115,
+            components: {
+                butter: 6,
+                eggs: 2.5,
+                flourWheat: 51.6,
+                fruits: 10,
+                milkAndFermentedMilkProducts: 51.6,
+                sourCream: 15,
+                sugar: 1.8,
+                yeasts: 1.5
+            },
+            macronutrients: {
+                proteins: 6.4,
+                fats: 8.1,
+                carbohydrates: 32.8
+            },
+            caloricity: 230
+        },
+        {
+            id: '14.10.12',
+            name: 'Оладьи с яблоками со сметаной (на воде, масло сливочное)',
+            defaultOutput: 115,
+            components: {
+                butter: 6,
+                eggs: 2.5,
+                flourWheat: 51.6,
+                fruits: 10,
+                sourCream: 15,
+                sugar: 1.8,
+                yeasts: 1.5
+            },
+            macronutrients: {
+                proteins: 6.4,
+                fats: 8.1,
+                carbohydrates: 32.8
+            },
+            caloricity: 230
+        },
+        {
+            id: '14.10.13',
+            name: 'Оладьи с яблоками с молоком сгущенным (на молоке, масло растительное, молоко сгущенное в молочные продукты)',
+            defaultOutput: 120,
+            components: {
+                eggs: 2.5,
+                flourWheat: 51.6,
+                fruits: 10,
+                milkAndFermentedMilkProducts: 71.6,
+                oil: 6,
+                sugar: 1.8,
+                yeasts: 1.5
+            },
+            macronutrients: {
+                proteins: 6.9,
+                fats: 6.8,
+                carbohydrates: 40.3
+            },
+            caloricity: 248
+        },
+        {
+            id: '14.10.14',
+            name: 'Оладьи с яблоками с молоком сгущенным (на воде, масло растительное,молоко сгущенное в молочные продукты)',
+            defaultOutput: 120,
+            components: {
+                eggs: 2.5,
+                flourWheat: 51.6,
+                fruits: 10,
+                milkAndFermentedMilkProducts: 20,
+                oil: 6,
+                sugar: 1.8,
+                yeasts: 1.5
+            },
+            macronutrients: {
+                proteins: 6.9,
+                fats: 6.8,
+                carbohydrates: 40.3
+            },
+            caloricity: 248
+        },
+        {
+            id: '14.10.15',
+            name: 'Оладьи с яблоками с молоком сгущенным (на молоке, масло сливочное, молоко сгущенное в молочные продукты)',
+            defaultOutput: 120,
+            components: {
+                butter: 6,
+                eggs: 2.5,
+                flourWheat: 51.6,
+                fruits: 10,
+                milkAndFermentedMilkProducts: 71.6,
+                sugar: 1.8,
+                yeasts: 1.5
+            },
+            macronutrients: {
+                proteins: 6.9,
+                fats: 6.8,
+                carbohydrates: 40.3
+            },
+            caloricity: 248
+        },
+        {
+            id: '14.10.16',
+            name: 'Оладьи с яблоками с молоком сгущенным (на воде, масло сливочное, молоко сгущенное в молочные продукты)',
+            defaultOutput: 120,
+            components: {
+                butter: 6,
+                eggs: 2.5,
+                flourWheat: 51.6,
+                fruits: 10,
+                milkAndFermentedMilkProducts: 20,
+                sugar: 1.8,
+                yeasts: 1.5
+            },
+            macronutrients: {
+                proteins: 6.9,
+                fats: 6.8,
+                carbohydrates: 40.3
+            },
+            caloricity: 248
+        },
+        {
+            id: '14.10.17',
+            name: 'Оладьи с яблоками с молоком сгущенным (на молоке, масло растительное, молоко сгущенное в кондитерские изделия)',
+            defaultOutput: 120,
+            components: {
+                confectioneryProducts: 20,
+                eggs: 2.5,
+                flourWheat: 51.6,
+                fruits: 10,
+                milkAndFermentedMilkProducts: 51.6,
+                oil: 6,
+                sugar: 1.8,
+                yeasts: 1.5
+            },
+            macronutrients: {
+                proteins: 6.9,
+                fats: 6.8,
+                carbohydrates: 40.3
+            },
+            caloricity: 248
+        },
+        {
+            id: '14.10.18',
+            name: 'Оладьи с яблоками с молоком сгущенным (на воде, масло растительное, молоко сгущенное в кондитерские изделия)',
+            defaultOutput: 120,
+            components: {
+                confectioneryProducts: 20,
+                eggs: 2.5,
+                flourWheat: 51.6,
+                fruits: 10,
+                oil: 6,
+                sugar: 1.8,
+                yeasts: 1.5
+            },
+            macronutrients: {
+                proteins: 6.9,
+                fats: 6.8,
+                carbohydrates: 40.3
+            },
+            caloricity: 248
+        },
+        {
+            id: '14.10.19',
+            name: 'Оладьи с яблоками с молоком сгущенным (на молоке, масло сливочное, молоко сгущенное в кондитерские изделия)',
+            defaultOutput: 120,
+            components: {
+                butter: 6,
+                confectioneryProducts: 20,
+                eggs: 2.5,
+                flourWheat: 51.6,
+                fruits: 10,
+                milkAndFermentedMilkProducts: 51.6,
+                sugar: 1.8,
+                yeasts: 1.5
+            },
+            macronutrients: {
+                proteins: 6.9,
+                fats: 6.8,
+                carbohydrates: 40.3
+            },
+            caloricity: 248
+        },
+        {
+            id: '14.10.20',
+            name: 'Оладьи с яблоками с молоком сгущенным (на воде, масло сливочное, молоко сгущенное в кондитерские изделия)',
+            defaultOutput: 120,
+            components: {
+                butter: 6,
+                confectioneryProducts: 20,
+                eggs: 2.5,
+                flourWheat: 51.6,
+                fruits: 10,
+                sugar: 1.8,
+                yeasts: 1.5
+            },
+            macronutrients: {
+                proteins: 6.9,
+                fats: 6.8,
+                carbohydrates: 40.3
+            },
+            caloricity: 248
+        },
+        {
+            id: '14.10.21',
+            name: 'Оладьи с яблоками с повидлом (на молоке, масло растительное)',
+            defaultOutput: 110,
+            components: {
+                confectioneryProducts: 10,
+                eggs: 2.5,
+                flourWheat: 51.6,
+                fruits: 10,
+                milkAndFermentedMilkProducts: 51.6,
+                oil: 6,
+                sugar: 1.8,
+                yeasts: 1.5
+            },
+            macronutrients: {
+                proteins: 6.4,
+                fats: 5.7,
+                carbohydrates: 40.1
+            },
+            caloricity: 241
+        },
+        {
+            id: '14.10.22',
+            name: 'Оладьи с яблоками с повидлом (на воде, масло растительное)',
+            defaultOutput: 110,
+            components: {
+                confectioneryProducts: 10,
+                eggs: 2.5,
+                flourWheat: 51.6,
+                fruits: 10,
+                oil: 6,
+                sugar: 1.8,
+                yeasts: 1.5
+            },
+            macronutrients: {
+                proteins: 6.4,
+                fats: 5.7,
+                carbohydrates: 40.1
+            },
+            caloricity: 241
+        },
+        {
+            id: '14.10.23',
+            name: 'Оладьи с яблоками с повидлом (на молоке, масло сливочное)',
+            defaultOutput: 110,
+            components: {
+                butter: 6,
+                confectioneryProducts: 10,
+                eggs: 2.5,
+                flourWheat: 51.6,
+                fruits: 10,
+                milkAndFermentedMilkProducts: 51.6,
+                sugar: 1.8,
+                yeasts: 1.5
+            },
+            macronutrients: {
+                proteins: 6.4,
+                fats: 5.7,
+                carbohydrates: 40.1
+            },
+            caloricity: 241
+        },
+        {
+            id: '14.10.24',
+            name: 'Оладьи с яблоками с повидлом (на воде, масло сливочное)',
+            defaultOutput: 110,
+            components: {
+                butter: 6,
+                confectioneryProducts: 10,
+                eggs: 2.5,
+                flourWheat: 51.6,
+                fruits: 10,
+                sugar: 1.8,
+                yeasts: 1.5
+            },
+            macronutrients: {
+                proteins: 6.4,
+                fats: 5.7,
+                carbohydrates: 40.1
+            },
+            caloricity: 241
+        },
+        {
+            id: '14.10.25',
+            name: 'Оладьи с изюмом (на молоке, масло растительное)',
+            defaultOutput: 100,
+            components: {
+                eggs: 2.4,
+                flourWheat: 50,
+                fruitsDried: 13.3,
+                milkAndFermentedMilkProducts: 50,
+                oil: 6,
+                sugar: 1.77,
+                yeasts: 1.45
+            },
+            macronutrients: {
+                proteins: 6.9,
+                fats: 6.2,
+                carbohydrates: 43.1
+            },
+            caloricity: 256
+        },
+        {
+            id: '14.10.26',
+            name: 'Оладьи с изюмом (на воде, масло растительное)',
+            defaultOutput: 100,
+            components: {
+                eggs: 2.4,
+                flourWheat: 50,
+                fruitsDried: 13.3,
+                oil: 6,
+                sugar: 1.77,
+                yeasts: 1.45
+            },
+            macronutrients: {
+                proteins: 6.9,
+                fats: 6.2,
+                carbohydrates: 43.1
+            },
+            caloricity: 256
+        },
+        {
+            id: '14.10.27',
+            name: 'Оладьи с изюмом (на молоке, масло сливочное)',
+            defaultOutput: 100,
+            components: {
+                butter: 6,
+                eggs: 2.4,
+                flourWheat: 50,
+                fruitsDried: 13.3,
+                milkAndFermentedMilkProducts: 50,
+                sugar: 1.77,
+                yeasts: 1.45
+            },
+            macronutrients: {
+                proteins: 6.9,
+                fats: 6.2,
+                carbohydrates: 43.1
+            },
+            caloricity: 256
+        },
+        {
+            id: '14.10.28',
+            name: 'Оладьи с изюмом (на воде, масло сливочное)',
+            defaultOutput: 100,
+            components: {
+                butter: 6,
+                eggs: 2.4,
+                flourWheat: 50,
+                fruitsDried: 13.3,
+                sugar: 1.77,
+                yeasts: 1.45
+            },
+            macronutrients: {
+                proteins: 6.9,
+                fats: 6.2,
+                carbohydrates: 43.1
+            },
+            caloricity: 256
+        },
+        {
+            id: '14.10.29',
+            name: 'Оладьи с изюмом с маслом сливочным (на молоке, масло растительное)',
+            defaultOutput: 110,
+            components: {
+                butter: 10,
+                eggs: 2.4,
+                flourWheat: 50,
+                fruitsDried: 13.3,
+                milkAndFermentedMilkProducts: 50,
+                oil: 6,
+                sugar: 1.77,
+                yeasts: 1.45
+            },
+            macronutrients: {
+                proteins: 6.4,
+                fats: 12.2,
+                carbohydrates: 39.3
+            },
+            caloricity: 293
+        },
+        {
+            id: '14.10.30',
+            name: 'Оладьи с изюмом с маслом сливочным (на воде, масло растительное)',
+            defaultOutput: 110,
+            components: {
+                butter: 10,
+                eggs: 2.4,
+                flourWheat: 50,
+                fruitsDried: 13.3,
+                oil: 6,
+                sugar: 1.77,
+                yeasts: 1.45
+            },
+            macronutrients: {
+                proteins: 6.4,
+                fats: 12.2,
+                carbohydrates: 39.3
+            },
+            caloricity: 293
+        },
+        {
+            id: '14.10.31',
+            name: 'Оладьи с изюмом с маслом сливочным (на молоке, масло сливочное)',
+            defaultOutput: 110,
+            components: {
+                butter: 16,
+                eggs: 2.4,
+                flourWheat: 50,
+                fruitsDried: 13.3,
+                milkAndFermentedMilkProducts: 50,
+                sugar: 1.77,
+                yeasts: 1.45
+            },
+            macronutrients: {
+                proteins: 6.4,
+                fats: 12.2,
+                carbohydrates: 39.3
+            },
+            caloricity: 293
+        },
+        {
+            id: '14.10.32',
+            name: 'Оладьи с изюмом с маслом сливочным (на воде, масло сливочное)',
+            defaultOutput: 110,
+            components: {
+                butter: 16,
+                eggs: 2.4,
+                flourWheat: 50,
+                fruitsDried: 13.3,
+                milkAndFermentedMilkProducts: 50,
+                sugar: 1.77,
+                yeasts: 1.45
+            },
+            macronutrients: {
+                proteins: 6.4,
+                fats: 12.2,
+                carbohydrates: 39.3
+            },
+            caloricity: 293
+        },
+        {
+            id: '14.10.33',
+            name: 'Оладьи с изюмом со сметаной (на молоке, масло растительное)',
+            defaultOutput: 115,
+            components: {
+                eggs: 2.4,
+                flourWheat: 50,
+                fruitsDried: 13.3,
+                milkAndFermentedMilkProducts: 50,
+                oil: 6,
+                sourCream: 15,
+                sugar: 1.77,
+                yeasts: 1.45
+            },
+            macronutrients: {
+                proteins: 6.4,
+                fats: 8.1,
+                carbohydrates: 32.8
+            },
+            caloricity: 230
+        },
+        {
+            id: '14.10.34',
+            name: 'Оладьи с изюмом со сметаной (на воде, масло растительное)',
+            defaultOutput: 115,
+            components: {
+                eggs: 2.4,
+                flourWheat: 50,
+                fruitsDried: 13.3,
+                oil: 6,
+                sourCream: 15,
+                sugar: 1.77,
+                yeasts: 1.45
+            },
+            macronutrients: {
+                proteins: 6.4,
+                fats: 8.1,
+                carbohydrates: 32.8
+            },
+            caloricity: 230
+        },
+        {
+            id: '14.10.35',
+            name: 'Оладьи с изюмом со сметаной (на молоке, масло сливочное)',
+            defaultOutput: 115,
+            components: {
+                butter: 6,
+                eggs: 2.4,
+                flourWheat: 50,
+                fruitsDried: 13.3,
+                milkAndFermentedMilkProducts: 50,
+                sourCream: 15,
+                sugar: 1.77,
+                yeasts: 1.45
+            },
+            macronutrients: {
+                proteins: 6.4,
+                fats: 8.1,
+                carbohydrates: 32.8
+            },
+            caloricity: 230
+        },
+        {
+            id: '14.10.36',
+            name: 'Оладьи с изюмом со сметаной (на воде, масло сливочное)',
+            defaultOutput: 115,
+            components: {
+                butter: 6,
+                eggs: 2.4,
+                flourWheat: 50,
+                fruitsDried: 13.3,
+                milkAndFermentedMilkProducts: 50,
+                sourCream: 15,
+                sugar: 1.77,
+                yeasts: 1.45
+            },
+            macronutrients: {
+                proteins: 6.4,
+                fats: 8.1,
+                carbohydrates: 32.8
+            },
+            caloricity: 230
+        },
+        {
+            id: '14.10.37',
+            name: 'Оладьи с изюмом с молоком сгущенным (на молоке, масло растительное, молоко сгущенное в молочные продукты)',
+            defaultOutput: 120,
+            components: {
+                eggs: 2.4,
+                flourWheat: 50,
+                fruitsDried: 13.3,
+                milkAndFermentedMilkProducts: 70,
+                oil: 6,
+                sugar: 1.77,
+                yeasts: 1.45
+            },
+            macronutrients: {
+                proteins: 6.9,
+                fats: 6.8,
+                carbohydrates: 40.3
+            },
+            caloricity: 250
+        },
+        {
+            id: '14.10.38',
+            name: 'Оладьи с изюмом с молоком сгущенным (на воде, масло растительное, молоко сгущенное в молочные продукты)',
+            defaultOutput: 120,
+            components: {
+                eggs: 2.4,
+                flourWheat: 50,
+                fruitsDried: 13.3,
+                milkAndFermentedMilkProducts: 20,
+                oil: 6,
+                sugar: 1.77,
+                yeasts: 1.45
+            },
+            macronutrients: {
+                proteins: 6.9,
+                fats: 6.8,
+                carbohydrates: 40.3
+            },
+            caloricity: 250
+        },
+        {
+            id: '14.10.39',
+            name: 'Оладьи с изюмом с молоком сгущенным (на молоке, масло сливочное, молоко сгущенное в молочные продукты)',
+            defaultOutput: 120,
+            components: {
+                butter: 6,
+                eggs: 2.4,
+                flourWheat: 50,
+                fruitsDried: 13.3,
+                milkAndFermentedMilkProducts: 70,
+                sugar: 1.77,
+                yeasts: 1.45
+            },
+            macronutrients: {
+                proteins: 6.9,
+                fats: 6.8,
+                carbohydrates: 40.3
+            },
+            caloricity: 250
+        },
+        {
+            id: '14.10.40',
+            name: 'Оладьи с изюмом с молоком сгущенным (на воде, масло сливочное, молоко сгущенное в молочные продукты)',
+            defaultOutput: 120,
+            components: {
+                butter: 6,
+                eggs: 2.4,
+                flourWheat: 50,
+                fruitsDried: 13.3,
+                milkAndFermentedMilkProducts: 20,
+                sugar: 1.77,
+                yeasts: 1.45
+            },
+            macronutrients: {
+                proteins: 6.9,
+                fats: 6.8,
+                carbohydrates: 40.3
+            },
+            caloricity: 250
+        },
+        {
+            id: '14.10.41',
+            name: 'Оладьи с изюмом с молоком сгущенным (на молоке, масло растительное, молоко сгущенное в кондитерские изделия)',
+            defaultOutput: 120,
+            components: {
+                confectioneryProducts: 20,
+                eggs: 2.4,
+                flourWheat: 50,
+                fruitsDried: 13.3,
+                milkAndFermentedMilkProducts: 50,
+                oil: 6,
+                sugar: 1.77,
+                yeasts: 1.45
+            },
+            macronutrients: {
+                proteins: 6.9,
+                fats: 6.8,
+                carbohydrates: 40.3
+            },
+            caloricity: 250
+        },
+        {
+            id: '14.10.42',
+            name: 'Оладьи с изюмом с молоком сгущенным (на воде, масло растительное, молоко сгущенное в кондитерские изделия)',
+            defaultOutput: 120,
+            components: {
+                confectioneryProducts: 20,
+                eggs: 2.4,
+                flourWheat: 50,
+                fruitsDried: 13.3,
+                oil: 6,
+                sugar: 1.77,
+                yeasts: 1.45
+            },
+            macronutrients: {
+                proteins: 6.9,
+                fats: 6.8,
+                carbohydrates: 40.3
+            },
+            caloricity: 250
+        },
+        {
+            id: '14.10.43',
+            name: 'Оладьи с изюмом с молоком сгущенным (на молоке, масло сливочное, молоко сгущенное в кондитерские изделия)',
+            defaultOutput: 120,
+            components: {
+                butter: 6,
+                confectioneryProducts: 20,
+                eggs: 2.4,
+                flourWheat: 50,
+                fruitsDried: 13.3,
+                milkAndFermentedMilkProducts: 50,
+                sugar: 1.77,
+                yeasts: 1.45
+            },
+            macronutrients: {
+                proteins: 6.9,
+                fats: 6.8,
+                carbohydrates: 40.3
+            },
+            caloricity: 250
+        },
+        {
+            id: '14.10.44',
+            name: 'Оладьи с изюмом с молоком сгущенным (на воде, масло сливочное, молоко сгущенное в кондитерские изделия)',
+            defaultOutput: 120,
+            components: {
+                butter: 6,
+                confectioneryProducts: 20,
+                eggs: 2.4,
+                flourWheat: 50,
+                fruitsDried: 13.3,
+                milkAndFermentedMilkProducts: 50,
+                sugar: 1.77,
+                yeasts: 1.45
+            },
+            macronutrients: {
+                proteins: 6.9,
+                fats: 6.8,
+                carbohydrates: 40.3
+            },
+            caloricity: 250
+        },
+        {
+            id: '14.10.45',
+            name: 'Оладьи с изюмом с повидлом (на молоке, масло растительное)',
+            defaultOutput: 110,
+            components: {
+                confectioneryProducts: 10,
+                eggs: 2.4,
+                flourWheat: 50,
+                fruitsDried: 13.3,
+                milkAndFermentedMilkProducts: 50,
+                oil: 6,
+                sugar: 1.77,
+                yeasts: 1.45
+            },
+            macronutrients: {
+                proteins: 6.4,
+                fats: 5.7,
+                carbohydrates: 40.1
+            },
+            caloricity: 236
+        },
+        {
+            id: '14.10.46',
+            name: 'Оладьи с изюмом с повидлом (на воде, масло растительное)',
+            defaultOutput: 110,
+            components: {
+                confectioneryProducts: 10,
+                eggs: 2.4,
+                flourWheat: 50,
+                fruitsDried: 13.3,
+                oil: 6,
+                sugar: 1.77,
+                yeasts: 1.45
+            },
+            macronutrients: {
+                proteins: 6.4,
+                fats: 5.7,
+                carbohydrates: 40.1
+            },
+            caloricity: 236
+        },
+        {
+            id: '14.10.47',
+            name: 'Оладьи с изюмом с повидлом (на молоке, масло сливочное)',
+            defaultOutput: 110,
+            components: {
+                butter: 6,
+                confectioneryProducts: 10,
+                eggs: 2.4,
+                flourWheat: 50,
+                fruitsDried: 13.3,
+                milkAndFermentedMilkProducts: 50,
+                sugar: 1.77,
+                yeasts: 1.45
+            },
+            macronutrients: {
+                proteins: 6.4,
+                fats: 5.7,
+                carbohydrates: 40.1
+            },
+            caloricity: 236
+        },
+        {
+            id: '14.10.48',
+            name: 'Оладьи с изюмом с повидлом (на воде, масло сливочное)',
+            defaultOutput: 110,
+            components: {
+                butter: 6,
+                confectioneryProducts: 10,
+                eggs: 2.4,
+                flourWheat: 50,
+                fruitsDried: 13.3,
+                milkAndFermentedMilkProducts: 50,
+                sugar: 1.77,
+                yeasts: 1.45
+            },
+            macronutrients: {
+                proteins: 6.4,
+                fats: 5.7,
+                carbohydrates: 40.1
+            },
+            caloricity: 236
+        }
+    ]
+}
+
 export const FLOUR_DISHES_ARRAY: IDish[] = [
     DUMPLINGS,
     BOIED_DUMPLINGS,
@@ -1241,5 +2219,6 @@ export const FLOUR_DISHES_ARRAY: IDish[] = [
     BLINCHIKI_W_CABBAGE_OR_POULTRY,
     BLINCHIKI_W_CARROTS_N_CINNAMON,
     BLINCHIKI_VITAMINNYE,
-    OLADYI
+    OLADYI,
+    OLADYI_W_APPLES_OR_RAISIN
 ]
