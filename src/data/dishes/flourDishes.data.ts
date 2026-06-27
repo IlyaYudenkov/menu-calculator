@@ -2210,6 +2210,250 @@ const OLADYI_W_APPLES_OR_RAISIN: IDish = {
     ]
 }
 
+const BAKED_PIES: IDish = {
+    id: '14.11',
+    generalOutput: 60,
+    variants: [
+        {
+            id: '14.11.1',
+            name: 'Пирожки печеные с яблочным фаршем',
+            components: {
+                butter: 2.967,
+                eggs: 4.167,
+                fruits: 20.75,
+                flourWheat: 27.52,
+                oil: 0.2,
+                sugar: 6.978,
+                yeasts: 0.989,
+            },
+            macronutrients: {
+                proteins: 5.7,
+                fats: 5.3,
+                carbohydrates: 45.2
+            },
+            caloricity: 251
+        },
+        {
+            id: '14.11.2',
+            name: 'Пирожки печеные с повидлом',
+            components: {
+                butter: 2.967,
+                confectioneryProducts: 25,
+                eggs: 4.167,
+                flourWheat: 27.52,
+                oil: 0.2,
+                sugar: 1.978,
+                yeasts: 0.989,
+            },
+            macronutrients: {
+                proteins: 5.7,
+                fats: 5,
+                carbohydrates: 58
+            },
+            caloricity: 300
+        },
+    ]
+}
+
+const BAKED_PIES_V_2: IDish = {
+    id: '14.12',
+    generalOutput: 75,
+    variants: [
+        {
+            id: '14.12.1',
+            name: 'Пирожки печеные с молоком сгущенным вареным (молоко сгущенное в молочные продукты)',
+            components: {
+                eggs: 1.5,
+                flourWheat: 38.44,
+                milkAndFermentedMilkProducts: 25,
+                oil: 1.18,
+                sugar: 2.55,
+                yeasts: 1.1,
+            },
+            macronutrients: {
+                proteins: 7.3,
+                fats: 4.5,
+                carbohydrates: 52.1
+            },
+            caloricity: 278
+        },
+        {
+            id: '14.12.2',
+            name: 'Пирожки печеные с молоком сгущенным вареным (молоко сгущенное в кондитерские изделия)',
+            components: {
+                confectioneryProducts: 25,
+                eggs: 1.5,
+                flourWheat: 38.44,
+                oil: 1.18,
+                sugar: 2.55,
+                yeasts: 1.1,
+            },
+            macronutrients: {
+                proteins: 7.3,
+                fats: 4.5,
+                carbohydrates: 52.1
+            },
+            caloricity: 278
+        },
+        {
+            id: '14.12.3',
+            name: 'Пирожки печеные с орехом и молоком сгущенным вареным (молоко сгущенное в молочные продукты)',
+            components: {
+                eggs: 1.5,
+                flourWheat: 38.44,
+                fruits: 2,
+                milkAndFermentedMilkProducts: 23,
+                oil: 1.18,
+                sugar: 2.55,
+                yeasts: 1.1,
+            },
+            macronutrients: {
+                proteins: 7.7,
+                fats: 6,
+                carbohydrates: 52.3
+            },
+            caloricity: 294
+        },
+        {
+            id: '14.12.4',
+            name: 'Пирожки печеные с с орехом и молоком сгущенным вареным (молоко сгущенное в кондитерские изделия)',
+            components: {
+                confectioneryProducts: 23,
+                eggs: 1.5,
+                flourWheat: 38.44,
+                fruits: 2,
+                oil: 1.18,
+                sugar: 2.55,
+                yeasts: 1.1,
+            },
+            macronutrients: {
+                proteins: 7.7,
+                fats: 6,
+                carbohydrates: 52.3
+            },
+            caloricity: 294
+        },
+    ]
+}
+
+const BAKED_PIES_W_DRIED_APRICOTS: IDish = {
+    id: '14.13',
+    generalOutput: 75,
+    variants: [
+        {
+            id: '14.13.1',
+            name: 'Пирожки печеные с курагой',
+            components: {
+                eggs: 1.5,
+                flourWheat: 36.7,
+                fruitsDried: 14,
+                oil: 1.18,
+                sugar: 3.05,
+                yeasts: 1.1,
+            },
+            macronutrients: {
+                proteins: 8.4,
+                fats: 2.5,
+                carbohydrates: 60.5
+            },
+            caloricity: 297
+        }
+    ]
+}
+
+const SMAZHANKA: IDish = {
+    id: '14.14',
+    generalOutput: 100,
+    variants: [
+        {
+            id: '14.14.1',
+            name: 'Смажанка с рыбными консервами',
+            components: {
+                eggs: 11.5,
+                fish: 25,
+                flourWheat: 31.3,
+                mayonnaise: 10,
+                oil: 1.75,
+                sugar: 1,
+                yeasts: 1,
+            },
+            macronutrients: {
+                proteins: 9.7,
+                fats: 10.2,
+                carbohydrates: 20.8
+            },
+            caloricity: 214
+        },
+        {
+            id: '14.14.2',
+            name: 'Смажанка с ветчиной',
+            components: {
+                eggs: 11.5,
+                flourWheat: 31.3,
+                mayonnaise: 10,
+                meat: 25,
+                oil: 1.75,
+                sugar: 1,
+                yeasts: 1,
+            },
+            macronutrients: {
+                proteins: 10.1,
+                fats: 13.5,
+                carbohydrates: 20.8
+            },
+            caloricity: 245
+        },
+        {
+            id: '14.14.3',
+            name: 'Смажанка с колбасой вареной',
+            components: {
+                eggs: 11.5,
+                flourWheat: 31.3,
+                mayonnaise: 10,
+                oil: 1.75,
+                sausageProducts: 25,
+                sugar: 1,
+                yeasts: 1,
+            },
+            macronutrients: {
+                proteins: 7.5,
+                fats: 13.9,
+                carbohydrates: 20.8
+            },
+            caloricity: 238
+        }
+    ]
+}
+
+const SMAZHANKA_W_PORK: IDish = {
+    id: '14.15',
+    generalOutput: 100,
+    variants: [
+        {
+            id: '14.15.1',
+            name: 'Смажанка со свининой',
+            components: {
+                butter: 1.5,
+                eggs: 11.5,
+                flourWheat: 31.3,
+                mayonnaise: 10,
+                meat: 28,
+                oil: 1.75,
+                sugar: 1,
+                vegetables: 10,
+                yeasts: 1,
+            },
+            macronutrients: {
+                proteins: 8.8,
+                fats: 17.2,
+                carbohydrates: 21.7
+            },
+            caloricity: 277
+        },
+
+    ]
+}
+
 export const FLOUR_DISHES_ARRAY: IDish[] = [
     DUMPLINGS,
     BOIED_DUMPLINGS,
@@ -2220,5 +2464,10 @@ export const FLOUR_DISHES_ARRAY: IDish[] = [
     BLINCHIKI_W_CARROTS_N_CINNAMON,
     BLINCHIKI_VITAMINNYE,
     OLADYI,
-    OLADYI_W_APPLES_OR_RAISIN
+    OLADYI_W_APPLES_OR_RAISIN,
+    BAKED_PIES,
+    BAKED_PIES_V_2,
+    BAKED_PIES_W_DRIED_APRICOTS,
+    SMAZHANKA,
+    SMAZHANKA_W_PORK
 ]
