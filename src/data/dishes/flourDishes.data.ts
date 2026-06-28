@@ -2454,6 +2454,140 @@ const SMAZHANKA_W_PORK: IDish = {
     ]
 }
 
+const SAUSAGE_OR_MEAT_PRODUCTS_BAKED_IN_DOUGH: IDish = {
+    id: '14.16',
+    generalOutput: 100,
+    variants: [
+        {
+            id: '14.16.1',
+            name: 'Колбасные изделия (сосиски), запеченные в тесте',
+            components: {
+                eggs: 3,
+                flourWheat: 38.46,
+                oil: 1.17,
+                sausageProducts: 50,
+                sugar: 2.55,
+                yeasts: 1.102
+            },
+            macronutrients: {
+                proteins: 9.3,
+                fats: 12,
+                carbohydrates: 27.1
+            },
+            caloricity: 254
+        },
+        {
+            id: '14.16.2',
+            name: 'Колбасные изделия (колбаса вареная, масло растительное), запеченные в тесте',
+            components: {
+                eggs: 3,
+                flourWheat: 38.46,
+                oil: 5.17,
+                sausageProducts: 56,
+                sugar: 2.55,
+                yeasts: 1.102
+            },
+            macronutrients: {
+                proteins: 10.9,
+                fats: 15.3,
+                carbohydrates: 23.3
+            },
+            caloricity: 275
+        },
+        {
+            id: '14.16.3',
+            name: 'Колбасные изделия (колбаса вареная, масло сливочное), запеченные в тесте',
+            components: {
+                butter: 4,
+                eggs: 3,
+                flourWheat: 38.46,
+                oil: 1.17,
+                sausageProducts: 56,
+                sugar: 2.55,
+                yeasts: 1.102
+            },
+            macronutrients: {
+                proteins: 10.9,
+                fats: 15.3,
+                carbohydrates: 23.3
+            },
+            caloricity: 275
+        },
+        {
+            id: '14.16.4',
+            name: 'Мясные изделия (котлеты), запеченные в тесте',
+            components: {
+                breadWheat: 14,
+                butter: 4,
+                eggs: 3,
+                flourWheat: 38.46,
+                meat: 37,
+                oil: 4.17,
+                sugar: 2.55,
+                yeasts: 1.102
+            },
+            macronutrients: {
+                proteins: 11.6,
+                fats: 7.5,
+                carbohydrates: 32.6
+            },
+            caloricity: 244
+        },
+    ]
+}
+
+const PIZZA_SHKOLNAYA: IDish = {
+    id: '14.17',
+    generalOutput: 100,
+    variants: [
+        {
+            id: '14.17.1',
+            name: 'Пицца "Школьная" (колбаса вареная или сосиски)',
+            components: {
+                butter: 2.5,
+                cheese: 10,
+                flourWheat: 45,
+                mayonnaise: 5,
+                oil: 1.5,
+                sausageProducts: 15,
+                sugar: 3,
+                tomatoPuree: 5,
+                vegetables: 5,
+                yeasts: 1
+            },
+            macronutrients: {
+                proteins: 8.9,
+                fats: 14.3,
+                carbohydrates: 32.3
+            },
+            caloricity: 294
+        },
+        {
+            id: '14.17.2',
+            name: 'Пицца "Школьная" (цыплята-бройлеры)',
+            components: {
+                butter: 2.5,
+                cheese: 10,
+                flourWheat: 45,
+                mayonnaise: 5,
+                meat: 35,
+                oil: 1.5,
+                sugar: 3,
+                tomatoPuree: 5,
+                vegetables: 5,
+                yeasts: 1
+            },
+            macronutrients: {
+                proteins: 8.9,
+                fats: 14.3,
+                carbohydrates: 32.3
+            },
+            caloricity: 294
+        },
+
+    ]
+}
+
 export const FLOUR_DISHES_ARRAY: IDish[] = [
     DUMPLINGS,
     BOIED_DUMPLINGS,
@@ -2469,5 +2603,7 @@ export const FLOUR_DISHES_ARRAY: IDish[] = [
     BAKED_PIES_V_2,
     BAKED_PIES_W_DRIED_APRICOTS,
     SMAZHANKA,
-    SMAZHANKA_W_PORK
+    SMAZHANKA_W_PORK,
+    SAUSAGE_OR_MEAT_PRODUCTS_BAKED_IN_DOUGH,
+    PIZZA_SHKOLNAYA
 ]
