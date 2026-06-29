@@ -2588,6 +2588,126 @@ const PIZZA_SHKOLNAYA: IDish = {
     ]
 }
 
+const PIZZA_W_CHEESE: IDish = {
+    id: '14.18',
+    generalOutput: 115,
+    variants: [
+        {
+            id: '14.18.1',
+            name: 'Пицца с сыром',
+            components: {
+                cheese: 35,
+                eggs: 1.7,
+                flourWheat: 35,
+                oil: 1.8,
+                sugar: 1,
+                vegetables: 35,
+                yeasts: 1.1,
+            },
+            macronutrients: {
+                proteins: 8.9,
+                fats: 14.3,
+                carbohydrates: 32.3
+            },
+            caloricity: 294
+        }
+    ]
+}
+
+const PIZZA_STUDENCHESKAYA: IDish = {
+    id: '14.19',
+    generalOutput: 155,
+    variants: [
+        {
+            id: '14.19.1',
+            name: 'Пицца "Студенческая"',
+            components: {
+                cheese: 37.5,
+                eggs: 1.7,
+                flourWheat: 35,
+                oil: 4.3,
+                sausageProducts: 30,
+                sugar: 1,
+                vegetables: 50,
+                yeasts: 1.1,
+            },
+            macronutrients: {
+                proteins: 29.7,
+                fats: 42.1,
+                carbohydrates: 12.7
+            },
+            caloricity: 545
+        }
+    ]
+}
+
+const VATRUSHKI: IDish = {
+    id: '14.20',
+    generalOutput: 75,
+    variants: [
+        {
+            id: '14.20.1',
+            name: 'Ватрушка с повидлом',
+            components: {
+                butter: 1.68,
+                confectioneryProducts: 30,
+                eggs: 3.47,
+                flourWheat: 38.92,
+                oil: 0.25,
+                sugar: 1.97,
+                yeasts: 1.1,
+
+            },
+            macronutrients: {
+                proteins: 5.9,
+                fats: 2.6,
+                carbohydrates: 58.7
+            },
+            caloricity: 280
+        },
+        {
+            id: '14.20.2',
+            name: 'Ватрушка с творогом',
+            components: {
+                butter: 2.88,
+                curd: 23.52,
+                eggs: 5.87,
+                flourWheat: 40.12,
+                oil: 0.25,
+                sugar: 4.67,
+                yeasts: 1.1,
+
+            },
+            macronutrients: {
+                proteins: 11.2,
+                fats: 6.6,
+                carbohydrates: 39.7
+            },
+            caloricity: 217
+        },
+        {
+            id: '14.20.3',
+            name: 'Ватрушка с сыром',
+            components: {
+                butter: 6.68,
+                cheese: 20,
+                eggs: 8.47,
+                flourWheat: 38.92,
+                oil: 0.25,
+                sugar: 1.97,
+                yeasts: 1.1,
+
+            },
+            macronutrients: {
+                proteins: 7.8,
+                fats: 21.6,
+                carbohydrates: 35.9
+            },
+            caloricity: 369
+        },
+    ]
+}
+
 export const FLOUR_DISHES_ARRAY: IDish[] = [
     DUMPLINGS,
     BOIED_DUMPLINGS,
@@ -2605,5 +2725,8 @@ export const FLOUR_DISHES_ARRAY: IDish[] = [
     SMAZHANKA,
     SMAZHANKA_W_PORK,
     SAUSAGE_OR_MEAT_PRODUCTS_BAKED_IN_DOUGH,
-    PIZZA_SHKOLNAYA
+    PIZZA_SHKOLNAYA,
+    PIZZA_W_CHEESE,
+    PIZZA_STUDENCHESKAYA,
+    VATRUSHKI
 ]
