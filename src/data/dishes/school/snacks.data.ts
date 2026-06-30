@@ -1,4 +1,4 @@
-import type { IDish } from "../../model/dish.model"
+import type { IDish } from "../../../model/dish.model"
 
 const SANDWICH_W_BUTTER: IDish = {
     id: '1.1',
