@@ -1,25 +1,35 @@
 import type { IDish, IDishMeta } from "@/model/dish.model";
 import type { IOption } from "@/model/option.model";
 import { SCHOOL_DISHES_ARRAY } from "./school/schoolDishes.data";
+import { KINDERGARTEN_DISHES_ARRAY } from "./kindergarten/kindergartenDishes.data";
 
-export const ALL_DISHES_ARRAY: IDish[] = [
-    ...SCHOOL_DISHES_ARRAY
-]
+const ALL_DISHES_BY_SELECTED_AGE_CATEGORY = {
+    '1': SCHOOL_DISHES_ARRAY,
+    '2': SCHOOL_DISHES_ARRAY,
+    '3': SCHOOL_DISHES_ARRAY,
+    '4': SCHOOL_DISHES_ARRAY,
+    '5': KINDERGARTEN_DISHES_ARRAY,
+    '6': KINDERGARTEN_DISHES_ARRAY
+}
 
-export const DISHES_TO_OPTION: IOption<IDishMeta>[] = ALL_DISHES_ARRAY.flatMap((dish: IDish): IOption<IDishMeta>[] =>
-    dish.variants.map(variant => ({
-        id: String(variant.id),
-        label: variant.name,
-        value: String(variant.id),
-        meta: {
-            caloricity: variant.caloricity,
-            components: variant.components,
-            defaultOutput: dish.generalOutput || variant.currentOutput,
-            currentOutput: dish.generalOutput || variant.currentOutput,
-            macronutrients: variant.macronutrients
-        }
-    }))
-)
+export const updateDishesOptions = (selectedAgeCategoryId: string) => {
+    const actualDishesArray = ALL_DISHES_BY_SELECTED_AGE_CATEGORY[selectedAgeCategoryId];    
+    return actualDishesArray.flatMap((dish: IDish): IOption<IDishMeta>[] =>
+        dish.variants.map(variant => ({
+            id: String(variant.id),
+            label: variant.name,
+            value: String(variant.id),
+            meta: {
+                caloricity: variant.caloricity,
+                components: variant.components,
+                defaultOutput: dish.generalOutput || variant.currentOutput,
+                currentOutput: dish.generalOutput || variant.currentOutput,
+                macronutrients: variant.macronutrients
+            }
+        }))
+    );
+}
+
 
 export const GROCERIES_KEYS = [
     'breadRye',

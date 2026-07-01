@@ -8,6 +8,7 @@ import {
     type SetStateAction
 } from 'react'
 import {
+    AGE_CATEGORY_LS_VARIABLE,
     DAYS_LS_VARIABLE,
     MENU_DURATION_LS_VARIABLE
 } from '@/data/localStorage.data'
@@ -32,14 +33,12 @@ import {
 } from '@/data/ageCategory.data'
 import type { IOption } from '@/model/option.model'
 
-
 export const HomeScreen = () => {
     const [days, setDays] = useState<IDay[]>([])
     const [activeDayId, setActiveDayId] = useState<number | null>(null)
 
-    const [ageCategory, setAgeCategory] = useState<IOption>(
-        SIX_TO_TEN_AGE_CATEGORIES_CCAL_ITEM
-    )
+    const [ageCategory, setAgeCategory] = useState<IOption>(JSON.parse(localStorage.getItem(AGE_CATEGORY_LS_VARIABLE))
+        || SIX_TO_TEN_AGE_CATEGORIES_CCAL_ITEM)
 
     const [menuDuration, setMenuDuration] = useState<IOption>(JSON.parse(localStorage.getItem(MENU_DURATION_LS_VARIABLE))
         || TEN_DAYS_DURATION_MENU_ITEM);
@@ -53,6 +52,15 @@ export const HomeScreen = () => {
         }
 
     }, [menuDuration])
+
+    useEffect(() => {
+        if (ageCategory) {
+            localStorage.setItem(
+                AGE_CATEGORY_LS_VARIABLE,
+                JSON.stringify(ageCategory)
+            )
+        }
+    }, [ageCategory])
 
     useEffect(() => {
         if (!days.length) return

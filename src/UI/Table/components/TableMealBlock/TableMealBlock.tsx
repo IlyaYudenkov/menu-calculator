@@ -1,5 +1,4 @@
 import Input from '@/UI/Input/Input'
-import { DISHES_TO_OPTION } from '@/data/dishes/dishes.data'
 import type { IMeal } from '@/model/meal.model'
 import type { IOption } from '@/model/option.model'
 import type { IDishMeta } from '@/model/dish.model'
@@ -7,6 +6,8 @@ import type { Dispatch, SetStateAction } from 'react'
 import { TableDishRow } from '../TableDishRow/TableDishRow'
 import { TableTotalRow } from '../TableTotalRow/TableTotalRow'
 import { calcMealTotal } from '@/lib/calc.lib'
+import { updateDishesOptions } from '@/data/dishes/dishes.data'
+import { AGE_CATEGORY_LS_VARIABLE } from '@/data/localStorage.data'
 
 interface TableMealBlockProps<T> {
     meal: IMeal
@@ -16,13 +17,13 @@ interface TableMealBlockProps<T> {
     onChangeSelect?: (opt: IOption<T>) => void
 }
 
-export const TableMealBlock = <T,> ({
+export const TableMealBlock = <T,>({
     meal,
     setMealsList,
     selectedAgeCategoryValue,
     filteredMealOptions,
     onChangeSelect
- }: TableMealBlockProps<T>) => {  
+}: TableMealBlockProps<T>) => {
 
     const addDish = (option: IOption<IDishMeta>) => {
         setMealsList(prev =>
@@ -32,12 +33,12 @@ export const TableMealBlock = <T,> ({
                     : {
                         ...m,
                         dishes: [
-                        ...(m.dishes ?? []),
-                        {
-                            ...option,
-                            id: `${option.id}-${crypto.randomUUID()}`
-                        },
-                    ],
+                            ...(m.dishes ?? []),
+                            {
+                                ...option,
+                                id: `${option.id}-${crypto.randomUUID()}`
+                            },
+                        ],
                         caloricity: calcMealTotal(meal, 'caloricity')
                     }
             )
@@ -133,7 +134,7 @@ export const TableMealBlock = <T,> ({
             <tr>
                 <td>
                     <Input.TextAndSelect
-                        options={DISHES_TO_OPTION}
+                        options={updateDishesOptions(JSON.parse(localStorage.getItem(AGE_CATEGORY_LS_VARIABLE)).id)}
                         placeholder="Добавить блюдо"
                         onSelectChange={(_, option) => addDish(option)}
                     />
