@@ -578,11 +578,11 @@ const SALAD_W_FRESH_TOMATOES_N_GREEN_ONION: IDish = {
 }
 
 const SALAD_W_FRESH_TOMATOES_N_ONION: IDish = {
-  id: 'kids-1.17',
+  id: 'kids-1.18',
   generalOutput: 50,
   variants: [
     {
-      id: 'kids-1.17.1',
+      id: 'kids-1.18.1',
       name: 'Салат из свежих помидоров (с репчатым луком)',
       components:{
         oil: 2.5,
@@ -594,6 +594,153 @@ const SALAD_W_FRESH_TOMATOES_N_ONION: IDish = {
         carbohydrates: 4.7
       },
       caloricity: 68.88
+    }
+  ]
+}
+
+const SALAD_W_FRESH_TOMATOES_N_CUCUMBERS_N_GREEN_ONION: IDish = {
+  id: 'kids-1.19',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.19.1',
+      name: 'Салат из свежих помидоров и огурцов (с зеленым луком)',
+      components:{
+        oil: 2.5,
+        vegetables: 48,
+      },
+      macronutrients: {
+        proteins: 1,
+        fats: 5.14,
+        carbohydrates: 3.24
+      },
+      caloricity: 61.62
+    }
+  ]
+}
+
+const SALAD_W_FRESH_TOMATOES_N_CUCUMBERS_N_ONION: IDish = {
+  id: 'kids-1.20',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.20.1',
+      name: 'Салат из свежих помидоров и огурцов (с репчатым луком)',
+      components:{
+        oil: 2.5,
+        vegetables: 48,
+      },
+      macronutrients: {
+        proteins: 1,
+        fats: 5.14,
+        carbohydrates: 3.98
+      },
+      caloricity: 65.08
+    }
+  ]
+}
+
+const SALAD_W_FRESH_TOMATOES_N_CUCUMBERS_N_SOUR_CREAM: IDish = {
+  id: 'kids-1.21',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.21.1',
+      name: 'Салат из свежих помидоров и огурцов (со сметаной)',
+      components:{
+        sourCream: 5,
+        vegetables: 45.5,
+      },
+      macronutrients: {
+        proteins: 1.2,
+        fats: 2.14,
+        carbohydrates: 3.9
+      },
+      caloricity: 38.26
+    }
+  ]
+}
+
+const SALAD_W_FRESH_TOMATOES_N_SWEET_PEPPER: IDish = {
+  id: 'kids-1.22',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.22.1',
+      name: 'Салат из свежих помидоров со сладким перцем',
+      components:{
+        oil: 5,
+        vegetables: 45.5,
+      },
+      macronutrients: {
+        proteins: 1.08,
+        fats: 10.12,
+        carbohydrates: 4.24
+      },
+      caloricity: 111.74
+    }
+  ]
+}
+
+const SALAD_SLUCH: IDish = {
+  id: 'kids-1.23',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.23.1',
+      name: 'Салат "Случь"',
+      components:{
+        oil: 4,
+        vegetables: 46.5,
+      },
+      macronutrients: {
+        proteins: 1.3,
+        fats: 8.16,
+        carbohydrates: 3.66
+      },
+      caloricity: 91.66
+    }
+  ]
+}
+
+const SALAD_AGENCHIK_V1: IDish = {
+  id: 'kids-1.24',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.24.1',
+      name: 'Салат "Агеньчык" (вариант 1)',
+      components:{
+        oil: 3.5,
+        vegetables: 47,
+      },
+      macronutrients: {
+        proteins: 1.84,
+        fats: 7.12,
+        carbohydrates: 6.72
+      },
+      caloricity: 98.1
+    }
+  ]
+}
+
+const SALAD_AGENCHIK_V2: IDish = {
+  id: 'kids-1.25',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.25.1',
+      name: 'Салат "Агеньчык" (вариант 2)',
+      components:{
+        oil: 4.5,
+        vegetables: 46,
+      },
+      macronutrients: {
+        proteins: 1.8,
+        fats: 9.1,
+        carbohydrates: 6.66
+      },
+      caloricity: 115.62
     }
   ]
 }
