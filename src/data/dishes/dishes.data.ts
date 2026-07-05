@@ -1,9 +1,9 @@
-import type { IDish, IDishMeta } from "@/model/dish.model";
+import type { IDish, IDishMeta, TAgeCategoryKey } from "@/model/dish.model";
 import type { IOption } from "@/model/option.model";
 import { SCHOOL_DISHES_ARRAY } from "./school/schoolDishes.data";
 import { KINDERGARTEN_DISHES_ARRAY } from "./kindergarten/kindergartenDishes.data";
 
-const ALL_DISHES_BY_SELECTED_AGE_CATEGORY = {
+export const ALL_DISHES_BY_SELECTED_AGE_CATEGORY: Record<TAgeCategoryKey, IDish[]> = {
     '1': SCHOOL_DISHES_ARRAY,
     '2': SCHOOL_DISHES_ARRAY,
     '3': SCHOOL_DISHES_ARRAY,
@@ -12,9 +12,8 @@ const ALL_DISHES_BY_SELECTED_AGE_CATEGORY = {
     '6': KINDERGARTEN_DISHES_ARRAY
 }
 
-export const updateDishesOptions = (selectedAgeCategoryId: string) => {
-    const actualDishesArray = ALL_DISHES_BY_SELECTED_AGE_CATEGORY[selectedAgeCategoryId];    
-    return actualDishesArray.flatMap((dish: IDish): IOption<IDishMeta>[] =>
+export const updateDishesOptions = (dishesArray: IDish[]) => {
+    return dishesArray.flatMap((dish: IDish): IOption<IDishMeta>[] =>
         dish.variants.map(variant => ({
             id: String(variant.id),
             label: variant.name,

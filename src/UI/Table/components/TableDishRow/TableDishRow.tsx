@@ -3,11 +3,10 @@ import type { IDishMeta } from "@/model/dish.model"
 import type { IOption } from "@/model/option.model"
 import Input from "@/UI/Input/Input"
 import { calcDishValue } from '@/lib/calc.lib'
-import { updateDishesOptions } from '@/data/dishes/dishes.data'
-import { AGE_CATEGORY_LS_VARIABLE } from '@/data/localStorage.data'
 
 interface TableDishRowProps {
-    dish: IOption<IDishMeta>
+    dish: IOption<IDishMeta>,
+    selectedDishesArrayOptions: IOption[]
 
     // onUpdateDish: (dish: IOption<IDishMeta>) => void
     onUpdateOutput: (value: number) => void
@@ -16,6 +15,7 @@ interface TableDishRowProps {
 
 export const TableDishRow = ({
     dish,
+    selectedDishesArrayOptions,
     // onUpdateDish,
     onUpdateOutput,
     onRemoveDish
@@ -24,7 +24,7 @@ export const TableDishRow = ({
         <tr className={cl.TableDishRow}>
             <td>
                 <Input.TextAndSelect
-                    options={updateDishesOptions(JSON.parse(localStorage.getItem(AGE_CATEGORY_LS_VARIABLE)).id)}
+                    options={selectedDishesArrayOptions}
                     defaultValue={dish}
                     placeholder="Выберите блюдо"
                     disabled={!!dish}

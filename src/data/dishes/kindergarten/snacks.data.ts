@@ -353,7 +353,7 @@ const SALAD_W_WHITE_CABBAGE_N_APPLES: IDish = {
     {
       id: 'kids-1.8.1',
       name: 'Салат из белокочанной капусты с яблоками (вариант 1)',
-      components:{
+      components: {
         fruits: 14.5,
         oil: 4,
         vegetables: 47
@@ -368,7 +368,7 @@ const SALAD_W_WHITE_CABBAGE_N_APPLES: IDish = {
     {
       id: 'kids-1.8.2',
       name: 'Салат из белокочанной капусты с яблоками (вариант 2)',
-      components:{
+      components: {
         fruits: 13.5,
         oil: 5,
         vegetables: 47
@@ -390,7 +390,7 @@ const SALAD_W_WHITE_CABBAGE_N_CARROTS: IDish = {
     {
       id: 'kids-1.9.1',
       name: 'Салат из белокочанной капусты с морковью',
-      components:{
+      components: {
         oil: 2.5,
         sugar: 2,
         vegetables: 46,
@@ -412,7 +412,7 @@ const SALAD_W_WHITE_CABBAGE_N_GREEN_ONION: IDish = {
     {
       id: 'kids-1.10.1',
       name: 'Салат из белокочанной капусты (с зеленым луком)',
-      components:{
+      components: {
         oil: 2.5,
         sugar: 2,
         vegetables: 46,
@@ -434,7 +434,7 @@ const SALAD_W_WHITE_CABBAGE_N_ONION: IDish = {
     {
       id: 'kids-1.11.1',
       name: 'Салат из белокочанной капусты (с репчатым луком)',
-      components:{
+      components: {
         oil: 2.5,
         sugar: 2,
         vegetables: 46,
@@ -456,7 +456,7 @@ const SALAD_W_WHITE_CABBAGE_N_CUCUMBERS: IDish = {
     {
       id: 'kids-1.12.1',
       name: 'Салат из белокочанной капусты с огурцами',
-      components:{
+      components: {
         oil: 2.5,
         sugar: 2.5,
         vegetables: 45.5,
@@ -478,7 +478,7 @@ const SALAD_W_WHITE_CABBAGE_N_CUCUMBERS_N_SWEET_PEPPERS: IDish = {
     {
       id: 'kids-1.13.1',
       name: 'Салат из белокочанной капусты с огурцами и сладким перцем',
-      components:{
+      components: {
         oil: 2.5,
         vegetables: 48.1,
       },
@@ -499,7 +499,7 @@ const SALAD_W_WHITE_CABBAGE_N_CUCUMBERS_N_CARROTS: IDish = {
     {
       id: 'kids-1.14.1',
       name: 'Салат из белокочанной капусты с огурцами и морковью',
-      components:{
+      components: {
         oil: 4.5,
         sugar: 4.5,
         vegetables: 41.5,
@@ -521,7 +521,7 @@ const SALAD_W_FRESH_CUCUMBERS_N_GREEN_ONION: IDish = {
     {
       id: 'kids-1.15.1',
       name: 'Салат из свежих огурцов (с зеленым луком)',
-      components:{
+      components: {
         oil: 2.5,
         vegetables: 48,
       },
@@ -542,7 +542,7 @@ const SALAD_W_FRESH_CUCUMBERS_N_ONION: IDish = {
     {
       id: 'kids-1.16.1',
       name: 'Салат из свежих огурцов (с репчатым луком)',
-      components:{
+      components: {
         oil: 2.5,
         vegetables: 48,
       },
@@ -563,7 +563,7 @@ const SALAD_W_FRESH_TOMATOES_N_GREEN_ONION: IDish = {
     {
       id: 'kids-1.17.1',
       name: 'Салат из свежих помидоров (с зеленым луком)',
-      components:{
+      components: {
         oil: 2.5,
         vegetables: 48,
       },
@@ -584,7 +584,7 @@ const SALAD_W_FRESH_TOMATOES_N_ONION: IDish = {
     {
       id: 'kids-1.18.1',
       name: 'Салат из свежих помидоров (с репчатым луком)',
-      components:{
+      components: {
         oil: 2.5,
         vegetables: 48,
       },
@@ -605,7 +605,7 @@ const SALAD_W_FRESH_TOMATOES_N_CUCUMBERS_N_GREEN_ONION: IDish = {
     {
       id: 'kids-1.19.1',
       name: 'Салат из свежих помидоров и огурцов (с зеленым луком)',
-      components:{
+      components: {
         oil: 2.5,
         vegetables: 48,
       },
@@ -626,7 +626,7 @@ const SALAD_W_FRESH_TOMATOES_N_CUCUMBERS_N_ONION: IDish = {
     {
       id: 'kids-1.20.1',
       name: 'Салат из свежих помидоров и огурцов (с репчатым луком)',
-      components:{
+      components: {
         oil: 2.5,
         vegetables: 48,
       },
@@ -647,7 +647,7 @@ const SALAD_W_FRESH_TOMATOES_N_CUCUMBERS_N_SOUR_CREAM: IDish = {
     {
       id: 'kids-1.21.1',
       name: 'Салат из свежих помидоров и огурцов (со сметаной)',
-      components:{
+      components: {
         sourCream: 5,
         vegetables: 45.5,
       },
@@ -668,7 +668,7 @@ const SALAD_W_FRESH_TOMATOES_N_SWEET_PEPPER: IDish = {
     {
       id: 'kids-1.22.1',
       name: 'Салат из свежих помидоров со сладким перцем',
-      components:{
+      components: {
         oil: 5,
         vegetables: 45.5,
       },
@@ -689,7 +689,7 @@ const SALAD_SLUCH: IDish = {
     {
       id: 'kids-1.23.1',
       name: 'Салат "Случь"',
-      components:{
+      components: {
         oil: 4,
         vegetables: 46.5,
       },
@@ -710,7 +710,7 @@ const SALAD_AGENCHIK_V1: IDish = {
     {
       id: 'kids-1.24.1',
       name: 'Салат "Агеньчык" (вариант 1)',
-      components:{
+      components: {
         oil: 3.5,
         vegetables: 47,
       },
@@ -731,7 +731,7 @@ const SALAD_AGENCHIK_V2: IDish = {
     {
       id: 'kids-1.25.1',
       name: 'Салат "Агеньчык" (вариант 2)',
-      components:{
+      components: {
         oil: 4.5,
         vegetables: 46,
       },

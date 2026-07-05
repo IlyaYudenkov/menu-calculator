@@ -32,6 +32,9 @@ import {
     SIX_TO_TEN_AGE_CATEGORIES_CCAL_ITEM
 } from '@/data/ageCategory.data'
 import type { IOption } from '@/model/option.model'
+import { type IDish, type TAgeCategoryKey } from '@/model/dish.model'
+import { ALL_DISHES_BY_SELECTED_AGE_CATEGORY } from '@/data/dishes/dishes.data'
+import { DishesByAgeCategoryArrayContext } from '@/context/dishesArrayContext'
 
 export const HomeScreen = () => {
     const [days, setDays] = useState<IDay[]>([])
@@ -73,6 +76,11 @@ export const HomeScreen = () => {
             : FOURTEEN_DAYS_DATA_ARRAY
     }, [menuDuration])
 
+    const selectedDishesArray: IDish[] = useMemo(() => {
+        return ageCategory
+            ? ALL_DISHES_BY_SELECTED_AGE_CATEGORY[ageCategory.id as TAgeCategoryKey]
+            : [];
+    }, [ageCategory]);
 
     useEffect(() => {
         const saved = localStorage.getItem(DAYS_LS_VARIABLE)
@@ -169,45 +177,48 @@ export const HomeScreen = () => {
     const isAverage = activeDayId === TOTAL_AVERAGE_NAME_ITEM.id;
 
     return (
-        <div className={cl.HomeScreen}>
-            <Input.Select
-                options={DURATION_MENU_ITEMS_ARRAY}
-                defaultValue={menuDuration.label}
-                placeholder="Выберите продолжительность меню"
-                onChange={(option: IOption) => {
-                    setMenuDuration(option)
-                }}
-            />
+        <DishesByAgeCategoryArrayContext value={selectedDishesArray}>
+            <div className={cl.HomeScreen}>
+                <Input.Select
+                    options={DURATION_MENU_ITEMS_ARRAY}
+                    defaultValue={menuDuration.label}
+                    placeholder="Выберите продолжительность меню"
+                    onChange={(option: IOption) => {
+                        setMenuDuration(option)
+                    }}
+                />
 
-            <Input.Select
-                options={AGE_CATEGORIES_ITEMS_ARRAY}
-                placeholder="Возрастная категория"
-                defaultValue={ageCategory.label}
-                onChange={(option: IOption) => {
-                    setAgeCategory(option)
-                }}
-            />
+                <Input.Select
+                    options={AGE_CATEGORIES_ITEMS_ARRAY}
+                    placeholder="Возрастная категория"
+                    defaultValue={ageCategory.label}
+                    onChange={(option: IOption) => {
+                        setAgeCategory(option)
+                    }}
+                />
 
-            <SwitchSelector
-                options={switchSelectorOptions}
-                value={activeDayId ?? undefined}
-                onChange={setActiveDayId}
-            />
+                <SwitchSelector
+                    options={switchSelectorOptions}
+                    value={activeDayId ?? undefined}
+                    onChange={setActiveDayId}
+                />
 
-            <Table
-                mealsList={currentMeals}
-                setMealsList={setMealsForDay}
-                tableHeadOptions={
-                    isCumulative
-                        ? cumulativeHead
-                        : TABLE_HEAD_DAY_TABLE_ELEMENTS
-                }
-                isDayTable={!isCumulative && !isAverage}
-                isAverageTable={isAverage}
-                days={days}
-                setDays={setDays}
-                selectedAgeCategoryValue={+ageCategory?.value || 0}
-            />
-        </div>
+                <Table
+                    mealsList={currentMeals}
+                    setMealsList={setMealsForDay}
+                    tableHeadOptions={
+                        isCumulative
+                            ? cumulativeHead
+                            : TABLE_HEAD_DAY_TABLE_ELEMENTS
+                    }
+                    isDayTable={!isCumulative && !isAverage}
+                    isAverageTable={isAverage}
+                    days={days}
+                    setDays={setDays}
+                    selectedAgeCategoryValue={+ageCategory?.value || 0}
+                />
+            </div>
+        </DishesByAgeCategoryArrayContext>
+
     )
 }

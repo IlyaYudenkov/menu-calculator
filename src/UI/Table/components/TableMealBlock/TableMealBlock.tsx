@@ -2,12 +2,12 @@ import Input from '@/UI/Input/Input'
 import type { IMeal } from '@/model/meal.model'
 import type { IOption } from '@/model/option.model'
 import type { IDishMeta } from '@/model/dish.model'
-import type { Dispatch, SetStateAction } from 'react'
+import { useContext, type Dispatch, type SetStateAction } from 'react'
 import { TableDishRow } from '../TableDishRow/TableDishRow'
 import { TableTotalRow } from '../TableTotalRow/TableTotalRow'
 import { calcMealTotal } from '@/lib/calc.lib'
 import { updateDishesOptions } from '@/data/dishes/dishes.data'
-import { AGE_CATEGORY_LS_VARIABLE } from '@/data/localStorage.data'
+import { DishesByAgeCategoryArrayContext } from '@/context/dishesArrayContext'
 
 interface TableMealBlockProps<T> {
     meal: IMeal
@@ -24,6 +24,8 @@ export const TableMealBlock = <T,>({
     filteredMealOptions,
     onChangeSelect
 }: TableMealBlockProps<T>) => {
+
+    const selectedDishesArray = useContext(DishesByAgeCategoryArrayContext)
 
     const addDish = (option: IOption<IDishMeta>) => {
         setMealsList(prev =>
@@ -124,6 +126,7 @@ export const TableMealBlock = <T,>({
                     // onUpdateDish={(newDish) =>
                     //     updateDish(dish.id, newDish)
                     // }
+                    selectedDishesArrayOptions={updateDishesOptions(selectedDishesArray)}
                     onUpdateOutput={(value) =>
                         updateDishOutput(dish.id, Number(value))
                     }
@@ -134,7 +137,7 @@ export const TableMealBlock = <T,>({
             <tr>
                 <td>
                     <Input.TextAndSelect
-                        options={updateDishesOptions(JSON.parse(localStorage.getItem(AGE_CATEGORY_LS_VARIABLE)).id)}
+                        options={updateDishesOptions(selectedDishesArray)}
                         placeholder="Добавить блюдо"
                         onSelectChange={(_, option) => addDish(option)}
                     />

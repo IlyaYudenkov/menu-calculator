@@ -23,6 +23,14 @@ export type TGroseries = Partial<
     Record<(typeof GROCERIES_KEYS)[number], number>
 >
 
+export type TAgeCategoryKey = 
+    '1' |
+    '2' |
+    '3' |
+    '4' |
+    '5' |
+    '6'
+
 export interface IMacronutrients {
     proteins: number,
     fats: number,
