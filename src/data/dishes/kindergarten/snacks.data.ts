@@ -744,3 +744,293 @@ const SALAD_AGENCHIK_V2: IDish = {
     }
   ]
 }
+
+const SALAD_AGENCHIK_W_SOUR_CREAM: IDish = {
+  id: 'kids-1.26',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.26.1',
+      name: 'Салат "Агеньчык" (со сметаной)',
+      components: {
+        sourCream: 5,
+        vegetables: 45.5,
+      },
+      macronutrients: {
+        proteins: 2.06,
+        fats: 2.12,
+        carbohydrates: 6.84
+      },
+      caloricity: 54.7
+    }
+  ]
+}
+
+const SALAD_AGENCHIK_W_CANNED_CORN: IDish = {
+  id: 'kids-1.27',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.27.1',
+      name: 'Салат "Агеньчык" (с кукурузой консервированной)',
+      components: {
+        oil: 4.5,
+        vegetables: 46,
+      },
+      macronutrients: {
+        proteins: 1.5,
+        fats: 9.16,
+        carbohydrates: 8.1
+      },
+      caloricity: 121.04
+    }
+  ]
+}
+
+const SALAD_AGENCHIK_W_SOUR_CREAM_N_CANNED_CORN: IDish = {
+  id: 'kids-1.28',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.28.1',
+      name: 'Салат "Агеньчык" (со сметаной и кукурузой консервированной)',
+      components: {
+        sourCream: 5,
+        vegetables: 45.5,
+      },
+      macronutrients: {
+        proteins: 1.78,
+        fats: 2.18,
+        carbohydrates: 8.38
+      },
+      caloricity: 60.64
+    }
+  ]
+}
+
+const RADISH_W_OIL: IDish = {
+  id: 'kids-1.29',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.29.1',
+      name: 'Редис с маслом',
+      components: {
+        sourCream: 5,
+        vegetables: 45.5,
+      },
+      macronutrients: {
+        proteins: 1.1,
+        fats: 10.08,
+        carbohydrates: 3.46
+      },
+      caloricity: 109.02
+    }
+  ]
+}
+
+const SALAD_W_POTATO_N_PICKLED_CABBAGE_V1: IDish = {
+  id: 'kids-1.30',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.30.1',
+      name: 'Салат картофельный с квашеной капустой (вариант 1)',
+      components: {
+        potato: 25,
+        oil: 3,
+        vegetables: 22.5,
+      },
+      macronutrients: {
+        proteins: 1.72,
+        fats: 6.2,
+        carbohydrates: 10.44
+      },
+      caloricity: 106.96
+    }
+  ]
+}
+
+const SALAD_W_POTATO_N_PICKLED_CABBAGE_V2: IDish = {
+  id: 'kids-1.31',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.31.1',
+      name: 'Салат картофельный с квашеной капустой (вариант 2)',
+      components: {
+        potato: 25,
+        oil: 5,
+        vegetables: 20.5,
+      },
+      macronutrients: {
+        proteins: 1.64,
+        fats: 10.2,
+        carbohydrates: 10.2
+      },
+      caloricity: 141.62
+    }
+  ]
+}
+
+const SALAD_W_POTATO_N_PICKLES: IDish = {
+  id: 'kids-1.32',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.32.1',
+      name: 'Салат картофельный с огурцами солёными',
+      components: {
+        potato: 25,
+        oil: 3,
+        vegetables: 22.5,
+      },
+      macronutrients: {
+        proteins: 1.48,
+        fats: 6.22,
+        carbohydrates: 10.3
+      },
+      caloricity: 105.58
+    }
+  ]
+}
+
+const SALAD_W_POTATO_N_GREEN_PEAS: IDish = {
+  id: 'kids-1.33',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.33.1',
+      name: 'Салат картофельный с зеленым горошком',
+      components: {
+        eggs: 5,
+        potato: 28,
+        oil: 4.5,
+        vegetables: 13,
+      },
+      macronutrients: {
+        proteins: 3.2,
+        fats: 10.42,
+        carbohydrates: 10.88
+      },
+      caloricity: 151.82
+    }
+  ]
+}
+
+const SALAD_W_POTATO_N_BEETROOT_V1: IDish = {
+  id: 'kids-1.34',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.34.1',
+      name: 'Салат картофельный со свеклой (вариант 1)',
+      components: {
+        eggs: 9.5,
+        potato: 17,
+        oil: 4,
+        vegetables: 20,
+      },
+      macronutrients: {
+        proteins: 3.5,
+        fats: 13.9,
+        carbohydrates: 8.76
+      },
+      caloricity: 175.04
+    }
+  ]
+}
+
+const SALAD_W_POTATO_N_BEETROOT_V2: IDish = {
+  id: 'kids-1.35',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.35.1',
+      name: 'Салат картофельный со свеклой (вариант 2)',
+      components: {
+        eggs: 7.5,
+        potato: 17,
+        oil: 6,
+        vegetables: 20,
+      },
+      macronutrients: {
+        proteins: 3.5,
+        fats: 13.9,
+        carbohydrates: 8.76
+      },
+      caloricity: 175.04
+    }
+  ]
+}
+
+const SALAD_W_POTATO_N_SOUR_CREAM: IDish = {
+  id: 'kids-1.36',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.36.1',
+      name: 'Салат картофельный со сметаной',
+      components: {
+        potato: 36,
+        sourCream: 7.5,
+        vegetables: 7,
+      },
+      macronutrients: {
+        proteins: 2.02,
+        fats: 3.08,
+        carbohydrates: 13.46
+      },
+      caloricity: 92.84
+    }
+  ]
+}
+
+const SALAD_SOLNECHNIY_V1: IDish = {
+  id: 'kids-1.37',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.37.1',
+      name: 'Салат "Солнечный" (вариант 1)',
+      components: {
+        cheese: 10,
+        eggs: 5,
+        fruits: 10,
+        fruitsDried: 5,
+        oil: 4,
+        vegetables: 17,
+      },
+      macronutrients: {
+        proteins: 8.56,
+        fats: 21.06,
+        carbohydrates: 4.7
+      },
+      caloricity: 246.64
+    }
+  ]
+}
+
+const SALAD_SOLNECHNIY_V2: IDish = {
+  id: 'kids-1.38',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.38.1',
+      name: 'Салат "Солнечный" (вариант 2)',
+      components: {
+        cheese: 11,
+        eggs: 5,
+        fruits: 11,
+        oil: 4,
+        vegetables: 20,
+      },
+      macronutrients: {
+        proteins: 7.62,
+        fats: 15.08,
+        carbohydrates: 5.38
+      },
+      caloricity: 192.56
+    }
+  ]
+}
