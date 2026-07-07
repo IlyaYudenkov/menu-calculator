@@ -1034,3 +1034,335 @@ const SALAD_SOLNECHNIY_V2: IDish = {
     }
   ]
 }
+
+const SALAD_BELOSNEZHKA_W_GREEN_ONION: IDish = {
+  id: 'kids-1.39',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.39.1',
+      name: 'Салат "Белоснежка" (с зеленым луком)',
+      components: {
+        eggs: 3,
+        oil: 3,
+        sugar: 0.5,
+        vegetables: 59,
+      },
+      macronutrients: {
+        proteins: 2.52,
+        fats: 6.8,
+        carbohydrates: 5.82
+      },
+      caloricity: 96.1
+    }
+  ]
+}
+
+const SALAD_BELOSNEZHKA_W_ONION: IDish = {
+  id: 'kids-1.40',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.40.1',
+      name: 'Салат "Белоснежка" (с репчатым луком)',
+      components: {
+        eggs: 3,
+        oil: 3,
+        sugar: 0.5,
+        vegetables: 59,
+      },
+      macronutrients: {
+        proteins: 2.54,
+        fats: 6.8,
+        carbohydrates: 6.04
+      },
+      caloricity: 97.18
+    }
+  ]
+}
+
+const SALAD_CVETNOY: IDish = {
+  id: 'kids-1.41',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.41.1',
+      name: 'Салат "Цветной"',
+      components: {
+        oil: 4,
+        sugar: 1.5,
+        vegetables: 44.5,
+      },
+      macronutrients: {
+        proteins: 1.38,
+        fats: 8.06,
+        carbohydrates: 9.48
+      },
+      caloricity: 121.1
+    }
+  ]
+}
+
+const SAUERKRAUT_SALAD: IDish = {
+  id: 'kids-1.42',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.42.1',
+      name: 'Салат из квашеной капусты',
+      components: {
+        oil: 2.5,
+        sugar: 2,
+        vegetables: 46,
+      },
+      macronutrients: {
+        proteins: 1.62,
+        fats: 5,
+        carbohydrates: 6.7
+      },
+      caloricity: 80.26
+    }
+  ]
+}
+
+const SAUERKRAUT_SALAD_W_BEETROOT: IDish = {
+  id: 'kids-1.43',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.43.1',
+      name: 'Салат из квашеной капусты со свёклой',
+      components: {
+        oil: 2.5,
+        vegetables: 48,
+      },
+      macronutrients: {
+        proteins: 1.62,
+        fats: 5.02,
+        carbohydrates: 4.46
+      },
+      caloricity: 71.16
+    }
+  ]
+}
+
+const SALAD_W_PICKLED_CUCUMBERS_W_GREEN_ONION: IDish = {
+  id: 'kids-1.44',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.44.1',
+      name: 'Салат из солёных огурцов (с зеленым луком)',
+      components: {
+        oil: 2.5,
+        vegetables: 48,
+      },
+      macronutrients: {
+        proteins: 0.82,
+        fats: 5.08,
+        carbohydrates: 1.76
+      },
+      caloricity: 58.16
+    }
+  ]
+}
+
+const SALAD_W_PICKLED_CUCUMBERS_W_ONION: IDish = {
+  id: 'kids-1.45',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.45.1',
+      name: 'Салат из солёных огурцов (с репчатым луком)',
+      components: {
+        oil: 2.5,
+        vegetables: 48,
+      },
+      macronutrients: {
+        proteins: 0.84,
+        fats: 5.08,
+        carbohydrates: 2.52
+      },
+      caloricity: 61.68
+    }
+  ]
+}
+
+const SALAD_W_VEGETABLES_N_SEA_CABBAGE_V1: IDish = {
+  id: 'kids-1.46',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.46.1',
+      name: 'Салат из овощей с морской капустой (вариант 1)',
+      components: {
+        oil: 3.5,
+        potato: 17,
+        vegetables: 30,
+      },
+      macronutrients: {
+        proteins: 1.4,
+        fats: 7.2,
+        carbohydrates: 8.44
+      },
+      caloricity: 105.28
+    }
+  ]
+}
+
+const SALAD_W_VEGETABLES_N_SEA_CABBAGE_V2: IDish = {
+  id: 'kids-1.47',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.47.1',
+      name: 'Салат из овощей с морской капустой (вариант 2)',
+      components: {
+        oil: 5,
+        potato: 16,
+        vegetables: 29.5,
+      },
+      macronutrients: {
+        proteins: 1.34,
+        fats: 10.2,
+        carbohydrates: 8.02
+      },
+      caloricity: 130.2
+    }
+  ]
+}
+
+const SALAD_W_SEA_N_WHITE_CABBAGE: IDish = {
+  id: 'kids-1.48',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.48.1',
+      name: 'Салат из морской и белокочанной капусты',
+      components: {
+        oil: 3.5,
+        sugar: 2,
+        vegetables: 61,
+      },
+      macronutrients: {
+        proteins: 1.98,
+        fats: 7.12,
+        carbohydrates: 9.22
+      },
+      caloricity: 111.04
+    }
+  ]
+}
+
+const SALAD_W_SEA_CABBAGE_N_OIL: IDish = {
+  id: 'kids-1.49',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.49.1',
+      name: 'Салат из морской капусты с маслом растительным',
+      components: {
+        oil: 2.5,
+        vegetables: 48,
+      },
+      macronutrients: {
+        proteins: 0.44,
+        fats: 5.1,
+        carbohydrates: 0
+      },
+      caloricity: 47.36
+    }
+  ]
+}
+
+const SALAD_VITAMINNIY_V1: IDish = {
+  id: 'kids-1.50',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.50.1',
+      name: 'Салат витаминный (вариант 1)',
+      components: {
+        fruits: 12,
+        sourCream: 8,
+        sugar: 0.5,
+        vegetables: 31.5,
+      },
+      macronutrients: {
+        proteins: 1.22,
+        fats: 3.38,
+        carbohydrates: 6.18
+      },
+      caloricity: 61.94
+    }
+  ]
+}
+
+const SALAD_VITAMINNIY_V2_W_GREEN_PEA: IDish = {
+  id: 'kids-1.51',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.51.1',
+      name: 'Салат витаминный (вариант 2 с зеленым горошком)',
+      components: {
+        fruits: 2,
+        sourCream: 8,
+        sugar: 2,
+        vegetables: 40,
+      },
+      macronutrients: {
+        proteins: 1.94,
+        fats: 3.28,
+        carbohydrates: 8.74
+      },
+      caloricity: 74
+    }
+  ]
+}
+
+const SALAD_VITAMINNIY_V3_W_CORN: IDish = {
+  id: 'kids-1.52',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.52.1',
+      name: 'Салат витаминный (вариант 3 с кукурузой)',
+      components: {
+        fruits: 2,
+        sourCream: 8,
+        sugar: 2,
+        vegetables: 40,
+      },
+      macronutrients: {
+        proteins: 1.8,
+        fats: 3.32,
+        carbohydrates: 9.84
+      },
+      caloricity: 78.38
+    }
+  ]
+}
+
+const SALAD_VITAMINNIY_W_OIL: IDish = {
+  id: 'kids-1.53',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.53.1',
+      name: 'Салат витаминный (с маслом растительным)',
+      components: {
+        fruits: 12,
+        oil: 4,
+        sugar: 0.5,
+        vegetables: 35.5
+      },
+      macronutrients: {
+        proteins: 0.76,
+        fats: 8.1,
+        carbohydrates: 4.04
+      },
+      caloricity: 93.32
+    }
+  ]
+}
