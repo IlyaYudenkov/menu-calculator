@@ -1366,3 +1366,356 @@ const SALAD_VITAMINNIY_W_OIL: IDish = {
     }
   ]
 }
+
+const SALAD_W_BEETROOT_N_CHEESE_N_GARLIC: IDish = {
+  id: 'kids-1.54',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.54.1',
+      name: 'Салат из свеклы с сыром и чесноком',
+      components: {
+        cheese: 8,
+        oil: 4,
+        vegetables: 38.6,
+      },
+      macronutrients: {
+        proteins: 5.32,
+        fats: 12.3,
+        carbohydrates: 7.02
+      },
+      caloricity: 160.36
+    }
+  ]
+}
+
+const SALAD_W_BEETROOT_N_PRUNES_N_OIL: IDish = {
+  id: 'kids-1.55',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.55.1',
+      name: 'Салат из свеклы с черносливом (с растительным маслом)',
+      components: {
+        fruitsDried: 9,
+        oil: 3.5,
+        sugar: 1,
+        vegetables: 36,
+      },
+      macronutrients: {
+        proteins: 1.54,
+        fats: 7.06,
+        carbohydrates: 20.22
+      },
+      caloricity: 149.16
+    }
+  ]
+}
+
+const SALAD_W_BEETROOT_N_PRUNES_N_SOUR_CREAM: IDish = {
+  id: 'kids-1.56',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.56.1',
+      name: 'Салат из свеклы с черносливом (со сметаной)',
+      components: {
+        fruitsDried: 9,
+        sourCream: 5,
+        sugar: 0.5,
+        vegetables: 35,
+      },
+      macronutrients: {
+        proteins: 1.8,
+        fats: 2.08,
+        carbohydrates: 19.36
+      },
+      caloricity: 102.2
+    }
+  ]
+}
+
+const SALAD_W_BEETROOT_N_PRUNES_N_NUTS_N_GARLIC: IDish = {
+  id: 'kids-1.57',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.57.1',
+      name: 'Салат из свеклы с черносливом, орехами и чесноком',
+      components: {
+        fruitsDried: 8.6,
+        oil: 1,
+        vegetables: 38,
+      },
+      macronutrients: {
+        proteins: 2.98,
+        fats: 13.58,
+        carbohydrates: 11.52
+      },
+      caloricity: 178.98
+    }
+  ]
+}
+
+const SALAD_W_BEETROOT_N_APPLES_V1_W_OIL: IDish = {
+  id: 'kids-1.58',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.58.1',
+      name: 'Салат из свеклы с яблоками (вариант 1 с растительным маслом)',
+      components: {
+        fruits: 17.5,
+        oil: 4,
+        vegetables: 29,
+      },
+      macronutrients: {
+        proteins: 1.02,
+        fats: 8.2,
+        carbohydrates: 8.7
+      },
+      caloricity: 112.04
+    }
+  ]
+}
+
+const SALAD_W_BEETROOT_N_APPLES_V2_W_OIL: IDish = {
+  id: 'kids-1.59',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.59.1',
+      name: 'Салат из свеклы с яблоками (вариант 2 с растительным маслом)',
+      components: {
+        fruits: 17,
+        oil: 6,
+        vegetables: 27.5,
+      },
+      macronutrients: {
+        proteins: 0.96,
+        fats: 12.18,
+        carbohydrates: 8.34
+      },
+      caloricity: 146.28
+    }
+  ]
+}
+
+const SALAD_W_BEETROOT_N_APPLES_W_SOUR_CREAM: IDish = {
+  id: 'kids-1.60',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.60.1',
+      name: 'Салат из свеклы с яблоками со сметаной',
+      components: {
+        fruits: 16.5,
+        sourCream: 5,
+        vegetables: 29,
+      },
+      macronutrients: {
+        proteins: 1.28,
+        fats: 2.2,
+        carbohydrates: 8.84
+      },
+      caloricity: 59.82
+    }
+  ]
+}
+
+const SALAD_W_BEETROOT_N_OIL: IDish = {
+  id: 'kids-1.61',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.61.1',
+      name: 'Салат из свеклы с маслом растительным',
+      components: {
+        oil: 2.5,
+        vegetables: 48,
+      },
+      macronutrients: {
+        proteins: 1.44,
+        fats: 5.1,
+        carbohydrates: 8.74
+      },
+      caloricity: 85.28
+    }
+  ]
+}
+
+const SALAD_OSENNIY_V1: IDish = {
+  id: 'kids-1.62',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.62.1',
+      name: 'Салат "Осенний" (вариант 1)',
+      components: {
+        fruits: 10,
+        oil: 5,
+        vegetables: 37.5,
+      },
+      macronutrients: {
+        proteins: 1.58,
+        fats: 6.16,
+        carbohydrates: 7.14
+      },
+      caloricity: 90.88
+    }
+  ]
+}
+
+const SALAD_OSENNIY_V2: IDish = {
+  id: 'kids-1.63',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.63.1',
+      name: 'Салат "Осенний" (вариант 2)',
+      components: {
+        fruits: 10,
+        oil: 5,
+        vegetables: 35.5,
+      },
+      macronutrients: {
+        proteins: 1.58,
+        fats: 10.16,
+        carbohydrates: 6.9
+      },
+      caloricity: 125.34
+    }
+  ]
+}
+
+const SALAD_ROZOVIY_V1: IDish = {
+  id: 'kids-1.64',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.64.1',
+      name: 'Салат "Розовый" (вариант 1)',
+      components: {
+        eggs: 10,
+        oil: 3.5,
+        vegetables: 37,
+      },
+      macronutrients: {
+        proteins: 3.6,
+        fats: 9.36,
+        carbohydrates: 6.5
+      },
+      caloricity: 124.34
+    }
+  ]
+}
+
+const SALAD_ROZOVIY_V2: IDish = {
+  id: 'kids-1.65',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.65.1',
+      name: 'Салат "Розовый" (вариант 2)',
+      components: {
+        eggs: 7.5,
+        oil: 5,
+        vegetables: 38,
+      },
+      macronutrients: {
+        proteins: 3,
+        fats: 11.78,
+        carbohydrates: 6.64
+      },
+      caloricity: 144.3
+    }
+  ]
+}
+
+const SALAD_ZARYA_V1_W_OIL: IDish = {
+  id: 'kids-1.66',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.66.1',
+      name: 'Салат "Заря" (вариант 1 с маслом растительным)',
+      components: {
+        eggs: 5,
+        oil: 4,
+        vegetables: 41.5,
+      },
+      macronutrients: {
+        proteins: 1.28,
+        fats: 1.16,
+        carbohydrates: 7.32
+      },
+      caloricity: 122.64
+    }
+  ]
+}
+
+const SALAD_ZARYA_V2_W_OIL: IDish = {
+  id: 'kids-1.67',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.67.1',
+      name: 'Салат "Заря" (вариант 2 с маслом растительным)',
+      components: {
+        eggs: 5,
+        oil: 5.5,
+        vegetables: 40,
+      },
+      macronutrients: {
+        proteins: 2.66,
+        fats: 11.22,
+        carbohydrates: 7.04
+      },
+      caloricity: 139.34
+    }
+  ]
+}
+
+const SALAD_ZARYA_W_SOUR_CREAM: IDish = {
+  id: 'kids-1.68',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.68.1',
+      name: 'Салат "Заря" (со сметаной)',
+      components: {
+        eggs: 5,
+        sourCream: 5.5,
+        vegetables: 40,
+      },
+      macronutrients: {
+        proteins: 2.92,
+        fats: 3.44,
+        carbohydrates: 7.44
+      },
+      caloricity: 72.14
+    }
+  ]
+}
+
+const SALAD_SVEKOLKA: IDish = {
+  id: 'kids-1.69',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.69.1',
+      name: 'Салат "Свеколка"',
+      components: {
+        fruitsDried: 8,
+        oil: 5,
+        vegetables: 37.5,
+      },
+      macronutrients: {
+        proteins: 1.54,
+        fats: 8.86,
+        carbohydrates: 16.04
+      },
+      caloricity: 145.68
+    }
+  ]
+}
