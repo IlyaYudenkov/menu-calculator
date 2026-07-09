@@ -1719,3 +1719,539 @@ const SALAD_SVEKOLKA: IDish = {
     }
   ]
 }
+
+const SALAD_BURYACHOK: IDish = {
+  id: 'kids-1.70',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.70.1',
+      name: 'Салат "Бурячок"',
+      components: {
+        fruits: 8.5,
+        oil: 4.5,
+        vegetables: 37.5,
+      },
+      macronutrients: {
+        proteins: 1.58,
+        fats: 9.16,
+        carbohydrates: 7.84
+      },
+      caloricity: 119.74
+    }
+  ]
+}
+
+const SALAD_W_CORN_N_PRUNES: IDish = {
+  id: 'kids-1.71',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.71.1',
+      name: 'Салат из кукурузы с черносливом (с сыром пошехонским)',
+      components: {
+        cheese: 7,
+        fruitsDried: 6.8,
+        oil: 6.5,
+        vegetables: 37.1,
+      },
+      macronutrients: {
+        proteins: 5.4,
+        fats: 16.54,
+        carbohydrates: 16.34
+      },
+      caloricity: 238.44
+    },
+    {
+      id: 'kids-1.71.2',
+      name: 'Салат из кукурузы с черносливом (с сыром российским)',
+      components: {
+        cheese: 7,
+        fruitsDried: 6.8,
+        oil: 6.5,
+        vegetables: 37.1,
+      },
+      macronutrients: {
+        proteins: 4.98,
+        fats: 16.88,
+        carbohydrates: 16.34
+      },
+      caloricity: 239.84
+    },
+    {
+      id: 'kids-1.71.3',
+      name: 'Салат из кукурузы с черносливом (с сыром голландским)',
+      components: {
+        cheese: 7,
+        fruitsDried: 6.8,
+        oil: 6.5,
+        vegetables: 37.1,
+      },
+      macronutrients: {
+        proteins: 5.4,
+        fats: 16.58,
+        carbohydrates: 16.34
+      },
+      caloricity: 238.72
+    }
+  ]
+}
+
+const SALAD_W_CARROTS_N_RAISIN: IDish = {
+  id: 'kids-1.72',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.72.1',
+      name: 'Салат из моркови с изюмом',
+      components: {
+        fruitsDried: 7.5,
+        oil: 2,
+        vegetables: 41,
+      },
+      macronutrients: {
+        proteins: 1.34,
+        fats: 4.08,
+        carbohydrates: 15.8
+      },
+      caloricity: 111.96
+    }
+  ]
+}
+
+const SALAD_W_CARROTS_N_APPLES_V1: IDish = {
+  id: 'kids-1.73',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.73.1',
+      name: 'Салат из моркови с яблоками (вариант 1)',
+      components: {
+        fruits: 20.5,
+        sugar: 4,
+        vegetables: 26,
+      },
+      macronutrients: {
+        proteins: 0.84,
+        fats: 0.22,
+        carbohydrates: 15.74
+      },
+      caloricity: 72.04
+    }
+  ]
+}
+
+const SALAD_W_CARROTS_N_APPLES_V2: IDish = {
+  id: 'kids-1.74',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.74.1',
+      name: 'Салат из моркови с яблоками (вариант 2)',
+      components: {
+        fruits: 10,
+        sourCream: 7.5,
+        sugar: 1,
+        vegetables: 32.5,
+      },
+      macronutrients: {
+        proteins: 1.34,
+        fats: 3.14,
+        carbohydrates: 9.12
+      },
+      caloricity: 76.56
+    }
+  ]
+}
+
+const SALAD_W_CARROTS_N_APPLES_N_NUTS: IDish = {
+  id: 'kids-1.75',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.75.1',
+      name: 'Салат из моркови и яблок с орехами',
+      components: {
+        fruits: 20.5,
+        fruitsDried: 6.5,
+        oil: 4,
+        vegetables: 19.5,
+      },
+      macronutrients: {
+        proteins: 1.92,
+        fats: 11.74,
+        carbohydrates: 4.92
+      },
+      caloricity: 138.18
+    }
+  ]
+}
+
+const SALAD_W_CARROTS_N_CUCUMBERS_N_GREEN_PEA: IDish = {
+  id: 'kids-1.76',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.76.1',
+      name: 'Салат из моркови с огурцами и зеленым горошком',
+      components: {
+        oil: 4,
+        vegetables: 46.5,
+      },
+      macronutrients: {
+        proteins: 1.34,
+        fats: 8.1,
+        carbohydrates: 5.02
+      },
+      caloricity: 97.4
+    }
+  ]
+}
+
+const SALAD_W_VEGETABLES_N_EGG: IDish = {
+  id: 'kids-1.77',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.77.1',
+      name: 'Салат овощной с яйцом',
+      components: {
+        eggs: 8,
+        oil: 4.5,
+        potato: 18.5,
+        vegetables: 19.5,
+      },
+      macronutrients: {
+        proteins: 3.22,
+        fats: 9.72,
+        carbohydrates: 7.94
+      },
+      caloricity: 135.02
+    }
+  ]
+}
+
+const SALAD_ZDOROVYE: IDish = {
+  id: 'kids-1.78',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.78.1',
+      name: 'Салат "Здоровье"',
+      components: {
+        oil: 5,
+        vegetables: 45.5,
+      },
+      macronutrients: {
+        proteins: 1.62,
+        fats: 10.1,
+        carbohydrates: 7.1
+      },
+      caloricity: 124.92
+    }
+  ]
+}
+
+const SALAD_ASSORTI_V1: IDish = {
+  id: 'kids-1.79',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.79.1',
+      name: 'Салат "Ассорти" (вариант 1)',
+      components: {
+        oil: 2.5,
+        vegetables: 48,
+      },
+      macronutrients: {
+        proteins: 1.18,
+        fats: 5.12,
+        carbohydrates: 3.52
+      },
+      caloricity: 64.72
+    }
+  ]
+}
+
+const SALAD_ASSORTI_V2: IDish = {
+  id: 'kids-1.80',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.80.1',
+      name: 'Салат "Ассорти" (вариант 2)',
+      components: {
+        oil: 4,
+        vegetables: 46.5,
+      },
+      macronutrients: {
+        proteins: 1.42,
+        fats: 8.1,
+        carbohydrates: 6.7
+      },
+      caloricity: 105.1
+    }
+  ]
+}
+
+const SALAD_W_SQUID_N_APPLES_V1_W_OIL: IDish = {
+  id: 'kids-1.81',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.81.1',
+      name: 'Салат из кальмаров с яблоками (вариант 1 с растительным маслом)',
+      components: {
+        eggs: 6,
+        fish: 24,
+        fruits: 15,
+        oil: 4,
+        vegetables: 12,
+      },
+      macronutrients: {
+        proteins: 9.9,
+        fats: 12.14,
+        carbohydrates: 4.58
+      },
+      caloricity: 168.48
+    }
+  ]
+}
+
+const SALAD_W_SQUID_N_APPLES_V2_W_OIL: IDish = {
+  id: 'kids-1.82',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.82.1',
+      name: 'Салат из кальмаров с яблоками (вариант 2 с растительным маслом)',
+      components: {
+        eggs: 6,
+        fish: 24,
+        fruits: 14,
+        oil: 6,
+        vegetables: 11.5,
+      },
+      macronutrients: {
+        proteins: 9.88,
+        fats: 15.14,
+        carbohydrates: 4.32
+      },
+      caloricity: 194.16
+    }
+  ]
+}
+
+const SALAD_W_SQUID_N_APPLES_W_SOUR_CREAM: IDish = {
+  id: 'kids-1.83',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.83.1',
+      name: 'Салат из кальмаров с яблоками (со сметаной)',
+      components: {
+        eggs: 6,
+        fish: 24,
+        fruits: 14,
+        sourCream: 6,
+        vegetables: 11.5,
+      },
+      macronutrients: {
+        proteins: 11.32,
+        fats: 5.96,
+        carbohydrates: 4.7
+      },
+      caloricity: 118.16
+    }
+  ]
+}
+
+const SALAD_W_SQUID_N_WHITE_CABBAGE: IDish = {
+  id: 'kids-1.84',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.84.1',
+      name: 'Салат из кальмаров с белокочанной капустой',
+      components: {
+        fish: 24,
+        oil: 4,
+        vegetables: 43.5,
+      },
+      macronutrients: {
+        proteins: 10.26,
+        fats: 10.1,
+        carbohydrates: 5
+      },
+      caloricity: 155.06
+    }
+  ]
+}
+
+const SALAD_OCEAN_W_OIL: IDish = {
+  id: 'kids-1.85',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.85.1',
+      name: 'Салат "Океан" (с растительным маслом)',
+      components: {
+        cheese: 10,
+        eggs: 10,
+        fish: 29.5,
+        oil: 5,
+        vegetables: 9.5,
+      },
+      macronutrients: {
+        proteins: 17.18,
+        fats: 19.5,
+        carbohydrates: 1.86
+      },
+      caloricity: 255.26
+    }
+  ]
+}
+
+const SALAD_OCEAN_W_SOUR_CREAM: IDish = {
+  id: 'kids-1.86',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.86.1',
+      name: 'Салат "Океан" (со сметаной)',
+      components: {
+        cheese: 9.5,
+        eggs: 9.5,
+        fish: 29.5,
+        sourCream: 6,
+        vegetables: 9.5,
+      },
+      macronutrients: {
+        proteins: 17.26,
+        fats: 11.64,
+        carbohydrates: 2.24
+      },
+      caloricity: 186.58
+    }
+  ]
+}
+
+const SALAD_ZAGADKA_V1_W_CODFISH_N_OIL: IDish = {
+  id: 'kids-1.87',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.87.1',
+      name: 'Салат "Загадка" (вариант 1 с треской и растительным маслом)',
+      components: {
+        cereals: 3.9,
+        eggs: 5,
+        fish: 22,
+        fruits: 12.5,
+        oil: 4
+      },
+      macronutrients: {
+        proteins: 7.98,
+        fats: 5.4,
+        carbohydrates: 7.52
+      },
+      caloricity: 147.8
+    }
+  ]
+}
+
+const SALAD_ZAGADKA_V2_W_CODFISH_N_OIL: IDish = {
+  id: 'kids-1.88',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.88.1',
+      name: 'Салат "Загадка" (вариант 2 с треской и растительным маслом)',
+      components: {
+        cereals: 3.9,
+        eggs: 5,
+        fish: 22,
+        fruits: 10.5,
+        oil: 6
+      },
+      macronutrients: {
+        proteins: 7.94,
+        fats: 13.38,
+        carbohydrates: 6.86
+      },
+      caloricity: 180.7
+    }
+  ]
+}
+
+const SALAD_ZAGADKA_W_HAKE_N_OIL: IDish = {
+  id: 'kids-1.89',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.89.1',
+      name: 'Салат "Загадка" (с хеком и растительным маслом)',
+      components: {
+        cereals: 3.9,
+        eggs: 5,
+        fish: 22,
+        fruits: 12.5,
+        oil: 4
+      },
+      macronutrients: {
+        proteins: 8.22,
+        fats: 10.02,
+        carbohydrates: 7.52
+      },
+      caloricity: 137.88
+    }
+  ]
+}
+
+const SALAD_ZAGADKA_W_CODFISH_N_SOUR_CREAM: IDish = {
+  id: 'kids-1.90',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.90.1',
+      name: 'Салат "Загадка" (с треской и сметаной)',
+      components: {
+        cereals: 3.9,
+        eggs: 5,
+        fish: 22,
+        fruits: 10.5,
+        sourCream: 6
+      },
+      macronutrients: {
+        proteins: 8.3,
+        fats: 3.8,
+        carbohydrates: 7.52
+      },
+      caloricity: 98.8
+    }
+  ]
+}
+
+const SALAD_ZAGADKA_W_HAKE_N_SOUR_CREAM: IDish = {
+  id: 'kids-1.91',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.91.1',
+      name: 'Салат "Загадка" (с хеком со сметаной)',
+      components: {
+        cereals: 3.9,
+        eggs: 5,
+        fish: 22,
+        fruits: 10.5,
+        sourCream: 6
+      },
+      macronutrients: {
+        proteins: 8.54,
+        fats: 4.42,
+        carbohydrates: 7.52
+      },
+      caloricity: 105.52
+    }
+  ]
+}
