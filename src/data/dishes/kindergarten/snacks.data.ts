@@ -2255,3 +2255,515 @@ const SALAD_ZAGADKA_W_HAKE_N_SOUR_CREAM: IDish = {
     }
   ]
 }
+
+const SALAD_CHAIKA_W_OIL: IDish = {
+  id: 'kids-1.92',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.92.1',
+      name: 'Салат "Чайка" (с растительным маслом, с сыром пошехонским)',
+      components: {
+        cheese: 18,
+        eggs: 10,
+        oil: 6,
+        vegetables: 16.5
+      },
+      macronutrients: {
+        proteins: 12.7,
+        fats: 23.86,
+        carbohydrates: 2.62
+      },
+      caloricity: 279.22
+    },
+    {
+      id: 'kids-1.92.2',
+      name: 'Салат "Чайка" (с растительным маслом, с сыром российским)',
+      components: {
+        cheese: 18,
+        eggs: 10,
+        oil: 6,
+        vegetables: 16.5
+      },
+      macronutrients: {
+        proteins: 11.62,
+        fats: 24.76,
+        carbohydrates: 2.62
+      },
+      caloricity: 282.82
+    },
+    {
+      id: 'kids-1.92.3',
+      name: 'Салат "Чайка" (с растительным маслом, с сыром голландским)',
+      components: {
+        cheese: 18,
+        eggs: 10,
+        oil: 6,
+        vegetables: 16.5
+      },
+      macronutrients: {
+        proteins: 12.7,
+        fats: 23.98,
+        carbohydrates: 2.62
+      },
+      caloricity: 279.94
+    }
+  ]
+}
+
+const SALAD_CHAIKA_W_SOUR_CREAM: IDish = {
+  id: 'kids-1.93',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.93.1',
+      name: 'Салат "Чайка" (со сметаной, с сыром пошехонским)',
+      components: {
+        cheese: 18,
+        eggs: 10,
+        sourCream: 6,
+        vegetables: 16.5
+      },
+      macronutrients: {
+        proteins: 13.04,
+        fats: 14.28,
+        carbohydrates: 3
+      },
+      caloricity: 196.06
+    },
+    {
+      id: 'kids-1.93.2',
+      name: 'Салат "Чайка" (со сметаной, с сыром российским)',
+      components: {
+        cheese: 18,
+        eggs: 10,
+        sourCream: 6,
+        vegetables: 16.5
+      },
+      macronutrients: {
+        proteins: 11.96,
+        fats: 15.18,
+        carbohydrates: 3
+      },
+      caloricity: 199.66
+    },
+    {
+      id: 'kids-1.93.3',
+      name: 'Салат "Чайка" (со сметаной, с сыром голландским)',
+      components: {
+        cheese: 18,
+        eggs: 10,
+        sourCream: 6,
+        vegetables: 16.5
+      },
+      macronutrients: {
+        proteins: 13.04,
+        fats: 14.38,
+        carbohydrates: 3
+      },
+      caloricity: 196.78
+    },
+  ]
+}
+
+const SALAD_W_CHEESE_N_CARROTS: IDish = {
+  id: 'kids-1.94',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.94.1',
+      name: 'Салат из сыра и моркови (с сыром пошехонским)',
+      components: {
+        cheese: 10,
+        oil: 4,
+        vegetables: 36.5
+      },
+      macronutrients: {
+        proteins: 5.9,
+        fats: 13.36,
+        carbohydrates: 3
+      },
+      caloricity: 158.98
+    },
+    {
+      id: 'kids-1.94.2',
+      name: 'Салат из сыра и моркови (с сыром российским)',
+      components: {
+        cheese: 10,
+        oil: 4,
+        vegetables: 36.5
+      },
+      macronutrients: {
+        proteins: 5.3,
+        fats: 13.86,
+        carbohydrates: 3
+      },
+      caloricity: 160.98
+    },
+    {
+      id: 'kids-1.94.3',
+      name: 'Салат из сыра и моркови (с сыром голландским)',
+      components: {
+        cheese: 10,
+        oil: 4,
+        vegetables: 36.5
+      },
+      macronutrients: {
+        proteins: 5.9,
+        fats: 13.42,
+        carbohydrates: 3
+      },
+      caloricity: 159.38
+    }
+  ]
+}
+
+const SALAD_W_FRUITS: IDish = {
+  id: 'kids-1.95',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.95.1',
+      name: 'Салат фруктовый',
+      components: {
+        fruits: 45.2,
+        sourCream: 5.6
+      },
+      macronutrients: {
+        proteins: 0.84,
+        fats: 2.48,
+        carbohydrates: 9.94
+      },
+      caloricity: 66.46
+    }
+  ]
+}
+
+const CUCUMBER_FRESH: IDish = {
+  id: 'kids-1.96',
+  generalOutput: 40,
+  variants: [
+    {
+      id: 'kids-1.96.1',
+      name: 'Огурец свежий (порциями)',
+      components: {
+        vegetables: 40
+      },
+      macronutrients: {
+        proteins: 0.32,
+        fats: 0.08,
+        carbohydrates: 2.08
+      },
+      caloricity: 10.34
+    }
+  ]
+}
+
+const CUCUMBER_PICKLED: IDish = {
+  id: 'kids-1.97',
+  generalOutput: 40,
+  variants: [
+    {
+      id: 'kids-1.97.1',
+      name: 'Огурец солёный (порциями)',
+      components: {
+        vegetables: 40
+      },
+      macronutrients: {
+        proteins: 0.64,
+        fats: 0.08,
+        carbohydrates: 1.28
+      },
+      caloricity: 10.4
+    }
+  ]
+}
+
+const CUCUMBER_CANNED: IDish = {
+  id: 'kids-1.98',
+  generalOutput: 40,
+  variants: [
+    {
+      id: 'kids-1.98.1',
+      name: 'Огурец консервированный (порциями)',
+      components: {
+        vegetables: 40
+      },
+      macronutrients: {
+        proteins: 0.64,
+        fats: 0.08,
+        carbohydrates: 1.28
+      },
+      caloricity: 10.4
+    }
+  ]
+}
+
+const TOMATOES_FRESH: IDish = {
+  id: 'kids-1.99',
+  generalOutput: 40,
+  variants: [
+    {
+      id: 'kids-1.99.1',
+      name: 'Помидоры свежие (порциями)',
+      components: {
+        vegetables: 40
+      },
+      macronutrients: {
+        proteins: 0.88,
+        fats: 0.16,
+        carbohydrates: 3.04
+      },
+      caloricity: 15.58
+    }
+  ]
+}
+
+const CHOPPED_EGGS_W_BUTTER: IDish = {
+  id: 'kids-1.100',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.100.1',
+      name: 'Яйца рубленные с маслом',
+      components: {
+        butter: 10.5,
+        eggs: 40,
+      },
+      macronutrients: {
+        proteins: 9.14,
+        fats: 25.42,
+        carbohydrates: 0.68
+      },
+      caloricity: 150.74
+    }
+  ]
+}
+
+const VINAIGRETTE_W_VEGETABLES_W_GREEN_ONION: IDish = {
+  id: 'kids-1.101',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.101.1',
+      name: 'Винегрет овощной (с зеленым луком)',
+      components: {
+        potato: 13,
+        oil: 2.5,
+        vegetables: 35,
+      },
+      macronutrients: {
+        proteins: 1.46,
+        fats: 5.14,
+        carbohydrates: 7.5
+      },
+      caloricity: 83.4
+    }
+  ]
+}
+
+const VINAIGRETTE_W_VEGETABLES_V1_W_ONION: IDish = {
+  id: 'kids-1.102',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.102.1',
+      name: 'Винегрет овощной (вариант 1 с репчатым луком)',
+      components: {
+        potato: 13,
+        oil: 2.5,
+        vegetables: 35,
+      },
+      macronutrients: {
+        proteins: 1.46,
+        fats: 5.14,
+        carbohydrates: 8.34
+      },
+      caloricity: 87.4
+    }
+  ]
+}
+
+const VINAIGRETTE_W_VEGETABLES_V2_W_ONION: IDish = {
+  id: 'kids-1.103',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.103.1',
+      name: 'Винегрет овощной (вариант 2 с репчатым луком)',
+      components: {
+        potato: 12,
+        oil: 5,
+        vegetables: 33.5,
+      },
+      macronutrients: {
+        proteins: 1.26,
+        fats: 4.14,
+        carbohydrates: 7.72
+      },
+      caloricity: 74.9
+    }
+  ]
+}
+
+const SEA_VINAIGRETTE: IDish = {
+  id: 'kids-1.104',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.104.1',
+      name: 'Винегрет морской',
+      components: {
+        oil: 4,
+        potato: 6,
+        sugar: 2,
+        vegetables: 38.5,
+      },
+      macronutrients: {
+        proteins: 1.2,
+        fats: 8.12,
+        carbohydrates: 9.64
+      },
+      caloricity: 116.34
+    }
+  ]
+}
+
+const BEETROOT_CAVIAR: IDish = {
+  id: 'kids-1.105',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.105.1',
+      name: 'Икра свекольная',
+      components: {
+        oil: 4.1,
+        sugar: 0.9,
+        tomatoPuree: 3.4,
+        vegetables: 56.3
+      },
+      macronutrients: {
+        proteins: 1.7,
+        fats: 7.3,
+        carbohydrates: 11.56
+      },
+      caloricity: 128.48
+    }
+  ]
+}
+
+const CARROTS_CAVIAR: IDish = {
+  id: 'kids-1.106',
+  generalOutput: 50,
+  variants: [
+    {
+      id: 'kids-1.106.1',
+      name: 'Икра морковная',
+      components: {
+        oil: 4.1,
+        sugar: 0.9,
+        tomatoPuree: 3.4,
+        vegetables: 56.3
+      },
+      macronutrients: {
+        proteins: 1.72,
+        fats: 8.28,
+        carbohydrates: 11.08
+      },
+      caloricity: 135.54
+    }
+  ]
+}
+
+const HERRING_W_GREEN_ONION: IDish = {//неправильный БЖУ в сборнике (исправил на БЖУ HERRING_W_ONION)
+  id: 'kids-1.107',
+  generalOutput: 40,
+  variants: [
+    {
+      id: 'kids-1.107.1',
+      name: 'Сельдь с луком (зеленым)',
+      components: {
+        fish: 20,
+        oil: 4,
+        vegetables: 16
+      },
+      macronutrients: {
+        proteins: 8.08,
+        fats: 15.04,
+        carbohydrates: 2.92
+      },
+      caloricity: 180.54
+    }
+  ]
+}
+
+const HERRING_W_ONION: IDish = {
+  id: 'kids-1.108',
+  generalOutput: 40,
+  variants: [
+    {
+      id: 'kids-1.108.1',
+      name: 'Сельдь с луком (репчатым)',
+      components: {
+        fish: 20,
+        oil: 4,
+        vegetables: 16
+      },
+      macronutrients: {
+        proteins: 8.08,
+        fats: 15.04,
+        carbohydrates: 2.92
+      },
+      caloricity: 180.54
+    }
+  ]
+}
+
+const FRIED_FISH_W_MARINADE: IDish = {
+  id: 'kids-1.109',
+  generalOutput: 60,
+  variants: [
+    {
+      id: 'kids-1.109.1',
+      name: 'Рыба жареная под маринадом',
+      components: {
+        fish: 36,
+        flourWheat: 2,
+        oil: 5.5,
+        sugar: 1,
+        tomatoPuree: 2.5,
+        vegetables: 25.5,
+      },
+      macronutrients: {
+        proteins: 11.38,
+        fats: 10.12,
+        carbohydrates: 8.26
+      },
+      caloricity: 176.1
+    }
+  ]
+}
+
+const FRIED_FISH_W_MARINADE_WO_TOMATO_PUREE: IDish = {
+  id: 'kids-1.110',
+  generalOutput: 60,
+  variants: [
+    {
+      id: 'kids-1.110.1',
+      name: 'Рыба жареная под маринадом (без томатного пюре)',
+      components: {
+        fish: 36,
+        flourWheat: 3,
+        oil: 5.5,
+        sugar: 1,
+        vegetables: 28.5,
+      },
+      macronutrients: {
+        proteins: 11.1,
+        fats: 10.12,
+        carbohydrates: 6.88
+      },
+      caloricity: 169.58
+    }
+  ]
+}
