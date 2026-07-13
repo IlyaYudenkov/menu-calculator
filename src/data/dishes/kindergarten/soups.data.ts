@@ -418,3 +418,363 @@ const BORSHT_W_POTATOES_V1: IDish = {
     }
   ]
 }
+
+const BORSHT_W_POTATOES_V2: IDish = {
+  id: 'kids-2.7',
+  variants: [
+    {
+      id: 'kids-2.7.1',
+      name: 'Борщ с картофелем (вариант 2)',
+      defaultOutput: 200,
+      components: {
+        oil: 4,
+        potato: 40,
+        tomatoPuree: 2,
+        sugar: 1,
+        vegetables: 50,
+      },
+      macronutrients: {
+        proteins: 0.74,
+        fats: 1.845,
+        carbohydrates: 5.56
+      },
+      caloricity: 41.93
+    },
+    {
+      id: 'kids-2.7.2',
+      name: 'Борщ с картофелем со сметаной (вариант 2)',
+      defaultOutput: 204,
+      components: {
+        oil: 4,
+        potato: 40,
+        tomatoPuree: 2,
+        sourCream: 4,
+        sugar: 1,
+        vegetables: 50,
+      },
+      macronutrients: {
+        proteins: 0.77,
+        fats: 2.16,
+        carbohydrates: 5.5
+      },
+      caloricity: 44.74
+    },
+    {
+      id: 'kids-2.7.3',
+      name: 'Борщ с картофелем со сметаной и говядиной отварной (вариант 2)',
+      defaultOutput: 219,
+      components: {
+        meat: 15,
+        oil: 4,
+        potato: 40,
+        tomatoPuree: 2,
+        sourCream: 4,
+        sugar: 1,
+        vegetables: 50,
+      },
+      macronutrients: {
+        proteins: 2.75,
+        fats: 2.34,
+        carbohydrates: 5.13
+      },
+      caloricity: 52.98
+    },
+    {
+      id: 'kids-2.7.4',
+      name: 'Борщ с картофелем со сметаной и птицей отварной (вариант 2)',
+      defaultOutput: 219,
+      components: {
+        oil: 4,
+        potato: 40,
+        poultry: 15,
+        tomatoPuree: 2,
+        sourCream: 4,
+        sugar: 1,
+        vegetables: 50,
+      },
+      macronutrients: {
+        proteins: 2.62,
+        fats: 3.63,
+        carbohydrates: 5.19
+      },
+      caloricity: 60.48
+    }
+  ]
+}
+
+const BORSHT_W_SORREL: IDish = {
+  id: 'kids-2.8',
+  variants: [
+    {
+      id: 'kids-2.8.1',
+      name: 'Борщ со щавелем',
+      defaultOutput: 200,
+      components: {
+        flourWheat: 1,
+        oil: 4,
+        potato: 40,
+        sugar: 1,
+        vegetables: 58.5,
+      },
+      macronutrients: {
+        proteins: 0.78,
+        fats: 1.85,
+        carbohydrates: 5.455
+      },
+      caloricity: 41.735
+    },
+    {
+      id: 'kids-2.8.2',
+      name: 'Борщ со щавелем со щавелем',
+      defaultOutput: 204,
+      components: {
+        flourWheat: 1,
+        oil: 4,
+        potato: 40,
+        sourCream: 4,
+        sugar: 1,
+        vegetables: 58.5,
+      },
+      macronutrients: {
+        proteins: 0.84,
+        fats: 2.16,
+        carbohydrates: 5.4
+      },
+      caloricity: 44.54
+    }
+  ]
+}
+
+const BORSHT_PO_SLUCKI_V1: IDish = {
+  id: 'kids-2.9',
+  variants: [
+    {
+      id: 'kids-2.9.1',
+      name: 'Борщ по-слуцки (вариант 1)',
+      defaultOutput: 200,
+      components: {
+        butter: 2,
+        potato: 22,
+        sugar: 1.4,
+        tomatoPuree: 3,
+        vegetables: 83.4
+      },
+      macronutrients: {
+        proteins: 0.79,
+        fats: 0.78,
+        carbohydrates: 4.74
+      },
+      caloricity: 29.615
+    },
+    {
+      id: 'kids-2.9.2',
+      name: 'Борщ по-слуцки со сметаной (вариант 1)',
+      defaultOutput: 204,
+      components: {
+        butter: 2,
+        potato: 22,
+        sourCream: 4,
+        sugar: 1.4,
+        tomatoPuree: 3,
+        vegetables: 83.4
+      },
+      macronutrients: {
+        proteins: 0.82,
+        fats: 1.11,
+        carbohydrates: 4.71
+      },
+      caloricity: 32.7
+    },
+    {
+      id: 'kids-2.9.3',
+      name: 'Борщ по-слуцки со сметаной и говядиной отварной протертой (вариант 1)',
+      defaultOutput: 219,
+      components: {
+        butter: 2,
+        meat: 15,
+        potato: 22,
+        sourCream: 4,
+        sugar: 1.4,
+        tomatoPuree: 3,
+        vegetables: 83.4
+      },
+      macronutrients: {
+        proteins: 2.8,
+        fats: 1.37,
+        carbohydrates: 4.38
+      },
+      caloricity: 41.74
+    },
+    {
+      id: 'kids-2.9.4',
+      name: 'Борщ по-слуцки со сметаной и птицей отварной (вариант 1)',
+      defaultOutput: 219,
+      components: {
+        butter: 2,
+        potato: 22,
+        poultry: 15,
+        sourCream: 4,
+        sugar: 1.4,
+        tomatoPuree: 3,
+        vegetables: 83.4
+      },
+      macronutrients: {
+        proteins: 2.67,
+        fats: 2.65,
+        carbohydrates: 4.43
+      },
+      caloricity: 49.23
+    }
+  ]
+}
+
+const BORSHT_LETNIY_W_TOMATOES: IDish = {
+  id: 'kids-2.10',
+  variants: [
+    {
+      id: 'kids-2.10.1',
+      name: 'Борщ летний (с помидорами)',
+      defaultOutput: 200,
+      components: {
+        oil: 4,
+        potato: 40,
+        vegetables: 72,
+      },
+      macronutrients: {
+        proteins: 0.795,
+        fats: 1.865,
+        carbohydrates: 5.43
+      },
+      caloricity: 43.465
+    },  
+    {
+      id: 'kids-2.10.2',
+      name: 'Борщ летний со сметаной (с помидорами)',
+      defaultOutput: 204,
+      components: {
+        oil: 4,
+        potato: 40,
+        sourCream: 4,
+        vegetables: 72,
+      },
+      macronutrients: {
+        proteins: 0.83,
+        fats: 2.17,
+        carbohydrates: 5.38
+      },
+      caloricity: 46.25
+    },
+  ]
+}
+
+const BORSHT_LETNIY_W_TOMATO_PUREE: IDish = {
+  id: 'kids-2.11',
+  variants: [
+    {
+      id: 'kids-2.11.1',
+      name: 'Борщ летний (с томатным пюре)',
+      defaultOutput: 200,
+      components: {
+        oil: 4,
+        potato: 40,
+        tomatoPuree: 3,
+        vegetables: 56,
+      },
+      macronutrients: {
+        proteins: 0.765,
+        fats: 1.85,
+        carbohydrates: 5.32
+      },
+      caloricity: 42.94
+    },
+    {
+      id: 'kids-2.11.2',
+      name: 'Борщ летний со сметаной (с томатным пюре)',
+      defaultOutput: 204,
+      components: {
+        oil: 4,
+        potato: 40,
+        sourCream: 4,
+        tomatoPuree: 3,
+        vegetables: 56,
+      },
+      macronutrients: {
+        proteins: 0.8,
+        fats: 2.16,
+        carbohydrates: 5.27
+      },
+      caloricity: 45.74
+    }
+  ]
+}
+
+const SHCHI_W_FRESH_CABBAGE: IDish = {
+  id: 'kids-2.12',
+  variants: [
+    {
+      id: 'kids-2.12.1',
+      name: 'Щи из свежей капусты',
+      defaultOutput: 200,
+      components: {
+        butter: 2,
+        vegetables: 90,
+      },
+      macronutrients: {
+        proteins: 0.67,
+        fats: 0.76,
+        carbohydrates: 2.79
+      },
+      caloricity: 20.58
+    },
+    {
+      id: 'kids-2.12.2',
+      name: 'Щи из свежей капусты со сметаной',
+      defaultOutput: 204,
+      components: {
+        butter: 2,
+        sourCream: 4,
+        vegetables: 90,
+      },
+      macronutrients: {
+        proteins: 0.71,
+        fats: 1.1,
+        carbohydrates: 2.3
+      },
+      caloricity: 23.8
+    },
+    {
+      id: 'kids-2.12.3',
+      name: 'Щи из свежей капусты со сметаной и говядиной отварной протертой',
+      defaultOutput: 219,
+      components: {
+        butter: 2,
+        meat: 15,
+        sourCream: 4,
+        vegetables: 90,
+      },
+      macronutrients: {
+        proteins: 2.69,
+        fats: 1.35,
+        carbohydrates: 2.14
+      },
+      caloricity: 33.47
+    },
+    {
+      id: 'kids-2.12.4',
+      name: 'Щи из свежей капусты со сметаной и отварной птицей',
+      defaultOutput: 219,
+      components: {
+        butter: 2,
+        poultry: 15,
+        sourCream: 4,
+        vegetables: 90,
+      },
+      macronutrients: {
+        proteins: 2.56,
+        fats: 2.63,
+        carbohydrates: 2.19
+      },
+      caloricity: 40.98
+    }
+  ]
+}
