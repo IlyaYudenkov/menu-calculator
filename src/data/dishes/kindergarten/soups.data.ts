@@ -646,7 +646,7 @@ const BORSHT_LETNIY_W_TOMATOES: IDish = {
         carbohydrates: 5.43
       },
       caloricity: 43.465
-    },  
+    },
     {
       id: 'kids-2.10.2',
       name: 'Борщ летний со сметаной (с помидорами)',
@@ -775,6 +775,822 @@ const SHCHI_W_FRESH_CABBAGE: IDish = {
         carbohydrates: 2.19
       },
       caloricity: 40.98
+    }
+  ]
+}
+
+const SHCHI_W_FRESH_CABBAGE_N_POTATOES_V1: IDish = {
+  id: 'kids-2.13',
+  variants: [
+    {
+      id: 'kids-2.13.1',
+      name: 'Щи из свежей капусты с картофелем (вариант 1)',
+      defaultOutput: 200,
+      components: {
+        butter: 2,
+        oil: 2,
+        potato: 30,
+        vegetables: 66,
+      },
+      macronutrients: {
+        proteins: 0.765,
+        fats: 1.685,
+        carbohydrates: 3.875
+      },
+      caloricity: 34.785
+    },
+    {
+      id: 'kids-2.13.2',
+      name: 'Щи из свежей капусты с картофелем со сметаной (вариант 1)',
+      defaultOutput: 204,
+      components: {
+        butter: 2,
+        oil: 2,
+        potato: 30,
+        sourCream: 4,
+        vegetables: 66,
+      },
+      macronutrients: {
+        proteins: 0.8,
+        fats: 2,
+        carbohydrates: 3.85
+      },
+      caloricity: 37.73
+    },
+    {
+      id: 'kids-2.13.3',
+      name: 'Щи из свежей капусты с картофелем со сметаной и говядиной отварной протертой (вариант 1)',
+      defaultOutput: 219,
+      components: {
+        butter: 2,
+        meat: 15,
+        oil: 2,
+        potato: 30,
+        sourCream: 4,
+        vegetables: 66,
+      },
+      macronutrients: {
+        proteins: 2.78,
+        fats: 2.2,
+        carbohydrates: 3.59
+      },
+      caloricity: 46.45
+    },
+    {
+      id: 'kids-2.13.4',
+      name: 'Щи из свежей капусты с картофелем со сметаной и отварной птицей (вариант 1)',
+      defaultOutput: 219,
+      components: {
+        butter: 2,
+        oil: 2,
+        potato: 30,
+        poultry: 15,
+        sourCream: 4,
+        vegetables: 66,
+      },
+      macronutrients: {
+        proteins: 2.64,
+        fats: 3.47,
+        carbohydrates: 3.64
+      },
+      caloricity: 53.95
+    }
+  ]
+}
+
+const SHCHI_W_FRESH_CABBAGE_N_POTATOES_V2: IDish = {
+  id: 'kids-2.14',
+  variants: [
+    {
+      id: 'kids-2.14.1',
+      name: 'Щи из свежей капусты с картофелем (вариант 2)',
+      defaultOutput: 200,
+      components: {
+        oil: 4,
+        potato: 30,
+        vegetables: 66,
+      },
+      macronutrients: {
+        proteins: 0.76,
+        fats: 1.835,
+        carbohydrates: 3.865
+      },
+      caloricity: 36.14
+    },
+    {
+      id: 'kids-2.14.2',
+      name: 'Щи из свежей капусты с картофелем со сметаной (вариант 2)',
+      defaultOutput: 204,
+      components: {
+        oil: 4,
+        potato: 30,
+        sourCream: 4,
+        vegetables: 66,
+      },
+      macronutrients: {
+        proteins: 0.8,
+        fats: 2.15,
+        carbohydrates: 3.85
+      },
+      caloricity: 39.07
+    },
+    {
+      id: 'kids-2.14.3',
+      name: 'Щи из свежей капусты с картофелем со сметаной и говядиной отварной протертой (вариант 2)',
+      defaultOutput: 219,
+      components: {
+        meat: 15,
+        oil: 4,
+        potato: 30,
+        sourCream: 4,
+        vegetables: 66,
+      },
+      macronutrients: {
+        proteins: 2.77,
+        fats: 2.33,
+        carbohydrates: 3.58
+      },
+      caloricity: 47.7
+    },
+    {
+      id: 'kids-2.14.4',
+      name: 'Щи из свежей капусты с картофелем со сметаной и отварной птицей (вариант 2)',
+      defaultOutput: 219,
+      components: {
+        oil: 4,
+        potato: 30,
+        poultry: 15,
+        sourCream: 4,
+        vegetables: 66,
+      },
+      macronutrients: {
+        proteins: 2.64,
+        fats: 3.62,
+        carbohydrates: 3.63
+      },
+      caloricity: 55.2
+    }
+  ]
+}
+
+const SHCHI_W_SAUERKRAUT_N_POTATOES: IDish = {
+  id: 'kids-2.15',
+  variants: [
+    {
+      id: 'kids-2.15.1',
+      name: 'Щи из квашеной капусты с картофелем',
+      defaultOutput: 200,
+      components: {
+        oil: 2,
+        potato: 20,
+        vegetables: 58,
+      },
+      macronutrients: {
+        proteins: 0.61,
+        fats: 0.92,
+        carbohydrates: 2.515
+      },
+      caloricity: 21.76
+    },
+    {
+      id: 'kids-2.15.2',
+      name: 'Щи из квашеной капусты с картофелем со сметаной',
+      defaultOutput: 204,
+      components: {
+        oil: 2,
+        potato: 20,
+        sourCream: 4,
+        vegetables: 58,
+      },
+      macronutrients: {
+        proteins: 0.64,
+        fats: 1.25,
+        carbohydrates: 2.52
+      },
+      caloricity: 24.96
+    },
+    {
+      id: 'kids-2.15.3',
+      name: 'Щи из квашеной капусты с картофелем и говядиной отварной протертой',
+      defaultOutput: 219,
+      components: {
+        meat: 15,
+        oil: 2,
+        potato: 20,
+        sourCream: 4,
+        vegetables: 58,
+      },
+      macronutrients: {
+        proteins: 2.63,
+        fats: 1.49,
+        carbohydrates: 2.35
+      },
+      caloricity: 34.55
+    },
+  ]
+}
+
+const SHCHI_W_FRESH_CABBAGE_N_APPLES_V1: IDish = {
+  id: 'kids-2.16',
+  variants: [
+    {
+      id: 'kids-2.16.1',
+      name: 'Щи из свежей капусты с яблоками (вариант 1)',
+      defaultOutput: 200,
+      components: {
+        fruits: 14,
+        oil: 4,
+        potato: 24,
+        vegetables: 80,
+      },
+      macronutrients: {
+        proteins: 0.81,
+        fats: 1.855,
+        carbohydrates: 4.5
+      },
+      caloricity: 39.82
+    },
+    {
+      id: 'kids-2.16.2',
+      name: 'Щи из свежей капусты с яблоками со сметаной (вариант 1)',
+      defaultOutput: 204,
+      components: {
+        fruits: 14,
+        oil: 4,
+        potato: 24,
+        sourCream: 4,
+        vegetables: 80,
+      },
+      macronutrients: {
+        proteins: 0.84,
+        fats: 2.17,
+        carbohydrates: 4.47
+      },
+      caloricity: 42.68
+    },
+    {
+      id: 'kids-2.16.3',
+      name: 'Щи из свежей капусты с яблоками со сметаной и говядиной отварной протертой (вариант 1)',
+      defaultOutput: 219,
+      components: {
+        fruits: 14,
+        meat: 15,
+        oil: 4,
+        potato: 24,
+        sourCream: 4,
+        vegetables: 80,
+      },
+      macronutrients: {
+        proteins: 2.82,
+        fats: 2.35,
+        carbohydrates: 4.16
+      },
+      caloricity: 51.05
+    },
+  ]
+}
+
+const SHCHI_W_FRESH_CABBAGE_N_APPLES_V2: IDish = {
+  id: 'kids-2.17',
+  variants: [
+    {
+      id: 'kids-2.17.1',
+      name: 'Щи из свежей капусты с яблоками (вариант 2)',
+      defaultOutput: 200,
+      components: {
+        butter: 2,
+        fruits: 14,
+        oil: 2,
+        potato: 24,
+        vegetables: 80,
+      },
+      macronutrients: {
+        proteins: 0.815,
+        fats: 1.705,
+        carbohydrates: 4.505
+      },
+      caloricity: 38.46
+    },
+    {
+      id: 'kids-2.17.2',
+      name: 'Щи из свежей капусты с яблоками со сметаной (вариант 2)',
+      defaultOutput: 204,
+      components: {
+        butter: 2,
+        fruits: 14,
+        oil: 2,
+        potato: 24,
+        sourCream: 4,
+        vegetables: 80,
+      },
+      macronutrients: {
+        proteins: 0.85,
+        fats: 2.01,
+        carbohydrates: 4.48
+      },
+      caloricity: 37.7
+    },
+    {
+      id: 'kids-2.17.3',
+      name: 'Щи из свежей капусты с яблоками со сметаной и говядиной отварной протертой (вариант 2)',
+      defaultOutput: 219,
+      components: {
+        butter: 2,
+        fruits: 14,
+        meat: 15,
+        oil: 2,
+        potato: 24,
+        sourCream: 4,
+        vegetables: 80,
+      },
+      macronutrients: {
+        proteins: 2.82,
+        fats: 2.21,
+        carbohydrates: 4.17
+      },
+      caloricity: 49.81
+    }
+  ]
+}
+
+const RASSOLNIK_DOMASHNIY_V1: IDish = {
+  id: 'kids-2.18',
+  variants: [
+    {
+      id: 'kids-2.18.1',
+      name: 'Рассольник домашний (вариант 1)',
+      defaultOutput: 200,
+      components: {
+        oil: 4,
+        potato: 60,
+        vegetables: 44,
+      },
+      macronutrients: {
+        proteins: 0.8,
+        fats: 1.88,
+        carbohydrates: 5.415
+      },
+      caloricity: 42.03
+    },
+    {
+      id: 'kids-2.18.2',
+      name: 'Рассольник домашний со сметаной (вариант 1)',
+      defaultOutput: 204,
+      components: {
+        oil: 4,
+        potato: 60,
+        sourCream: 4,
+        vegetables: 44,
+      },
+      macronutrients: {
+        proteins: 0.83,
+        fats: 2.18,
+        carbohydrates: 5.36
+      },
+      caloricity: 44.84
+    },
+    {
+      id: 'kids-2.18.3',
+      name: 'Рассольник домашний со сметаной и говядиной отварной протертой (вариант 1)',
+      defaultOutput: 219,
+      components: {
+        meat: 15,
+        oil: 4,
+        potato: 60,
+        sourCream: 4,
+        vegetables: 44,
+      },
+      macronutrients: {
+        proteins: 2.81,
+        fats: 2.37,
+        carbohydrates: 5
+      },
+      caloricity: 53.07
+    },
+  ]
+}
+
+const RASSOLNIK_DOMASHNIY_V2: IDish = {
+  id: 'kids-2.19',
+  variants: [
+    {
+      id: 'kids-2.19.1',
+      name: 'Рассольник домашний (вариант 2)',
+      defaultOutput: 200,
+      components: {
+        butter: 2,
+        oil: 2,
+        potato: 60,
+        vegetables: 44,
+      },
+      macronutrients: {
+        proteins: 0.805,
+        fats: 1.725,
+        carbohydrates: 5.42
+      },
+      caloricity: 40.67
+    },
+    {
+      id: 'kids-2.19.2',
+      name: 'Рассольник домашний со сметаной (вариант 2)',
+      defaultOutput: 204,
+      components: {
+        butter: 2,
+        oil: 2,
+        potato: 60,
+        sourCream: 4,
+        vegetables: 44,
+      },
+      macronutrients: {
+        proteins: 0.84,
+        fats: 2.04,
+        carbohydrates: 5.37
+      },
+      caloricity: 43.5
+    },
+    {
+      id: 'kids-2.19.3',
+      name: 'Рассольник домашний со сметаной (вариант 2)',
+      defaultOutput: 219,
+      components: {
+        butter: 2,
+        meat: 15,
+        oil: 2,
+        potato: 60,
+        sourCream: 4,
+        vegetables: 44,
+      },
+      macronutrients: {
+        proteins: 2.81,
+        fats: 2.23,
+        carbohydrates: 5
+      },
+      caloricity: 51.83
+    }
+  ]
+}
+
+const RASSOLNIK_LENINGRADSKIY_W_OATMEAL: IDish = {
+  id: 'kids-2.20',
+  variants: [
+    {
+      id: 'kids-2.20.1',
+      name: 'Рассольник ленинградский (с овсяной крупой)',
+      defaultOutput: 200,
+      components: {
+        butter: 2,
+        cereals: 4,
+        oil: 2,
+        potato: 60,
+        vegetables: 24,
+      },
+      macronutrients: {
+        proteins: 0.85,
+        fats: 1.825,
+        carbohydrates: 5.81
+      },
+      caloricity: 43.16
+    },
+    {
+      id: 'kids-2.20.2',
+      name: 'Рассольник ленинградский (с овсяной крупой) со сметаной',
+      defaultOutput: 204,
+      components: {
+        butter: 2,
+        cereals: 4,
+        oil: 2,
+        potato: 60,
+        sourCream: 4,
+        vegetables: 24,
+      },
+      macronutrients: {
+        proteins: 0.88,
+        fats: 2.14,
+        carbohydrates: 5.75
+      },
+      caloricity: 45.95
+    },
+    {
+      id: 'kids-2.20.3',
+      name: 'Рассольник ленинградский (с овсяной крупой) со сметаной и говядиной отварной протертой',
+      defaultOutput: 219,
+      components: {
+        butter: 2,
+        cereals: 4,
+        meat: 15,
+        oil: 2,
+        potato: 60,
+        sourCream: 4,
+        vegetables: 24,
+      },
+      macronutrients: {
+        proteins: 2.85,
+        fats: 2.32,
+        carbohydrates: 5.36
+      },
+      caloricity: 54.11
+    }
+  ]
+}
+
+const RASSOLNIK_LENINGRADSKIY_W_PEARL_BARLEY: IDish = {
+  id: 'kids-2.21',
+  variants: [
+    {
+      id: 'kids-2.21.1',
+      name: 'Рассольник ленинградский (с перловой крупой)',
+      defaultOutput: 200,
+      components: {
+        butter: 2,
+        cereals: 4,
+        oil: 2,
+        potato: 60,
+        vegetables: 24,
+      },
+      macronutrients: {
+        proteins: 0.82,
+        fats: 1.74,
+        carbohydrates: 6.115
+      },
+      caloricity: 43.465
+    },
+    {
+      id: 'kids-2.21.2',
+      name: 'Рассольник ленинградский (с перловой крупой) со сметаной',
+      defaultOutput: 204,
+      components: {
+        butter: 2,
+        cereals: 4,
+        oil: 2,
+        potato: 60,
+        vegetables: 24,
+      },
+      macronutrients: {
+        proteins: 0.85,
+        fats: 2.05,
+        carbohydrates: 6.05
+      },
+      caloricity: 46.25
+    },
+    {
+      id: 'kids-2.21.3',
+      name: 'Рассольник ленинградский (с перловой крупой) со сметаной и говядиной отварной протертой',
+      defaultOutput: 219,
+      components: {
+        butter: 2,
+        cereals: 4,
+        oil: 2,
+        potato: 60,
+        vegetables: 24,
+      },
+      macronutrients: {
+        proteins: 2.83,
+        fats: 2.24,
+        carbohydrates: 5.63
+      },
+      caloricity: 54.4
+    }
+  ]
+}
+
+const RASSOLNIK_LENINGRADSKIY_W_RICE_GROATS_V1: IDish = {
+  id: 'kids-2.22',
+  variants: [
+    {
+      id: 'kids-2.22.1',
+      name: 'Рассольник ленинградский (с рисовой крупой) (вариант 1)',
+      defaultOutput: 200,
+      components: {
+        butter: 2,
+        cereals: 4,
+        oil: 2,
+        potato: 60,
+        vegetables: 24,
+      },
+      macronutrients: {
+        proteins: 0.775,
+        fats: 1.735,
+        carbohydrates: 6.205
+      },
+      caloricity: 43.465
+    },
+    {
+      id: 'kids-2.22.2',
+      name: 'Рассольник ленинградский (с рисовой крупой) со сметаной (вариант 1)',
+      defaultOutput: 204,
+      components: {
+        butter: 2,
+        cereals: 4,
+        oil: 2,
+        sourCream: 4,
+        potato: 60,
+        vegetables: 24,
+      },
+      macronutrients: {
+        proteins: 0.81,
+        fats: 2.05,
+        carbohydrates: 6.14
+      },
+      caloricity: 46.42
+    },
+    {
+      id: 'kids-2.22.3',
+      name: 'Рассольник ленинградский (с рисовой крупой) со сметаной и говядиной отварной протертой (вариант 1)',
+      defaultOutput: 219,
+      components: {
+        butter: 2,
+        cereals: 4,
+        meat: 15,
+        oil: 2,
+        sourCream: 4,
+        potato: 60,
+        vegetables: 24,
+      },
+      macronutrients: {
+        proteins: 2.79,
+        fats: 2.24,
+        carbohydrates: 5.72
+      },
+      caloricity: 54.55
+    }
+  ]
+}
+
+const RASSOLNIK_LENINGRADSKIY_W_RICE_GROATS_V2: IDish = {
+  id: 'kids-2.23',
+  variants: [
+    {
+      id: 'kids-2.23.1',
+      name: 'Рассольник ленинградский (с рисовой крупой) (вариант 2)',
+      defaultOutput: 200,
+      components: {
+        cereals: 4,
+        oil: 4,
+        potato: 60,
+        vegetables: 24,
+      },
+      macronutrients: {
+        proteins: 0.775,
+        fats: 1.89,
+        carbohydrates: 6.195
+      },
+      caloricity: 45.005
+    },
+    {
+      id: 'kids-2.23.2',
+      name: 'Рассольник ленинградский (с рисовой крупой) со сметаной (вариант 2)',
+      defaultOutput: 204,
+      components: {
+        cereals: 4,
+        oil: 4,
+        sourCream: 4,
+        potato: 60,
+        vegetables: 24,
+      },
+      macronutrients: {
+        proteins: 0.8,
+        fats: 2.2,
+        carbohydrates: 6.13
+      },
+      caloricity: 47.76
+    },
+    {
+      id: 'kids-2.23.3',
+      name: 'Рассольник ленинградский (с рисовой крупой) со сметаной и говядиной отварной протертой (вариант 2)',
+      defaultOutput: 219,
+      components: {
+        cereals: 4,
+        meat: 15,
+        oil: 4,
+        sourCream: 4,
+        potato: 60,
+        vegetables: 24,
+      },
+      macronutrients: {
+        proteins: 2.78,
+        fats: 2.38,
+        carbohydrates: 5.71
+      },
+      caloricity: 55.79
+    }
+  ]
+}
+
+const SOUP_W_POTATOES_V1: IDish = {
+  id: 'kids-2.24',
+  variants: [
+    {
+      id: 'kids-2.24.1',
+      name: 'Суп картофельный (вариант 1)',
+      defaultOutput: 200,
+      components: {
+        butter: 2,
+        potato: 90,
+        vegetables: 16
+      },
+      macronutrients: {
+        proteins: 0.9,
+        fats: 0.89,
+        carbohydrates: 7.195
+      },
+      caloricity: 39.61
+    },
+    {
+      id: 'kids-2.24.2',
+      name: 'Суп картофельный (вариант 1) с говядиной отварной протертой',
+      defaultOutput: 215,
+      components: {
+        butter: 2,
+        meat: 15,
+        potato: 90,
+        vegetables: 16
+      },
+      macronutrients: {
+        proteins: 2.91,
+        fats: 1.16,
+        carbohydrates: 6.7
+      },
+      caloricity: 48.36
+    }
+  ]
+}
+
+const SOUP_W_POTATOES_V2: IDish = {
+  id: 'kids-2.25',
+  variants: [
+    {
+      id: 'kids-2.25.1',
+      name: 'Суп картофельный (вариант 2)',
+      defaultOutput: 200,
+      components: {
+        oil: 2,
+        potato: 90,
+        vegetables: 16
+      },
+      macronutrients: {
+        proteins: 0.895,
+        fats: 1.04,
+        carbohydrates: 7.19
+      },
+      caloricity: 40.97
+    },
+    {
+      id: 'kids-2.25.2',
+      name: 'Суп картофельный (вариант 2) с говядиной отварной протертой',
+      defaultOutput: 215,
+      components: {
+        meat: 15,
+        oil: 2,
+        potato: 90,
+        vegetables: 16
+      },
+      macronutrients: {
+        proteins: 2.9,
+        fats: 1.31,
+        carbohydrates: 6.69
+      },
+      caloricity: 49.62
+    }
+  ]
+}
+
+const SOUP_LUBITELSKIY: IDish = {
+  id: 'kids-2.26',
+  variants: [
+    {
+      id: 'kids-2.26.1',
+      name: 'Суп любительский',
+      defaultOutput: 200,
+      components: {
+        butter: 2,
+        cereals: 20,
+        potato: 50,
+        vegetables: 20,
+      },
+      macronutrients: {
+        proteins: 1.69,
+        fats: 1.11,
+        carbohydrates: 9.995
+      },
+      caloricity: 57.41
+    },
+    {
+      id: 'kids-2.26.2',
+      name: 'Суп любительский с говядиной отварной протертой',
+      defaultOutput: 215,
+      components: {
+        butter: 2,
+        cereals: 20,
+        meat: 15,
+        potato: 50,
+        vegetables: 20,
+      },
+      macronutrients: {
+        proteins: 3.64,
+        fats: 1.37,
+        carbohydrates: 9.3
+      },
+      caloricity: 64.92
     }
   ]
 }
