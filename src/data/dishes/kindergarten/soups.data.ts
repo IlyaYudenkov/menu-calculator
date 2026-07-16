@@ -2037,7 +2037,7 @@ const SOUP_W_VEGETABLES_V2: IDish = {
   ]
 }
 
-const SOUP_W_POTATOES_W_SORREL: IDish = {
+const SOUP_W_POTATOES_N_SORREL: IDish = {
   id: 'kids-2.33',
   variants: [
     {
@@ -2078,7 +2078,7 @@ const SOUP_W_POTATOES_W_SORREL: IDish = {
   ]
 }
 
-const SOUP_W_POTATOES_W_MILLET_GROATS: IDish = {
+const SOUP_W_POTATOES_N_MILLET_GROATS: IDish = {
   id: 'kids-2.34',
   variants: [
     {
@@ -2137,7 +2137,7 @@ const SOUP_W_POTATOES_W_MILLET_GROATS: IDish = {
   ]
 }
 
-const SOUP_W_POTATOES_W_RICE_GROATS: IDish = {
+const SOUP_W_POTATOES_N_RICE_GROATS: IDish = {
   id: 'kids-2.35',
   variants: [
     {
@@ -2249,7 +2249,7 @@ const SOUP_W_POTATOES_W_RICE_GROATS: IDish = {
   ]
 }
 
-const SOUP_W_POTATOES_W_SEMOLINA: IDish = {
+const SOUP_W_POTATOES_N_SEMOLINA: IDish = {
   id: 'kids-2.36',
   variants: [
     {
@@ -2357,6 +2357,592 @@ const SOUP_W_POTATOES_W_SEMOLINA: IDish = {
         carbohydrates: 6.73
       },
       caloricity: 56.65
+    }
+  ]
+}
+
+const SOUP_W_POTATOES_N_OATMEAL_HERCULES: IDish = {
+  id: 'kids-2.37',
+  variants: [
+    {
+      id: 'kids-2.37.1',
+      name: 'Суп картофельный с хлопьями овсяными "Геркулес" (с маслом растительным)',
+      defaultOutput: 200,
+      components: {
+        cereals: 4,
+        oil: 2,
+        potato: 64,
+        vegetables: 18
+      },
+      macronutrients: {
+        proteins: 0.875,
+        fats: 1.105,
+        carbohydrates: 6.25
+      },
+      caloricity: 38.31
+    },
+    {
+      id: 'kids-2.37.2',
+      name: 'Суп картофельный с хлопьями овсяными "Геркулес" с говядиной отварной протертой (с маслом растительным)',
+      defaultOutput: 215,
+      components: {
+        cereals: 4,
+        meat: 15,
+        oil: 2,
+        potato: 64,
+        vegetables: 18
+      },
+      macronutrients: {
+        proteins: 2.88,
+        fats: 1.37,
+        carbohydrates: 5.81
+      },
+      caloricity: 47.14
+    },
+    {
+      id: 'kids-2.37.3',
+      name: 'Суп картофельный с хлопьями овсяными "Геркулес" с отварной птицей (с маслом растительным)',
+      defaultOutput: 215,
+      components: {
+        cereals: 4,
+        oil: 2,
+        potato: 64,
+        poultry: 15,
+        vegetables: 18
+      },
+      macronutrients: {
+        proteins: 2.75,
+        fats: 2.67,
+        carbohydrates: 5.87
+      },
+      caloricity: 54.79
+    },
+    {
+      id: 'kids-2.37.4',
+      name: 'Суп картофельный с хлопьями овсяными "Геркулес" (с маслом сливочным)',
+      defaultOutput: 200,
+      components: {
+        cereals: 4,
+        oil: 2,
+        potato: 64,
+        vegetables: 18
+      },
+      macronutrients: {
+        proteins: 0.88,
+        fats: 0.95,
+        carbohydrates: 6.255
+      },
+      caloricity: 36.945
+    },
+    {
+      id: 'kids-2.37.5',
+      name: 'Суп картофельный с хлопьями овсяными "Геркулес" с говядиной отварной протертой (с маслом сливочным)',
+      defaultOutput: 215,
+      components: {
+        cereals: 4,
+        meat: 15,
+        oil: 2,
+        potato: 64,
+        vegetables: 18
+      },
+      macronutrients: {
+        proteins: 2.89,
+        fats: 1.22,
+        carbohydrates: 5.82
+      },
+      caloricity: 45.9
+    },
+    {
+      id: 'kids-2.37.6',
+      name: 'Суп картофельный с хлопьями овсяными "Геркулес" с отварной птицей (с маслом сливочным)',
+      defaultOutput: 215,
+      components: {
+        cereals: 4,
+        oil: 2,
+        potato: 64,
+        poultry: 15,
+        vegetables: 18
+      },
+      macronutrients: {
+        proteins: 2.75,
+        fats: 2.53,
+        carbohydrates: 5.87
+      },
+      caloricity: 53.52
+    }
+  ]
+}
+
+const SOUP_W_POTATOES_N_PEAS_V1: IDish = {
+  id: 'kids-2.38',
+  variants: [
+    {
+      id: 'kids-2.38.1',
+      name: 'Суп картофельный с горохом (вариант 1)',
+      defaultOutput: 200,
+      components: {
+        butter: 2,
+        legumes: 16,
+        oil: 2,
+        potato: 50,
+        vegetables: 18
+      },
+      macronutrients: {
+        proteins: 2.195,
+        fats: 1.81,
+        carbohydrates: 7.985
+      },
+      caloricity: 57.545
+    },
+    {
+      id: 'kids-2.38.2',
+      name: 'Суп картофельный с горохом с говядиной отварной протертой (вариант 1)',
+      defaultOutput: 215,
+      components: {
+        butter: 2,
+        legumes: 16,
+        meat: 15,
+        oil: 2,
+        potato: 50,
+        vegetables: 18
+      },
+      macronutrients: {
+        proteins: 4.12,
+        fats: 2.02,
+        carbohydrates: 7.43
+      },
+      caloricity: 65.04
+    },
+    {
+      id: 'kids-2.38.3',
+      name: 'Суп картофельный с горохом с отварной птицей (вариант 1)',
+      defaultOutput: 215,
+      components: {
+        butter: 2,
+        legumes: 16,
+        oil: 2,
+        potato: 50,
+        poultry: 15,
+        vegetables: 18
+      },
+      macronutrients: {
+        proteins: 4.12,
+        fats: 3.33,
+        carbohydrates: 7.48
+      },
+      caloricity: 72.68
+    }
+  ]
+}
+
+const SOUP_W_POTATOES_N_PEAS_V2: IDish = {
+  id: 'kids-2.39',
+  variants: [
+    {
+      id: 'kids-2.39.1',
+      name: 'Суп картофельный с горохом (вариант 2)',
+      defaultOutput: 200,
+      components: {
+        legumes: 16,
+        oil: 4,
+        potato: 50,
+        vegetables: 18
+      },
+      macronutrients: {
+        proteins: 2.19,
+        fats: 1.965,
+        carbohydrates: 7.975
+      },
+      caloricity: 58.905
+    },
+    {
+      id: 'kids-2.39.2',
+      name: 'Суп картофельный с горохом с говядиной отварной протертой (вариант 2)',
+      defaultOutput: 215,
+      components: {
+        legumes: 16,
+        meat: 15,
+        oil: 4,
+        potato: 50,
+        vegetables: 18
+      },
+      macronutrients: {
+        proteins: 4.11,
+        fats: 2.16,
+        carbohydrates: 7.42
+      },
+      caloricity: 66.3
+    }
+  ]
+}
+
+const SOUP_W_POTATOES_N_GREEN_PEAS_V1: IDish = {
+  id: 'kids-2.40',
+  variants: [
+    {
+      id: 'kids-2.40.1',
+      name: 'Суп картофельный с зеленым горошком (вариант 1)',
+      defaultOutput: 200,
+      components: {
+        butter: 2,
+        legumes: 20,
+        oil: 2,
+        potato: 50,
+        vegetables: 18
+      },
+      macronutrients: {
+        proteins: 0.835,
+        fats: 1.715,
+        carbohydrates: 4.91
+      },
+      caloricity: 38.54
+    },
+    {
+      id: 'kids-2.40.2',
+      name: 'Суп картофельный с зеленым горошком с говядиной отварной протертой (вариант 1)',
+      defaultOutput: 215,
+      components: {
+        butter: 2,
+        legumes: 20,
+        meat: 15,
+        oil: 2,
+        potato: 50,
+        vegetables: 18
+      },
+      macronutrients: {
+        proteins: 2.85,
+        fats: 1.93,
+        carbohydrates: 4.57
+      },
+      caloricity: 47.36
+    },
+    {
+      id: 'kids-2.40.3',
+      name: 'Суп картофельный с зеленым горошком с отварной птицей (вариант 1)',
+      defaultOutput: 215,
+      components: {
+        butter: 2,
+        legumes: 20,
+        oil: 2,
+        potato: 50,
+        poultry: 15,
+        vegetables: 18
+      },
+      macronutrients: {
+        proteins: 2.71,
+        fats: 3.24,
+        carbohydrates: 4.62
+      },
+      caloricity: 55
+    },
+  ]
+}
+
+const SOUP_W_POTATOES_N_GREEN_PEAS_V2: IDish = {
+  id: 'kids-2.41',
+  variants: [
+    {
+      id: 'kids-2.41.1',
+      name: 'Суп картофельный с зеленым горошком (вариант 2)',
+      defaultOutput: 200,
+      components: {
+        butter: 4,
+        legumes: 20,
+        potato: 50,
+        vegetables: 18
+      },
+      macronutrients: {
+        proteins: 0.835,
+        fats: 1.56,
+        carbohydrates: 4.92
+      },
+      caloricity: 37.18
+    },
+    {
+      id: 'kids-2.41.2',
+      name: 'Суп картофельный с зеленым горошком с говядиной отварной протертой (вариант 2)',
+      defaultOutput: 215,
+      components: {
+        butter: 4,
+        legumes: 20,
+        meat: 15,
+        potato: 50,
+        vegetables: 18
+      },
+      macronutrients: {
+        proteins: 2.85,
+        fats: 1.8,
+        carbohydrates: 4.58
+      },
+      caloricity: 46.1
+    },
+    {
+      id: 'kids-2.41.3',
+      name: 'Суп картофельный с зеленым горошком с птицей отварной (вариант 2)',
+      defaultOutput: 215,
+      components: {
+        butter: 4,
+        legumes: 20,
+        potato: 50,
+        poultry: 15,
+        vegetables: 18
+      },
+      macronutrients: {
+        proteins: 2.71,
+        fats: 3.1,
+        carbohydrates: 4.63
+      },
+      caloricity: 53.74
+    }
+  ]
+}
+
+const SOUP_W_POTATOES_N_BEANS: IDish = {
+  id: 'kids-2.42',
+  variants: [
+    {
+      id: 'kids-2.42.1',
+      name: 'Суп картофельный с фасолью',
+      defaultOutput: 200,
+      components: {
+        butter: 2,
+        legumes: 20,
+        oil: 2,
+        potato: 50,
+        vegetables: 18
+      },
+      macronutrients: {
+        proteins: 2.05,
+        fats: 1.84,
+        carbohydrates: 7.68
+      },
+      caloricity: 55.965
+    },
+    {
+      id: 'kids-2.42.2',
+      name: 'Суп картофельный с фасолью с говядиной отварной протертой',
+      defaultOutput: 215,
+      components: {
+        butter: 2,
+        legumes: 20,
+        meat: 15,
+        oil: 2,
+        potato: 50,
+        vegetables: 18
+      },
+      macronutrients: {
+        proteins: 3.98,
+        fats: 2.05,
+        carbohydrates: 7.14
+      },
+      caloricity: 63.58
+    },
+    {
+      id: 'kids-2.42.3',
+      name: 'Суп картофельный с фасолью с отварной птицей',
+      defaultOutput: 215,
+      components: {
+        butter: 2,
+        legumes: 20,
+        oil: 2,
+        potato: 50,
+        poultry: 15,
+        vegetables: 18
+      },
+      macronutrients: {
+        proteins: 3.85,
+        fats: 3.36,
+        carbohydrates: 7.2
+      },
+      caloricity: 71.21
+    }
+  ]
+}
+
+const SOUP_W_POTATOES_N_PASTA_PRODUCTS_V1: IDish = {
+  id: 'kids-2.43',
+  variants: [
+    {
+      id: 'kids-2.43.1',
+      name: 'Суп картофельный с макаронными изделиями (вариант 1)',
+      defaultOutput: 200,
+      components: {
+        butter: 2,
+        pastaProducts: 8,
+        potato: 60,
+        vegetables: 18
+      },
+      macronutrients: {
+        proteins: 1.015,
+        fats: 0.875,
+        carbohydrates: 7.57
+      },
+      caloricity: 42.27
+    },
+    {
+      id: 'kids-2.43.2',
+      name: 'Суп картофельный с макаронными изделиями с говядиной отварной протертой (вариант 1)',
+      defaultOutput: 215,
+      components: {
+        butter: 2,
+        meat: 15,
+        pastaProducts: 8,
+        potato: 60,
+        vegetables: 18
+      },
+      macronutrients: {
+        proteins: 3.98,
+        fats: 2.05,
+        carbohydrates: 7.14
+      },
+      caloricity: 63.57
+    },
+    {
+      id: 'kids-2.43.3',
+      name: 'Суп картофельный с макаронными изделиями с отварной птицей (вариант 1)',
+      defaultOutput: 215,
+      components: {
+        butter: 2,
+        pastaProducts: 8,
+        potato: 60,
+        poultry: 15,
+        vegetables: 18
+      },
+      macronutrients: {
+        proteins: 2.88,
+        fats: 2.46,
+        carbohydrates: 0.71
+      },
+      caloricity: 58.47
+    }
+  ]
+}
+
+const SOUP_W_POTATOES_N_PASTA_PRODUCTS_V2: IDish = {
+  id: 'kids-2.44',
+  variants: [
+    {
+      id: 'kids-2.44.1',
+      name: 'Суп картофельный с макаронными изделиями (вариант 2)',
+      defaultOutput: 200,
+      components: {
+        oil: 2,
+        pastaProducts: 8,
+        potato: 60,
+        vegetables: 18
+      },
+      macronutrients: {
+        proteins: 1.01,
+        fats: 1.03,
+        carbohydrates: 7.56
+      },
+      caloricity: 43.63
+    },
+    {
+      id: 'kids-2.44.2',
+      name: 'Суп картофельный с макаронными изделиями с говядиной отварной протертой (вариант 2)',
+      defaultOutput: 215,
+      components: {
+        meat: 15,
+        oil: 2,
+        pastaProducts: 8,
+        potato: 60,
+        vegetables: 18
+      },
+      macronutrients: {
+        proteins: 3,
+        fats: 1.3,
+        carbohydrates: 7.03
+      },
+      caloricity: 52.1
+    },
+    {
+      id: 'kids-2.44.3',
+      name: 'Суп картофельный с макаронными изделиями с отварной птицей (вариант 2)',
+      defaultOutput: 215,
+      components: {
+        oil: 2,
+        pastaProducts: 8,
+        potato: 60,
+        poultry: 15,
+        vegetables: 18
+      },
+      macronutrients: {
+        proteins: 2.87,
+        fats: 2.6,
+        carbohydrates: 7.1
+      },
+      caloricity: 59.74
+    }
+  ]
+}
+
+const SOUP_W_POTATOES: IDish = {
+  id: 'kids-2.45',
+  generalOutput: 200,
+  variants: [
+    {
+      id: 'kids-2.45.1',
+      name: 'Суп картофельный',
+      components: {
+        butter: 2,
+        potato: 62,
+        vegetables: 16,
+      },
+      macronutrients: {
+        proteins: 0.65,
+        fats: 0.84,
+        carbohydrates: 5.11
+      },
+      caloricity: 30.38
+    }
+  ]
+}
+
+const SOUP_W_POTATOES_N_MEAT_MEATBALLS: IDish = {
+  id: 'kids-2.46',
+  generalOutput: 220,
+  variants: [
+    {
+      id: 'kids-2.46.1',
+      name: 'Суп картофельный с мясными фрикадельками',
+      components: {
+        butter: 2,
+        eggs: 1.5,
+        meat: 23,
+        potato: 62,
+        vegetables: 18,
+      },
+      macronutrients: {
+        proteins: 2.54,
+        fats: 1.14,
+        carbohydrates: 4.72
+      },
+      caloricity: 39.3
+    }
+  ]
+}
+
+const SOUP_W_POTATOES_N_FISH_MEATBALLS: IDish = {
+  id: 'kids-2.47',
+  generalOutput: 220,
+  variants: [
+    {
+      id: 'kids-2.47.1',
+      name: 'Суп картофельный с рыбными фрикадельками',
+      components: {
+        butter: 2,
+        eggs: 1,
+        fish: 19,
+        potato: 62,
+        vegetables: 19.5,
+      },
+      macronutrients: {
+        proteins: 1.89,
+        fats: 0.85,
+        carbohydrates: 4.77
+      },
+      caloricity: 34.28
     }
   ]
 }
