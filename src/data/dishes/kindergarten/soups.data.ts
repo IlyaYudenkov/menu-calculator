@@ -2946,3 +2946,462 @@ const SOUP_W_POTATOES_N_FISH_MEATBALLS: IDish = {
     }
   ]
 }
+
+const SOUP_W_POTATOES_N_FISH_V1: IDish = {
+  id: 'kids-2.48',
+  generalOutput: 215,
+  variants: [
+    {
+      id: 'kids-2.48.1',
+      name: 'Суп картофельный с рыбой (треска) (вариант 1)',
+      components: {
+        butter: 4,
+        fish: 18.3,
+        potato: 90,
+        vegetables: 16
+      },
+      macronutrients: {
+        proteins: 2.06,
+        fats: 1.54,
+        carbohydrates: 6.7
+      },
+      caloricity: 48.4
+    },
+    {
+      id: 'kids-2.48.2',
+      name: 'Суп картофельный с рыбой (филе хека) (вариант 1)',
+      components: {
+        butter: 4,
+        fish: 19.7,
+        potato: 90,
+        vegetables: 16
+      },
+      macronutrients: {
+        proteins: 2.2,
+        fats: 1.68,
+        carbohydrates: 6.7
+      },
+      caloricity: 50.2
+    }
+  ]
+}
+
+const SOUP_W_POTATOES_N_FISH_V2: IDish = {
+  id: 'kids-2.49',
+  generalOutput: 215,
+  variants: [
+    {
+      id: 'kids-2.49.1',
+      name: 'Суп картофельный с рыбой (треска) (вариант 2)',
+      components: {
+        butter: 2,
+        fish: 18.3,
+        oil: 2,
+        potato: 90,
+        vegetables: 16
+      },
+      macronutrients: {
+        proteins: 2.05,
+        fats: 1.69,
+        carbohydrates: 6.7
+      },
+      caloricity: 49.7
+    },
+    {
+      id: 'kids-2.49.2',
+      name: 'Суп картофельный с рыбой (филе хека) (вариант 2)',
+      components: {
+        butter: 2,
+        fish: 19.7,
+        oil: 2,
+        potato: 90,
+        vegetables: 16
+      },
+      macronutrients: {
+        proteins: 2.2,
+        fats: 1.82,
+        carbohydrates: 6.7
+      },
+      caloricity: 51.47
+    }
+  ]
+}
+
+const SOUP_W_POTATOES_N_DUMPLINGS: IDish = {
+  id: 'kids-2.50',
+  generalOutput: 200,
+  variants: [
+    {
+      id: 'kids-2.50.1',
+      name: 'Суп картофельный с клецками',
+      components: {
+        butter: 4,
+        eggs: 4.5,
+        flourWheat: 16,
+        potato: 60,
+        vegetables: 18
+      },
+      macronutrients: {
+        proteins: 1.64,
+        fats: 1.865,
+        carbohydrates: 10.04
+      },
+      caloricity: 64.1
+    }
+  ]
+}
+
+const SOUP_W_SEMOLINA: IDish = {
+  id: 'kids-2.51',
+  variants: [
+    {
+      id: 'kids-2.51.1',
+      name: 'Суп с крупой манной',
+      defaultOutput: 200,
+      components: {
+        butter: 4,
+        cereals: 16,
+        vegetables: 18
+      },
+      macronutrients: {
+        proteins: 0.85,
+        fats: 1.525,
+        carbohydrates: 5.54
+      },
+      caloricity: 40.74
+    },
+    {
+      id: 'kids-2.51.1',
+      name: 'Суп с крупой манной с говядиной отварной протертой',
+      defaultOutput: 215,
+      components: {
+        butter: 4,
+        cereals: 16,
+        meat: 15,
+        vegetables: 18
+      },
+      macronutrients: {
+        proteins: 2.86,
+        fats: 1.76,
+        carbohydrates: 5.15
+      },
+      caloricity: 49.4
+    }
+  ]
+}
+
+const SOUP_W_PEARL_BARLEY: IDish = {
+  id: 'kids-2.52',
+  variants: [
+    {
+      id: 'kids-2.52.1',
+      name: 'Суп с крупой перловой',
+      defaultOutput: 200,
+      components: {
+        cereals: 16,
+        oil: 4,
+        vegetables: 18
+      },
+      macronutrients: {
+        proteins: 0.77,
+        fats: 1.84,
+        carbohydrates: 5.44
+      },
+      caloricity: 42.88
+    },
+    {
+      id: 'kids-2.52.2',
+      name: 'Суп с крупой перловой с говядиной отварной протертой',
+      defaultOutput: 215,
+      components: {
+        cereals: 16,
+        meat: 15,
+        oil: 4,
+        vegetables: 18
+      },
+      macronutrients: {
+        proteins: 2.79,
+        fats: 2.05,
+        carbohydrates: 5.06
+      },
+      caloricity: 51.4
+    },
+    {
+      id: 'kids-2.52.3',
+      name: 'Суп с крупой перловой с отварной птицей',
+      defaultOutput: 215,
+      components: {
+        cereals: 16,
+        oil: 4,
+        poultry: 15,
+        vegetables: 18
+      },
+      macronutrients: {
+        proteins: 2.65,
+        fats: 3.36,
+        carbohydrates: 5.11
+      },
+      caloricity: 59.04
+    }
+  ]
+}
+
+const SOUP_W_MILLET_GROATS: IDish = {
+  id: 'kids-2.53',
+  variants: [
+    {
+      id: 'kids-2.53.1',
+      name: 'Суп с крупой перловой',
+      defaultOutput: 200,
+      components: {
+        cereals: 20,
+        oil: 4,
+        vegetables: 18
+      },
+      macronutrients: {
+        proteins: 1.13,
+        fats: 2.055,
+        carbohydrates: 6.635
+      },
+      caloricity: 51.16
+    },
+    {
+      id: 'kids-2.53.2',
+      name: 'Суп с крупой перловой с говядиной отварной протертой',
+      defaultOutput: 215,
+      components: {
+        cereals: 20,
+        meat: 15,
+        oil: 4,
+        vegetables: 18
+      },
+      macronutrients: {
+        proteins: 3.12,
+        fats: 2.25,
+        carbohydrates: 6.17
+      },
+      caloricity: 59.1
+    },
+    {
+      id: 'kids-2.53.3',
+      name: 'Суп с крупой перловой с отварной птицей',
+      defaultOutput: 215,
+      components: {
+        cereals: 20,
+        oil: 4,
+        poultry: 15,
+        vegetables: 18
+      },
+      macronutrients: {
+        proteins: 2.99,
+        fats: 3.56,
+        carbohydrates: 6.23
+      },
+      caloricity: 66.74
+    }
+  ]
+}
+
+const SOUP_W_RICE_GROATS: IDish = {
+  id: 'kids-2.54',
+  variants: [
+    {
+      id: 'kids-2.54.1',
+      name: 'Суп с крупой рисовой',
+      defaultOutput: 200,
+      components: {
+        cereals: 16,
+        oil: 4,
+        vegetables: 18
+      },
+      macronutrients: {
+        proteins: 0.61,
+        fats: 1.835,
+        carbohydrates: 5.79
+      },
+      caloricity: 43.6
+    },
+    {
+      id: 'kids-2.54.2',
+      name: 'Суп с крупой рисовой с говядиной отварной протертой',
+      defaultOutput: 215,
+      components: {
+        cereals: 16,
+        meat: 15,
+        oil: 4,
+        vegetables: 18
+      },
+      macronutrients: {
+        proteins: 2.63,
+        fats: 2.04,
+        carbohydrates: 5.39
+      },
+      caloricity: 52.06
+    },
+    {
+      id: 'kids-2.54.3',
+      name: 'Суп с крупой рисовой с отварной птицей',
+      defaultOutput: 215,
+      components: {
+        cereals: 16,
+        oil: 4,
+        poultry: 15,
+        vegetables: 18
+      },
+      macronutrients: {
+        proteins: 2.5,
+        fats: 3.35,
+        carbohydrates: 5.44
+      },
+      caloricity: 58.9
+    }
+  ]
+}
+
+const SOUP_W_BARLEY_GROATS: IDish = {
+  id: 'kids-2.55',
+  variants: [
+    {
+      id: 'kids-2.55.1',
+      name: 'Суп с крупой ячневой',
+      defaultOutput: 200,
+      components: {
+        cereals: 20,
+        oil: 4,
+        vegetables: 18
+      },
+      macronutrients: {
+        proteins: 1,
+        fats: 1.875,
+        carbohydrates: 6.62
+      },
+      caloricity: 49
+    },
+    {
+      id: 'kids-2.55.2',
+      name: 'Суп с крупой с говядиной отварной протертой',
+      defaultOutput: 215,
+      components: {
+        cereals: 20,
+        meat: 15,
+        oil: 4,
+        vegetables: 18
+      },
+      macronutrients: {
+        proteins: 3,
+        fats: 2.08,
+        carbohydrates: 6.16
+      },
+      caloricity: 57.9
+    },
+    {
+      id: 'kids-2.55.3',
+      name: 'Суп с крупой с отварной птицей',
+      defaultOutput: 215,
+      components: {
+        cereals: 20,
+        oil: 4,
+        poultry: 15,
+        vegetables: 18
+      },
+      macronutrients: {
+        proteins: 2.87,
+        fats: 3.4,
+        carbohydrates: 6.2
+      },
+      caloricity: 64.73
+    }
+  ]
+}
+
+const MILK_SOUP_W_PASTA_PRODUCTS: IDish = {
+  id: 'kids-2.56',
+  generalOutput: 200,
+  variants: [
+    {
+      id: 'kids-2.56.1',
+      name: 'Суп молочный с макаронными изделиями',
+      components: {
+        butter: 2,
+        milkAndFermentedMilkProducts: 160,
+        pastaProducts: 16,
+        sugar: 1,
+      },
+      macronutrients: {
+        proteins: 2.55,
+        fats: 2.57,
+        carbohydrates: 8.88
+      },
+      caloricity: 70.14
+    }
+  ]
+}
+
+const MILK_SOUP_W_OATMEAL: IDish = {
+  id: 'kids-2.57',
+  generalOutput: 200,
+  variants: [
+    {
+      id: 'kids-2.57.1',
+      name: 'Суп молочный с овсяными хлопьями',
+      components: {
+        butter: 2,
+        cereals: 12,
+        milkAndFermentedMilkProducts: 160,
+        sugar: 2,
+      },
+      macronutrients: {
+        proteins: 2.6,
+        fats: 2.82,
+        carbohydrates: 7.02
+      },
+      caloricity: 64.06
+    }
+  ]
+}
+
+const MILK_SOUP_W_BUCKWHEAT_GROATS: IDish = {
+  id: 'kids-2.58',
+  generalOutput: 200,
+  variants: [
+    {
+      id: 'kids-2.58.1',
+      name: 'Суп молочный с крупой гречневой',
+      components: {
+        butter: 2,
+        cereals: 16,
+        milkAndFermentedMilkProducts: 160,
+        sugar: 2,
+      },
+      macronutrients: {
+        proteins: 2.91,
+        fats: 2.72,
+        carbohydrates: 8.78
+      },
+      caloricity: 71.71
+    }
+  ]
+}
+
+const MILK_SOUP_W_PEARL_BARLEY: IDish = {
+  id: 'kids-2.59',
+  generalOutput: 200,
+  variants: [
+    {
+      id: 'kids-2.59.1',
+      name: 'Суп молочный с крупой перловой',
+      components: {
+        butter: 2,
+        cereals: 16,
+        milkAndFermentedMilkProducts: 160,
+        sugar: 2,
+      },
+      macronutrients: {
+        proteins: 2.68,
+        fats: 2.57,
+        carbohydrates: 9.1
+      },
+      caloricity: 70.63
+    }
+  ]
+}
