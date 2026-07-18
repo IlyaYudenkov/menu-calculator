@@ -3405,3 +3405,120 @@ const MILK_SOUP_W_PEARL_BARLEY: IDish = {
     }
   ]
 }
+
+const MILK_SOUP_W_MILLET_GROATS: IDish = {
+  id: 'kids-2.60',
+  generalOutput: 200,
+  variants: [
+    {
+      id: 'kids-2.60.1',
+      name: 'Суп молочный с крупой пшенной',
+      components: {
+        butter: 2,
+        cereals: 16,
+        milkAndFermentedMilkProducts: 160,
+        sugar: 2,
+      },
+      macronutrients: {
+        proteins: 2.83,
+        fats: 2.72,
+        carbohydrates: 9.1
+      },
+      caloricity: 72.64
+    }
+  ]
+}
+
+const MILK_SOUP_W_RICE_GROATS: IDish = {
+  id: 'kids-2.61',
+  generalOutput: 200,
+  variants: [
+    {
+      id: 'kids-2.61.1',
+      name: 'Суп молочный с крупой рисовой',
+      components: {
+        butter: 2,
+        cereals: 12,
+        milkAndFermentedMilkProducts: 160,
+        sugar: 2,
+      },
+      macronutrients: {
+        proteins: 2.39,
+        fats: 2.54,
+        carbohydrates: 8.17
+      },
+      caloricity: 65.41
+    }
+  ]
+}
+
+const MILK_SOUP_W_BARLEY_GROATS: IDish = {
+  id: 'kids-2.62',
+  generalOutput: 200,
+  variants: [
+    {
+      id: 'kids-2.62.1',
+      name: 'Суп молочный с крупой ячневой',
+      components: {
+        butter: 2,
+        cereals: 16,
+        milkAndFermentedMilkProducts: 160,
+        sugar: 2,
+      },
+      macronutrients: {
+        proteins: 2.73,
+        fats: 2.58,
+        carbohydrates: 9.09
+      },
+      caloricity: 70.91
+    }
+  ]
+}
+
+const MILK_SOUP_W_VEGETABLES: IDish = {
+  id: 'kids-2.63',
+  generalOutput: 200,
+  variants: [
+    {
+      id: 'kids-2.63.1',
+      name: 'Суп молочный с овощами',
+      components: {
+        butter: 2,
+        milkAndFermentedMilkProducts: 100,
+        potato: 40,
+        vegetables: 44,
+      },
+      macronutrients: {
+        proteins: 2.07,
+        fats: 1.93,
+        carbohydrates: 6.25
+      },
+      caloricity: 50.65
+    }
+  ]
+}
+
+const MILK_SOUP_PO_MOGILEVSKI: IDish = {
+  id: 'kids-2.64',
+  generalOutput: 200,
+  variants: [
+    {
+      id: 'kids-2.64.1',
+      name: 'Суп молочный по-могилевски',
+      components: {
+        butter: 2,
+        eggs: 4,
+        milkAndFermentedMilkProducts: 140,
+        oil: 0.8,
+        potatoStarch: 24,
+        sugar: 2,
+      },
+      macronutrients: {
+        proteins: 2.92,
+        fats: 2.92,
+        carbohydrates: 18.7
+      },
+      caloricity: 114.34
+    }
+  ]
+}
