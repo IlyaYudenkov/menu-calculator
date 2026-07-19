@@ -3522,3 +3522,245 @@ const MILK_SOUP_PO_MOGILEVSKI: IDish = {
     }
   ]
 }
+
+const MILK_SOUP_PO_LIDSKI: IDish = {
+  id: 'kids-2.65',
+  generalOutput: 200,
+  variants: [
+    {
+      id: 'kids-2.65.1',
+      name: 'Суп молочный по-лидски',
+      components: {
+        butter: 4,
+        milkAndFermentedMilkProducts: 142,
+        potato: 40,
+      },
+      macronutrients: {
+        proteins: 2.15,
+        fats: 3.09,
+        carbohydrates: 5.97
+      },
+      caloricity: 59.86
+    }
+  ]
+}
+
+const ZATIRKA_S_MOLOKOM: IDish = {
+  id: 'kids-2.66',
+  generalOutput: 200,
+  variants: [
+    {
+      id: 'kids-2.66.1',
+      name: 'Затирка с молоком',
+      components: {
+        butter: 2,
+        eggs: 4,
+        flourWheat: 20,
+        milkAndFermentedMilkProducts: 140,
+        sugar: 2,
+      },
+      macronutrients: {
+        proteins: 2.91,
+        fats: 2.57,
+        carbohydrates: 10.1
+      },
+      caloricity: 75.79
+    }
+  ]
+}
+
+const MASHED_POTATO_SOUP: IDish = {
+  id: 'kids-2.67',
+  generalOutput: 200,
+  variants: [
+    {
+      id: 'kids-2.67.1',
+      name: 'Суп-пюре из картофеля',
+      components: {
+        butter: 4,
+        eggs: 2,
+        flourWheat: 4,
+        milkAndFermentedMilkProducts: 30,
+        potato: 72,
+        vegetables: 14,
+      },
+      macronutrients: {
+        proteins: 1.41,
+        fats: 2.03,
+        carbohydrates: 10.1
+      },
+      caloricity: 54.46
+    }
+  ]
+}
+
+const MASHED_POULTRY_SOUP: IDish = {
+  id: 'kids-2.68',
+  generalOutput: 200,
+  variants: [
+    {
+      id: 'kids-2.68.1',
+      name: 'Суп-пюре из птицы',
+      components: {
+        butter: 8,
+        eggs: 2,
+        flourWheat: 8,
+        milkAndFermentedMilkProducts: 30,
+        poultry: 30,
+        vegetables: 12,
+      },
+      macronutrients: {
+        proteins: 3.44,
+        fats: 5.51,
+        carbohydrates: 3.65
+      },
+      caloricity: 74.53
+    }
+  ]
+}
+
+const MASHED_RICE_SOUP_W_POTATOES_N_CARROTS: IDish = {
+  id: 'kids-2.69',
+  generalOutput: 200,
+  variants: [
+    {
+      id: 'kids-2.69.1',
+      name: 'Суп-пюре из риса с картофелем и морковью',
+      components: {
+        butter: 2,
+        cereals: 8,
+        milkAndFermentedMilkProducts: 60,
+        potato: 30,
+        sourCream: 4,
+        vegetables: 9.6
+      },
+      macronutrients: {
+        proteins: 1.38,
+        fats: 1.78,
+        carbohydrates: 6.43
+      },
+      caloricity: 48.17
+    }
+  ]
+}
+
+const COLD_BORSCHT: IDish = {
+  id: 'kids-2.70',
+  variants: [
+    {
+      id: 'kids-2.70.1',
+      name: 'Борщ холодный',
+      defaultOutput: 200,
+      components: {
+        eggs: 8,
+        sugar: 2,
+        vegetables: 43.5
+      },
+      macronutrients: {
+        proteins: 0.7,
+        fats: 0.42,
+        carbohydrates: 2.17
+      },
+      caloricity: 16.08
+    },
+    {
+      id: 'kids-2.70.2',
+      name: 'Борщ холодный со сметаной',
+      defaultOutput: 204,
+      components: {
+        eggs: 8,
+        sourCream: 4,
+        sugar: 2,
+        vegetables: 43.5
+      },
+      macronutrients: {
+        proteins: 0.74,
+        fats: 0.76,
+        carbohydrates: 2.18
+      },
+      caloricity: 19.4
+    }
+  ]
+}
+
+const FRESH_FRUIT_SOUP: IDish = {
+  id: 'kids-2.71',
+  variants: [
+    {
+      id: 'kids-2.71.1',
+      name: 'Суп из свежих плодов',
+      defaultOutput: 200,
+      components: {
+        cereals: 6.5,
+        fruits: 64,
+        potatoStarch: 3.6,
+        sugar: 18,
+      },
+      macronutrients: {
+        proteins: 0.32,
+        fats: 0.14,
+        carbohydrates: 14.29
+      },
+      caloricity: 58.61
+    },
+    {
+      id: 'kids-2.71.2',
+      name: 'Суп из свежих плодов со сметаной',
+      defaultOutput: 204,
+      components: {
+        cereals: 6.5,
+        fruits: 64,
+        potatoStarch: 3.6,
+        sourCream: 4,
+        sugar: 18,
+      },
+      macronutrients: {
+        proteins: 0.36,
+        fats: 0.49,
+        carbohydrates: 14.1
+      },
+      caloricity: 61.1
+    }
+  ]
+}
+
+const SWEET_SOUP_W_DRIED_FRUITS: IDish = {
+  id: 'kids-2.72',
+  variants: [
+    {
+      id: 'kids-2.72.1',
+      name: 'Сладкий суп из сухофруктов',
+      defaultOutput: 200,
+      components: {
+        cereals: 6.5,
+        fruitsDried: 29,
+        potatoStarch: 3.6,
+        sugar: 18,
+      },
+      macronutrients: {
+        proteins: 0.49,
+        fats: 0.03,
+        carbohydrates: 17.73
+      },
+      caloricity: 71.62
+    },
+     {
+      id: 'kids-2.72.2',
+      name: 'Сладкий суп из сухофруктов со сметаной',
+      defaultOutput: 204,
+      components: {
+        cereals: 6.5,
+        fruitsDried: 29,
+        potatoStarch: 3.6,
+        sourCream: 4,
+        sugar: 18,
+      },
+      macronutrients: {
+        proteins: 0.53,
+        fats: 0.37,
+        carbohydrates: 17.44
+      },
+      caloricity: 73.84
+    }
+  ]
+}
