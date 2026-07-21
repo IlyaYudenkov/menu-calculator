@@ -135,3 +135,70 @@ const STEAMED_VEGETABLES_IN_MILK_SAUSE: IDish = {
         },
     ]
 }
+
+const STEWED_BEETROOT: IDish = {
+    id: 'kids-3.6',
+    generalOutput: 100,
+    variants: [
+        {
+            id: 'kids-3.6.1',
+            name: 'Свекла тушеная',
+            components: {
+                oil: 3.3,
+                sugar: 1.7,
+                vegetables: 93,
+            },
+            macronutrients: {
+                proteins: 1.4,
+                fats: 3.39,
+                carbohydrates: 10.16
+            },
+            caloricity: 75.17
+        },
+    ]
+}
+
+const STEWED_BEETROOT_IN_SOUR_CREAM_SAUSE: IDish = {
+    id: 'kids-3.7',
+    generalOutput: 200,
+    variants: [
+        {
+            id: 'kids-3.7.1',
+            name: 'Свекла, тушенная в сметанном соусе',
+            components: {
+                flourWheat: 2,
+                oil: 8,
+                sourCream: 20,
+                vegetables: 208,
+            },
+            macronutrients: {
+                proteins: 2.21,
+                fats: 5.36,
+                carbohydrates: 9.43
+            },
+            caloricity: 93.89
+        },
+    ]
+}
+
+const STEWED_BEETROOT_IN_SOUR_CREAM: IDish = {
+    id: 'kids-3.8',
+    generalOutput: 200,
+    variants: [
+        {
+            id: 'kids-3.8.1',
+            name: 'Свекла, тушенная в сметане',
+            components: {
+                butter: 4.8,
+                sourCream: 28.5,
+                vegetables: 195,
+            },
+            macronutrients: {
+                proteins: 1.67,
+                fats: 4.34,
+                carbohydrates: 8.42
+            },
+            caloricity: 88.7
+        },
+    ]
+}
