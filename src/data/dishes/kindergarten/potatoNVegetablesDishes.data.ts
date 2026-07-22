@@ -202,3 +202,121 @@ const STEWED_BEETROOT_IN_SOUR_CREAM: IDish = {
         },
     ]
 }
+
+const CARROTS_STEWED_W_RICE_N_PRUNES: IDish = {
+    id: 'kids-3.9',
+    generalOutput: 200,
+    variants: [
+        {
+            id: 'kids-3.9.1',
+            name: 'Морковь, тушенная с рисом и черносливом',
+            components: {
+                butter: 16,
+                cereals: 30,
+                fruitsDried: 27,
+                sugar: 5,
+                vegetables: 76,
+            },
+            macronutrients: {
+                proteins: 1.72,
+                fats: 5.98,
+                carbohydrates: 22.29
+            },
+            caloricity: 154.91
+        },
+    ]
+}
+
+const STEWED_CARROTS: IDish = {
+    id: 'kids-3.10',
+    generalOutput: 200,
+    variants: [
+        {
+            id: 'kids-3.10.1',
+            name: 'Морковь тушеная',
+            components: {
+                oil: 3.3,
+                sugar: 1.7,
+                vegetables: 95,
+            },
+            macronutrients: {
+                proteins: 0.55,
+                fats: 1.49,
+                carbohydrates: 3.84
+            },
+            caloricity: 35.38
+        },
+    ]
+}
+
+const CARROTS_STEWED_W_APPLES: IDish = {
+    id: 'kids-3.11',
+    generalOutput: 200,
+    variants: [
+        {
+            id: 'kids-3.11.1',
+            name: 'Морковь, тушенная с яблоками',
+            components: {
+                butter: 10,
+                fruits: 40,
+                sugar: 5,
+                vegetables: 170,
+            },
+            macronutrients: {
+                proteins: 1.08,
+                fats: 3.78,
+                carbohydrates: 9.56
+            },
+            caloricity: 84.52
+        },
+    ]
+}
+
+const POTATO_N_VEGETABLES_STEWED_IN_SOUR_CREAM_SAUSE: IDish = {
+    id: 'kids-3.12',
+    generalOutput: 200,
+    variants: [
+        {
+            id: 'kids-3.12.1',
+            name: 'Картофель и овощи, тушенные в соусе (сметанном)',
+            components: {
+                flourWheat: 2,
+                oil: 14,
+                potato: 168,
+                sourCream: 20,
+                vegetables: 31,
+            },
+            macronutrients: {
+                proteins: 2.02,
+                fats: 8.23,
+                carbohydrates: 13.35
+            },
+            caloricity: 139.78
+        },
+    ]
+}
+
+const POTATO_N_VEGETABLES_STEWED_IN_RED_MAIN_SAUSE: IDish = {
+    id: 'kids-3.13',
+    generalOutput: 200,
+    variants: [
+        {
+            id: 'kids-3.13.1',
+            name: 'Картофель и овощи, тушенные в соусе (красном основном)',
+            components: {
+                flourWheat: 2,
+                oil: 14.8,
+                potato: 168,
+                sourCream: 20,
+                tomatoPuree: 4,
+                vegetables: 34.8,
+            },
+            macronutrients: {
+                proteins: 1.86,
+                fats: 6.82,
+                carbohydrates: 14.67
+            },
+            caloricity: 124.44
+        },
+    ]
+}
