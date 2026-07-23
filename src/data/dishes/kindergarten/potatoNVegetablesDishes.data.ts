@@ -320,3 +320,476 @@ const POTATO_N_VEGETABLES_STEWED_IN_RED_MAIN_SAUSE: IDish = {
         },
     ]
 }
+
+const VEGETABLES_STEW: IDish = {
+    id: 'kids-3.14',
+    generalOutput: 200,
+    variants: [
+        {
+            id: 'kids-3.14.1',
+            name: 'Рагу из овощей',
+            components: {
+                flourWheat: 3,
+                oil: 10,
+                potato: 94,
+                sourCream: 30,
+                vegetables: 88
+            },
+            macronutrients: {
+                proteins: 0.82,
+                fats: 2.95,
+                carbohydrates: 4.64
+            },
+            caloricity: 49.98
+        },
+    ]
+}
+
+const POTATO_CUTLETS_W_CURD: IDish = {
+    id: 'kids-3.15',
+    variants: [
+        {
+            id: 'kids-3.15.1',
+            name: 'Котлеты картофельные с творогом (мука пшеничная)',
+            defaultOutput: 150,
+            components: {
+                butter: 3,
+                curd: 50,
+                eggs: 7,
+                flourWheat: 13.5,
+                oil: 7,
+                potato: 100,
+            },
+            macronutrients: {
+                proteins: 8.46,
+                fats: 10.03,
+                carbohydrates: 17.81
+            },
+            caloricity: 199.2
+        },
+        {
+            id: 'kids-3.15.2',
+            name: 'Котлеты картофельные с творогом (сухари пшеничные)',
+            defaultOutput: 150,
+            components: {
+                butter: 3,
+                breadWheat: 6.5,
+                curd: 50,
+                eggs: 7,
+                flourWheat: 7,
+                oil: 7,
+                potato: 100,
+            },
+            macronutrients: {
+                proteins: 8.46,
+                fats: 10.03,
+                carbohydrates: 17.81
+            },
+            caloricity: 199.2
+        },
+        {
+            id: 'kids-3.15.3',
+            name: 'Котлеты картофельные с творогом с маслом (мука пшеничная)',
+            defaultOutput: 155,
+            components: {
+                butter: 8,
+                curd: 50,
+                eggs: 7,
+                flourWheat: 13.5,
+                oil: 7,
+                potato: 100,
+            },
+            macronutrients: {
+                proteins: 8.21,
+                fats: 12.45,
+                carbohydrates: 17.86
+            },
+            caloricity: 221.23
+        },
+        {
+            id: 'kids-3.15.4',
+            name: 'Котлеты картофельные с творогом с маслом (сухари пшеничные)',
+            defaultOutput: 155,
+            components: {
+                butter: 8,
+                breadWheat: 6.5,
+                curd: 50,
+                eggs: 7,
+                flourWheat: 7,
+                oil: 7,
+                potato: 100,
+            },
+            macronutrients: {
+                proteins: 8.21,
+                fats: 12.45,
+                carbohydrates: 17.86
+            },
+            caloricity: 221.23
+        },
+        {
+            id: 'kids-3.15.5',
+            name: 'Котлеты картофельные с творогом со сметаной (мука пшеничная)',
+            defaultOutput: 160,
+            components: {
+                butter: 3,
+                curd: 50,
+                eggs: 7,
+                flourWheat: 13.5,
+                oil: 7,
+                sourCream: 10,
+                potato: 100,
+            },
+            macronutrients: {
+                proteins: 8.2,
+                fats: 11.28,
+                carbohydrates: 17
+            },
+            caloricity: 206.06
+        },
+        {
+            id: 'kids-3.15.6',
+            name: 'Котлеты картофельные с творогом со сметаной (сухари пшеничные)',
+            defaultOutput: 160,
+            components: {
+                butter: 3,
+                breadWheat: 6.5,
+                curd: 50,
+                eggs: 7,
+                flourWheat: 7,
+                oil: 7,
+                sourCream: 10,
+                potato: 100,
+            },
+            macronutrients: {
+                proteins: 8.2,
+                fats: 11.28,
+                carbohydrates: 17
+            },
+            caloricity: 206.06
+        },
+        {
+            id: 'kids-3.15.7',
+            name: 'Котлеты картофельные с творогом с соусом молочным (мука пшеничная)',
+            defaultOutput: 200,
+            components: {
+                butter: 5.5,
+                curd: 50,
+                eggs: 7,
+                flourWheat: 16,
+                milkAndFermentedMilkProducts: 50,
+                oil: 7,
+                potato: 100,
+                sugar: 0.5
+            },
+            macronutrients: {
+                proteins: 8.2,
+                fats: 11.28,
+                carbohydrates: 17
+            },
+            caloricity: 206.06
+        },
+        {
+            id: 'kids-3.15.8',
+            name: 'Котлеты картофельные с творогом с соусом молочным (сухари пшеничные)',
+            defaultOutput: 200,
+            components: {
+                butter: 5.5,
+                breadWheat: 6.5,
+                curd: 50,
+                eggs: 7,
+                flourWheat: 9.5,
+                milkAndFermentedMilkProducts: 50,
+                oil: 7,
+                potato: 100,
+                sugar: 0.5
+            },
+            macronutrients: {
+                proteins: 7.2,
+                fats: 9.07,
+                carbohydrates: 15.67
+            },
+            caloricity: 175.79
+        },
+    ]
+}
+
+const CARROT_CUTLETS: IDish = {
+    id: 'kids-3.16',
+    variants: [
+        {
+            id: 'kids-3.16.1',
+            name: 'Котлеты морковные (мука пшеничная)',
+            defaultOutput: 150,
+            components: {
+                butter: 17,
+                cereals: 15,
+                eggs: 10,
+                flourWheat: 12,
+                vegetables: 140,
+            },
+            macronutrients: {
+                proteins: 4.58,
+                fats: 10.93,
+                carbohydrates: 20.13
+            },
+            caloricity: 197.45
+        },
+        {
+            id: 'kids-3.16.2',
+            name: 'Котлеты морковные (сухари пшеничные)',
+            defaultOutput: 150,
+            components: {
+                butter: 17,
+                breadWheat: 12,
+                cereals: 15,
+                eggs: 10,
+                vegetables: 140,
+            },
+            macronutrients: {
+                proteins: 4.58,
+                fats: 10.93,
+                carbohydrates: 20.13
+            },
+            caloricity: 197.45
+        },
+        {
+            id: 'kids-3.16.3',
+            name: 'Котлеты морковные со сметаной (мука пшеничная)',
+            defaultOutput: 165,
+            components: {
+                butter: 17,
+                cereals: 15,
+                eggs: 10,
+                flourWheat: 12,
+                sourCream: 15,
+                vegetables: 140,
+            },
+            macronutrients: {
+                proteins: 4.42,
+                fats: 11.76,
+                carbohydrates: 18.59
+            },
+            caloricity: 198.23
+        },
+        {
+            id: 'kids-3.16.4',
+            name: 'Котлеты морковные со сметаной (сухари пшеничные)',
+            defaultOutput: 165,
+            components: {
+                butter: 17,
+                breadWheat: 12,
+                cereals: 15,
+                eggs: 10,
+                sourCream: 15,
+                vegetables: 140,
+            },
+            macronutrients: {
+                proteins: 4.42,
+                fats: 11.76,
+                carbohydrates: 18.59
+            },
+            caloricity: 198.23
+        },
+        {
+            id: 'kids-3.16.5',
+            name: 'Котлеты морковные с соусом молочным (мука пшеничная)',
+            defaultOutput: 200,
+            components: {
+                butter: 19.5,
+                cereals: 15,
+                eggs: 10,
+                flourWheat: 14.5,
+                milkAndFermentedMilkProducts: 50,
+                sugar: 0.5,
+                vegetables: 140,
+            },
+            macronutrients: {
+                proteins: 4.28,
+                fats: 9.75,
+                carbohydrates: 17.41
+            },
+            caloricity: 174.48
+        },
+        {
+            id: 'kids-3.16.6',
+            name: 'Котлеты морковные с соусом молочным (сухари пшеничные)',
+            defaultOutput: 200,
+            components: {
+                butter: 19.5,
+                breadWheat: 12,
+                cereals: 15,
+                eggs: 10,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 50,
+                sugar: 0.5,
+                vegetables: 140,
+            },
+            macronutrients: {
+                proteins: 4.28,
+                fats: 9.75,
+                carbohydrates: 17.41
+            },
+            caloricity: 174.48
+        },
+        {
+            id: 'kids-3.16.7',
+            name: 'Котлеты морковные с соусом сметанным (мука пшеничная)',
+            defaultOutput: 200,
+            components: {
+                butter: 17,
+                cereals: 15,
+                eggs: 10,
+                flourWheat: 15.75,
+                sourCream: 12.5,
+                vegetables: 140,
+            },
+            macronutrients: {
+                proteins: 3.81,
+                fats: 9.47,
+                carbohydrates: 16.59
+            },
+            caloricity: 167.23
+        },
+        {
+            id: 'kids-3.16.8',
+            name: 'Котлеты морковные с соусом сметанным (сухари пшеничные)',
+            defaultOutput: 200,
+            components: {
+                butter: 17,
+                breadWheat: 12,
+                cereals: 15,
+                eggs: 10,
+                flourWheat: 3.75,
+                sourCream: 12.5,
+                vegetables: 140,
+            },
+            macronutrients: {
+                proteins: 3.81,
+                fats: 9.47,
+                carbohydrates: 16.59
+            },
+            caloricity: 167.23
+        }
+    ]
+}
+
+const DRANIKI_PO_DOMASHNEMU: IDish = {
+    id: 'kids-3.17',
+    variants: [
+        {
+            id: 'kids-3.17.1',
+            name: 'Драники по-домашнему',
+            defaultOutput: 200,
+            components: {
+                flourWheat: 4,
+                oil: 16,
+                potato: 238,
+                vegetables: 12,
+            },
+            macronutrients: {
+                proteins: 2.38,
+                fats: 7.47,
+                carbohydrates: 19.19
+            },
+            caloricity: 151.55
+        },
+        {
+            id: 'kids-3.17.2',
+            name: 'Драники по-домашнему с маслом сливочным',
+            defaultOutput: 205,
+            components: {
+                butter: 5,
+                flourWheat: 4,
+                oil: 16,
+                potato: 238,
+                vegetables: 12,
+            },
+            macronutrients: {
+                proteins: 2.33,
+                fats: 9.06,
+                carbohydrates: 18.74
+            },
+            caloricity: 164.27
+        },
+        {
+            id: 'kids-3.17.3',
+            name: 'Драники по-домашнему со сметаной',
+            defaultOutput: 215,
+            components: {
+                flourWheat: 4,
+                oil: 16,
+                potato: 238,
+                sourCream: 15,
+                vegetables: 12,
+            },
+            macronutrients: {
+                proteins: 2.39,
+                fats: 8.18,
+                carbohydrates: 18.05
+            },
+            caloricity: 153.91
+        }
+    ]
+}
+
+const DRANIKI_LYUBITELSKIYE: IDish = {
+    id: 'kids-3.18',
+    variants: [
+        {
+            id: 'kids-3.18.1',
+            name: 'Драники "Любительские"',
+            defaultOutput: 200,
+            components: {
+                curd: 64,
+                eggs: 9,
+                flourWheat: 11,
+                oil: 16,
+                potato: 157,
+            },
+            macronutrients: {
+                proteins: 7.17,
+                fats: 10.35,
+                carbohydrates: 15.53
+            },
+            caloricity: 185.09
+        },
+        {
+            id: 'kids-3.18.2',
+            name: 'Драники "Любительские" с маслом сливочным',
+            defaultOutput: 205,
+            components: {
+                butter: 5,
+                curd: 64,
+                eggs: 9,
+                flourWheat: 11,
+                oil: 16,
+                potato: 157,
+            },
+            macronutrients: {
+                proteins: 7,
+                fats: 11.87,
+                carbohydrates: 15.17
+            },
+            caloricity: 197
+        },
+        {
+            id: 'kids-3.18.3',
+            name: 'Драники "Любительские" со сметаной',
+            defaultOutput: 215,
+            components: {
+                curd: 64,
+                eggs: 9,
+                flourWheat: 11,
+                oil: 16,
+                potato: 157,
+                sourCream: 15,
+            },
+            macronutrients: {
+                proteins: 6.84,
+                fats: 10.86,
+                carbohydrates: 14.65
+            },
+            caloricity: 185.1
+        }
+    ]
+}
