@@ -793,3 +793,354 @@ const DRANIKI_LYUBITELSKIYE: IDish = {
         }
     ]
 }
+
+const POTATO_PANCAKES_W_FRESH_CABBAGE_N_CARROTS: IDish = {
+    id: 'kids-3.19',
+    variants: [
+        {
+            id: 'kids-3.19.1',
+            name: 'Картофельные оладьи со свежей капустой и морковью',
+            defaultOutput: 200,
+            components: {
+                eggs: 16,
+                flourWheat: 10.5,
+                oil: 16,
+                potato: 120,
+                vegetables: 110,
+            },
+            macronutrients: {
+                proteins: 3.23,
+                fats: 8.16,
+                carbohydrates: 15
+            },
+            caloricity: 149.41
+        },
+        {
+            id: 'kids-3.19.2',
+            name: 'Картофельные оладьи со свежей капустой и морковью с маслом сливочным',
+            defaultOutput: 205,
+            components: {
+                butter: 5,
+                eggs: 16,
+                flourWheat: 10.5,
+                oil: 16,
+                potato: 120,
+                vegetables: 110,
+            },
+            macronutrients: {
+                proteins: 3.16,
+                fats: 9.73,
+                carbohydrates: 14.65
+            },
+            caloricity: 162.19
+        },
+        {
+            id: 'kids-3.19.3',
+            name: 'Картофельные оладьи со свежей капустой и морковью со сметаной',
+            defaultOutput: 215,
+            components: {
+                eggs: 16,
+                flourWheat: 10.5,
+                oil: 16,
+                potato: 120,
+                sourCream: 15,
+                vegetables: 110,
+            },
+            macronutrients: {
+                proteins: 3.17,
+                fats: 8.81,
+                carbohydrates: 14.15
+            },
+            caloricity: 151.9
+        },
+        {
+            id: 'kids-3.19.4',
+            name: 'Картофельные оладьи со свежей капустой и морковью с соусом молочным',
+            defaultOutput: 250,
+            components: {
+                butter: 2.5,
+                eggs: 16,
+                flourWheat: 13,
+                milkAndFermentedMilkProducts: 50,
+                oil: 16,
+                potato: 120,
+                sugar: 0.5,
+                vegetables: 110,
+            },
+            macronutrients: {
+                proteins: 3.2,
+                fats: 7.84,
+                carbohydrates: 13.6
+            },
+            caloricity: 140.6
+        }
+    ]
+}
+
+const ZUCCHINI_PANCAKES: IDish = {
+    id: 'kids-3.20',
+    variants: [
+        {
+            id: 'kids-3.20.1',
+            name: 'Оладьи из кабачков',
+            defaultOutput: 200,
+            components: {
+                cereals: 16,
+                eggs: 16,
+                flourWheat: 16,
+                oil: 12,
+                vegetables: 245,
+            },
+            macronutrients: {
+                proteins: 3.03,
+                fats: 6.56,
+                carbohydrates: 15.29
+            },
+            caloricity: 132.87
+        },
+        {
+            id: 'kids-3.20.2',
+            name: 'Оладьи из кабачков с маслом сливочным',
+            defaultOutput: 205,
+            components: {
+                butter: 5,
+                cereals: 16,
+                eggs: 16,
+                flourWheat: 16,
+                oil: 12,
+                vegetables: 245,
+            },
+            macronutrients: {
+                proteins: 2.96,
+                fats: 8.17,
+                carbohydrates: 14.93
+            },
+            caloricity: 146.05
+        },
+        {
+            id: 'kids-3.20.3',
+            name: 'Оладьи из кабачков со сметаной',
+            defaultOutput: 215,
+            components: {
+                cereals: 16,
+                eggs: 16,
+                flourWheat: 16,
+                oil: 12,
+                sourCream: 15,
+                vegetables: 245,
+            },
+            macronutrients: {
+                proteins: 2.99,
+                fats: 7.33,
+                carbohydrates: 14.42
+            },
+            caloricity: 136.5
+        }
+    ]
+}
+
+const POTATO_CASSEROLE_W_VEGETABLES: IDish = {
+    id: 'kids-3.21',
+    variants: [
+        {
+            id: 'kids-3.21.1',
+            name: 'Запеканка картофельная с овощами',
+            defaultOutput: 200,
+            components: {
+                breadWheat: 5,
+                butter: 5,
+                eggs: 5,
+                potato: 200,
+                sourCream: 5,
+                vegetables: 44,
+            },
+            macronutrients: {
+                proteins: 2.66,
+                fats: 2.88,
+                carbohydrates: 16.75
+            },
+            caloricity: 102.66
+        },
+        {
+            id: 'kids-3.21.2',
+            name: 'Запеканка картофельная с овощами со сметаной',
+            defaultOutput: 215,
+            components: {
+                breadWheat: 5,
+                butter: 5,
+                eggs: 5,
+                potato: 200,
+                sourCream: 20,
+                vegetables: 44,
+            },
+            macronutrients: {
+                proteins: 2.48,
+                fats: 4.36,
+                carbohydrates: 15.6
+            },
+            caloricity: 111.15
+        },
+        {
+            id: 'kids-3.21.3',
+            name: 'Запеканка картофельная с овощами с соусом молочным',
+            defaultOutput: 250,
+            components: {
+                breadWheat: 5,
+                butter: 7.5,
+                eggs: 5,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 50,
+                potato: 200,
+                sourCream: 5,
+                sugar: 0.5,
+                vegetables: 44,
+            },
+            macronutrients: {
+                proteins: 2.72,
+                fats: 3.77,
+                carbohydrates: 14.88
+            },
+            caloricity: 103.92
+        }
+    ]
+}
+
+const CARROT_CASSEROLE: IDish = {
+    id: 'kids-3.22',
+    variants: [
+        {
+            id: 'kids-3.22.1',
+            name: 'Запеканка морковная',
+            defaultOutput: 200,
+            components: {
+                breadWheat: 5,
+                butter: 10,
+                cereals: 20,
+                milkAndFermentedMilkProducts: 35,
+                sourCream: 5,
+                sugar: 6,
+                vegetables: 217.4,
+            },
+            macronutrients: {
+                proteins: 2.94,
+                fats: 4.67,
+                carbohydrates: 18.24
+            },
+            caloricity: 137.61
+        },
+        {
+            id: 'kids-3.22.2',
+            name: 'Запеканка морковная с маслом сливочным',
+            defaultOutput: 205,
+            components: {
+                breadWheat: 10,
+                butter: 10,
+                cereals: 20,
+                milkAndFermentedMilkProducts: 35,
+                sourCream: 5,
+                sugar: 6,
+                vegetables: 217.4,
+            },
+            macronutrients: {
+                proteins: 2.88,
+                fats: 6.33,
+                carbohydrates: 17.8
+            },
+            caloricity: 151.92
+        },
+        {
+            id: 'kids-3.22.3',
+            name: 'Запеканка морковная с маслом сливочным',
+            defaultOutput: 250,
+            components: {
+                breadWheat: 10,
+                butter: 12.5,
+                cereals: 20,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 85,
+                sourCream: 5,
+                sugar: 6.5,
+                vegetables: 217.4,
+            },
+            macronutrients: {
+                proteins: 2.62,
+                fats: 4.75,
+                carbohydrates: 15.6
+            },
+            caloricity: 124.6
+        },
+    ]
+}
+
+const CARROT_CASSEROLE_W_CURD: IDish = {
+    id: 'kids-3.23',
+    variants: [
+        {
+            id: 'kids-3.23.1',
+            name: 'Запеканка морковная с творогом',
+            defaultOutput: 200,
+            components: {
+                breadWheat: 5,
+                butter: 10,
+                cereals: 10,
+                curd: 75,
+                eggs: 20,
+                milkAndFermentedMilkProducts: 30,
+                sourCream: 5,
+                sugar: 10,
+                vegetables: 120,
+            },
+            macronutrients: {
+                proteins: 8.56,
+                fats: 8.505,
+                carbohydrates: 14.47
+            },
+            caloricity: 176.76
+        },
+        {
+            id: 'kids-3.23.2',
+            name: 'Запеканка морковная с творогом с маслом сливочным',
+            defaultOutput: 205,
+            components: {
+                breadWheat: 5,
+                butter: 15,
+                cereals: 10,
+                curd: 75,
+                eggs: 20,
+                milkAndFermentedMilkProducts: 30,
+                sourCream: 5,
+                sugar: 10,
+                vegetables: 120,
+            },
+            macronutrients: {
+                proteins: 8.36,
+                fats: 10.07,
+                carbohydrates: 14.14
+            },
+            caloricity: 188.9
+        },
+        {
+            id: 'kids-3.23.3',
+            name: 'Запеканка морковная с творогом с соусом молочным',
+            defaultOutput: 250,
+            components: {
+                breadWheat: 5,
+                butter: 12.5,
+                cereals: 10,
+                curd: 75,
+                eggs: 20,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 80,
+                sourCream: 5,
+                sugar: 10.5,
+                vegetables: 120,
+            },
+            macronutrients: {
+                proteins: 7.64,
+                fats: 8.13,
+                carbohydrates: 13.18
+            },
+            caloricity: 162.45
+        }
+    ]
+}
