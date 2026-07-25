@@ -1144,3 +1144,220 @@ const CARROT_CASSEROLE_W_CURD: IDish = {
         }
     ]
 }
+
+const VEGETABLE_CASSEROLE: IDish = {
+    id: 'kids-3.24',
+    variants: [
+        {
+            id: 'kids-3.24.1',
+            name: 'Запеканка овощная',
+            defaultOutput: 200,
+            components: {
+                breadWheat: 10,
+                cereals: 10,
+                eggs: 5,
+                oil: 5,
+                potato: 124,
+                sourCream: 5,
+                vegetables: 114,
+            },
+            macronutrients: {
+                proteins: 3.19,
+                fats: 3.26,
+                carbohydrates: 18.59
+            },
+            caloricity: 118.58
+        },
+        {
+            id: 'kids-3.24.2',
+            name: 'Запеканка овощная с маслом сливочным',
+            defaultOutput: 205,
+            components: {
+                breadWheat: 10,
+                butter: 5,
+                cereals: 10,
+                eggs: 5,
+                oil: 5,
+                potato: 124,
+                sourCream: 5,
+                vegetables: 114,
+            },
+            macronutrients: {
+                proteins: 3.12,
+                fats: 4.95,
+                carbohydrates: 18.15
+            },
+            caloricity: 132.1
+        },
+        {
+            id: 'kids-3.24.3',
+            name: 'Запеканка овощная со сметаной',
+            defaultOutput: 215,
+            components: {
+                breadWheat: 10,
+                cereals: 10,
+                eggs: 5,
+                oil: 5,
+                potato: 124,
+                sourCream: 20,
+                vegetables: 114,
+            },
+            macronutrients: {
+                proteins: 3.13,
+                fats: 4.26,
+                carbohydrates: 17.5
+            },
+            caloricity: 123.24
+        },
+        {
+            id: 'kids-3.24.4',
+            name: 'Запеканка овощная с соусом молочным',
+            defaultOutput: 250,
+            components: {
+                breadWheat: 10,
+                butter: 2.5,
+                cereals: 10,
+                eggs: 5,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 50,
+                oil: 5,
+                potato: 124,
+                sourCream: 5,
+                sugar: 0.5,
+                vegetables: 114,
+            },
+            macronutrients: {
+                proteins: 3.16,
+                fats: 3.93,
+                carbohydrates: 16.5
+            },
+            caloricity: 115.91
+        }
+    ]
+}
+
+const PUMPKIN_CASSEROLE: IDish = {
+    id: 'kids-3.25',
+    variants: [
+        {
+            id: 'kids-3.25.1',
+            name: 'Запеканка из тыквы',
+            defaultOutput: 200,
+            components: {
+                breadWheat: 5,
+                butter: 5,
+                cereals: 40,
+                eggs: 8,
+                milkAndFermentedMilkProducts: 100,
+                sourCream: 5,
+                vegetables: 127,
+            },
+            macronutrients: {
+                proteins: 4.64,
+                fats: 4.43,
+                carbohydrates: 18.18
+            },
+            caloricity: 135.12
+        },
+        {
+            id: 'kids-3.25.2',
+            name: 'Запеканка из тыквы с маслом сливочным',
+            defaultOutput: 205,
+            components: {
+                breadWheat: 5,
+                butter: 10,
+                cereals: 40,
+                eggs: 8,
+                milkAndFermentedMilkProducts: 100,
+                sourCream: 5,
+                vegetables: 127,
+            },
+            macronutrients: {
+                proteins: 4.53,
+                fats: 6.09,
+                carbohydrates: 17.75
+            },
+            caloricity: 148.24
+        },
+        {
+            id: 'kids-3.25.3',
+            name: 'Запеканка из тыквы с соусом сметанным',
+            defaultOutput: 250,
+            components: {
+                breadWheat: 5,
+                butter: 10,
+                cereals: 40,
+                eggs: 8,
+                flourWheat: 3.75,
+                milkAndFermentedMilkProducts: 100,
+                sourCream: 17.5,
+                vegetables: 127,
+            },
+            macronutrients: {
+                proteins: 4.05,
+                fats: 5.31,
+                carbohydrates: 15.45
+            },
+            caloricity: 129.64
+        }
+    ]
+}
+
+const BABKA_W_POTATO_N_ONION: IDish = {
+    id: 'kids-3.26',
+    variants: [
+        {
+            id: 'kids-3.26.1',
+            name: 'Бабка картофельная с луком',
+            defaultOutput: 200,
+            components: {
+                flourWheat: 5,
+                oil: 18,
+                potato: 195,
+                vegetables: 46,
+            },
+            macronutrients: {
+                proteins: 2.25,
+                fats: 8.28,
+                carbohydrates: 17.74
+            },
+            caloricity: 153.98
+        },
+        {
+            id: 'kids-3.26.2',
+            name: 'Бабка картофельная с луком с маслом сливочным',
+            defaultOutput: 205,
+            components: {
+                butter: 5,
+                flourWheat: 5,
+                oil: 18,
+                potato: 195,
+                vegetables: 46,
+            },
+            macronutrients: {
+                proteins: 2.2,
+                fats: 9.85,
+                carbohydrates: 17.32
+            },
+            caloricity: 166.64
+        },
+        {
+            id: 'kids-3.26.3',
+            name: 'Бабка картофельная с луком со сметаной',
+            defaultOutput: 215,
+            components: {
+                flourWheat: 5,
+                oil: 18,
+                potato: 195,
+                sourCream: 15,
+                vegetables: 46,
+            },
+            macronutrients: {
+                proteins: 2.27,
+                fats: 8.93,
+                carbohydrates: 16.7
+            },
+            caloricity: 156.17
+        }
+    ]
+}
