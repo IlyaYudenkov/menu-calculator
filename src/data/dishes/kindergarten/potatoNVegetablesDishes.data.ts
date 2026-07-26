@@ -1361,3 +1361,290 @@ const BABKA_W_POTATO_N_ONION: IDish = {
         }
     ]
 }
+
+const PUDDING_W_PUMPKIN_N_APPLES: IDish = {
+    id: 'kids-3.27',
+    variants: [
+        {
+            id: 'kids-3.27.1',
+            name: 'Пудинг из тыквы и яблок',
+            defaultOutput: 200,
+            components: {
+                breadWheat: 10,
+                butter: 4,
+                cereals: 12,
+                eggs: 10,
+                fruits: 100,
+                milkAndFermentedMilkProducts: 40,
+                sugar: 8,
+                vegetables: 84,
+            },
+            macronutrients: {
+                proteins: 2.67,
+                fats: 2.73,
+                carbohydrates: 17.27
+            },
+            caloricity: 106.29
+        },
+        {
+            id: 'kids-3.27.2',
+            name: 'Пудинг из тыквы и яблок с маслом сливочным',
+            defaultOutput: 205,
+            components: {
+                breadWheat: 10,
+                butter: 9,
+                cereals: 12,
+                eggs: 10,
+                fruits: 100,
+                milkAndFermentedMilkProducts: 40,
+                sugar: 8,
+                vegetables: 84,
+            },
+            macronutrients: {
+                proteins: 2.61,
+                fats: 4.34,
+                carbohydrates: 16.86
+            },
+            caloricity: 120.12
+        },
+        {
+            id: 'kids-3.27.3',
+            name: 'Пудинг из тыквы и яблок с соусом сметанным',
+            defaultOutput: 250,
+            components: {
+                breadWheat: 10,
+                butter: 4,
+                cereals: 12,
+                eggs: 10,
+                flourWheat: 3.75,
+                fruits: 100,
+                milkAndFermentedMilkProducts: 40,
+                sourCream: 12.5,
+                sugar: 8,
+                vegetables: 84,
+            },
+            macronutrients: {
+                proteins: 2.37,
+                fats: 3.25,
+                carbohydrates: 14.61
+            },
+            caloricity: 99.16
+        }
+    ]
+}
+
+const PUDDING_W_CARROTS_N_APPLES: IDish = {
+    id: 'kids-3.28',
+    variants: [
+        {
+            id: 'kids-3.28.1',
+            name: 'Пудинг из моркови и яблок',
+            defaultOutput: 200,
+            components: {
+                butter: 5,
+                cereals: 10,
+                eggs: 10,
+                fruits: 81,
+                milkAndFermentedMilkProducts: 40,
+                sugar: 5,
+                vegetables: 113,
+            },
+            macronutrients: {
+                proteins: 2.34,
+                fats: 3,
+                carbohydrates: 13.43
+            },
+            caloricity: 95.7
+        },
+        {
+            id: 'kids-3.28.2',
+            name: 'Пудинг из моркови и яблок с маслом сливочным',
+            defaultOutput: 205,
+            components: {
+                butter: 10,
+                cereals: 10,
+                eggs: 10,
+                fruits: 81,
+                milkAndFermentedMilkProducts: 40,
+                sugar: 5,
+                vegetables: 113,
+            },
+            macronutrients: {
+                proteins: 2.29,
+                fats: 4.7,
+                carbohydrates: 13.12
+            },
+            caloricity: 109.79
+        },
+        {
+            id: 'kids-3.28.3',
+            name: 'Пудинг из моркови и яблок со сметаной',
+            defaultOutput: 215,
+            components: {
+                butter: 5,
+                cereals: 10,
+                eggs: 10,
+                fruits: 81,
+                milkAndFermentedMilkProducts: 40,
+                sourCream: 15,
+                sugar: 5,
+                vegetables: 113,
+            },
+            macronutrients: {
+                proteins: 2.34,
+                fats: 4.01,
+                carbohydrates: 12.69
+            },
+            caloricity: 101.96
+        }
+    ]
+}
+
+const SOUFFLE_W_POTATOES_N_CARROTS: IDish = {
+    id: 'kids-3.29',
+    variants: [
+        {
+            id: 'kids-3.29.1',
+            name: 'Суфле из картофеля и моркови',
+            defaultOutput: 200,
+            components: {
+                butter: 12,
+                eggs: 16,
+                flourWheat: 4,
+                milkAndFermentedMilkProducts: 41,
+                potato: 124,
+                vegetables: 43,
+            },
+            macronutrients: {
+                proteins: 2.83,
+                fats: 5.74,
+                carbohydrates: 12.44
+            },
+            caloricity: 113.97
+        },
+        {
+            id: 'kids-3.29.2',
+            name: 'Суфле из картофеля и моркови с маслом сливочным',
+            defaultOutput: 205,
+            components: {
+                butter: 17,
+                eggs: 16,
+                flourWheat: 4,
+                milkAndFermentedMilkProducts: 41,
+                potato: 124,
+                vegetables: 43,
+            },
+            macronutrients: {
+                proteins: 2.77,
+                fats: 7.37,
+                carbohydrates: 12.16
+            },
+            caloricity: 127.6
+        },
+        {
+            id: 'kids-3.29.3',
+            name: 'Суфле из картофеля и моркови со сметаной',
+            defaultOutput: 215,
+            components: {
+                butter: 12,
+                eggs: 16,
+                flourWheat: 4,
+                milkAndFermentedMilkProducts: 41,
+                potato: 124,
+                sourCream: 15,
+                vegetables: 43,
+            },
+            macronutrients: {
+                proteins: 2.8,
+                fats: 6.57,
+                carbohydrates: 11.77
+            },
+            caloricity: 119.95
+        }
+    ]
+}
+
+const VEGETABLE_CABBAGE_ROLLS: IDish = {
+    id: 'kids-3.30',
+    variants: [
+        {
+            id: 'kids-3.30.1',
+            name: 'Голубцы овощные',
+            defaultOutput: 200,
+            components: {
+                butter: 10,
+                cereals: 9,
+                eggs: 8,
+                flourWheat: 6,
+                sourCream: 20,
+                vegetables: 158,
+            },
+            macronutrients: {
+                proteins: 2.44,
+                fats: 5.92,
+                carbohydrates: 8.76
+            },
+            caloricity: 102.93
+        }
+    ]
+}
+
+const BAKED_ZUCCHINI_W_SOUR_CREAM_SAUSE: IDish = {
+    id: 'kids-3.31',
+    variants: [
+        {
+            id: 'kids-3.31.1',
+            name: 'Кабачки, запеченные под соусом (сметанным, с сыром пошехонским)',
+            defaultOutput: 200,
+            components: {
+                cheese: 5,
+                flourWheat: 13.5,
+                oil: 13,
+                sourCream: 25,
+                vegetables: 179,
+            },
+            macronutrients: {
+                proteins: 1.99,
+                fats: 8.8,
+                carbohydrates: 8.5
+            },
+            caloricity: 122.46
+        },
+        {
+            id: 'kids-3.31.2',
+            name: 'Кабачки, запеченные под соусом (сметанным, с сыром российским)',
+            defaultOutput: 200,
+            components: {
+                cheese: 5,
+                flourWheat: 13.5,
+                oil: 13,
+                sourCream: 25,
+                vegetables: 179,
+            },
+            macronutrients: {
+                proteins: 1.92,
+                fats: 8.86,
+                carbohydrates: 8.5
+            },
+            caloricity: 122.69
+        },
+        {
+            id: 'kids-3.31.3',
+            name: 'Кабачки, запеченные под соусом (сметанным, с сыром голландским)',
+            defaultOutput: 200,
+            components: {
+                cheese: 5,
+                flourWheat: 13.5,
+                oil: 13,
+                sourCream: 25,
+                vegetables: 179,
+            },
+            macronutrients: {
+                proteins: 1.99,
+                fats: 8.81,
+                carbohydrates: 8.5
+            },
+            caloricity: 122.51
+        }
+    ]
+}
