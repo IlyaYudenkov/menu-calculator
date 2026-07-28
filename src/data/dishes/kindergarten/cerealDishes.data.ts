@@ -233,3 +233,177 @@ const VISCOUS_RICE_PORRIDGE_W_APPLES: IDish = {
         }
     ]
 }
+
+const SEMOLINA_DUMPLINGS_W_CHEESE: IDish = {
+    id: 'kids-4.11',
+    variants: [
+        {
+            id: 'kids-4.11.1',
+            name: 'Клецки манные с сыром',
+            defaultOutput: 200,
+            components: {
+                butter: 4,
+                cereals: 64,
+                eggs: 8,
+                milkAndFermentedMilkProducts: 80,
+            },
+            macronutrients: {
+                proteins: 4.4,
+                fats: 3.02,
+                carbohydrates: 23.94
+            },
+            caloricity: 142.54
+        },
+        {
+            id: 'kids-4.11.2',
+            name: 'Клецки манные с сыром со сметаной',
+            defaultOutput: 215,
+            components: {
+                butter: 4,
+                cereals: 64,
+                eggs: 8,
+                milkAndFermentedMilkProducts: 80,
+                sourCream: 15,
+            },
+            macronutrients: {
+                proteins: 4.27,
+                fats: 4.04,
+                carbohydrates: 22.5
+            },
+            caloricity: 145.52
+        },
+        {
+            id: 'kids-4.11.3',
+            name: 'Клецки манные c маслом сливочным и тертым сыром',
+            defaultOutput: 210,
+            components: {
+                butter: 9,
+                cereals: 64,
+                cheese: 5,
+                eggs: 8,
+                milkAndFermentedMilkProducts: 80,
+            },
+            macronutrients: {
+                proteins: 4.75,
+                fats: 5.16,
+                carbohydrates: 22.81
+            },
+            caloricity: 159.3
+        }
+    ]
+}
+
+const LIQUID_MILK_PORRIDGE_HERCULES: IDish = {
+    id: 'kids-4.12',
+    generalOutput: 200,
+    variants: [
+        {
+            id: 'kids-4.12.1',
+            name: 'Каша жидкая молочная "Геркулес"',
+            components: {
+                butter: 5,
+                cereals: 29.3,
+                milkAndFermentedMilkProducts: 137,
+                sugar: 5,
+            },
+            macronutrients: {
+                proteins: 3.17,
+                fats: 4.12,
+                carbohydrates: 11.79
+            },
+            caloricity: 97.63
+        }
+    ]
+}
+
+const LIQUID_MILK_SEMOLINA_PORRIDGE: IDish = {
+    id: 'kids-4.13',
+    generalOutput: 200,
+    variants: [
+        {
+            id: 'kids-4.13.1',
+            name: 'Каша жидкая молочная манная',
+            components: {
+                butter: 5,
+                cereals: 29.3,
+                milkAndFermentedMilkProducts: 137,
+                sugar: 5,
+            },
+            macronutrients: {
+                proteins: 3.08,
+                fats: 3.45,
+                carbohydrates: 14.11
+            },
+            caloricity: 100.66
+        }
+    ]
+}
+
+const LIQUID_MILK_OATMEAL_PORRIDGE: IDish = {
+    id: 'kids-4.14',
+    generalOutput: 200,
+    variants: [
+        {
+            id: 'kids-4.14.1',
+            name: 'Каша жидкая молочная овсяная',
+            components: {
+                butter: 5,
+                cereals: 38.1,
+                milkAndFermentedMilkProducts: 130,
+                sugar: 5,
+            },
+            macronutrients: {
+                proteins: 3.51,
+                fats: 4.27,
+                carbohydrates: 13.55
+            },
+            caloricity: 107.73
+        }
+    ]
+}
+
+const LIQUID_MILK_MILLET_PORRIDGE: IDish = {
+    id: 'kids-4.15',
+    generalOutput: 200,
+    variants: [
+        {
+            id: 'kids-4.15.1',
+            name: 'Каша жидкая молочная пшенная',
+            components: {
+                butter: 5,
+                cereals: 38.1,
+                milkAndFermentedMilkProducts: 130,
+                sugar: 5,
+            },
+            macronutrients: {
+                proteins: 3.59,
+                fats: 3.8,
+                carbohydrates: 16.43
+            },
+            caloricity: 115.44
+        }
+    ]
+}
+
+const LIQUID_MILK_RICE_PORRIDGE: IDish = {
+    id: 'kids-4.16',
+    generalOutput: 200,
+    variants: [
+        {
+            id: 'kids-4.16.1',
+            name: 'Каша жидкая молочная рисовая',
+            components: {
+                butter: 5,
+                cereals: 39.3,
+                milkAndFermentedMilkProducts: 137,
+                sugar: 5,
+            },
+            macronutrients: {
+                proteins: 2.65,
+                fats: 3.45,
+                carbohydrates: 14.6
+            },
+            caloricity: 100.93
+        }
+    ]
+}
