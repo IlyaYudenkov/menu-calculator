@@ -407,3 +407,143 @@ const LIQUID_MILK_RICE_PORRIDGE: IDish = {
         }
     ]
 }
+
+const LIQUID_MILLET_PORRIDGE_W_APPLES: IDish = {
+    id: 'kids-4.17',
+    generalOutput: 200,
+    variants: [
+        {
+            id: 'kids-4.17.1',
+            name: 'Каша жидкая пшенная с яблоками',
+            components: {
+                butter: 5,
+                cereals: 36,
+                fruits: 44,
+                milkAndFermentedMilkProducts: 110,
+                sugar: 6,
+            },
+            macronutrients: {
+                proteins: 3.31,
+                fats: 3.63,
+                carbohydrates: 17.77
+            },
+            caloricity: 118.09
+        }
+    ]
+}
+
+const LIQUID_RICE_PORRIDGE_W_RAISINS: IDish = {
+    id: 'kids-4.18',
+    generalOutput: 200,
+    variants: [
+        {
+            id: 'kids-4.18.1',
+            name: 'Каша жидкая рисовая с изюмом',
+            components: {
+                butter: 5,
+                cereals: 28,
+                fruitsDried: 15,
+                milkAndFermentedMilkProducts: 110,
+                sugar: 5,
+            },
+            macronutrients: {
+                proteins: 2.46,
+                fats: 2.63,
+                carbohydrates: 13.36
+            },
+            caloricity: 110.37
+        }
+    ]
+}
+
+const LIQUID_RICE_PORRIDGE_W_CARROTS: IDish = {
+    id: 'kids-4.19',
+    generalOutput: 200,
+    variants: [
+        {
+            id: 'kids-4.19.1',
+            name: 'Каша жидкая рисовая с морковью',
+            components: {
+                butter: 5,
+                cereals: 28,
+                milkAndFermentedMilkProducts: 120,
+                sugar: 5,
+                vegetables: 36
+            },
+            macronutrients: {
+                proteins: 2.6,
+                fats: 3.3,
+                carbohydrates: 14.98
+            },
+            caloricity: 102.27
+        }
+    ]
+}
+
+const LIQUID_RICE_PORRIDGE_W_APPLES: IDish = {
+    id: 'kids-4.20',
+    generalOutput: 200,
+    variants: [
+        {
+            id: 'kids-4.20.1',
+            name: 'Каша жидкая рисовая с яблоками',
+            components: {
+                butter: 5,
+                cereals: 28,
+                fruits: 41,
+                milkAndFermentedMilkProducts: 110,
+                sugar: 6,
+            },
+            macronutrients: {
+                proteins: 2.34,
+                fats: 3.22,
+                carbohydrates: 15.86
+            },
+            caloricity: 102.69
+        }
+    ]
+}
+
+const LIQUID_MILLET_PORRIDGE: IDish = {
+    id: 'kids-4.21',
+    generalOutput: 200,
+    variants: [
+        {
+            id: 'kids-4.21.1',
+            name: 'Каша жидкая пшенная',
+            components: {
+                butter: 5,
+                cereals: 38.1,
+                sugar: 5,
+            },
+            macronutrients: {
+                proteins: 1.96,
+                fats: 2.37,
+                carbohydrates: 13.67
+            },
+            caloricity: 85.02
+        }
+    ]
+}
+
+const LIQUID_HERCULES_PORRIDGE: IDish = {
+    id: 'kids-4.22',
+    generalOutput: 200,
+    variants: [
+        {
+            id: 'kids-4.22.1',
+            name: 'Каша жидкая "Геркулес"',
+            components: {
+                butter: 5,
+                cereals: 29.3,
+                sugar: 5,
+            },
+            macronutrients: {
+                proteins: 1.45,
+                fats: 2.62,
+                carbohydrates: 8.87
+            },
+            caloricity: 65.57
+        }
+    ]
+}
