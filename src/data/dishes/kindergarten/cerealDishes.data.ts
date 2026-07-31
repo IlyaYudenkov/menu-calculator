@@ -547,3 +547,251 @@ const LIQUID_HERCULES_PORRIDGE: IDish = {
         }
     ]
 }
+
+const LIQUID_SEMOLINA_PORRIDGE: IDish = {
+    id: 'kids-4.23',
+    generalOutput: 200,
+    variants: [
+        {
+            id: 'kids-4.23.1',
+            name: 'Каша жидкая манная',
+            components: {
+                butter: 5,
+                cereals: 29.3,
+                sugar: 5,
+            },
+            macronutrients: {
+                proteins: 2.46,
+                fats: 2.63,
+                carbohydrates: 13.36
+            },
+            caloricity: 88.9
+        }
+    ]
+}
+
+const LIQUID_OATMEAL_PORRIDGE: IDish = {
+    id: 'kids-4.24',
+    generalOutput: 200,
+    variants: [
+        {
+            id: 'kids-4.24.1',
+            name: 'Каша жидкая овсяная',
+            components: {
+                butter: 5,
+                cereals: 38.1,
+                sugar: 5,
+            },
+            macronutrients: {
+                proteins: 1.88,
+                fats: 2.84,
+                carbohydrates: 10.79
+            },
+            caloricity: 77.31
+        }
+    ]
+}
+
+const LIQUID_RICE_PORRIDGE: IDish = {
+    id: 'kids-4.25',
+    generalOutput: 200,
+    variants: [
+        {
+            id: 'kids-4.25.1',
+            name: 'Каша жидкая рисовая',
+            components: {
+                butter: 5,
+                cereals: 29.3,
+                sugar: 5,
+            },
+            macronutrients: {
+                proteins: 0.93,
+                fats: 1.95,
+                carbohydrates: 11.68
+            },
+            caloricity: 68.9
+        }
+    ]
+}
+
+const SEMOLINA_CASSEROLE: IDish = {
+    id: 'kids-4.26',
+    variants: [
+        {
+            id: 'kids-4.26.1',
+            name: 'Запеканка манная',
+            defaultOutput: 200,
+            components: {
+                breadWheat: 3,
+                butter: 3,
+                cereals: 45,
+                eggs: 10,
+                fruitsDried: 10,
+                milkAndFermentedMilkProducts: 100,
+                sourCream: 3,
+                sugar: 10,
+            },
+            macronutrients: {
+                proteins: 4.15,
+                fats: 3.18,
+                carbohydrates: 24.32
+            },
+            caloricity: 143.22
+        },
+        {
+            id: 'kids-4.26.2',
+            name: 'Запеканка манная с маслом сливочным',
+            defaultOutput: 205,
+            components: {
+                breadWheat: 8,
+                butter: 3,
+                cereals: 45,
+                eggs: 10,
+                fruitsDried: 10,
+                milkAndFermentedMilkProducts: 100,
+                sourCream: 3,
+                sugar: 10,
+            },
+            macronutrients: {
+                proteins: 4.06,
+                fats: 4.87,
+                carbohydrates: 23.75
+            },
+            caloricity: 156.14
+        },
+        {
+            id: 'kids-4.26.3',
+            name: 'Запеканка манная со сметаной',
+            defaultOutput: 215,
+            components: {
+                breadWheat: 3,
+                butter: 3,
+                cereals: 45,
+                eggs: 10,
+                fruitsDried: 10,
+                milkAndFermentedMilkProducts: 100,
+                sourCream: 18,
+                sugar: 10,
+            },
+            macronutrients: {
+                proteins: 4.04,
+                fats: 4.18,
+                carbohydrates: 22.82
+            },
+            caloricity: 146.16
+        },
+        {
+            id: 'kids-4.26.4',
+            name: 'Запеканка манная с соусом молочным сладким',
+            defaultOutput: 250,
+            components: {
+                breadWheat: 3,
+                butter: 5,
+                cereals: 45,
+                eggs: 10,
+                fruitsDried: 10,
+                flourWheat: 5,
+                milkAndFermentedMilkProducts: 150,
+                sourCream: 3,
+                sugar: 16,
+            },
+            macronutrients: {
+                proteins: 3.92,
+                fats: 3.72,
+                carbohydrates: 23.09
+            },
+            caloricity: 141.9
+        }
+    ]
+}
+
+const SEMOLINA_CASSEROLE_W_CARROTS: IDish = {
+    id: 'kids-4.27',
+    variants: [
+        {
+            id: 'kids-4.27.1',
+            name: 'Запеканка манная с морковью',
+            defaultOutput: 200,
+            components: {
+                breadWheat: 5,
+                butter: 5,
+                cereals: 40,
+                eggs: 4,
+                milkAndFermentedMilkProducts: 40,
+                sourCream: 5,
+                sugar: 8,
+                vegetables: 24,
+            },
+            macronutrients: {
+                proteins: 3.02,
+                fats: 3.12,
+                carbohydrates: 19.07
+            },
+            caloricity: 118.84
+        },
+        {
+            id: 'kids-4.27.2',
+            name: 'Запеканка манная с морковью с маслом сливочным',
+            defaultOutput: 205,
+            components: {
+                breadWheat: 5,
+                butter: 10,
+                cereals: 40,
+                eggs: 4,
+                milkAndFermentedMilkProducts: 40,
+                sourCream: 5,
+                sugar: 8,
+                vegetables: 24,
+            },
+            macronutrients: {
+                proteins: 2.95,
+                fats: 4.81,
+                carbohydrates: 18.62
+            },
+            caloricity: 132.4
+        },
+        {
+            id: 'kids-4.27.3',
+            name: 'Запеканка манная с морковью со сметаной',
+            defaultOutput: 215,
+            components: {
+                breadWheat: 5,
+                butter: 5,
+                cereals: 40,
+                eggs: 4,
+                milkAndFermentedMilkProducts: 40,
+                sourCream: 20,
+                sugar: 8,
+                vegetables: 24,
+            },
+            macronutrients: {
+                proteins: 2.99,
+                fats: 4.13,
+                carbohydrates: 17.94
+            },
+            caloricity: 123.48
+        },
+        {
+            id: 'kids-4.27.4',
+            name: 'Запеканка манная с морковью с соусом молочным сладким',
+            defaultOutput: 250,
+            components: {
+                breadWheat: 5,
+                butter: 7,
+                cereals: 40,
+                eggs: 4,
+                flourWheat: 2,
+                milkAndFermentedMilkProducts: 90,
+                sourCream: 5,
+                sugar: 14,
+                vegetables: 24,
+            },
+            macronutrients: {
+                proteins: 3,
+                fats: 3.7,
+                carbohydrates: 18.9
+            },
+            caloricity: 122.4
+        }
+    ]
+}
