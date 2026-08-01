@@ -795,3 +795,376 @@ const SEMOLINA_CASSEROLE_W_CARROTS: IDish = {
         }
     ]
 }
+
+const MILLET_CASSEROLE: IDish = {
+    id: 'kids-4.28',
+    variants: [
+        {
+            id: 'kids-4.28.1',
+            name: 'Запеканка пшенная',
+            defaultOutput: 200,
+            components: {
+                breadWheat: 3,
+                butter: 3,
+                cereals: 50,
+                eggs: 10,
+                fruitsDried: 10,
+                milkAndFermentedMilkProducts: 100,
+                sourCream: 3,
+                sugar: 10,
+            },
+            macronutrients: {
+                proteins: 4.65,
+                fats: 3.71,
+                carbohydrates: 25.58
+            },
+            caloricity: 155.1
+        },
+        {
+            id: 'kids-4.28.2',
+            name: 'Запеканка пшенная с маслом сливочным',
+            defaultOutput: 205,
+            components: {
+                breadWheat: 3,
+                butter: 8,
+                cereals: 50,
+                eggs: 10,
+                fruitsDried: 10,
+                milkAndFermentedMilkProducts: 100,
+                sourCream: 3,
+                sugar: 10,
+            },
+            macronutrients: {
+                proteins: 4.55,
+                fats: 5.4,
+                carbohydrates: 24.97
+            },
+            caloricity: 167.73
+        },
+        {
+            id: 'kids-4.28.3',
+            name: 'Запеканка пшенная со сметаной',
+            defaultOutput: 215,
+            components: {
+                breadWheat: 3,
+                butter: 3,
+                cereals: 50,
+                eggs: 10,
+                fruitsDried: 10,
+                milkAndFermentedMilkProducts: 100,
+                sourCream: 18,
+                sugar: 10,
+            },
+            macronutrients: {
+                proteins: 4.5,
+                fats: 4.67,
+                carbohydrates: 24
+            },
+            caloricity: 157.2
+        },
+        {
+            id: 'kids-4.28.4',
+            name: 'Запеканка пшенная с соусом молочным сладким',
+            defaultOutput: 250,
+            components: {
+                breadWheat: 3,
+                butter: 5,
+                cereals: 50,
+                eggs: 10,
+                flourWheat: 2,
+                fruitsDried: 10,
+                milkAndFermentedMilkProducts: 150,
+                sourCream: 3,
+                sugar: 16,
+            },
+            macronutrients: {
+                proteins: 4.32,
+                fats: 4.72,
+                carbohydrates: 24.1
+            },
+            caloricity: 156.74
+        }
+    ]
+}
+
+const RICE_CASSEROLE: IDish = {
+    id: 'kids-4.29',
+    variants: [
+        {
+            id: 'kids-4.29.1',
+            name: 'Запеканка рисовая',
+            defaultOutput: 200,
+            components: {
+                breadWheat: 3,
+                butter: 3,
+                cereals: 45,
+                eggs: 10,
+                fruitsDried: 10,
+                milkAndFermentedMilkProducts: 100,
+                sourCream: 3,
+                sugar: 10,
+            },
+            macronutrients: {
+                proteins: 3.49,
+                fats: 3.18,
+                carbohydrates: 25.07
+            },
+            caloricity: 143.62
+        },
+        {
+            id: 'kids-4.29.2',
+            name: 'Запеканка рисовая с маслом сливочным',
+            defaultOutput: 205,
+            components: {
+                breadWheat: 3,
+                butter: 8,
+                cereals: 45,
+                eggs: 10,
+                fruitsDried: 10,
+                milkAndFermentedMilkProducts: 100,
+                sourCream: 3,
+                sugar: 10,
+            },
+            macronutrients: {
+                proteins: 3.42,
+                fats: 4.87,
+                carbohydrates: 24.45
+            },
+            caloricity: 156.5
+        },
+        {
+            id: 'kids-4.29.3',
+            name: 'Запеканка рисовая со сметаной',
+            defaultOutput: 215,
+            components: {
+                breadWheat: 3,
+                butter: 3,
+                cereals: 45,
+                eggs: 10,
+                fruitsDried: 10,
+                milkAndFermentedMilkProducts: 100,
+                sourCream: 18,
+                sugar: 10,
+            },
+            macronutrients: {
+                proteins: 3.42,
+                fats: 4.18,
+                carbohydrates: 23.52
+            },
+            caloricity: 146.53
+        },
+        {
+            id: 'kids-4.29.4',
+            name: 'Запеканка рисовая с соусом молочным сладким',
+            defaultOutput: 250,
+            components: {
+                breadWheat: 3,
+                butter: 5,
+                cereals: 45,
+                eggs: 10,
+                flourWheat: 2,
+                fruitsDried: 10,
+                milkAndFermentedMilkProducts: 150,
+                sourCream: 3,
+                sugar: 16,
+            },
+            macronutrients: {
+                proteins: 3.39,
+                fats: 3.72,
+                carbohydrates: 23.7
+            },
+            caloricity: 142.18
+        }
+    ]
+}
+
+const RICE_CASSEROLE_W_CURD: IDish = {
+    id: 'kids-4.30',
+    variants: [
+        {
+            id: 'kids-4.30.1',
+            name: 'Запеканка рисовая с творогом',
+            defaultOutput: 200,
+            components: {
+                breadWheat: 5,
+                butter: 5,
+                cereals: 48,
+                curd: 40,
+                eggs: 10,
+                fruitsDried: 20,
+                sourCream: 5,
+                sugar: 15,
+            },
+            macronutrients: {
+                proteins: 5.51,
+                fats: 4.59,
+                carbohydrates: 30.14
+            },
+            caloricity: 185.27
+        },
+        {
+            id: 'kids-4.30.2',
+            name: 'Запеканка рисовая с творогом с маслом сливочным',
+            defaultOutput: 205,
+            components: {
+                breadWheat: 5,
+                butter: 10,
+                cereals: 48,
+                curd: 40,
+                eggs: 10,
+                fruitsDried: 20,
+                sourCream: 5,
+                sugar: 15,
+            },
+            macronutrients: {
+                proteins: 5.4,
+                fats: 6.25,
+                carbohydrates: 29.42
+            },
+            caloricity: 197.17
+        },
+        {
+            id: 'kids-4.30.3',
+            name: 'Запеканка рисовая с творогом со сметаной',
+            defaultOutput: 215,
+            components: {
+                breadWheat: 5,
+                butter: 5,
+                cereals: 48,
+                curd: 40,
+                eggs: 10,
+                fruitsDried: 20,
+                sourCream: 20,
+                sugar: 15,
+            },
+            macronutrients: {
+                proteins: 5.3,
+                fats: 5.5,
+                carbohydrates: 28.24
+            },
+            caloricity: 185.3
+        },
+        {
+            id: 'kids-4.30.4',
+            name: 'Запеканка рисовая с творогом с соусом молочным сладким',
+            defaultOutput: 250,
+            components: {
+                breadWheat: 5,
+                butter: 7,
+                cereals: 48,
+                curd: 40,
+                eggs: 10,
+                flourWheat: 2,
+                fruitsDried: 20,
+                milkAndFermentedMilkProducts: 50,
+                sourCream: 5,
+                sugar: 21,
+            },
+            macronutrients: {
+                proteins: 5,
+                fats: 4.85,
+                carbohydrates: 27.75
+            },
+            caloricity: 175.5
+        }
+    ]
+}
+
+const RICE_CASSEROLE_W_APPLES: IDish = {
+    id: 'kids-4.31',
+    variants: [
+        {
+            id: 'kids-4.31.1',
+            name: 'Запеканка рисовая с яблоками',
+            defaultOutput: 200,
+            components: {
+                breadWheat: 3,
+                butter: 4,
+                cereals: 40,
+                eggs: 4.5,
+                fruits: 32,
+                milkAndFermentedMilkProducts: 80,
+                sourCream: 2,
+                sugar: 8,
+            },
+            macronutrients: {
+                proteins: 2.74,
+                fats: 2.99,
+                carbohydrates: 20.56
+            },
+            caloricity: 121.35
+        },
+        {
+            id: 'kids-4.31.2',
+            name: 'Запеканка рисовая с яблоками с соусом молочным сладким',
+            defaultOutput: 250,
+            components: {
+                breadWheat: 3,
+                butter: 6,
+                cereals: 40,
+                eggs: 4.5,
+                flourWheat: 2,
+                fruits: 32,
+                milkAndFermentedMilkProducts: 130,
+                sourCream: 2,
+                sugar: 14,
+            },
+            macronutrients: {
+                proteins: 2.79,
+                fats: 3.56,
+                carbohydrates: 20.08
+            },
+            caloricity: 124.36
+        },
+    ]
+}
+
+const SEMOLINA_CASSEROLE_W_APPLES: IDish = {
+    id: 'kids-4.32',
+    variants: [
+        {
+            id: 'kids-4.32.1',
+            name: 'Запеканка манная с яблоками',
+            defaultOutput: 200,
+            components: {
+                breadWheat: 3,
+                butter: 4,
+                cereals: 40,
+                eggs: 6,
+                fruits: 32,
+                milkAndFermentedMilkProducts: 80,
+                sourCream: 2,
+                sugar: 8,
+            },
+            macronutrients: {
+                proteins: 3.42,
+                fats: 3.43,
+                carbohydrates: 19.9
+            },
+            caloricity: 125.41
+        },
+        {
+            id: 'kids-4.32.2',
+            name: 'Запеканка манная с яблоками с соусом молочным сладким',
+            defaultOutput: 250,
+            components: {
+                breadWheat: 3,
+                butter: 6,
+                cereals: 40,
+                eggs: 6,
+                flourWheat: 2,
+                fruits: 32,
+                milkAndFermentedMilkProducts: 130,
+                sourCream: 2,
+                sugar: 14,
+            },
+            macronutrients: {
+                proteins: 3.33,
+                fats: 3.92,
+                carbohydrates: 17.4
+            },
+            caloricity: 119.43
+        },
+        
+    ]
+}
