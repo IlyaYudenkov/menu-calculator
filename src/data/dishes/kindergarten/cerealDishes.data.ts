@@ -1165,7 +1165,202 @@ const SEMOLINA_CASSEROLE_W_APPLES: IDish = {
             },
             caloricity: 119.43
         },
-        
+    ]
+}
+
+const PILAF_W_RAISINS: IDish = {
+    id: 'kids-4.33',
+    generalOutput: 200,
+    variants: [
+        {
+            id: 'kids-4.33.1',
+            name: 'Плов с изюмом',
+            components: {
+                cereals: 53,
+                fruitsDried: 20,
+                oil: 19,
+                vegetables: 64,
+            },
+            macronutrients: {
+                proteins: 2.16,
+                fats: 8.6,
+                carbohydrates: 24.92
+            },
+            caloricity: 190.66
+        },        
+    ]
+}
+
+const PILAF_W_DRIED_APRICOTS_N_RAISINS: IDish = {
+    id: 'kids-4.34',
+    generalOutput: 200,
+    variants: [
+        {
+            id: 'kids-4.34.1',
+            name: 'Плов с курагой и изюмом',
+            components: {
+                butter: 13,
+                cereals: 45.5,
+                fruitsDried: 32,
+                sugar: 4,
+                vegetables: 18,
+            },
+            macronutrients: {
+                proteins: 2,
+                fats: 4.93,
+                carbohydrates: 25.75
+            },
+            caloricity: 157.12
+        },        
+    ]
+}
+
+const MANNIK: IDish = {
+    id: 'kids-4.35',
+    variants: [
+        {
+            id: 'kids-4.35.1',
+            name: 'Манник',
+            defaultOutput: 200,
+            components: {
+                butter: 4,
+                cereals: 53.3,
+                eggs: 13.3,
+                milkAndFermentedMilkProducts: 160,
+                sugar: 13.3
+            },
+            macronutrients: {
+                proteins: 5.34,
+                fats: 2.4,
+                carbohydrates: 25.01
+            },
+            caloricity: 145.82
+        },   
+        {
+            id: 'kids-4.35.2',
+            name: 'Манник с повидлом',
+            defaultOutput: 215,
+            components: {
+                butter: 4,
+                cereals: 53.3,
+                confectioneryProducts: 15,
+                eggs: 13.3,
+                milkAndFermentedMilkProducts: 160,
+                sugar: 13.3
+            },
+            macronutrients: {
+                proteins: 5,
+                fats: 2.23,
+                carbohydrates: 27.36
+            },
+            caloricity: 151.3
+        },
+        {
+            id: 'kids-4.35.3',
+            name: 'Манник со сметаной',
+            defaultOutput: 215,
+            components: {
+                butter: 4,
+                cereals: 53.3,
+                eggs: 13.3,
+                milkAndFermentedMilkProducts: 160,
+                sourCream: 15,
+                sugar: 13.3
+            },
+            macronutrients: {
+                proteins: 5.14,
+                fats: 3.46,
+                carbohydrates: 23.46
+            },
+            caloricity: 148.6
+        },
+        {
+            id: 'kids-4.35.4',
+            name: 'Манник с соусом молочным сладким',
+            defaultOutput: 250,
+            components: {
+                butter: 6,
+                cereals: 53.3,
+                eggs: 13.3,
+                flourWheat: 2,
+                milkAndFermentedMilkProducts: 210,
+                sugar: 19.3
+            },
+            macronutrients: {
+                proteins: 4.9,
+                fats: 3.09,
+                carbohydrates: 23.64
+            },
+            caloricity: 143.94
+        },
+        {
+            id: 'kids-4.35.5',
+            name: 'Манник с соусом сметанным',
+            defaultOutput: 250,
+            components: {
+                butter: 4,
+                cereals: 53.3,
+                eggs: 13.3,
+                flourWheat: 3.27,
+                milkAndFermentedMilkProducts: 160,
+                sourCream: 12.5,
+                sugar: 13.3
+            },
+            macronutrients: {
+                proteins: 4.51,
+                fats: 2.98,
+                carbohydrates: 22.95
+            },
+            caloricity: 138.97
+        },
+    ]
+}
+
+const CORN_N_CARROTS_STEWED_IN_SAUSE: IDish = {
+    id: 'kids-4.36',
+    generalOutput: 200,
+    variants: [
+        {
+            id: 'kids-4.36.1',
+            name: 'Курукуза с морковью, припущенная в соусе',
+            components: {
+                butter: 7.5,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 50,
+                sugar: 2,
+                vegetables: 157,
+            },
+            macronutrients: {
+                proteins: 1.97,
+                fats: 3.46,
+                carbohydrates: 9.2
+            },
+            caloricity: 80.2
+        },   
+    ]
+}
+
+const CORN_BAKED_IN_SOUR_CREAM_SAUSE: IDish = {
+    id: 'kids-4.37',
+    generalOutput: 200,
+    variants: [
+        {
+            id: 'kids-4.37.1',
+            name: 'Курукуза, запеченная в сметанном соусе',
+            components: {
+                butter: 5,
+                cheese: 5,
+                flourWheat: 2.8,
+                sourCream: 27.5,
+                vegetables: 160,
+            },
+            macronutrients: {
+                proteins: 4.97,
+                fats: 6.48,
+                carbohydrates: 6.99
+            },
+            caloricity: 107.87
+        },   
     ]
 }
 
@@ -1202,5 +1397,9 @@ export const CEREAL_DISHES_KINDERGARTEN_ARRAY: IDish[] = [
     RICE_CASSEROLE_W_CURD,
     RICE_CASSEROLE_W_APPLES,
     SEMOLINA_CASSEROLE_W_APPLES,
-    
+    PILAF_W_RAISINS,
+    PILAF_W_DRIED_APRICOTS_N_RAISINS,
+    MANNIK,
+    CORN_N_CARROTS_STEWED_IN_SAUSE,
+    CORN_BAKED_IN_SOUR_CREAM_SAUSE
 ]
