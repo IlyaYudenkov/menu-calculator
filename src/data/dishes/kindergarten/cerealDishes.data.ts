@@ -1316,54 +1316,6 @@ const MANNIK: IDish = {
     ]
 }
 
-const CORN_N_CARROTS_STEWED_IN_SAUSE: IDish = {
-    id: 'kids-4.36',
-    generalOutput: 200,
-    variants: [
-        {
-            id: 'kids-4.36.1',
-            name: 'Курукуза с морковью, припущенная в соусе',
-            components: {
-                butter: 7.5,
-                flourWheat: 2.5,
-                milkAndFermentedMilkProducts: 50,
-                sugar: 2,
-                vegetables: 157,
-            },
-            macronutrients: {
-                proteins: 1.97,
-                fats: 3.46,
-                carbohydrates: 9.2
-            },
-            caloricity: 80.2
-        },   
-    ]
-}
-
-const CORN_BAKED_IN_SOUR_CREAM_SAUSE: IDish = {
-    id: 'kids-4.37',
-    generalOutput: 200,
-    variants: [
-        {
-            id: 'kids-4.37.1',
-            name: 'Курукуза, запеченная в сметанном соусе',
-            components: {
-                butter: 5,
-                cheese: 5,
-                flourWheat: 2.8,
-                sourCream: 27.5,
-                vegetables: 160,
-            },
-            macronutrients: {
-                proteins: 4.97,
-                fats: 6.48,
-                carbohydrates: 6.99
-            },
-            caloricity: 107.87
-        },   
-    ]
-}
-
 export const CEREAL_DISHES_KINDERGARTEN_ARRAY: IDish[] = [
     VISCOUS_MILK_BUCKWHEAT_PORRIDGE,
     VISCOUS_MILK_SEMOLINA_PORRIDGE,
@@ -1399,7 +1351,5 @@ export const CEREAL_DISHES_KINDERGARTEN_ARRAY: IDish[] = [
     SEMOLINA_CASSEROLE_W_APPLES,
     PILAF_W_RAISINS,
     PILAF_W_DRIED_APRICOTS_N_RAISINS,
-    MANNIK,
-    CORN_N_CARROTS_STEWED_IN_SAUSE,
-    CORN_BAKED_IN_SOUR_CREAM_SAUSE
+    MANNIK
 ]
