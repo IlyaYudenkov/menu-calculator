@@ -280,3 +280,11 @@ const LAPSHEVNIK_W_CURD_V2: IDish = {//добавить соус фруктов�
         },
     ]
 }
+
+export const PASTA_PRODUCTS_DISHES_ARRAY: IDish[] = [
+    MACARONI_W_CHEESE,
+    BAKES_MACARONI_W_EGG,
+    MACARONNIK,
+    LAPSHEVNIK_W_CURD_V1,
+    LAPSHEVNIK_W_CURD_V2
+]
