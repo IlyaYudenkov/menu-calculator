@@ -20,7 +20,7 @@ const CORN_N_CARROTS_STEWED_IN_SAUSE: IDish = {
                 carbohydrates: 9.2
             },
             caloricity: 80.2
-        },   
+        },
     ]
 }
 
@@ -44,7 +44,7 @@ const CORN_BAKED_IN_SOUR_CREAM_SAUSE: IDish = {
                 carbohydrates: 6.99
             },
             caloricity: 107.87
-        },   
+        },
     ]
 }
 
@@ -67,7 +67,7 @@ const PEAS_IN_MILK_SAUSE: IDish = {
                 carbohydrates: 17.36
             },
             caloricity: 142.86
-        },   
+        },
     ]
 }
 
@@ -90,7 +90,7 @@ const BEANS_IN_MILK_SAUSE: IDish = {
                 carbohydrates: 16.1
             },
             caloricity: 136.2
-        },   
+        },
     ]
 }
 
@@ -132,7 +132,7 @@ const GREEN_PEAS_SOUFFLE: IDish = {
                 carbohydrates: 7.3
             },
             caloricity: 114.1
-        },  
+        },
     ]
 }
 
@@ -158,7 +158,7 @@ const PEAS_N_POTATO_CASSEROLE: IDish = {
                 carbohydrates: 19.19
             },
             caloricity: 151.24
-        }, 
+        },
         {
             id: 'kids-5.6.2',
             name: 'Запеканка из бобовых и картофеля со сметаной (горох)',
@@ -178,7 +178,7 @@ const PEAS_N_POTATO_CASSEROLE: IDish = {
                 carbohydrates: 17.44
             },
             caloricity: 134.5
-        }, 
+        },
     ]
 }
 
@@ -224,6 +224,16 @@ const BEANS_N_POTATO_CASSEROLE: IDish = {
                 carbohydrates: 16.7
             },
             caloricity: 139.01
-        } 
+        }
     ]
 }
+
+export const BEANS_N_CORN_DISHES_ARRAY: IDish[] = [
+    CORN_N_CARROTS_STEWED_IN_SAUSE,
+    CORN_BAKED_IN_SOUR_CREAM_SAUSE,
+    PEAS_IN_MILK_SAUSE,
+    BEANS_IN_MILK_SAUSE,
+    GREEN_PEAS_SOUFFLE,
+    PEAS_N_POTATO_CASSEROLE,
+    BEANS_N_POTATO_CASSEROLE
+]
