@@ -281,10 +281,34 @@ const LAPSHEVNIK_W_CURD_V2: IDish = {//добавить соус фруктов�
     ]
 }
 
+const BOILED_MACARONI_W_VEGETABLES: IDish = {
+    id: 'kids-6.6',
+    generalOutput: 200,
+    variants: [
+        {
+            id: 'kids-6.6.1',
+            name: 'Макароны отварные с овощами',
+            components: {
+                butter: 10,
+                pastaProducts: 56,
+                tomatoPuree: 5,
+                vegetables: 35,
+            },
+            macronutrients: {
+                proteins: 2.98,
+                fats: 3.92,
+                carbohydrates: 18.97
+            },
+            caloricity: 126.88
+        }
+    ]
+}
+
 export const PASTA_PRODUCTS_DISHES_ARRAY: IDish[] = [
     MACARONI_W_CHEESE,
     BAKES_MACARONI_W_EGG,
     MACARONNIK,
     LAPSHEVNIK_W_CURD_V1,
-    LAPSHEVNIK_W_CURD_V2
+    LAPSHEVNIK_W_CURD_V2,
+    BOILED_MACARONI_W_VEGETABLES
 ]
