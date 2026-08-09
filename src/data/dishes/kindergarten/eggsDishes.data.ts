@@ -123,3 +123,203 @@ const OMELETTE_W_ONION_V1: IDish = {
         }
     ]
 }
+
+const OMELETTE_W_ONION_V2: IDish = {
+    id: 'kids-7.5',
+    variants: [
+        {
+            id: 'kids-7.5.1',
+            name: 'Омлет с луком (вариант 2)',
+            defaultOutput: 70,
+            components: {
+                butter: 5,
+                eggs: 49,
+                milkAndFermentedMilkProducts: 19,
+                vegetables: 8
+            },
+            macronutrients: {
+                proteins: 8.77,
+                fats: 12.87,
+                carbohydrates: 2.59
+            },
+            caloricity: 164.4
+        },
+        {
+            id: 'kids-7.5.2',
+            name: 'Омлет с луком с маслом сливочным (вариант 2)',
+            defaultOutput: 75,
+            components: {
+                butter: 10,
+                eggs: 49,
+                milkAndFermentedMilkProducts: 19,
+                vegetables: 8
+            },
+            macronutrients: {
+                proteins: 8.21,
+                fats: 16.85,
+                carbohydrates: 2.45
+            },
+            caloricity: 198.32
+        }
+    ]
+}
+
+const OMELETTE_W_CHEESE: IDish = {
+    id: 'kids-7.6',
+    variants: [
+        {
+            id: 'kids-7.6.1',
+            name: 'Омлет с сыром',
+            defaultOutput: 70,
+            components: {
+                butter: 3,
+                cheese: 10,
+                eggs: 49,
+                milkAndFermentedMilkProducts: 18,
+            },
+            macronutrients: {
+                proteins: 11.89,
+                fats: 14.1,
+                carbohydrates: 1.6
+            },
+            caloricity: 184.8
+        },
+        {
+            id: 'kids-7.6.2',
+            name: 'Омлет с сыром с маслом сливочным',
+            defaultOutput: 75,
+            components: {
+                butter: 8,
+                cheese: 10,
+                eggs: 49,
+                milkAndFermentedMilkProducts: 18,
+            },
+            macronutrients: {
+                proteins: 11.12,
+                fats: 17.99,
+                carbohydrates: 1.51
+            },
+            caloricity: 217.36
+        }
+    ]
+}
+
+const OMELETTE_W_APPLES: IDish = {
+    id: 'kids-7.7',
+    variants: [
+        {
+            id: 'kids-7.7.1',
+            name: 'Омлет с яблоками',
+            defaultOutput: 95,
+            components: {
+                butter: 7,
+                eggs: 49,
+                fruits: 36,
+                milkAndFermentedMilkProducts: 18,
+            },
+            macronutrients: {
+                proteins: 6.47,
+                fats: 11.12,
+                carbohydrates: 4.53
+            },
+            caloricity: 146.71
+        },
+        {
+            id: 'kids-7.7.2',
+            name: 'Омлет с яблоками с маслом сливочным',
+            defaultOutput: 100,
+            components: {
+                butter: 12,
+                eggs: 49,
+                fruits: 36,
+                milkAndFermentedMilkProducts: 18,
+            },
+            macronutrients: {
+                proteins: 6.17,
+                fats: 14.19,
+                carbohydrates: 4.34
+            },
+            caloricity: 173.03
+        }
+    ]
+}
+
+const OMELETTE_W_MEAT: IDish = {
+    id: 'kids-7.8',
+    variants: [
+        {
+            id: 'kids-7.8.1',
+            name: 'Омлет с мясом',
+            defaultOutput: 70,
+            components: {
+                butter: 1.5,
+                eggs: 39,
+                meat: 23,
+                milkAndFermentedMilkProducts: 24,
+            },
+            macronutrients: {
+                proteins: 12.84,
+                fats: 8.99,
+                carbohydrates: 1.83
+            },
+            caloricity: 141.73
+        },
+        {
+            id: 'kids-7.8.2',
+            name: 'Омлет с мясом с маслом сливочным',
+            defaultOutput: 75,
+            components: {
+                butter: 6.5,
+                eggs: 39,
+                meat: 23,
+                milkAndFermentedMilkProducts: 24,
+            },
+            macronutrients: {
+                proteins: 12.01,
+                fats: 12.27,
+                carbohydrates: 1.75
+            },
+            caloricity: 168.19
+        }
+    ]
+}
+
+const OMELETTE_W_SAUSAGE: IDish = {
+    id: 'kids-7.9',
+    variants: [
+        {
+            id: 'kids-7.9.1',
+            name: 'Омлет с колбасой',
+            defaultOutput: 70,
+            components: {
+                butter: 4,
+                eggs: 43,
+                milkAndFermentedMilkProducts: 16,
+                sausageProducts: 18
+            },
+            macronutrients: {
+                proteins: 10.21,
+                fats: 16.03,
+                carbohydrates: 1.4
+            },
+            caloricity: 194.3
+        },
+         {
+            id: 'kids-7.9.2',
+            name: 'Омлет с колбасой с маслом сливочным',
+            defaultOutput: 75,
+            components: {
+                butter: 9,
+                eggs: 43,
+                milkAndFermentedMilkProducts: 16,
+                sausageProducts: 18
+            },
+            macronutrients: {
+                proteins: 9.57,
+                fats: 19.8,
+                carbohydrates: 1.36
+            },
+            caloricity: 226.21
+        }
+    ]
+}
