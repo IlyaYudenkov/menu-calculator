@@ -304,7 +304,7 @@ const OMELETTE_W_SAUSAGE: IDish = {
             },
             caloricity: 194.3
         },
-         {
+        {
             id: 'kids-7.9.2',
             name: 'Омлет с колбасой с маслом сливочным',
             defaultOutput: 75,
@@ -320,6 +320,155 @@ const OMELETTE_W_SAUSAGE: IDish = {
                 carbohydrates: 1.36
             },
             caloricity: 226.21
+        }
+    ]
+}
+
+const OMELETTE_W_SAUSAGES_V1: IDish = {
+    id: 'kids-7.10',
+    variants: [
+        {
+            id: 'kids-7.10.1',
+            name: 'Омлет с сосисками (вариант 1)',
+            defaultOutput: 70,
+            components: {
+                butter: 1,
+                eggs: 43,
+                milkAndFermentedMilkProducts: 16,
+                oil: 3,
+                sausageProducts: 18
+            },
+            macronutrients: {
+                proteins: 10.04,
+                fats: 16.93,
+                carbohydrates: 1.74
+            },
+            caloricity: 203.34
+        },
+        {
+            id: 'kids-7.10.2',
+            name: 'Омлет с сосисками с маслом сливочным (вариант 1)',
+            defaultOutput: 75,
+            components: {
+                butter: 6,
+                eggs: 43,
+                milkAndFermentedMilkProducts: 16,
+                oil: 3,
+                sausageProducts: 18
+            },
+            macronutrients: {
+                proteins: 9.4,
+                fats: 20.64,
+                carbohydrates: 1.67
+            },
+            caloricity: 234.7
+        }
+    ]
+}
+
+const OMELETTE_W_SAUSAGES_V2: IDish = {
+    id: 'kids-7.11',
+    variants: [
+        {
+            id: 'kids-7.11.1',
+            name: 'Омлет с сосисками (вариант 2)',
+            defaultOutput: 70,
+            components: {
+                butter: 4,
+                eggs: 43,
+                milkAndFermentedMilkProducts: 16,
+                sausageProducts: 18
+            },
+            macronutrients: {
+                proteins: 10.06,
+                fats: 16.27,
+                carbohydrates: 1.77
+            },
+            caloricity: 197.53
+        },
+        {
+            id: 'kids-7.11.2',
+            name: 'Омлет с сосисками с маслом сливочным (вариант 2)',
+            defaultOutput: 75,
+            components: {
+                butter: 9,
+                eggs: 43,
+                milkAndFermentedMilkProducts: 16,
+                sausageProducts: 18
+            },
+            macronutrients: {
+                proteins: 9.41,
+                fats: 20.03,
+                carbohydrates: 1.71
+            },
+            caloricity: 229.24
+        }
+    ]
+}
+
+const BAKED_OMELETTE_W_POTATOES: IDish = {
+    id: 'kids-7.12',
+    variants: [
+        {
+            id: 'kids-7.12.1',
+            name: 'Омлет с картофелем (запеченный)',
+            defaultOutput: 95,
+            components: {
+                eggs: 45,
+                milkAndFermentedMilkProducts: 17,
+                oil: 5,
+                potato: 44.4,
+                sausageProducts: 18
+            },
+            macronutrients: {
+                proteins: 6.63,
+                fats: 9.17,
+                carbohydrates: 7.74
+            },
+            caloricity: 143.33
+        },
+        {
+            id: 'kids-7.12.2',
+            name: 'Омлет с картофелем (запеченный) с маслом сливочным',
+            defaultOutput: 100,
+            components: {
+                butter: 5,
+                eggs: 45,
+                milkAndFermentedMilkProducts: 17,
+                oil: 5,
+                potato: 44.4,
+                sausageProducts: 18
+            },
+            macronutrients: {
+                proteins: 6.32,
+                fats: 12.34,
+                carbohydrates: 7.39
+            },
+            caloricity: 169.82
+        }
+    ]
+}
+
+const DRETCHENA: IDish = {
+    id: 'kids-7.13',
+    generalOutput: 70,
+    variants: [
+        {
+            id: 'kids-7.13.1',
+            name: 'Драчена',
+            components: {
+                butter: 3.5,
+                eggs: 56,
+                flourWheat: 4,
+                milkAndFermentedMilkProducts: 18,
+                sourCream: 7
+            },
+            macronutrients: {
+                proteins: 10.49,
+                fats: 14.1,
+                carbohydrates: 5.47
+            },
+            caloricity: 194.46
         }
     ]
 }
