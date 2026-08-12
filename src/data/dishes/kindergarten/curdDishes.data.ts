@@ -509,3 +509,323 @@ const SYRNIKI_S_MORKOVYU: IDish = {
         },
     ]
 }
+
+const BAKED_SYRNIKI_SO_SMETANOY: IDish = {
+    id: 'kids-8.7',
+    variants: [
+        {
+            id: 'kids-8.7.1',
+            name: 'Сырники, запеченные со сметаной',
+            defaultOutput: 150,
+            components: {
+                butter: 5,
+                curd: 111,
+                eggs: 10,
+                flourWheat: 29,
+                sourCream: 14.5,
+                sugar: 14.5,
+            },
+            macronutrients: {
+                proteins: 13.78,
+                fats: 10.85,
+                carbohydrates: 22.35
+            },
+            caloricity: 246.77
+        },
+        {
+            id: 'kids-8.7.2',
+            name: 'Сырники, запеченные со сметаной, со сметаной',
+            defaultOutput: 165,
+            components: {
+                butter: 5,
+                curd: 111,
+                eggs: 10,
+                flourWheat: 29,
+                sourCream: 29.5,
+                sugar: 14.5,
+            },
+            macronutrients: {
+                proteins: 12.75,
+                fats: 11.46,
+                carbohydrates: 20.58
+            },
+            caloricity: 241.19
+        }
+    ]
+}
+
+const BAKED_PUDDING_IZ_TVOROGA: IDish = {
+    id: 'kids-8.8',
+    variants: [
+        {
+            id: 'kids-8.8.1',
+            name: 'Пудинг из творога (запеченный)',
+            defaultOutput: 150,
+            components: {
+                breadWheat: 4,
+                butter: 4,
+                cereals: 11,
+                curd: 112.5,
+                eggs: 7.5,
+                fruitsDried: 15,
+                sourCream: 4,
+                sugar: 11,
+            },
+            macronutrients: {
+                proteins: 12.88,
+                fats: 8.95,
+                carbohydrates: 20.14
+            },
+            caloricity: 215.71
+        },
+        {
+            id: 'kids-8.8.2',
+            name: 'Пудинг из творога (запеченный) со сметаной',
+            defaultOutput: 165,
+            components: {
+                breadWheat: 4,
+                butter: 4,
+                cereals: 11,
+                curd: 112.5,
+                eggs: 7.5,
+                fruitsDried: 15,
+                sourCream: 19,
+                sugar: 11,
+            },
+            macronutrients: {
+                proteins: 11.4,
+                fats: 9.74,
+                carbohydrates: 18.57
+            },
+            caloricity: 212.96
+        },
+        {
+            id: 'kids-8.8.3',
+            name: 'Пудинг из творога (запеченный) с соусом молочным сладким',
+            defaultOutput: 200,
+            components: {
+                breadWheat: 4,
+                butter: 6,
+                cereals: 11,
+                curd: 112.5,
+                eggs: 7.5,
+                flourWheat: 2,
+                fruitsDried: 15,
+                milkAndFermentedMilkProducts: 50,
+                sourCream: 4,
+                sugar: 17,
+            },
+            macronutrients: {
+                proteins: 10.4,
+                fats: 8,
+                carbohydrates: 19.49
+            },
+            caloricity: 193.46
+        },
+    ]
+}
+
+const ZAPEKANKA_IZ_TVOROGA_S_MANNOY_KRUPOY_V1: IDish = {
+    id: 'kids-8.9',
+    variants: [
+        {
+            id: 'kids-8.9.1',
+            name: 'Запеканка из творога (с манной крупой) (вариант 1)',
+            defaultOutput: 150,
+            components: {
+                breadWheat: 5,
+                cereals: 10,
+                curd: 140,
+                eggs: 4,
+                oil: 5,
+                sourCream: 5,
+                sugar: 10,
+            },
+            macronutrients: {
+                proteins: 15.19,
+                fats: 11.28,
+                carbohydrates: 13.93
+            },
+            caloricity: 223.13
+        },
+        {
+            id: 'kids-8.9.2',
+            name: 'Запеканка из творога (с манной крупой) (вариант 1) со сметаной',
+            defaultOutput: 165,
+            components: {
+                breadWheat: 5,
+                cereals: 10,
+                curd: 140,
+                eggs: 4,
+                oil: 5,
+                sourCream: 20,
+                sugar: 10,
+            },
+            macronutrients: {
+                proteins: 14.03,
+                fats: 11.85,
+                carbohydrates: 12.92
+            },
+            caloricity: 219.7
+        },
+        {
+            id: 'kids-8.9.3',
+            name: 'Запеканка из творога (с манной крупой) (вариант 1) с соусом молочным сладким',
+            defaultOutput: 200,
+            components: {
+                breadWheat: 5,
+                butter: 2,
+                cereals: 10,
+                curd: 140,
+                eggs: 4,
+                flourWheat: 2,
+                milkAndFermentedMilkProducts: 50,
+                oil: 5,
+                sourCream: 5,
+                sugar: 16,
+            },
+            macronutrients: {
+                proteins: 12.12,
+                fats: 9.75,
+                carbohydrates: 14.83
+            },
+            caloricity: 199.02
+        }
+    ]
+}
+
+const ZAPEKANKA_IZ_TVOROGA_S_MANNOY_KRUPOY_V2: IDish = {
+    id: 'kids-8.10',
+    variants: [
+        {
+            id: 'kids-8.10.1',
+            name: 'Запеканка из творога (с манной крупой) (вариант 2)',
+            defaultOutput: 150,
+            components: {
+                breadWheat: 5,
+                butter: 5,
+                cereals: 10,
+                curd: 140,
+                eggs: 4,
+                sourCream: 5,
+                sugar: 10,
+            },
+            macronutrients: {
+                proteins: 15.21,
+                fats: 10.77,
+                carbohydrates: 13.95
+            },
+            caloricity: 218.6
+        },
+        {
+            id: 'kids-8.10.2',
+            name: 'Запеканка из творога (с манной крупой) (вариант 2) со сметаной',
+            defaultOutput: 165,
+            components: {
+                breadWheat: 5,
+                butter: 5,
+                cereals: 10,
+                curd: 140,
+                eggs: 4,
+                sourCream: 20,
+                sugar: 10,
+            },
+            macronutrients: {
+                proteins: 14.05,
+                fats: 11.4,
+                carbohydrates: 12.95
+            },
+            caloricity: 215.58
+        },
+        {
+            id: 'kids-8.10.3',
+            name: 'Запеканка из творога (с манной крупой) (вариант 2) с соусом молочным сладким',
+            defaultOutput: 200,
+            components: {
+                breadWheat: 5,
+                butter: 7,
+                cereals: 10,
+                curd: 140,
+                eggs: 4,
+                flourWheat: 2,
+                milkAndFermentedMilkProducts: 50,
+                sourCream: 20,
+                sugar: 16,
+            },
+            macronutrients: {
+                proteins: 12.13,
+                fats: 9.37,
+                carbohydrates: 14.85
+            },
+            caloricity: 195.62
+        }
+    ]
+}
+
+const ZAPEKANKA_IZ_TVOROGA_S_MUKOY_PSHENICHNOY: IDish = {
+    id: 'kids-8.11',
+    variants: [
+        {
+            id: 'kids-8.11.1',
+            name: 'Запеканка из творога (с мукой пшеничной)',
+            defaultOutput: 150,
+            components: {
+                breadWheat: 5,
+                curd: 140,
+                eggs: 4,
+                flourWheat: 12,
+                oil: 5,
+                sourCream: 5,
+                sugar: 10,
+            },
+            macronutrients: {
+                proteins: 15.31,
+                fats: 11.3,
+                carbohydrates: 14.83
+            },
+            caloricity: 227.49
+        },
+        {
+            id: 'kids-8.11.2',
+            name: 'Запеканка из творога (с мукой пшеничной) со сметаной',
+            defaultOutput: 165,
+            components: {
+                breadWheat: 5,
+                curd: 140,
+                eggs: 4,
+                flourWheat: 12,
+                oil: 5,
+                sourCream: 20,
+                sugar: 10,
+            },
+            macronutrients: {
+                proteins: 14.15,
+                fats: 11.87,
+                carbohydrates: 13.74
+            },
+            caloricity: 223.7
+        },
+        {
+            id: 'kids-8.11.3',
+            name: 'Запеканка из творога (с мукой пшеничной) с соусом молочным сладким',
+            defaultOutput: 200,
+            components: {
+                breadWheat: 5,
+                butter: 2,
+                curd: 140,
+                eggs: 4,
+                flourWheat: 14,
+                milkAndFermentedMilkProducts: 50,
+                oil: 5,
+                sourCream: 5,
+                sugar: 16,
+            },
+            macronutrients: {
+                proteins: 12.4,
+                fats: 10.94,
+                carbohydrates: 15.72
+            },
+            caloricity: 214.85
+        }
+    ]
+}
