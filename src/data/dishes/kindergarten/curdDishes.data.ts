@@ -829,3 +829,270 @@ const ZAPEKANKA_IZ_TVOROGA_S_MUKOY_PSHENICHNOY: IDish = {
         }
     ]
 }
+
+const ZAPEKANKA_IZ_TVOROGA_S_MORKOVYU_V1: IDish = {
+    id: 'kids-8.12',
+    variants: [
+        {
+            id: 'kids-8.12.1',
+            name: 'Запеканка из творога с морковью (вариант 1)',
+            defaultOutput: 150,
+            components: {
+                butter: 5,
+                cereals: 10,
+                curd: 96,
+                eggs: 6,
+                milkAndFermentedMilkProducts: 30,
+                sugar: 10,
+                vegetables: 33,
+            },
+            macronutrients: {
+                proteins: 11.35,
+                fats: 8.41,
+                carbohydrates: 13.53
+            },
+            caloricity: 180.31
+        },
+        {
+            id: 'kids-8.12.2',
+            name: 'Запеканка из творога с морковью со сметаной (вариант 1)',
+            defaultOutput: 165,
+            components: {
+                butter: 5,
+                cereals: 10,
+                curd: 96,
+                eggs: 6,
+                milkAndFermentedMilkProducts: 30,
+                sourCream: 15,
+                sugar: 10,
+                vegetables: 33,
+            },
+            macronutrients: {
+                proteins: 10.54,
+                fats: 9.25,
+                carbohydrates: 12.56
+            },
+            caloricity: 180.78
+        },
+        {
+            id: 'kids-8.12.3',
+            name: 'Запеканка из творога с морковью с соусом сметанным (вариант 1)',
+            defaultOutput: 200,
+            components: {
+                butter: 5,
+                cereals: 10,
+                curd: 96,
+                eggs: 6,
+                flourWheat: 3.75,
+                milkAndFermentedMilkProducts: 30,
+                sourCream: 12.5,
+                sugar: 10,
+                vegetables: 33,
+            },
+            macronutrients: {
+                proteins: 8.84,
+                fats: 7.43,
+                carbohydrates: 11.49
+            },
+            caloricity: 152.46
+        },
+        {
+            id: 'kids-8.12.4',
+            name: 'Запеканка из творога с морковью с соусом молочным (вариант 1)',
+            defaultOutput: 200,
+            components: {
+                butter: 7.5,
+                cereals: 10,
+                curd: 96,
+                eggs: 6,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 80,
+                sugar: 10.5,
+                vegetables: 33,
+            },
+            macronutrients: {
+                proteins: 9.26,
+                fats: 7.78,
+                carbohydrates: 12
+            },
+            caloricity: 159.11
+        }
+    ]
+}
+
+const ZAPEKANKA_IZ_TVOROGA_S_MORKOVYU_V2: IDish = {
+    id: 'kids-8.13',
+    variants: [
+        {
+            id: 'kids-8.13.1',
+            name: 'Запеканка из творога с морковью (вариант 2)',
+            defaultOutput: 150,
+            components: {
+                cereals: 10,
+                curd: 96,
+                eggs: 6,
+                milkAndFermentedMilkProducts: 30,
+                oil: 5,
+                sugar: 10,
+                vegetables: 33,
+            },
+            macronutrients: {
+                proteins: 11.33,
+                fats: 8.92,
+                carbohydrates: 13.51
+            },
+            caloricity: 184.85
+        },
+        {
+            id: 'kids-8.13.2',
+            name: 'Запеканка из творога с морковью со сметаной (вариант 2)',
+            defaultOutput: 165,
+            components: {
+                cereals: 10,
+                curd: 96,
+                eggs: 6,
+                milkAndFermentedMilkProducts: 30,
+                oil: 5,
+                sourCream: 15,
+                sugar: 10,
+                vegetables: 33,
+            },
+            macronutrients: {
+                proteins: 10.53,
+                fats: 9.71,
+                carbohydrates: 12.54
+            },
+            caloricity: 184.9
+        },
+        {
+            id: 'kids-8.13.3',
+            name: 'Запеканка из творога с морковью с соусом сметанным (вариант 2)',
+            defaultOutput: 200,
+            components: {
+                cereals: 10,
+                curd: 96,
+                eggs: 6,
+                flourWheat: 3.75,
+                milkAndFermentedMilkProducts: 30,
+                oil: 5,
+                sourCream: 12.5,
+                sugar: 10,
+                vegetables: 33,
+            },
+            macronutrients: {
+                proteins: 8.83,
+                fats: 7.81,
+                carbohydrates: 11.47
+            },
+            caloricity: 155.86
+        },
+        {
+            id: 'kids-8.13.4',
+            name: 'Запеканка из творога с морковью с соусом молочным (вариант 2)',
+            defaultOutput: 200,
+            components: {
+                butter: 2.5,
+                cereals: 10,
+                curd: 96,
+                eggs: 6,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 80,
+                oil: 5,
+                sugar: 10.5,
+                vegetables: 33,
+            },
+            macronutrients: {
+                proteins: 9.25,
+                fats: 8.16,
+                carbohydrates: 11.98
+            },
+            caloricity: 162.51
+        }
+    ]
+}
+
+const SOUFFLE_TVOROJNOE: IDish = {//добавить фруктовый соус
+    id: 'kids-8.14',
+    variants: [
+        {
+            id: 'kids-8.14.1',
+            name: 'Суфле творожное',
+            defaultOutput: 150,
+            components: {
+                butter: 1.5,
+                curd: 107,
+                eggs: 7,
+                flourWheat: 11,
+                milkAndFermentedMilkProducts: 22,
+                sourCream: 14,
+                sugar: 10,
+            },
+            macronutrients: {
+                proteins: 12.41,
+                fats: 8.89,
+                carbohydrates: 12.75
+            },
+            caloricity: 184.35
+        },
+        {
+            id: 'kids-8.14.2',
+            name: 'Суфле творожное со сметаной',
+            defaultOutput: 165,
+            components: {
+                butter: 1.5,
+                curd: 107,
+                eggs: 7,
+                flourWheat: 11,
+                milkAndFermentedMilkProducts: 22,
+                sourCream: 29,
+                sugar: 10,
+            },
+            macronutrients: {
+                proteins: 11.5,
+                fats: 9.7,
+                carbohydrates: 11.85
+            },
+            caloricity: 184.45
+        },
+        {
+            id: 'kids-8.14.3',
+            name: 'Суфле творожное с соусом молочным сладким',
+            defaultOutput: 200,
+            components: {
+                butter: 3.5,
+                curd: 107,
+                eggs: 7,
+                flourWheat: 13,
+                milkAndFermentedMilkProducts: 72,
+                sourCream: 14,
+                sugar: 16,
+            },
+            macronutrients: {
+                proteins: 10.03,
+                fats: 7.95,
+                carbohydrates: 13.95
+            },
+            caloricity: 169.84
+        },
+        {
+            id: 'kids-8.14.4',
+            name: 'Суфле творожное с соусом фруктовым (яблочным)',
+            defaultOutput: 200,
+            components: {
+                butter: 1.5,
+                curd: 107,
+                eggs: 7,
+                flourWheat: 11,
+                milkAndFermentedMilkProducts: 72,
+                sourCream: 14,
+                sugar: 10,
+            },
+            macronutrients: {
+                proteins: 9.34,
+                fats: 6.7,
+                carbohydrates: 12.87
+            },
+            caloricity: 151.34
+        }
+    ]
+}
