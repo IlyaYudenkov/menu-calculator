@@ -641,3 +641,835 @@ const BAKED_FISH_WITH_A_CREAMY_SAUSE_W_POTATO_PUREE: IDish = {
         },
     ]
 }
+
+const BAKED_FISH_IN_SOUR_CREAM_W_CARROTS_V1: IDish = {
+    id: 'kids-9.8',
+    generalOutput: 80,
+    variants: [
+        {
+            id: 'kids-9.8.1',
+            name: 'Рыба (треска), запеченная в сметане с морковью (вариант 1)',
+            components: {
+                fish: 73,
+                oil: 4,
+                sourCream: 15,
+                vegetables: 16.5,
+            },
+            macronutrients: {
+                proteins: 13.7,
+                fats: 8.2,
+                carbohydrates: 1.88
+            },
+            caloricity: 140.63
+        },
+        {
+            id: 'kids-9.8.2',
+            name: 'Рыба (окунь морской), запеченная в сметане с морковью (вариант 1)',
+            components: {
+                fish: 73,
+                oil: 4,
+                sourCream: 15,
+                vegetables: 16.5,
+            },
+            macronutrients: {
+                proteins: 15.49,
+                fats: 10.36,
+                carbohydrates: 1.88
+            },
+            caloricity: 168.11
+        },
+        {
+            id: 'kids-9.8.3',
+            name: 'Рыба (хек), запеченная в сметане с морковью (вариант 1)',
+            components: {
+                fish: 73,
+                oil: 4,
+                sourCream: 15,
+                vegetables: 16.5,
+            },
+            macronutrients: {
+                proteins: 14.19,
+                fats: 9.48,
+                carbohydrates: 1.88
+            },
+            caloricity: 154.15
+        },
+        {
+            id: 'kids-9.8.4',
+            name: 'Рыба (минтай), запеченная в сметане с морковью (вариант 1)',
+            components: {
+                fish: 74,
+                oil: 4,
+                sourCream: 15,
+                vegetables: 16.5,
+            },
+            macronutrients: {
+                proteins: 13.8,
+                fats: 8.45,
+                carbohydrates: 1.88
+            },
+            caloricity: 143.46
+        }
+    ]
+}
+
+const BAKED_FISH_IN_SOUR_CREAM_W_CARROTS_V2: IDish = {
+    id: 'kids-9.9',
+    generalOutput: 80,
+    variants: [
+        {
+            id: 'kids-9.9.1',
+            name: 'Рыба (треска), запеченная в сметане с морковью (вариант 2)',
+            components: {
+                fish: 71,
+                flourWheat: 4,
+                oil: 8,
+                sourCream: 15,
+                vegetables: 22,
+            },
+            macronutrients: {
+                proteins: 12.79,
+                fats: 8.16,
+                carbohydrates: 2.33
+            },
+            caloricity: 138.61
+        },
+        {
+            id: 'kids-9.9.2',
+            name: 'Рыба (окунь морской), запеченная в сметане с морковью (вариант 2)',
+            components: {
+                fish: 71,
+                flourWheat: 4,
+                oil: 8,
+                sourCream: 15,
+                vegetables: 22,
+            },
+            macronutrients: {
+                proteins: 14.44,
+                fats: 10.16,
+                carbohydrates: 2.33
+            },
+            caloricity: 164.39
+        },
+        {
+            id: 'kids-9.9.3',
+            name: 'Рыба (хек), запеченная в сметане с морковью (вариант 2)',
+            components: {
+                fish: 71,
+                flourWheat: 4,
+                oil: 8,
+                sourCream: 15,
+                vegetables: 22,
+            },
+            macronutrients: {
+                proteins: 13.24,
+                fats: 9.35,
+                carbohydrates: 2.33
+            },
+            caloricity: 151.5
+        },
+        {
+            id: 'kids-9.9.4',
+            name: 'Рыба (минтай), запеченная в сметане с морковью (вариант 2)',
+            components: {
+                fish: 67.4,
+                flourWheat: 4,
+                oil: 8,
+                sourCream: 15,
+                vegetables: 22,
+            },
+            macronutrients: {
+                proteins: 13.35,
+                fats: 8.43,
+                carbohydrates: 2.33
+            },
+            caloricity: 143.8
+        }
+    ]
+}
+
+const FISH_CUTLETS: IDish = {
+    id: 'kids-9.10',
+    variants: [
+        {
+            id: 'kids-9.10.1',
+            name: 'Котлеты (биточки) рыбные (треска)',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 19.5,
+                fish: 45,
+                milkAndFermentedMilkProducts: 18,
+                oil: 5
+            },
+            macronutrients: {
+                proteins: 12,
+                fats: 7.47,
+                carbohydrates: 14.93
+            },
+            caloricity: 178.2
+        },
+        {
+            id: 'kids-9.10.2',
+            name: 'Котлеты (биточки) рыбные (треска) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 19.5,
+                butter: 2.5,
+                fish: 45,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 68,
+                oil: 5,
+                sugar: 0.5
+            },
+            macronutrients: {
+                proteins: 8.23,
+                fats: 6.8,
+                carbohydrates: 12.17
+            },
+            caloricity: 154.16
+        },
+        {
+            id: 'kids-9.10.3',
+            name: 'Котлеты (биточки) рыбные (треска) с соусом сметанным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 19.5,
+                fish: 45,
+                flourWheat: 3.75,
+                milkAndFermentedMilkProducts: 18,
+                oil: 5,
+                sourCream: 12.5
+            },
+            macronutrients: {
+                proteins: 7.55,
+                fats: 6.23,
+                carbohydrates: 13.02
+            },
+            caloricity: 108.96
+        },
+        {
+            id: 'kids-9.10.4',
+            name: 'Котлеты (биточки) рыбные (окунь морской)',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 19.5,
+                fish: 45,
+                milkAndFermentedMilkProducts: 18,
+                oil: 5
+            },
+            macronutrients: {
+                proteins: 13.8,
+                fats: 2.77,
+                carbohydrates: 18.5
+            },
+            caloricity: 157.24
+        },
+        {
+            id: 'kids-9.10.5',
+            name: 'Котлеты (биточки) рыбные (окунь морской) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 19.5,
+                butter: 2.5,
+                fish: 45,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 68,
+                oil: 5,
+                sugar: 0.5
+            },
+            macronutrients: {
+                proteins: 8.9,
+                fats: 7.7,
+                carbohydrates: 12.1
+            },
+            caloricity: 156.34
+        },
+        {
+            id: 'kids-9.10.6',
+            name: 'Котлеты (биточки) рыбные (окунь морской) с соусом сметанным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 19.5,
+                fish: 45,
+                flourWheat: 3.75,
+                milkAndFermentedMilkProducts: 18,
+                oil: 5,
+                sourCream: 12.5
+            },
+            macronutrients: {
+                proteins: 7.74,
+                fats: 5.25,
+                carbohydrates: 8.71
+            },
+            caloricity: 115.43
+        },
+        {
+            id: 'kids-9.10.7',
+            name: 'Котлеты (биточки) рыбные (хек)',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 19.5,
+                fish: 45,
+                milkAndFermentedMilkProducts: 18,
+                oil: 5
+            },
+            macronutrients: {
+                proteins: 12.34,
+                fats: 8.37,
+                carbohydrates: 14.93
+            },
+            caloricity: 188.03
+        },
+        {
+            id: 'kids-9.10.8',
+            name: 'Котлеты (биточки) рыбные (хек) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 19.5,
+                butter: 2.5,
+                fish: 45,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 68,
+                oil: 5,
+                sugar: 0.5
+            },
+            macronutrients: {
+                proteins: 8.45,
+                fats: 7.3,
+                carbohydrates: 12.1
+            },
+            caloricity: 127.2
+        },
+        {
+            id: 'kids-9.10.9',
+            name: 'Котлеты (биточки) рыбные (хек) с соусом сметанным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 19.5,
+                fish: 45,
+                flourWheat: 3.75,
+                milkAndFermentedMilkProducts: 18,
+                oil: 5,
+                sourCream: 12.5
+            },
+            macronutrients: {
+                proteins: 7.75,
+                fats: 6.75,
+                carbohydrates: 10.95
+            },
+            caloricity: 138.4
+        },
+        {
+            id: 'kids-9.10.10',
+            name: 'Котлеты (биточки) рыбные (минтай)',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 19.5,
+                fish: 45,
+                milkAndFermentedMilkProducts: 18,
+                oil: 5
+            },
+            macronutrients: {
+                proteins: 11.95,
+                fats: 7.64,
+                carbohydrates: 14.93
+            },
+            caloricity: 179.93
+        },
+        {
+            id: 'kids-9.10.11',
+            name: 'Котлеты (биточки) рыбные (минтай) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 19.5,
+                butter: 2.5,
+                fish: 45,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 68,
+                oil: 5,
+                sugar: 0.5
+            },
+            macronutrients: {
+                proteins: 8.22,
+                fats: 6.91,
+                carbohydrates: 12.17
+            },
+            caloricity: 146.17
+        },
+        {
+            id: 'kids-9.10.12',
+            name: 'Котлеты (биточки) рыбные (минтай) с соусом сметанным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 19.5,
+                fish: 45,
+                flourWheat: 3.75,
+                milkAndFermentedMilkProducts: 18,
+                oil: 5,
+                sourCream: 12.5
+            },
+            macronutrients: {
+                proteins: 7.52,
+                fats: 6.32,
+                carbohydrates: 10.95
+            },
+            caloricity: 133.7
+        }
+    ]
+}
+
+const STEAMED_FISH_CUTLETS: IDish = {
+    id: 'kids-9.11',
+    variants: [
+        {
+            id: 'kids-9.11.1',
+            name: 'Котлеты (биточки) рыбные паровые (треска)',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 12.6,
+                butter: 1.5,
+                fish: 56,
+                milkAndFermentedMilkProducts: 14,
+            },
+            macronutrients: {
+                proteins: 13.2,
+                fats: 2.57,
+                carbohydrates: 8.66
+            },
+            caloricity: 112.19
+        },
+        {
+            id: 'kids-9.11.2',
+            name: 'Котлеты (биточки) рыбные паровые (треска) с маслом сливочным',
+            defaultOutput: 75,
+            components: {
+                breadWheat: 12.6,
+                butter: 6.5,
+                fish: 56,
+                milkAndFermentedMilkProducts: 14,
+            },
+            macronutrients: {
+                proteins: 12.32,
+                fats: 7.24,
+                carbohydrates: 8.13
+            },
+            caloricity: 149.59
+        },
+        {
+            id: 'kids-9.11.3',
+            name: 'Котлеты (биточки) рыбные паровые (треска) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 12.6,
+                butter: 4,
+                fish: 56,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 64,
+                sugar: 0.5
+            },
+            macronutrients: {
+                proteins: 8.93,
+                fats: 3.95,
+                carbohydrates: 8.51
+            },
+            caloricity: 106.65
+        },
+        {
+            id: 'kids-9.11.4',
+            name: 'Котлеты (биточки) рыбные паровые (треска) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 12.6,
+                butter: 1.5,
+                fish: 56,
+                flourWheat: 3.75,
+                milkAndFermentedMilkProducts: 14,
+                sourCream: 12.5
+            },
+            macronutrients: {
+                proteins: 8.23,
+                fats: 3.37,
+                carbohydrates: 7.3
+            },
+            caloricity: 94.15
+        },
+        {
+            id: 'kids-9.11.5',
+            name: 'Котлеты (биточки) рыбные паровые (окунь морской)',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 12.6,
+                butter: 1.5,
+                fish: 56,
+                milkAndFermentedMilkProducts: 14,
+            },
+            macronutrients: {
+                proteins: 14.73,
+                fats: 4.47,
+                carbohydrates: 8.66
+            },
+            caloricity: 136.66
+        },
+        {
+            id: 'kids-9.11.6',
+            name: 'Котлеты (биточки) рыбные паровые (окунь морской) с маслом сливочным',
+            defaultOutput: 75,
+            components: {
+                breadWheat: 12.6,
+                butter: 6.5,
+                fish: 56,
+                milkAndFermentedMilkProducts: 14,
+            },
+            macronutrients: {
+                proteins: 13.79,
+                fats: 9.01,
+                carbohydrates: 8.13
+            },
+            caloricity: 172.43
+        },
+        {
+            id: 'kids-9.11.7',
+            name: 'Котлеты (биточки) рыбные паровые (окунь морской) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 12.6,
+                butter: 4,
+                fish: 56,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 64,
+                sugar: 0.5
+            },
+            macronutrients: {
+                proteins: 9.84,
+                fats: 5.06,
+                carbohydrates: 8.51
+            },
+            caloricity: 120.93
+        },
+        {
+            id: 'kids-9.11.8',
+            name: 'Котлеты (биточки) рыбные паровые (окунь морской) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 12.6,
+                butter: 1.5,
+                fish: 56,
+                flourWheat: 3.75,
+                milkAndFermentedMilkProducts: 14,
+                sourCream: 12.5
+            },
+            macronutrients: {
+                proteins: 9.14,
+                fats: 4.48,
+                carbohydrates: 7.3
+            },
+            caloricity: 108.43
+        },
+        {
+            id: 'kids-9.11.9',
+            name: 'Котлеты (биточки) рыбные паровые (хек)',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 12.6,
+                butter: 1.5,
+                fish: 56,
+                milkAndFermentedMilkProducts: 14,
+            },
+            macronutrients: {
+                proteins: 13.6,
+                fats: 3.7,
+                carbohydrates: 8.66
+            },
+            caloricity: 124.43
+        },
+        {
+            id: 'kids-9.11.10',
+            name: 'Котлеты (биточки) рыбные паровые (хек) с маслом сливочным',
+            defaultOutput: 75,
+            components: {
+                breadWheat: 12.6,
+                butter: 6.5,
+                fish: 56,
+                milkAndFermentedMilkProducts: 14,
+            },
+            macronutrients: {
+                proteins: 12.72,
+                fats: 8.3,
+                carbohydrates: 8.13
+            },
+            caloricity: 158.9
+        },
+        {
+            id: 'kids-9.11.11',
+            name: 'Котлеты (биточки) рыбные паровые (хек) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 12.6,
+                butter: 4,
+                fish: 56,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 64,
+                sugar: 0.5
+            },
+            macronutrients: {
+                proteins: 9.18,
+                fats: 4.61,
+                carbohydrates: 8.51
+            },
+            caloricity: 112.4
+        },
+        {
+            id: 'kids-9.11.12',
+            name: 'Котлеты (биточки) рыбные паровые (хек) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 12.6,
+                butter: 1.5,
+                fish: 56,
+                flourWheat: 3.75,
+                milkAndFermentedMilkProducts: 14,
+                sourCream: 12.5
+            },
+            macronutrients: {
+                proteins: 8.48,
+                fats: 4.03,
+                carbohydrates: 7.3
+            },
+            caloricity: 101.28
+        }
+    ]
+}
+
+const BAKED_FISH_CUTLETS_W_CURD_V1: IDish = {
+    id: 'kids-9.12',
+    variants: [
+        {
+            id: 'kids-9.12.1',
+            name: 'Биточки из рыбы (треска) с творогом запеченные (вариант 1)',
+            defaultOutput: 70,
+            components: {
+                butter: 2,
+                curd: 22,
+                eggs: 6,
+                fish: 53,
+                sourCream: 2
+            },
+            macronutrients: {
+                proteins: 16.5,
+                fats: 6.33,
+                carbohydrates: 0.73
+            },
+            caloricity: 128.64
+        },
+        {
+            id: 'kids-9.12.2',
+            name: 'Биточки из рыбы (треска) с творогом запеченные (вариант 1) с маслом сливочным',
+            defaultOutput: 75,
+            components: {
+                butter: 7,
+                curd: 22,
+                eggs: 6,
+                fish: 53,
+                sourCream: 2
+            },
+            macronutrients: {
+                proteins: 15.44,
+                fats: 10.75,
+                carbohydrates: 0.72
+            },
+            caloricity: 169.95
+        },
+        {
+            id: 'kids-9.12.3',
+            name: 'Биточки из рыбы (треска) с творогом запеченные (вариант 1) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                butter: 4.5,
+                curd: 22,
+                eggs: 6,
+                fish: 53,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 50,
+                sourCream: 2,
+                sugar: 0.5
+            },
+            macronutrients: {
+                proteins: 10.88,
+                fats: 5.84,
+                carbohydrates: 3.88
+            },
+            caloricity: 113.44
+        },
+        {
+            id: 'kids-9.12.4',
+            name: 'Биточки из рыбы (окунь морской) с творогом запеченные (вариант 1)',
+            defaultOutput: 70,
+            components: {
+                butter: 2,
+                curd: 22,
+                eggs: 6,
+                fish: 53,
+                sourCream: 2
+            },
+            macronutrients: {
+                proteins: 17.99,
+                fats: 8.13,
+                carbohydrates: 0.73
+            },
+            caloricity: 151.8
+        },
+        {
+            id: 'kids-9.12.5',
+            name: 'Биточки из рыбы (окунь морской) с творогом запеченные (вариант 1) с маслом сливочным',
+            defaultOutput: 75,
+            components: {
+                butter: 7,
+                curd: 22,
+                eggs: 6,
+                fish: 53,
+                sourCream: 2
+            },
+            macronutrients: {
+                proteins: 16.81,
+                fats: 12.43,
+                carbohydrates: 0.72
+            },
+            caloricity: 186.56
+        },
+        {
+            id: 'kids-9.12.6',
+            name: 'Биточки из рыбы (окунь морской) с творогом запеченные (вариант 1) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                butter: 4.5,
+                curd: 22,
+                eggs: 6,
+                fish: 53,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 50,
+                sourCream: 2,
+                sugar: 0.5
+            },
+            macronutrients: {
+                proteins: 11.73,
+                fats: 6.9,
+                carbohydrates: 3.88
+            },
+            caloricity: 126.96
+        },
+        {
+            id: 'kids-9.12.7',
+            name: 'Биточки из рыбы (хек) с творогом запеченные (вариант 1)',
+            defaultOutput: 70,
+            components: {
+                butter: 2,
+                curd: 22,
+                eggs: 6,
+                fish: 53,
+                sourCream: 2
+            },
+            macronutrients: {
+                proteins: 16.91,
+                fats: 7.4,
+                carbohydrates: 0.73
+            },
+            caloricity: 140.21
+        },
+        {
+            id: 'kids-9.12.8',
+            name: 'Биточки из рыбы (хек) с творогом запеченные (вариант 1) с маслом сливочным',
+            defaultOutput: 75,
+            components: {
+                butter: 7,
+                curd: 22,
+                eggs: 6,
+                fish: 53,
+                sourCream: 2
+            },
+            macronutrients: {
+                proteins: 15.81,
+                fats: 11.75,
+                carbohydrates: 0.72
+            },
+            caloricity: 175.75
+        },
+        {
+            id: 'kids-9.12.9',
+            name: 'Биточки из рыбы (хек) с творогом запеченные (вариант 1) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                butter: 4.5,
+                curd: 22,
+                eggs: 6,
+                fish: 53,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 50,
+                sourCream: 2,
+                sugar: 0.5
+            },
+            macronutrients: {
+                proteins: 11.11,
+                fats: 6.77,
+                carbohydrates: 3.88
+            },
+            caloricity: 123
+        },
+        {
+            id: 'kids-9.12.10',
+            name: 'Биточки из рыбы (минтай) с творогом запеченные (вариант 1)',
+            defaultOutput: 70,
+            components: {
+                butter: 2,
+                curd: 22,
+                eggs: 6,
+                fish: 53,
+                sourCream: 2
+            },
+            macronutrients: {
+                proteins: 16.44,
+                fats: 6.53,
+                carbohydrates: 0.73
+            },
+            caloricity: 130.69
+        },
+        {
+            id: 'kids-9.12.11',
+            name: 'Биточки из рыбы (минтай) с творогом запеченные (вариант 1) с маслом сливочным',
+            defaultOutput: 75,
+            components: {
+                butter: 7,
+                curd: 22,
+                eggs: 6,
+                fish: 53,
+                sourCream: 2
+            },
+            macronutrients: {
+                proteins: 15.37,
+                fats: 10.93,
+                carbohydrates: 0.72
+            },
+            caloricity: 166.85
+        },
+        {
+            id: 'kids-9.12.12',
+            name: 'Биточки из рыбы (минтай) с творогом запеченные (вариант 1) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                butter: 4.5,
+                curd: 22,
+                eggs: 6,
+                fish: 53,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 50,
+                sourCream: 2,
+                sugar: 0.5
+            },
+            macronutrients: {
+                proteins: 10.83,
+                fats: 6.26,
+                carbohydrates: 3.88
+            },
+            caloricity: 117.44
+        }
+    ]
+}
