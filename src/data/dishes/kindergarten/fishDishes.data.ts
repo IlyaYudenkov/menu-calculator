@@ -1473,3 +1473,499 @@ const BAKED_FISH_CUTLETS_W_CURD_V1: IDish = {
         }
     ]
 }
+
+const BAKED_FISH_CUTLETS_W_CURD_V2: IDish = {
+    id: 'kids-9.13',
+    variants: [
+        {
+            id: 'kids-9.13.1',
+            name: 'Биточки из рыбы (треска) с творогом запеченные (вариант 2)',
+            defaultOutput: 70,
+            components: {
+                curd: 22,
+                eggs: 6,
+                fish: 53,
+                oil: 2,
+                sourCream: 2
+            },
+            macronutrients: {
+                proteins: 16.5,
+                fats: 6.77,
+                carbohydrates: 0.7
+            },
+            caloricity: 132.5
+        },
+        {
+            id: 'kids-9.13.2',
+            name: 'Биточки из рыбы (треска) с творогом запеченные (вариант 2) с маслом сливочным',
+            defaultOutput: 75,
+            components: {
+                butter: 5,
+                curd: 22,
+                eggs: 6,
+                fish: 53,
+                oil: 2,
+                sourCream: 2
+            },
+            macronutrients: {
+                proteins: 15.43,
+                fats: 11.16,
+                carbohydrates: 0.71
+            },
+            caloricity: 168.56
+        },
+        {
+            id: 'kids-9.13.3',
+            name: 'Биточки из рыбы (треска) с творогом запеченные (вариант 2) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                butter: 2.5,
+                curd: 22,
+                eggs: 6,
+                fish: 53,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 50,
+                oil: 2,
+                sourCream: 2,
+                sugar: 0.5
+            },
+            macronutrients: {
+                proteins: 10.87,
+                fats: 6.4,
+                carbohydrates: 3.87
+            },
+            caloricity: 118.5
+        },
+        {
+            id: 'kids-9.13.4',
+            name: 'Биточки из рыбы (окунь морской) с творогом запеченные (вариант 2)',
+            defaultOutput: 70,
+            components: {
+                curd: 22,
+                eggs: 6,
+                fish: 53,
+                oil: 2,
+                sourCream: 2
+            },
+            macronutrients: {
+                proteins: 17.97,
+                fats: 8.57,
+                carbohydrates: 0.7
+            },
+            caloricity: 155.69
+        },
+        {
+            id: 'kids-9.13.5',
+            name: 'Биточки из рыбы (окунь морской) с творогом запеченные (вариант 2) с маслом сливочным',
+            defaultOutput: 75,
+            components: {
+                butter: 5,
+                curd: 22,
+                eggs: 6,
+                fish: 53,
+                oil: 2,
+                sourCream: 2
+            },
+            macronutrients: {
+                proteins: 16.81,
+                fats: 12.84,
+                carbohydrates: 0.71
+            },
+            caloricity: 190.19
+        },
+        {
+            id: 'kids-9.13.6',
+            name: 'Биточки из рыбы (окунь морской) с творогом запеченные (вариант 2) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                butter: 2.5,
+                curd: 22,
+                eggs: 6,
+                fish: 53,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 50,
+                oil: 2,
+                sourCream: 2,
+                sugar: 0.5
+            },
+            macronutrients: {
+                proteins: 11.73,
+                fats: 7.45,
+                carbohydrates: 3.87
+            },
+            caloricity: 132.03
+        },
+        {
+            id: 'kids-9.13.7',
+            name: 'Биточки из рыбы (хек) с творогом запеченные (вариант 2)',
+            defaultOutput: 70,
+            components: {
+                curd: 22,
+                eggs: 6,
+                fish: 53,
+                oil: 2,
+                sourCream: 2
+            },
+            macronutrients: {
+                proteins: 16.9,
+                fats: 7.84,
+                carbohydrates: 0.7
+            },
+            caloricity: 144.1
+        },
+        {
+            id: 'kids-9.13.8',
+            name: 'Биточки из рыбы (хек) с творогом запеченные (вариант 2) с маслом сливочным',
+            defaultOutput: 75,
+            components: {
+                butter: 5,
+                curd: 22,
+                eggs: 6,
+                fish: 53,
+                oil: 2,
+                sourCream: 2
+            },
+            macronutrients: {
+                proteins: 15.8,
+                fats: 12.16,
+                carbohydrates: 0.71
+            },
+            caloricity: 179.37
+        },
+        {
+            id: 'kids-9.13.9',
+            name: 'Биточки из рыбы (хек) с творогом запеченные (вариант 2) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                butter: 2.5,
+                curd: 22,
+                eggs: 6,
+                fish: 53,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 50,
+                oil: 2,
+                sourCream: 2,
+                sugar: 0.5
+            },
+            macronutrients: {
+                proteins: 11.1,
+                fats: 7.03,
+                carbohydrates: 3.87
+            },
+            caloricity: 125.27
+        },
+        {
+            id: 'kids-9.13.10',
+            name: 'Биточки из рыбы (минтай) с творогом запеченные (вариант 2)',
+            defaultOutput: 70,
+            components: {
+                curd: 22,
+                eggs: 6,
+                fish: 53,
+                oil: 2,
+                sourCream: 2
+            },
+            macronutrients: {
+                proteins: 16.43,
+                fats: 6.97,
+                carbohydrates: 0.7
+            },
+            caloricity: 134.56
+        },
+        {
+            id: 'kids-9.13.11',
+            name: 'Биточки из рыбы (минтай) с творогом запеченные (вариант 2) с маслом сливочным',
+            defaultOutput: 75,
+            components: {
+                butter: 5,
+                curd: 22,
+                eggs: 6,
+                fish: 53,
+                oil: 2,
+                sourCream: 2
+            },
+            macronutrients: {
+                proteins: 15.36,
+                fats: 11.35,
+                carbohydrates: 0.71
+            },
+            caloricity: 170.47
+        },
+        {
+            id: 'kids-9.13.12',
+            name: 'Биточки из рыбы (минтай) с творогом запеченные (вариант 2) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                butter: 2.5,
+                curd: 22,
+                eggs: 6,
+                fish: 53,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 50,
+                oil: 2,
+                sourCream: 2,
+                sugar: 0.5
+            },
+            macronutrients: {
+                proteins: 10.83,
+                fats: 6.52,
+                carbohydrates: 3.87
+            },
+            caloricity: 119.7
+        }
+    ]
+}
+
+const FISH_NATURAL_SCHNITZEL: IDish = {
+    id: 'kids-9.14',
+    variants: [
+        {
+            id: 'kids-9.14.1',
+            name: 'Шницель натуральный рыбный (треска)',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 8,
+                eggs: 3,
+                fish: 60,
+                milkAndFermentedMilkProducts: 6,
+                oil: 7,
+                vegetables: 14,
+            },
+            macronutrients: {
+                proteins: 14.33,
+                fats: 10.51,
+                carbohydrates: 9.26
+            },
+            caloricity: 192.8
+        },
+        {
+            id: 'kids-9.14.2',
+            name: 'Шницель натуральный рыбный (треска) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 8,
+                butter: 2.5,
+                eggs: 3,
+                fish: 60,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 56,
+                oil: 7,
+                sugar: 0.5,
+                vegetables: 14,
+            },
+            macronutrients: {
+                proteins: 9.61,
+                fats: 8.58,
+                carbohydrates: 8.85
+            },
+            caloricity: 153.68
+        },
+        {
+            id: 'kids-9.14.3',
+            name: 'Шницель натуральный рыбный (треска) с соусом сметанным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 8,
+                eggs: 3,
+                fish: 60,
+                flourWheat: 3.75,
+                milkAndFermentedMilkProducts: 6,
+                oil: 7,
+                sourCream: 12.5,
+                vegetables: 14,
+            },
+            macronutrients: {
+                proteins: 8.91,
+                fats: 8,
+                carbohydrates: 7.63
+            },
+            caloricity: 141.18
+        },
+        {
+            id: 'kids-9.14.4',
+            name: 'Шницель натуральный рыбный (окунь морской)',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 8,
+                eggs: 3,
+                fish: 60,
+                milkAndFermentedMilkProducts: 6,
+                oil: 7,
+                vegetables: 14,
+            },
+            macronutrients: {
+                proteins: 16.01,
+                fats: 12.56,
+                carbohydrates: 9.26
+            },
+            caloricity: 219.03
+        },
+        {
+            id: 'kids-9.14.5',
+            name: 'Шницель натуральный рыбный (окунь морской) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 8,
+                butter: 2.5,
+                eggs: 3,
+                fish: 60,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 56,
+                oil: 7,
+                sugar: 0.5,
+                vegetables: 14,
+            },
+            macronutrients: {
+                proteins: 18.14,
+                fats: 9.78,
+                carbohydrates: 8.85
+            },
+            caloricity: 168.98
+        },
+        {
+            id: 'kids-9.14.6',
+            name: 'Шницель натуральный рыбный (окунь морской) с соусом сметанным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 8,
+                eggs: 3,
+                fish: 60,
+                flourWheat: 3.75,
+                milkAndFermentedMilkProducts: 6,
+                oil: 7,
+                sourCream: 12.5,
+                vegetables: 14,
+            },
+            macronutrients: {
+                proteins: 9.88,
+                fats: 9.2,
+                carbohydrates: 7.63
+            },
+            caloricity: 156.48
+        },
+        {
+            id: 'kids-9.14.7',
+            name: 'Шницель натуральный рыбный (хек)',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 8,
+                eggs: 3,
+                fish: 60,
+                milkAndFermentedMilkProducts: 6,
+                oil: 7,
+                vegetables: 14,
+            },
+            macronutrients: {
+                proteins: 14.79,
+                fats: 11.73,
+                carbohydrates: 9.26
+            },
+            caloricity: 205.91
+        },
+        {
+            id: 'kids-9.14.8',
+            name: 'Шницель натуральный рыбный (хек) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 8,
+                butter: 2.5,
+                eggs: 3,
+                fish: 60,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 56,
+                oil: 7,
+                sugar: 0.5,
+                vegetables: 14,
+            },
+            macronutrients: {
+                proteins: 9.88,
+                fats: 9.3,
+                carbohydrates: 8.85
+            },
+            caloricity: 161.33
+        },
+        {
+            id: 'kids-9.14.9',
+            name: 'Шницель натуральный рыбный (хек) с соусом сметанным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 8,
+                eggs: 3,
+                fish: 60,
+                flourWheat: 3.75,
+                milkAndFermentedMilkProducts: 6,
+                oil: 7,
+                sourCream: 12.5,
+                vegetables: 14,
+            },
+            macronutrients: {
+                proteins: 9.18,
+                fats: 8.7,
+                carbohydrates: 7.63
+            },
+            caloricity: 148.83
+        },
+        {
+            id: 'kids-9.14.10',
+            name: 'Шницель натуральный рыбный (минтай)',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 8,
+                eggs: 3,
+                fish: 60,
+                milkAndFermentedMilkProducts: 6,
+                oil: 7,
+                vegetables: 14,
+            },
+            macronutrients: {
+                proteins: 14.26,
+                fats: 10.74,
+                carbohydrates: 9.26
+            },
+            caloricity: 195.11
+        },
+        {
+            id: 'kids-9.14.11',
+            name: 'Шницель натуральный рыбный (минтай) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 8,
+                butter: 2.5,
+                eggs: 3,
+                fish: 60,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 56,
+                oil: 7,
+                sugar: 0.5,
+                vegetables: 14,
+            },
+            macronutrients: {
+                proteins: 9.6,
+                fats: 8.72,
+                carbohydrates: 8.85
+            },
+            caloricity: 155.03
+        },
+        {
+            id: 'kids-9.14.12',
+            name: 'Шницель натуральный рыбный (минтай) с соусом сметанным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 8,
+                eggs: 3,
+                fish: 60,
+                flourWheat: 3.75,
+                milkAndFermentedMilkProducts: 6,
+                oil: 7,
+                sourCream: 12.5,
+                vegetables: 14,
+            },
+            macronutrients: {
+                proteins: 8.87,
+                fats: 8.13,
+                carbohydrates: 7.63
+            },
+            caloricity: 142.53
+        }
+    ]
+}
