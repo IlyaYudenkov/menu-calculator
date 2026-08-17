@@ -1969,3 +1969,663 @@ const FISH_NATURAL_SCHNITZEL: IDish = {
         }
     ]
 }
+
+const STEAMED_MINCED_FISH_ZRAZY: IDish = {
+    id: 'kids-9.15',
+    variants: [
+        {
+            id: 'kids-9.15.1',
+            name: 'Зразы рыбные рубленые паровые (треска)',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 11,
+                butter: 1,
+                eggs: 9,
+                fish: 43,
+                milkAndFermentedMilkProducts: 17,
+                vegetables: 9
+            },
+            macronutrients: {
+                proteins: 12.07,
+                fats: 3.34,
+                carbohydrates: 8.76
+            },
+            caloricity: 116.3
+        },
+        {
+            id: 'kids-9.15.2',
+            name: 'Зразы рыбные рубленые паровые (треска) с маслом сливочным',
+            defaultOutput: 75,
+            components: {
+                breadWheat: 11,
+                butter: 6,
+                eggs: 9,
+                fish: 43,
+                milkAndFermentedMilkProducts: 17,
+                vegetables: 9
+            },
+            macronutrients: {
+                proteins: 11.3,
+                fats: 7.96,
+                carbohydrates: 8.23
+            },
+            caloricity: 153.4
+        },
+        {
+            id: 'kids-9.15.3',
+            name: 'Зразы рыбные рубленые паровые (треска) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 11,
+                butter: 3.5,
+                eggs: 9,
+                fish: 43,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 67,
+                sugar: 0.5,
+                vegetables: 9
+            },
+            macronutrients: {
+                proteins: 18.3,
+                fats: 4.4,
+                carbohydrates: 8.6
+            },
+            caloricity: 109.03
+        },
+        {
+            id: 'kids-9.15.4',
+            name: 'Зразы рыбные рубленые паровые (треска) с соусом сметанным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 11,
+                butter: 1,
+                eggs: 9,
+                fish: 43,
+                flourWheat: 3.75,
+                milkAndFermentedMilkProducts: 17,
+                sourCream: 12.5,
+                vegetables: 9
+            },
+            macronutrients: {
+                proteins: 7.6,
+                fats: 3.82,
+                carbohydrates: 7.35
+            },
+            caloricity: 96.53
+        },
+        {
+            id: 'kids-9.15.5',
+            name: 'Зразы рыбные рубленые паровые (окунь морской)',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 11,
+                butter: 1,
+                eggs: 9,
+                fish: 43,
+                milkAndFermentedMilkProducts: 17,
+                vegetables: 9
+            },
+            macronutrients: {
+                proteins: 13.27,
+                fats: 4.8,
+                carbohydrates: 8.76
+            },
+            caloricity: 135.1
+        },
+        {
+            id: 'kids-9.15.6',
+            name: 'Зразы рыбные рубленые паровые (окунь морской) с маслом сливочным',
+            defaultOutput: 75,
+            components: {
+                breadWheat: 11,
+                butter: 6,
+                eggs: 9,
+                fish: 43,
+                milkAndFermentedMilkProducts: 17,
+                vegetables: 9
+            },
+            macronutrients: {
+                proteins: 12.41,
+                fats: 9.32,
+                carbohydrates: 8.23
+            },
+            caloricity: 170.95
+        },
+        {
+            id: 'kids-9.15.7',
+            name: 'Зразы рыбные рубленые паровые (окунь морской) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 11,
+                butter: 3.5,
+                eggs: 9,
+                fish: 43,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 67,
+                sugar: 0.5,
+                vegetables: 9
+            },
+            macronutrients: {
+                proteins: 8.99,
+                fats: 5.25,
+                carbohydrates: 8.6
+            },
+            caloricity: 120
+        },
+        {
+            id: 'kids-9.15.8',
+            name: 'Зразы рыбные рубленые паровые (окунь морской) с соусом сметанным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 11,
+                butter: 1,
+                eggs: 9,
+                fish: 43,
+                flourWheat: 3.75,
+                milkAndFermentedMilkProducts: 17,
+                sourCream: 12.5,
+                vegetables: 9
+            },
+            macronutrients: {
+                proteins: 8.3,
+                fats: 4.7,
+                carbohydrates: 7.35
+            },
+            caloricity: 107.5
+        },
+        {
+            id: 'kids-9.15.9',
+            name: 'Зразы рыбные рубленые паровые (хек)',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 11,
+                butter: 1,
+                eggs: 9,
+                fish: 43,
+                milkAndFermentedMilkProducts: 17,
+                vegetables: 9
+            },
+            macronutrients: {
+                proteins: 12.4,
+                fats: 4.21,
+                carbohydrates: 8.76
+            },
+            caloricity: 125.67
+        },
+        {
+            id: 'kids-9.15.10',
+            name: 'Зразы рыбные рубленые паровые (хек) с маслом сливочным',
+            defaultOutput: 75,
+            components: {
+                breadWheat: 11,
+                butter: 6,
+                eggs: 9,
+                fish: 43,
+                milkAndFermentedMilkProducts: 17,
+                vegetables: 9
+            },
+            macronutrients: {
+                proteins: 11.6,
+                fats: 8.77,
+                carbohydrates: 8.23
+            },
+            caloricity: 162.17
+        },
+        {
+            id: 'kids-9.15.11',
+            name: 'Зразы рыбные рубленые паровые (хек) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 11,
+                butter: 3.5,
+                eggs: 9,
+                fish: 43,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 67,
+                sugar: 0.5,
+                vegetables: 9
+            },
+            macronutrients: {
+                proteins: 8.48,
+                fats: 4.91,
+                carbohydrates: 8.6
+            },
+            caloricity: 114.52
+        },
+        {
+            id: 'kids-9.15.12',
+            name: 'Зразы рыбные рубленые паровые (хек) с соусом сметанным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 11,
+                butter: 1,
+                eggs: 9,
+                fish: 43,
+                flourWheat: 3.75,
+                milkAndFermentedMilkProducts: 17,
+                sourCream: 12.5,
+                vegetables: 9
+            },
+            macronutrients: {
+                proteins: 7.78,
+                fats: 4.32,
+                carbohydrates: 7.35
+            },
+            caloricity: 102.02
+        },
+        {
+            id: 'kids-9.15.13',
+            name: 'Зразы рыбные рубленые паровые (минтай)',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 11,
+                butter: 1,
+                eggs: 9,
+                fish: 43,
+                milkAndFermentedMilkProducts: 17,
+                vegetables: 9
+            },
+            macronutrients: {
+                proteins: 12.01,
+                fats: 3.51,
+                carbohydrates: 8.76
+            },
+            caloricity: 117.93
+        },
+        {
+            id: 'kids-9.15.14',
+            name: 'Зразы рыбные рубленые паровые (минтай) с маслом сливочным',
+            defaultOutput: 75,
+            components: {
+                breadWheat: 11,
+                butter: 6,
+                eggs: 9,
+                fish: 43,
+                milkAndFermentedMilkProducts: 17,
+                vegetables: 9
+            },
+            macronutrients: {
+                proteins: 11.24,
+                fats: 8.12,
+                carbohydrates: 8.23
+            },
+            caloricity: 154.95
+        },
+        {
+            id: 'kids-9.15.15',
+            name: 'Зразы рыбные рубленые паровые (минтай) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 11,
+                butter: 3.5,
+                eggs: 9,
+                fish: 43,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 67,
+                sugar: 0.5,
+                vegetables: 9
+            },
+            macronutrients: {
+                proteins: 8.26,
+                fats: 4.5,
+                carbohydrates: 8.6
+            },
+            caloricity: 110
+        },
+        {
+            id: 'kids-9.15.16',
+            name: 'Зразы рыбные рубленые паровые (минтай) с соусом сметанным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 11,
+                butter: 1,
+                eggs: 9,
+                fish: 43,
+                flourWheat: 3.75,
+                milkAndFermentedMilkProducts: 17,
+                sourCream: 12.5,
+                vegetables: 9
+            },
+            macronutrients: {
+                proteins: 7.56,
+                fats: 3.91,
+                carbohydrates: 7.35
+            },
+            caloricity: 97.5
+        }
+    ]
+}
+
+const FISH_ROLL: IDish = {
+    id: 'kids-9.16',
+    variants: [
+        {
+            id: 'kids-9.16.1',
+            name: 'Рулет из рыбы (треска)',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 15,
+                eggs: 4,
+                fish: 42,
+                milkAndFermentedMilkProducts: 17,
+                oil: 5,
+                vegetables: 28,
+            },
+            macronutrients: {
+                proteins: 11.9,
+                fats: 9.99,
+                carbohydrates: 14.19
+            },
+            caloricity: 198.9
+        },
+        {
+            id: 'kids-9.16.2',
+            name: 'Рулет из рыбы (треска) с маслом сливочным',
+            defaultOutput: 75,
+            components: {
+                breadWheat: 15,
+                butter: 5,
+                eggs: 4,
+                fish: 42,
+                milkAndFermentedMilkProducts: 17,
+                oil: 5,
+                vegetables: 28,
+            },
+            macronutrients: {
+                proteins: 11.13,
+                fats: 14.16,
+                carbohydrates: 13.3
+            },
+            caloricity: 230.52
+        },
+        {
+            id: 'kids-9.16.3',
+            name: 'Рулет из рыбы (треска) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 15,
+                butter: 2.5,
+                eggs: 4,
+                fish: 42,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 67,
+                oil: 5,
+                sugar: 0.5,
+                vegetables: 28,
+            },
+            macronutrients: {
+                proteins: 8.18,
+                fats: 7.1,
+                carbohydrates: 11.72
+            },
+            caloricity: 146.02
+        },
+        {
+            id: 'kids-9.16.4',
+            name: 'Рулет из рыбы (треска) с соусом сметанным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 15,
+                eggs: 4,
+                fish: 42,
+                flourWheat: 3.75,
+                milkAndFermentedMilkProducts: 17,
+                oil: 5,
+                sourCream: 12.5,
+                vegetables: 28,
+            },
+            macronutrients: {
+                proteins: 7.48,
+                fats: 6.48,
+                carbohydrates: 10.5
+            },
+            caloricity: 133.51
+        },
+        {
+            id: 'kids-9.16.5',
+            name: 'Рулет из рыбы (окунь морской)',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 15,
+                eggs: 4,
+                fish: 42,
+                milkAndFermentedMilkProducts: 17,
+                oil: 5,
+                vegetables: 28,
+            },
+            macronutrients: {
+                proteins: 13.1,
+                fats: 9.33,
+                carbohydrates: 14.19
+            },
+            caloricity: 198.03
+        },
+        {
+            id: 'kids-9.16.6',
+            name: 'Рулет из рыбы (окунь морской) с маслом сливочным',
+            defaultOutput: 75,
+            components: {
+                breadWheat: 15,
+                butter: 5,
+                eggs: 4,
+                fish: 42,
+                milkAndFermentedMilkProducts: 17,
+                oil: 5,
+                vegetables: 28,
+            },
+            macronutrients: {
+                proteins: 12.21,
+                fats: 13.55,
+                carbohydrates: 13.3
+            },
+            caloricity: 229.67
+        },
+        {
+            id: 'kids-9.16.7',
+            name: 'Рулет из рыбы (окунь морской) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 15,
+                butter: 2.5,
+                eggs: 4,
+                fish: 42,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 67,
+                oil: 5,
+                sugar: 0.5,
+                vegetables: 28,
+            },
+            macronutrients: {
+                proteins: 8.86,
+                fats: 7.9,
+                carbohydrates: 11.72
+            },
+            caloricity: 156.73
+        },
+        {
+            id: 'kids-9.16.8',
+            name: 'Рулет из рыбы (окунь морской) с соусом сметанным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 15,
+                eggs: 4,
+                fish: 42,
+                flourWheat: 3.75,
+                milkAndFermentedMilkProducts: 17,
+                oil: 5,
+                sourCream: 12.5,
+                vegetables: 28,
+            },
+            macronutrients: {
+                proteins: 8.16,
+                fats: 7.31,
+                carbohydrates: 10.5
+            },
+            caloricity: 144.23
+        },
+        {
+            id: 'kids-9.16.9',
+            name: 'Рулет из рыбы (хек)',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 15,
+                eggs: 4,
+                fish: 42,
+                milkAndFermentedMilkProducts: 17,
+                oil: 5,
+                vegetables: 28,
+            },
+            macronutrients: {
+                proteins: 12.2,
+                fats: 8.76,
+                carbohydrates: 14.19
+            },
+            caloricity: 188.84
+        },
+        {
+            id: 'kids-9.16.10',
+            name: 'Рулет из рыбы (хек) с маслом сливочным',
+            defaultOutput: 75,
+            components: {
+                breadWheat: 15,
+                butter: 5,
+                eggs: 4,
+                fish: 42,
+                milkAndFermentedMilkProducts: 17,
+                oil: 5,
+                vegetables: 28,
+            },
+            macronutrients: {
+                proteins: 11.41,
+                fats: 13.01,
+                carbohydrates: 13.3
+            },
+            caloricity: 221.13
+        },
+        {
+            id: 'kids-9.16.11',
+            name: 'Рулет из рыбы (хек) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 15,
+                butter: 2.5,
+                eggs: 4,
+                fish: 42,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 67,
+                oil: 5,
+                sugar: 0.5,
+                vegetables: 28,
+            },
+            macronutrients: {
+                proteins: 8.37,
+                fats: 7.56,
+                carbohydrates: 11.72
+            },
+            caloricity: 151.37
+        },
+        {
+            id: 'kids-9.16.12',
+            name: 'Рулет из рыбы (хек) с соусом сметанным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 15,
+                eggs: 4,
+                fish: 42,
+                flourWheat: 3.75,
+                milkAndFermentedMilkProducts: 17,
+                oil: 5,
+                sourCream: 12.5,
+                vegetables: 28,
+            },
+            macronutrients: {
+                proteins: 7.7,
+                fats: 6.97,
+                carbohydrates: 10.5
+            },
+            caloricity: 138.87
+        },
+        {
+            id: 'kids-9.16.13',
+            name: 'Рулет из рыбы (минтай)',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 15,
+                eggs: 4,
+                fish: 42,
+                milkAndFermentedMilkProducts: 17,
+                oil: 5,
+                vegetables: 28,
+            },
+            macronutrients: {
+                proteins: 11.83,
+                fats: 8.07,
+                carbohydrates: 14.19
+            },
+            caloricity: 181.3
+        },
+        {
+            id: 'kids-9.16.14',
+            name: 'Рулет из рыбы (минтай) с маслом сливочным',
+            defaultOutput: 75,
+            components: {
+                breadWheat: 15,
+                butter: 5,
+                eggs: 4,
+                fish: 42,
+                milkAndFermentedMilkProducts: 17,
+                oil: 5,
+                vegetables: 28,
+            },
+            macronutrients: {
+                proteins: 11.1,
+                fats: 12.37,
+                carbohydrates: 13.3
+            },
+            caloricity: 214.08
+        },
+        {
+            id: 'kids-9.16.15',
+            name: 'Рулет из рыбы (минтай) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 15,
+                butter: 2.5,
+                eggs: 4,
+                fish: 42,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 67,
+                oil: 5,
+                sugar: 0.5,
+                vegetables: 28,
+            },
+            macronutrients: {
+                proteins: 8.14,
+                fats: 7.16,
+                carbohydrates: 11.72
+            },
+            caloricity: 146.96
+        },
+        {
+            id: 'kids-9.16.16',
+            name: 'Рулет из рыбы (минтай) с соусом сметанным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 15,
+                eggs: 4,
+                fish: 42,
+                flourWheat: 3.75,
+                milkAndFermentedMilkProducts: 17,
+                oil: 5,
+                sourCream: 12.5,
+                vegetables: 28,
+            },
+            macronutrients: {
+                proteins: 7.44,
+                fats: 6.57,
+                carbohydrates: 10.5
+            },
+            caloricity: 134.46
+        },
+    ]
+}
