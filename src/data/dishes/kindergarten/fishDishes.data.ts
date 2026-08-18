@@ -2629,3 +2629,889 @@ const FISH_ROLL: IDish = {
         },
     ]
 }
+
+const RYBNIK_V1: IDish = {
+    id: 'kids-9.17',
+    variants: [
+        {
+            id: 'kids-9.17.1',
+            name: 'Рыбник (треска) (вариант 1)',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 9,
+                butter: 3,
+                eggs: 7,
+                fish: 49,
+                milkAndFermentedMilkProducts: 10,
+                vegetables: 10.5,
+            },
+            macronutrients: {
+                proteins: 12.57,
+                fats: 4.91,
+                carbohydrates: 7.5
+            },
+            caloricity: 126.97
+        },
+        {
+            id: 'kids-9.17.2',
+            name: 'Рыбник (треска) (вариант 1) с маслом сливочным',
+            defaultOutput: 75,
+            components: {
+                breadWheat: 9,
+                butter: 8,
+                eggs: 7,
+                fish: 49,
+                milkAndFermentedMilkProducts: 10,
+                vegetables: 10.5,
+            },
+            macronutrients: {
+                proteins: 11.76,
+                fats: 9.43,
+                carbohydrates: 7.04
+            },
+            caloricity: 163.39
+        },
+        {
+            id: 'kids-9.17.3',
+            name: 'Рыбник (треска) (вариант 1) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 9,
+                butter: 5.5,
+                eggs: 7,
+                fish: 49,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 60,
+                sugar: 0.5,
+                vegetables: 10.5,
+            },
+            macronutrients: {
+                proteins: 8.58,
+                fats: 5.32,
+                carbohydrates: 7.83
+            },
+            caloricity: 115.28
+        },
+        {
+            id: 'kids-9.17.4',
+            name: 'Рыбник (окунь морской) (вариант 1)',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 9,
+                butter: 3,
+                eggs: 7,
+                fish: 49,
+                milkAndFermentedMilkProducts: 10,
+                vegetables: 10.5,
+            },
+            macronutrients: {
+                proteins: 13.94,
+                fats: 6.59,
+                carbohydrates: 7.5
+            },
+            caloricity: 148.39
+        },
+        {
+            id: 'kids-9.17.5',
+            name: 'Рыбник (окунь морской) (вариант 1) с маслом сливочным',
+            defaultOutput: 75,
+            components: {
+                breadWheat: 9,
+                butter: 8,
+                eggs: 7,
+                fish: 49,
+                milkAndFermentedMilkProducts: 10,
+                vegetables: 10.5,
+            },
+            macronutrients: {
+                proteins: 13.04,
+                fats: 10.99,
+                carbohydrates: 7.04
+            },
+            caloricity: 183.37
+        },
+        {
+            id: 'kids-9.17.6',
+            name: 'Рыбник (окунь морской) (вариант 1) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 9,
+                butter: 5.5,
+                eggs: 7,
+                fish: 49,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 60,
+                sugar: 0.5,
+                vegetables: 10.5,
+            },
+            macronutrients: {
+                proteins: 9.38,
+                fats: 6.3,
+                carbohydrates: 7.83
+            },
+            caloricity: 127.77
+        },
+        {
+            id: 'kids-9.17.7',
+            name: 'Рыбник (хек) (вариант 1)',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 9,
+                butter: 3,
+                eggs: 7,
+                fish: 49,
+                milkAndFermentedMilkProducts: 10,
+                vegetables: 10.5,
+            },
+            macronutrients: {
+                proteins: 12.94,
+                fats: 5.9,
+                carbohydrates: 7.5
+            },
+            caloricity: 137.67
+        },
+        {
+            id: 'kids-9.17.8',
+            name: 'Рыбник (хек) (вариант 1) с маслом сливочным',
+            defaultOutput: 75,
+            components: {
+                breadWheat: 9,
+                butter: 8,
+                eggs: 7,
+                fish: 49,
+                milkAndFermentedMilkProducts: 10,
+                vegetables: 10.5,
+            },
+            macronutrients: {
+                proteins: 12.11,
+                fats: 10.35,
+                carbohydrates: 7.04
+            },
+            caloricity: 173.37
+        },
+        {
+            id: 'kids-9.17.9',
+            name: 'Рыбник (хек) (вариант 1) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 9,
+                butter: 5.5,
+                eggs: 7,
+                fish: 49,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 60,
+                sugar: 0.5,
+                vegetables: 10.5,
+            },
+            macronutrients: {
+                proteins: 8.8,
+                fats: 5.9,
+                carbohydrates: 7.83
+            },
+            caloricity: 121.52
+        },
+        {
+            id: 'kids-9.17.10',
+            name: 'Рыбник (минтай) (вариант 1)',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 9,
+                butter: 3,
+                eggs: 7,
+                fish: 49,
+                milkAndFermentedMilkProducts: 10,
+                vegetables: 10.5,
+            },
+            macronutrients: {
+                proteins: 12.5,
+                fats: 5.1,
+                carbohydrates: 7.5
+            },
+            caloricity: 128.86
+        },
+        {
+            id: 'kids-9.17.11',
+            name: 'Рыбник (минтай) (вариант 1) с маслом сливочным',
+            defaultOutput: 75,
+            components: {
+                breadWheat: 9,
+                butter: 8,
+                eggs: 7,
+                fish: 49,
+                milkAndFermentedMilkProducts: 10,
+                vegetables: 10.5,
+            },
+            macronutrients: {
+                proteins: 11.71,
+                fats: 9.6,
+                carbohydrates: 7.04
+            },
+            caloricity: 165.15
+        },
+        {
+            id: 'kids-9.17.12',
+            name: 'Рыбник (минтай) (вариант 1) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 9,
+                butter: 5.5,
+                eggs: 7,
+                fish: 49,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 60,
+                sugar: 0.5,
+                vegetables: 10.5,
+            },
+            macronutrients: {
+                proteins: 8.54,
+                fats: 5.43,
+                carbohydrates: 7.83
+            },
+            caloricity: 116.38
+        }
+    ]
+}
+
+const RYBNIK_V2: IDish = {
+    id: 'kids-9.18',
+    variants: [
+        {
+            id: 'kids-9.18.1',
+            name: 'Рыбник (треска) (вариант 2)',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 9,
+                eggs: 7,
+                fish: 49,
+                milkAndFermentedMilkProducts: 10,
+                oil: 3,
+                vegetables: 10.5,
+            },
+            macronutrients: {
+                proteins: 12.54,
+                fats: 5.57,
+                carbohydrates: 7.47
+            },
+            caloricity: 132.79
+        },
+        {
+            id: 'kids-9.18.2',
+            name: 'Рыбник (треска) (вариант 2) с маслом сливочным',
+            defaultOutput: 75,
+            components: {
+                breadWheat: 9,
+                butter: 5,
+                eggs: 7,
+                fish: 49,
+                milkAndFermentedMilkProducts: 10,
+                oil: 3,
+                vegetables: 10.5,
+            },
+            macronutrients: {
+                proteins: 11.76,
+                fats: 9.45,
+                carbohydrates: 7.04
+            },
+            caloricity: 163.6
+        },
+        {
+            id: 'kids-9.18.3',
+            name: 'Рыбник (треска) (вариант 2) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 9,
+                butter: 2.5,
+                eggs: 7,
+                fish: 49,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 60,
+                oil: 3,
+                sugar: 0.5,
+                vegetables: 10.5,
+            },
+            macronutrients: {
+                proteins: 8.58,
+                fats: 5.52,
+                carbohydrates: 7.82
+            },
+            caloricity: 117.04
+        },
+        {
+            id: 'kids-9.18.4',
+            name: 'Рыбник (треска) (вариант 2) с соусом сметанным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 9,
+                eggs: 7,
+                fish: 49,
+                flourWheat: 3.75,
+                milkAndFermentedMilkProducts: 10,
+                oil: 3,
+                sourCream: 12.5,
+                vegetables: 10.5,
+            },
+            macronutrients: {
+                proteins: 7.9,
+                fats: 5.12,
+                carbohydrates: 6.6
+            },
+            caloricity: 106.17
+        },
+        {
+            id: 'kids-9.18.5',
+            name: 'Рыбник (окунь морской) (вариант 2)',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 9,
+                eggs: 7,
+                fish: 49,
+                milkAndFermentedMilkProducts: 10,
+                oil: 3,
+                vegetables: 10.5,
+            },
+            macronutrients: {
+                proteins: 13.91,
+                fats: 7.24,
+                carbohydrates: 7.47
+            },
+            caloricity: 154.21
+        },
+        {
+            id: 'kids-9.18.6',
+            name: 'Рыбник (окунь морской) (вариант 2) с маслом сливочным',
+            defaultOutput: 75,
+            components: {
+                breadWheat: 9,
+                butter: 5,
+                eggs: 7,
+                fish: 49,
+                milkAndFermentedMilkProducts: 10,
+                oil: 3,
+                vegetables: 10.5,
+            },
+            macronutrients: {
+                proteins: 13.04,
+                fats: 11.01,
+                carbohydrates: 7.04
+            },
+            caloricity: 183.59
+        },
+        {
+            id: 'kids-9.18.7',
+            name: 'Рыбник (окунь морской) (вариант 2) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 9,
+                butter: 2.5,
+                eggs: 7,
+                fish: 49,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 60,
+                oil: 3,
+                sugar: 0.5,
+                vegetables: 10.5,
+            },
+            macronutrients: {
+                proteins: 9.37,
+                fats: 6.5,
+                carbohydrates: 7.82
+            },
+            caloricity: 129.53
+        },
+        {
+            id: 'kids-9.18.8',
+            name: 'Рыбник (окунь морской) (вариант 2) с соусом сметанным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 9,
+                eggs: 7,
+                fish: 49,
+                flourWheat: 3.75,
+                milkAndFermentedMilkProducts: 10,
+                oil: 3,
+                sourCream: 12.5,
+                vegetables: 10.5,
+            },
+            macronutrients: {
+                proteins: 8.7,
+                fats: 6.1,
+                carbohydrates: 6.6
+            },
+            caloricity: 118.66
+        },
+        {
+            id: 'kids-9.18.9',
+            name: 'Рыбник (хек) (вариант 2)',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 9,
+                eggs: 7,
+                fish: 49,
+                milkAndFermentedMilkProducts: 10,
+                oil: 3,
+                vegetables: 10.5,
+            },
+            macronutrients: {
+                proteins: 12.93,
+                fats: 6.56,
+                carbohydrates: 7.47
+            },
+            caloricity: 132.79
+        },
+        {
+            id: 'kids-9.18.10',
+            name: 'Рыбник (хек) (вариант 2) с маслом сливочным',
+            defaultOutput: 75,
+            components: {
+                breadWheat: 9,
+                butter: 5,
+                eggs: 7,
+                fish: 49,
+                milkAndFermentedMilkProducts: 10,
+                oil: 3,
+                vegetables: 10.5,
+            },
+            macronutrients: {
+                proteins: 12.11,
+                fats: 10.37,
+                carbohydrates: 7.04
+            },
+            caloricity: 173.59
+        },
+        {
+            id: 'kids-9.18.11',
+            name: 'Рыбник (хек) (вариант 2) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 9,
+                butter: 2.5,
+                eggs: 7,
+                fish: 49,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 60,
+                oil: 3,
+                sugar: 0.5,
+                vegetables: 10.5,
+            },
+            macronutrients: {
+                proteins: 8.8,
+                fats: 6.1,
+                carbohydrates: 7.82
+            },
+            caloricity: 123.28
+        },
+        {
+            id: 'kids-9.18.12',
+            name: 'Рыбник (хек) (вариант 2) с соусом сметанным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 9,
+                eggs: 7,
+                fish: 49,
+                flourWheat: 3.75,
+                milkAndFermentedMilkProducts: 10,
+                oil: 3,
+                sourCream: 12.5,
+                vegetables: 10.5,
+            },
+            macronutrients: {
+                proteins: 8.08,
+                fats: 5.7,
+                carbohydrates: 6.6
+            },
+            caloricity: 112.42
+        },
+        {
+            id: 'kids-9.18.13',
+            name: 'Рыбник (минтай) (вариант 2)',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 9,
+                eggs: 7,
+                fish: 49,
+                milkAndFermentedMilkProducts: 10,
+                oil: 3,
+                vegetables: 10.5,
+            },
+            macronutrients: {
+                proteins: 11.83,
+                fats: 8.07,
+                carbohydrates: 14.17
+            },
+            caloricity: 181.29
+        },
+        {
+            id: 'kids-9.18.14',
+            name: 'Рыбник (минтай) (вариант 2) с маслом сливочным',
+            defaultOutput: 75,
+            components: {
+                breadWheat: 9,
+                butter: 5,
+                eggs: 7,
+                fish: 49,
+                milkAndFermentedMilkProducts: 10,
+                oil: 3,
+                vegetables: 10.5,
+            },
+            macronutrients: {
+                proteins: 11.1,
+                fats: 12.37,
+                carbohydrates: 13.27
+            },
+            caloricity: 214.08
+        },
+        {
+            id: 'kids-9.18.15',
+            name: 'Рыбник (минтай) (вариант 2) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 9,
+                butter: 2.5,
+                eggs: 7,
+                fish: 49,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 60,
+                oil: 3,
+                sugar: 0.5,
+                vegetables: 10.5,
+            },
+            macronutrients: {
+                proteins: 8.14,
+                fats: 7.16,
+                carbohydrates: 11.72
+            },
+            caloricity: 146.96
+        },
+        {
+            id: 'kids-9.18.16',
+            name: 'Рыбник (минтай) (вариант 2) с соусом сметанным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 9,
+                eggs: 7,
+                fish: 49,
+                flourWheat: 3.75,
+                milkAndFermentedMilkProducts: 10,
+                oil: 3,
+                sourCream: 12.5,
+                vegetables: 10.5,
+            },
+            macronutrients: {
+                proteins: 7.83,
+                fats: 5.23,
+                carbohydrates: 6.6
+            },
+            caloricity: 107.27
+        }
+    ]
+}
+
+const FISH_LOAVES_V1: IDish = {
+    id: 'kids-9.19',
+    variants: [
+        {
+            id: 'kids-9.19.1',
+            name: 'Хлебцы рыбные (треска) (вариант 1)',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 9,
+                butter: 3,
+                eggs: 6,
+                fish: 58,
+                milkAndFermentedMilkProducts: 14,
+            },
+            macronutrients: {
+                proteins: 14.19,
+                fats: 4.97,
+                carbohydrates: 6.5
+            },
+            caloricity: 129.43
+        },
+        {
+            id: 'kids-9.19.2',
+            name: 'Хлебцы рыбные (треска) (вариант 1) с маслом сливочным',
+            defaultOutput: 75,
+            components: {
+                breadWheat: 9,
+                butter: 8,
+                eggs: 6,
+                fish: 58,
+                milkAndFermentedMilkProducts: 14,
+            },
+            macronutrients: {
+                proteins: 13.28,
+                fats: 9.48,
+                carbohydrates: 6.12
+            },
+            caloricity: 165.68
+        },
+        {
+            id: 'kids-9.19.3',
+            name: 'Хлебцы рыбные (треска) (вариант 1) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 9,
+                butter: 5.5,
+                eggs: 6,
+                fish: 58,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 64,
+                sugar: 0.5,
+            },
+            macronutrients: {
+                proteins: 9.53,
+                fats: 5.35,
+                carbohydrates: 7.25
+            },
+            caloricity: 116.71
+        },
+        {
+            id: 'kids-9.19.4',
+            name: 'Хлебцы рыбные (треска) (вариант 1) с соусом сметанным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 9,
+                butter: 3,
+                eggs: 6,
+                fish: 58,
+                flourWheat: 3.75,
+                milkAndFermentedMilkProducts: 14,
+                sourCream: 12.5,
+            },
+            macronutrients: {
+                proteins: 8.83,
+                fats: 4.76,
+                carbohydrates: 6.03
+            },
+            caloricity: 104.21
+        },
+        {
+            id: 'kids-9.19.5',
+            name: 'Хлебцы рыбные (окунь морской) (вариант 1)',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 9,
+                butter: 3,
+                eggs: 6,
+                fish: 58,
+                milkAndFermentedMilkProducts: 14,
+            },
+            macronutrients: {
+                proteins: 15.81,
+                fats: 6.94,
+                carbohydrates: 6.5
+            },
+            caloricity: 154.79
+        },
+        {
+            id: 'kids-9.19.6',
+            name: 'Хлебцы рыбные (окунь морской) (вариант 1) с маслом сливочным',
+            defaultOutput: 75,
+            components: {
+                breadWheat: 9,
+                butter: 8,
+                eggs: 6,
+                fish: 58,
+                milkAndFermentedMilkProducts: 14,
+            },
+            macronutrients: {
+                proteins: 14.79,
+                fats: 11.32,
+                carbohydrates: 6.12
+            },
+            caloricity: 189.35
+        },
+        {
+            id: 'kids-9.19.7',
+            name: 'Хлебцы рыбные (окунь морской) (вариант 1) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 9,
+                butter: 5.5,
+                eggs: 6,
+                fish: 58,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 64,
+                sugar: 0.5,
+            },
+            macronutrients: {
+                proteins: 10.48,
+                fats: 6.5,
+                carbohydrates: 7.25
+            },
+            caloricity: 131.5
+        },
+        {
+            id: 'kids-9.19.8',
+            name: 'Хлебцы рыбные (окунь морской) (вариант 1) с соусом сметанным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 9,
+                butter: 3,
+                eggs: 6,
+                fish: 58,
+                flourWheat: 3.75,
+                milkAndFermentedMilkProducts: 14,
+                sourCream: 12.5,
+            },
+            macronutrients: {
+                proteins: 9.78,
+                fats: 5.91,
+                carbohydrates: 6.03
+            },
+            caloricity: 119
+        },
+        {
+            id: 'kids-9.19.9',
+            name: 'Хлебцы рыбные (хек) (вариант 1)',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 9,
+                butter: 3,
+                eggs: 6,
+                fish: 58,
+                milkAndFermentedMilkProducts: 14,
+            },
+            macronutrients: {
+                proteins: 14.63,
+                fats: 6.14,
+                carbohydrates: 6.5
+            },
+            caloricity: 142.11
+        },
+        {
+            id: 'kids-9.19.10',
+            name: 'Хлебцы рыбные (хек) (вариант 1) с маслом сливочным',
+            defaultOutput: 75,
+            components: {
+                breadWheat: 9,
+                butter: 8,
+                eggs: 6,
+                fish: 58,
+                milkAndFermentedMilkProducts: 14,
+            },
+            macronutrients: {
+                proteins: 13.7,
+                fats: 10.57,
+                carbohydrates: 6.12
+            },
+            caloricity: 177.52
+        },
+        {
+            id: 'kids-9.19.11',
+            name: 'Хлебцы рыбные (хек) (вариант 1) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 9,
+                butter: 5.5,
+                eggs: 6,
+                fish: 58,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 64,
+                sugar: 0.5,
+            },
+            macronutrients: {
+                proteins: 9.78,
+                fats: 6.03,
+                carbohydrates: 7.25
+            },
+            caloricity: 124.11
+        },
+        {
+            id: 'kids-9.19.12',
+            name: 'Хлебцы рыбные (хек) (вариант 1) с соусом сметанным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 9,
+                butter: 3,
+                eggs: 6,
+                fish: 58,
+                flourWheat: 3.75,
+                milkAndFermentedMilkProducts: 14,
+                sourCream: 12.5,
+            },
+            macronutrients: {
+                proteins: 9,
+                fats: 4.77,
+                carbohydrates: 6.03
+            },
+            caloricity: 104.43
+        },
+        {
+            id: 'kids-9.19.13',
+            name: 'Хлебцы рыбные (минтай) (вариант 1)',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 9,
+                butter: 3,
+                eggs: 6,
+                fish: 58,
+                milkAndFermentedMilkProducts: 14,
+            },
+            macronutrients: {
+                proteins: 13.97,
+                fats: 5.06,
+                carbohydrates: 6.26
+            },
+            caloricity: 129
+        },
+        {
+            id: 'kids-9.19.14',
+            name: 'Хлебцы рыбные (минтай) (вариант 1) с маслом сливочным',
+            defaultOutput: 75,
+            components: {
+                breadWheat: 9,
+                butter: 8,
+                eggs: 6,
+                fish: 58,
+                milkAndFermentedMilkProducts: 14,
+            },
+            macronutrients: {
+                proteins: 13.08,
+                fats: 9.56,
+                carbohydrates: 5.9
+            },
+            caloricity: 165.24
+        },
+        {
+            id: 'kids-9.19.15',
+            name: 'Хлебцы рыбные (минтай) (вариант 1) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 9,
+                butter: 5.5,
+                eggs: 6,
+                fish: 58,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 64,
+                sugar: 0.5,
+            },
+            macronutrients: {
+                proteins: 9.48,
+                fats: 5.48,
+                carbohydrates: 7.25
+            },
+            caloricity: 118.02
+        },
+        {
+            id: 'kids-9.19.16',
+            name: 'Хлебцы рыбные (минтай) (вариант 1) с соусом сметанным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 9,
+                butter: 3,
+                eggs: 6,
+                fish: 58,
+                flourWheat: 3.75,
+                milkAndFermentedMilkProducts: 14,
+                sourCream: 12.5,
+            },
+            macronutrients: {
+                proteins: 8.7,
+                fats: 4.21,
+                carbohydrates: 5.88
+            },
+            caloricity: 98.34
+        }
+    ]
+}
