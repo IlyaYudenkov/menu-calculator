@@ -3515,3 +3515,633 @@ const FISH_LOAVES_V1: IDish = {
         }
     ]
 }
+
+const FISH_LOAVES_V2: IDish = {
+    id: 'kids-9.20',
+    variants: [
+        {
+            id: 'kids-9.20.1',
+            name: 'Хлебцы рыбные (треска) (вариант 2)',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 9,
+                eggs: 6,
+                fish: 58,
+                milkAndFermentedMilkProducts: 14,
+                oil: 3
+            },
+            macronutrients: {
+                proteins: 14.17,
+                fats: 5.63,
+                carbohydrates: 6.47
+            },
+            caloricity: 135.26
+        },
+        {
+            id: 'kids-9.20.2',
+            name: 'Хлебцы рыбные (треска) (вариант 2) с маслом сливочным',
+            defaultOutput: 75,
+            components: {
+                breadWheat: 9,
+                butter: 5,
+                eggs: 6,
+                fish: 58,
+                milkAndFermentedMilkProducts: 14,
+                oil: 3
+            },
+            macronutrients: {
+                proteins: 13.25,
+                fats: 10.1,
+                carbohydrates: 6.1
+            },
+            caloricity: 171.12
+        },
+        {
+            id: 'kids-9.20.3',
+            name: 'Хлебцы рыбные (треска) (вариант 2) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 9,
+                butter: 2.5,
+                eggs: 6,
+                fish: 58,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 64,
+                oil: 3,
+                sugar: 0.5,
+            },
+            macronutrients: {
+                proteins: 9.52,
+                fats: 5.73,
+                carbohydrates: 7.23
+            },
+            caloricity: 120.11
+        },
+        {
+            id: 'kids-9.20.4',
+            name: 'Хлебцы рыбные (треска) (вариант 2) с соусом сметанным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 9,
+                eggs: 6,
+                fish: 58,
+                flourWheat: 3.75,
+                milkAndFermentedMilkProducts: 14,
+                oil: 3,
+                sourCream: 12.5
+            },
+            macronutrients: {
+                proteins: 8.73,
+                fats: 5.08,
+                carbohydrates: 5.87
+            },
+            caloricity: 106.05
+        },
+        {
+            id: 'kids-9.20.5',
+            name: 'Хлебцы рыбные (окунь морской) (вариант 2)',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 9,
+                eggs: 6,
+                fish: 58,
+                milkAndFermentedMilkProducts: 14,
+                oil: 3
+            },
+            macronutrients: {
+                proteins: 15.66,
+                fats: 7.47,
+                carbohydrates: 6.23
+            },
+            caloricity: 157.94
+        },
+        {
+            id: 'kids-9.20.6',
+            name: 'Хлебцы рыбные (окунь морской) (вариант 2) с маслом сливочным',
+            defaultOutput: 75,
+            components: {
+                breadWheat: 9,
+                butter: 5,
+                eggs: 6,
+                fish: 58,
+                milkAndFermentedMilkProducts: 14,
+                oil: 3
+            },
+            macronutrients: {
+                proteins: 14.64,
+                fats: 11.81,
+                carbohydrates: 5.87
+            },
+            caloricity: 192.3
+        },
+        {
+            id: 'kids-9.20.7',
+            name: 'Хлебцы рыбные (окунь морской) (вариант 2) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 9,
+                butter: 2.5,
+                eggs: 6,
+                fish: 58,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 64,
+                oil: 3,
+                sugar: 0.5,
+            },
+            macronutrients: {
+                proteins: 10.38,
+                fats: 6.81,
+                carbohydrates: 7.1
+            },
+            caloricity: 133.34
+        },
+        {
+            id: 'kids-9.20.8',
+            name: 'Хлебцы рыбные (окунь морской) (вариант 2) с соусом сметанным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 9,
+                eggs: 6,
+                fish: 58,
+                flourWheat: 3.75,
+                milkAndFermentedMilkProducts: 14,
+                oil: 3,
+                sourCream: 12.5
+            },
+            macronutrients: {
+                proteins: 9.68,
+                fats: 6.22,
+                carbohydrates: 5.87
+            },
+            caloricity: 120.83
+        },
+        {
+            id: 'kids-9.20.9',
+            name: 'Хлебцы рыбные (хек) (вариант 2)',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 9,
+                eggs: 6,
+                fish: 58,
+                milkAndFermentedMilkProducts: 14,
+                oil: 3
+            },
+            macronutrients: {
+                proteins: 14.47,
+                fats: 6.67,
+                carbohydrates: 6.23
+            },
+            caloricity: 145.26
+        },
+        {
+            id: 'kids-9.20.10',
+            name: 'Хлебцы рыбные (хек) (вариант 2) с маслом сливочным',
+            defaultOutput: 75,
+            components: {
+                breadWheat: 9,
+                butter: 5,
+                eggs: 6,
+                fish: 58,
+                milkAndFermentedMilkProducts: 14,
+                oil: 3
+            },
+            macronutrients: {
+                proteins: 13.53,
+                fats: 11.1,
+                carbohydrates: 5.87
+            },
+            caloricity: 180.45
+        },
+        {
+            id: 'kids-9.20.11',
+            name: 'Хлебцы рыбные (хек) (вариант 2) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 9,
+                butter: 2.5,
+                eggs: 6,
+                fish: 58,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 64,
+                oil: 3,
+                sugar: 0.5,
+            },
+            macronutrients: {
+                proteins: 9.7,
+                fats: 6.34,
+                carbohydrates: 7.1
+            },
+            caloricity: 125.94
+        },
+        {
+            id: 'kids-9.20.12',
+            name: 'Хлебцы рыбные (хек) (вариант 2) с соусом сметанным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 9,
+                eggs: 6,
+                fish: 58,
+                flourWheat: 3.75,
+                milkAndFermentedMilkProducts: 14,
+                oil: 3,
+                sourCream: 12.5
+            },
+            macronutrients: {
+                proteins: 8.99,
+                fats: 5.75,
+                carbohydrates: 5.87
+            },
+            caloricity: 113.44
+        },
+        {
+            id: 'kids-9.20.13',
+            name: 'Хлебцы рыбные (минтай) (вариант 2)',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 9,
+                eggs: 6,
+                fish: 58,
+                milkAndFermentedMilkProducts: 14,
+                oil: 3
+            },
+            macronutrients: {
+                proteins: 13.96,
+                fats: 5.71,
+                carbohydrates: 6.23
+            },
+            caloricity: 134.8
+        },
+        {
+            id: 'kids-9.20.14',
+            name: 'Хлебцы рыбные (минтай) (вариант 2) с маслом сливочным',
+            defaultOutput: 75,
+            components: {
+                breadWheat: 9,
+                butter: 5,
+                eggs: 6,
+                fish: 58,
+                milkAndFermentedMilkProducts: 14,
+                oil: 3
+            },
+            macronutrients: {
+                proteins: 13.05,
+                fats: 10.17,
+                carbohydrates: 5.87
+            },
+            caloricity: 170.71
+        },
+        {
+            id: 'kids-9.20.15',
+            name: 'Хлебцы рыбные (минтай) (вариант 2) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 9,
+                butter: 2.5,
+                eggs: 6,
+                fish: 58,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 64,
+                oil: 3,
+                sugar: 0.5,
+            },
+            macronutrients: {
+                proteins: 9.38,
+                fats: 5.78,
+                carbohydrates: 7.1
+            },
+            caloricity: 119.85
+        },
+        {
+            id: 'kids-9.20.16',
+            name: 'Хлебцы рыбные (минтай) (вариант 2) с соусом сметанным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 9,
+                eggs: 6,
+                fish: 58,
+                flourWheat: 3.75,
+                milkAndFermentedMilkProducts: 14,
+                oil: 3,
+                sourCream: 12.5
+            },
+            macronutrients: {
+                proteins: 8.68,
+                fats: 5.2,
+                carbohydrates: 5.87
+            },
+            caloricity: 107.35
+        }
+    ]
+}
+
+const FISH_MEATBALLS: IDish = {
+    id: 'kids-9.21',
+    variants: [
+        {
+            id: 'kids-9.21.1',
+            name: 'Фрикадельки рыбные (треска)',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 9,
+                eggs: 6,
+                fish: 45,
+                milkAndFermentedMilkProducts: 14,
+                vegetables: 9
+            },
+            macronutrients: {
+                proteins: 11.51,
+                fats: 1.6,
+                carbohydrates: 7.21
+            },
+            caloricity: 91
+        },
+        {
+            id: 'kids-9.21.2',
+            name: 'Фрикадельки рыбные (треска) с соусом сметанным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 9,
+                eggs: 6,
+                fish: 45,
+                flourWheat: 3.75,
+                milkAndFermentedMilkProducts: 14,
+                sourCream: 12.5,
+                vegetables: 9
+            },
+            macronutrients: {
+                proteins: 7.37,
+                fats: 2.9,
+                carbohydrates: 6.63
+            },
+            caloricity: 83.73
+        },
+        {
+            id: 'kids-9.21.3',
+            name: 'Фрикадельки рыбные (окунь морской)',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 9,
+                eggs: 6,
+                fish: 45,
+                milkAndFermentedMilkProducts: 14,
+                vegetables: 9
+            },
+            macronutrients: {
+                proteins: 12.77,
+                fats: 3.13,
+                carbohydrates: 7.21
+            },
+            caloricity: 110.67
+        },
+        {
+            id: 'kids-9.21.4',
+            name: 'Фрикадельки рыбные (окунь морской) с соусом сметанным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 9,
+                eggs: 6,
+                fish: 45,
+                flourWheat: 3.75,
+                milkAndFermentedMilkProducts: 14,
+                sourCream: 12.5,
+                vegetables: 9
+            },
+            macronutrients: {
+                proteins: 8.1,
+                fats: 3.78,
+                carbohydrates: 6.63
+            },
+            caloricity: 95.21
+        },
+        {
+            id: 'kids-9.21.5',
+            name: 'Фрикадельки рыбные (хек)',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 9,
+                eggs: 6,
+                fish: 45,
+                milkAndFermentedMilkProducts: 14,
+                vegetables: 9
+            },
+            macronutrients: {
+                proteins: 11.86,
+                fats: 2.51,
+                carbohydrates: 7.21
+            },
+            caloricity: 100.83
+        },
+        {
+            id: 'kids-9.21.6',
+            name: 'Фрикадельки рыбные (хек) с соусом сметанным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 9,
+                eggs: 6,
+                fish: 45,
+                flourWheat: 3.75,
+                milkAndFermentedMilkProducts: 14,
+                sourCream: 12.5,
+                vegetables: 9
+            },
+            macronutrients: {
+                proteins: 7.57,
+                fats: 3.42,
+                carbohydrates: 6.63
+            },
+            caloricity: 89.48
+        },
+        {
+            id: 'kids-9.21.7',
+            name: 'Фрикадельки рыбные (минтай)',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 9,
+                eggs: 6,
+                fish: 45,
+                milkAndFermentedMilkProducts: 14,
+                vegetables: 9
+            },
+            macronutrients: {
+                proteins: 11.46,
+                fats: 1.77,
+                carbohydrates: 7.21
+            },
+            caloricity: 92.73
+        },
+        {
+            id: 'kids-9.21.8',
+            name: 'Фрикадельки рыбные (минтай) с соусом сметанным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 9,
+                eggs: 6,
+                fish: 45,
+                flourWheat: 3.75,
+                milkAndFermentedMilkProducts: 14,
+                sourCream: 12.5,
+                vegetables: 9
+            },
+            macronutrients: {
+                proteins: 7.33,
+                fats: 2.99,
+                carbohydrates: 6.63
+            },
+            caloricity: 84.75
+        }
+    ]
+}
+
+const FISH_JACKDAWS: IDish = {
+    id: 'kids-9.22',
+    variants: [
+        {
+            id: 'kids-9.22.1',
+            name: 'Галки рыбные (треска)',
+            defaultOutput: 70,
+            components: {
+                fish: 53,
+                milkAndFermentedMilkProducts: 20,
+                potatoStarch: 5,
+                vegetables: 8,
+            },
+            macronutrients: {
+                proteins: 11.64,
+                fats: 1.03,
+                carbohydrates: 7.27
+            },
+            caloricity: 86.11
+        },
+        {
+            id: 'kids-9.22.2',
+            name: 'Галки рыбные (треска) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                butter: 2.5,
+                fish: 53,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 70,
+                potatoStarch: 5,
+                sugar: 0.5,
+                vegetables: 8,
+            },
+            macronutrients: {
+                proteins: 8.04,
+                fats: 3.05,
+                carbohydrates: 7.7
+            },
+            caloricity: 91.44
+        },
+        {
+            id: 'kids-9.22.3',
+            name: 'Галки рыбные (окунь морской)',
+            defaultOutput: 70,
+            components: {
+                fish: 53,
+                milkAndFermentedMilkProducts: 20,
+                potatoStarch: 5,
+                vegetables: 8,
+            },
+            macronutrients: {
+                proteins: 13.13,
+                fats: 2.83,
+                carbohydrates: 7.27
+            },
+            caloricity: 109.29
+        },
+        {
+            id: 'kids-9.22.4',
+            name: 'Галки рыбные (окунь морской) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                butter: 2.5,
+                fish: 53,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 70,
+                potatoStarch: 5,
+                sugar: 0.5,
+                vegetables: 8,
+            },
+            macronutrients: {
+                proteins: 8.91,
+                fats: 4.1,
+                carbohydrates: 7.7
+            },
+            caloricity: 104.96
+        },
+        {
+            id: 'kids-9.22.5',
+            name: 'Галки рыбные (хек)',
+            defaultOutput: 70,
+            components: {
+                fish: 53,
+                milkAndFermentedMilkProducts: 20,
+                potatoStarch: 5,
+                vegetables: 8,
+            },
+            macronutrients: {
+                proteins: 12.06,
+                fats: 2.1,
+                carbohydrates: 7.27
+            },
+            caloricity: 97.7
+        },
+        {
+            id: 'kids-9.22.6',
+            name: 'Галки рыбные (хек) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                butter: 2.5,
+                fish: 53,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 70,
+                potatoStarch: 5,
+                sugar: 0.5,
+                vegetables: 8,
+            },
+            macronutrients: {
+                proteins: 8.28,
+                fats: 3.68,
+                carbohydrates: 7.7
+            },
+            caloricity: 98.2
+        },
+        {
+            id: 'kids-9.22.7',
+            name: 'Галки рыбные (минтай)',
+            defaultOutput: 70,
+            components: {
+                fish: 53,
+                milkAndFermentedMilkProducts: 20,
+                potatoStarch: 5,
+                vegetables: 8,
+            },
+            macronutrients: {
+                proteins: 11.59,
+                fats: 1.23,
+                carbohydrates: 7.27
+            },
+            caloricity: 88.16
+        },
+        {
+            id: 'kids-9.22.8',
+            name: 'Галки рыбные (минтай) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                butter: 2.5,
+                fish: 53,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 70,
+                potatoStarch: 5,
+                sugar: 0.5,
+                vegetables: 8,
+            },
+            macronutrients: {
+                proteins: 8,
+                fats: 3.17,
+                carbohydrates: 7.7
+            },
+            caloricity: 92.63
+        }
+    ]
+}
