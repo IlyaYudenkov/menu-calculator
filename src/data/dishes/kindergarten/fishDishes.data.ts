@@ -4145,3 +4145,275 @@ const FISH_JACKDAWS: IDish = {
         }
     ]
 }
+
+const TEFTELI_RYBNYE_V1: IDish = {
+    id: 'kids-9.23',
+    generalOutput: 100,
+    variants: [
+        {
+            id: 'kids-9.23.1',
+            name: 'Тефтели рыбные (треска) (вариант 1)',
+            components: {
+                breadWheat: 8,
+                fish: 39,
+                flourWheat: 7,
+                milkAndFermentedMilkProducts: 12,
+                oil: 4,
+                sourCream: 20,
+                vegetables: 8
+            },
+            macronutrients: {
+                proteins: 7.66,
+                fats: 7.64,
+                carbohydrates: 9.55
+            },
+            caloricity: 140.82
+        },
+        {
+            id: 'kids-9.23.2',
+            name: 'Тефтели рыбные (окунь морской) (вариант 1)',
+            components: {
+                breadWheat: 8,
+                fish: 39,
+                flourWheat: 7,
+                milkAndFermentedMilkProducts: 12,
+                oil: 4,
+                sourCream: 20,
+                vegetables: 8
+            },
+            macronutrients: {
+                proteins: 8.42,
+                fats: 8.57,
+                carbohydrates: 9.55
+            },
+            caloricity: 152.75
+        },
+        {
+            id: 'kids-9.23.3',
+            name: 'Тефтели рыбные (хек) (вариант 1)',
+            components: {
+                breadWheat: 8,
+                fish: 39,
+                flourWheat: 7,
+                milkAndFermentedMilkProducts: 12,
+                oil: 4,
+                sourCream: 20,
+                vegetables: 8
+            },
+            macronutrients: {
+                proteins: 7.87,
+                fats: 8.19,
+                carbohydrates: 9.55
+            },
+            caloricity: 146.79
+        },
+        {
+            id: 'kids-9.23.4',
+            name: 'Тефтели рыбные (минтай) (вариант 1)',
+            components: {
+                breadWheat: 8,
+                fish: 39,
+                flourWheat: 7,
+                milkAndFermentedMilkProducts: 12,
+                oil: 4,
+                sourCream: 20,
+                vegetables: 8
+            },
+            macronutrients: {
+                proteins: 7.62,
+                fats: 7.75,
+                carbohydrates: 9.55
+            },
+            caloricity: 141.87
+        }
+    ]
+}
+
+const TEFTELI_RYBNYE_V2: IDish = {
+    id: 'kids-9.24',
+    generalOutput: 100,
+    variants: [
+        {
+            id: 'kids-9.24.1',
+            name: 'Тефтели рыбные (треска) (вариант 2)',
+            components: {
+                breadWheat: 8,
+                fish: 39,
+                flourWheat: 8,
+                milkAndFermentedMilkProducts: 12,
+                oil: 4,
+                sourCream: 10,
+                vegetables: 8
+            },
+            macronutrients: {
+                proteins: 7.5,
+                fats: 5.89,
+                carbohydrates: 9.88
+            },
+            caloricity: 125.29
+        },
+        {
+            id: 'kids-9.24.2',
+            name: 'Тефтели рыбные (окунь морской) (вариант 2)',
+            components: {
+                breadWheat: 8,
+                fish: 39,
+                flourWheat: 8,
+                milkAndFermentedMilkProducts: 12,
+                oil: 4,
+                sourCream: 10,
+                vegetables: 8
+            },
+            macronutrients: {
+                proteins: 8.26,
+                fats: 6.82,
+                carbohydrates: 9.88
+            },
+            caloricity: 137.22
+        },
+        {
+            id: 'kids-9.24.3',
+            name: 'Тефтели рыбные (хек) (вариант 2)',
+            components: {
+                breadWheat: 8,
+                fish: 39,
+                flourWheat: 8,
+                milkAndFermentedMilkProducts: 12,
+                oil: 4,
+                sourCream: 10,
+                vegetables: 8
+            },
+            macronutrients: {
+                proteins: 7.71,
+                fats: 6.44,
+                carbohydrates: 9.88
+            },
+            caloricity: 131.25
+        },
+        {
+            id: 'kids-9.24.3',
+            name: 'Тефтели рыбные (хек) (вариант 2)',
+            components: {
+                breadWheat: 8,
+                fish: 39,
+                flourWheat: 8,
+                milkAndFermentedMilkProducts: 12,
+                oil: 4,
+                sourCream: 10,
+                vegetables: 8
+            },
+            macronutrients: {
+                proteins: 7.71,
+                fats: 6.44,
+                carbohydrates: 9.88
+            },
+            caloricity: 131.25
+        },
+        {
+            id: 'kids-9.24.4',
+            name: 'Тефтели рыбные (минтай) (вариант 2)',
+            components: {
+                breadWheat: 8,
+                fish: 39,
+                flourWheat: 8,
+                milkAndFermentedMilkProducts: 12,
+                oil: 4,
+                sourCream: 10,
+                vegetables: 8
+            },
+            macronutrients: {
+                proteins: 7.46,
+                fats: 6,
+                carbohydrates: 9.88
+            },
+            caloricity: 126.34
+        },
+    ]
+}
+
+const TEFTELI_RYBNYE_LYUBITELSKIE: IDish = {
+    id: 'kids-9.25',
+    generalOutput: 100,
+    variants: [
+        {
+            id: 'kids-9.25.1',
+            name: 'Тефтели рыбные любительские (треска)',
+            components: {
+                breadWheat: 5,
+                eggs: 5,
+                fish: 39,
+                flourWheat: 7,
+                milkAndFermentedMilkProducts: 4,
+                oil: 6,
+                sourCream: 20,
+                vegetables: 16,
+            },
+            macronutrients: {
+                proteins: 7.81,
+                fats: 8.76,
+                carbohydrates: 8.38
+            },
+            caloricity: 146.68
+        },
+        {
+            id: 'kids-9.25.2',
+            name: 'Тефтели рыбные любительские (окунь морской)',
+            components: {
+                breadWheat: 5,
+                eggs: 5,
+                fish: 39,
+                flourWheat: 7,
+                milkAndFermentedMilkProducts: 4,
+                oil: 6,
+                sourCream: 20,
+                vegetables: 16,
+            },
+            macronutrients: {
+                proteins: 8.57,
+                fats: 9.68,
+                carbohydrates: 8.38
+            },
+            caloricity: 158.61
+        },
+        {
+            id: 'kids-9.25.3',
+            name: 'Тефтели рыбные любительские (хек)',
+            components: {
+                breadWheat: 5,
+                eggs: 5,
+                fish: 39,
+                flourWheat: 7,
+                milkAndFermentedMilkProducts: 4,
+                oil: 6,
+                sourCream: 20,
+                vegetables: 16,
+            },
+            macronutrients: {
+                proteins: 8.02,
+                fats: 9.31,
+                carbohydrates: 8.38
+            },
+            caloricity: 152.64
+        },
+        {
+            id: 'kids-9.25.4',
+            name: 'Тефтели рыбные любительские (минтай)',
+            components: {
+                breadWheat: 5,
+                eggs: 5,
+                fish: 39,
+                flourWheat: 7,
+                milkAndFermentedMilkProducts: 4,
+                oil: 6,
+                sourCream: 20,
+                vegetables: 16,
+            },
+            macronutrients: {
+                proteins: 7.77,
+                fats: 8.86,
+                carbohydrates: 8.38
+            },
+            caloricity: 147.73
+        }
+    ]
+}
