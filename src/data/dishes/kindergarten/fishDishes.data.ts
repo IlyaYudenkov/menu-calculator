@@ -4417,3 +4417,420 @@ const TEFTELI_RYBNYE_LYUBITELSKIE: IDish = {
         }
     ]
 }
+
+const FISH_PUDDING: IDish = {
+    id: 'kids-9.26',
+    variants: [
+        {
+            id: 'kids-9.26.1',
+            name: 'Пудинг рыбный (треска)',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 9,
+                butter: 3,
+                eggs: 6,
+                fish: 57.3,
+                milkAndFermentedMilkProducts: 15,
+            },
+            macronutrients: {
+                proteins: 15.69,
+                fats: 6.94,
+                carbohydrates: 6.56
+            },
+            caloricity: 154.54
+        },
+        {
+            id: 'kids-9.26.2',
+            name: 'Пудинг рыбный (треска) с маслом сливочным ',
+            defaultOutput: 75,
+            components: {
+                breadWheat: 9,
+                butter: 8,
+                eggs: 6,
+                fish: 57.3,
+                milkAndFermentedMilkProducts: 15,
+            },
+            macronutrients: {
+                proteins: 14.7,
+                fats: 11.32,
+                carbohydrates: 6.17
+            },
+            caloricity: 189.11
+        },
+        {
+            id: 'kids-9.26.3',
+            name: 'Пудинг рыбный (треска) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 9,
+                butter: 5.5,
+                eggs: 6,
+                fish: 57.3,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 65,
+                sugar: 0.5
+            },
+            macronutrients: {
+                proteins: 9.47,
+                fats: 5.37,
+                carbohydrates: 7.28
+            },
+            caloricity: 116.74
+        },
+        {
+            id: 'kids-9.26.4',
+            name: 'Пудинг рыбный (окунь морской)',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 9,
+                butter: 3,
+                eggs: 6,
+                fish: 57.3,
+                milkAndFermentedMilkProducts: 15,
+            },
+            macronutrients: {
+                proteins: 15.69,
+                fats: 6.94,
+                carbohydrates: 6.56
+            },
+            caloricity: 154.53
+        },
+        {
+            id: 'kids-9.26.5',
+            name: 'Пудинг рыбный (окунь морской) с маслом сливочным ',
+            defaultOutput: 75,
+            components: {
+                breadWheat: 9,
+                butter: 8,
+                eggs: 6,
+                fish: 57.3,
+                milkAndFermentedMilkProducts: 15,
+            },
+            macronutrients: {
+                proteins: 14.7,
+                fats: 11.32,
+                carbohydrates: 6.17
+            },
+            caloricity: 189.11
+        },
+        {
+            id: 'kids-9.26.6',
+            name: 'Пудинг рыбный (окунь морской) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 9,
+                butter: 5.5,
+                eggs: 6,
+                fish: 57.3,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 65,
+                sugar: 0.5
+            },
+            macronutrients: {
+                proteins: 10.4,
+                fats: 6.5,
+                carbohydrates: 7.28
+            },
+            caloricity: 131.35
+        },
+        {
+            id: 'kids-9.26.7',
+            name: 'Пудинг рыбный (хек)',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 9,
+                butter: 3,
+                eggs: 6,
+                fish: 57.3,
+                milkAndFermentedMilkProducts: 15,
+            },
+            macronutrients: {
+                proteins: 14.53,
+                fats: 6.14,
+                carbohydrates: 6.56
+            },
+            caloricity: 142
+        },
+        {
+            id: 'kids-9.26.8',
+            name: 'Пудинг рыбный (хек) с маслом сливочным ',
+            defaultOutput: 75,
+            components: {
+                breadWheat: 9,
+                butter: 8,
+                eggs: 6,
+                fish: 57.3,
+                milkAndFermentedMilkProducts: 15,
+            },
+            macronutrients: {
+                proteins: 13.57,
+                fats: 8.16,
+                carbohydrates: 6.17
+            },
+            caloricity: 154.97
+        },
+        {
+            id: 'kids-9.26.9',
+            name: 'Пудинг рыбный (хек) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 9,
+                butter: 5.5,
+                eggs: 6,
+                fish: 57.3,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 65,
+                sugar: 0.5
+            },
+            macronutrients: {
+                proteins: 9.72,
+                fats: 6.03,
+                carbohydrates: 7.28
+            },
+            caloricity: 124.04
+        },
+        {
+            id: 'kids-9.26.10',
+            name: 'Пудинг рыбный (минтай)',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 9,
+                butter: 3,
+                eggs: 6,
+                fish: 57.8,
+                milkAndFermentedMilkProducts: 15,
+            },
+            macronutrients: {
+                proteins: 12.86,
+                fats: 5.21,
+                carbohydrates: 6.56
+            },
+            caloricity: 131.69
+        },
+        {
+            id: 'kids-9.26.11',
+            name: 'Пудинг рыбный (минтай) с маслом сливочным ',
+            defaultOutput: 75,
+            components: {
+                breadWheat: 9,
+                butter: 8,
+                eggs: 6,
+                fish: 57.8,
+                milkAndFermentedMilkProducts: 15,
+            },
+            macronutrients: {
+                proteins: 13.1,
+                fats: 7.28,
+                carbohydrates: 6.17
+            },
+            caloricity: 145.35
+        },
+        {
+            id: 'kids-9.26.12',
+            name: 'Пудинг рыбный (минтай) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 9,
+                butter: 5.5,
+                eggs: 6,
+                fish: 57.8,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 65,
+                sugar: 0.5
+            },
+            macronutrients: {
+                proteins: 9.42,
+                fats: 5.5,
+                carbohydrates: 7.28
+            },
+            caloricity: 118.03
+        }
+    ]
+}
+
+const FISH_SOUFFLE: IDish = {
+    id: 'kids-9.27',
+    variants: [
+        {
+            id: 'kids-9.27.1',
+            name: 'Суфле рыбное (треска)',
+            defaultOutput: 70,
+            components: {
+                butter: 5,
+                eggs: 9,
+                fish: 61,
+                flourWheat: 3,
+                milkAndFermentedMilkProducts: 21
+            },
+            macronutrients: {
+                proteins: 15.05,
+                fats: 7.64,
+                carbohydrates: 4.07
+            },
+            caloricity: 147.29
+        },
+        {
+            id: 'kids-9.27.2',
+            name: 'Суфле рыбное (треска) с маслом сливочным',
+            defaultOutput: 75,
+            components: {
+                butter: 10,
+                eggs: 9,
+                fish: 61,
+                flourWheat: 3,
+                milkAndFermentedMilkProducts: 21
+            },
+            macronutrients: {
+                proteins: 14.1,
+                fats: 11.97,
+                carbohydrates: 3.84
+            },
+            caloricity: 182.35
+        },
+        {
+            id: 'kids-9.27.3',
+            name: 'Суфле рыбное (окунь морской)',
+            defaultOutput: 70,
+            components: {
+                butter: 5,
+                eggs: 9,
+                fish: 61,
+                flourWheat: 3,
+                milkAndFermentedMilkProducts: 21
+            },
+            macronutrients: {
+                proteins: 16.74,
+                fats: 9.71,
+                carbohydrates: 4.7
+            },
+            caloricity: 173.96
+        },
+        {
+            id: 'kids-9.27.4',
+            name: 'Суфле рыбное (окунь морской) с маслом сливочным',
+            defaultOutput: 75,
+            components: {
+                butter: 10,
+                eggs: 9,
+                fish: 61,
+                flourWheat: 3,
+                milkAndFermentedMilkProducts: 21
+            },
+            macronutrients: {
+                proteins: 15.65,
+                fats: 13.91,
+                carbohydrates: 3.84
+            },
+            caloricity: 207.24
+        },
+        {
+            id: 'kids-9.27.5',
+            name: 'Суфле рыбное (хек)',
+            defaultOutput: 70,
+            components: {
+                butter: 5,
+                eggs: 9,
+                fish: 61,
+                flourWheat: 3,
+                milkAndFermentedMilkProducts: 21
+            },
+            macronutrients: {
+                proteins: 15.5,
+                fats: 8.87,
+                carbohydrates: 4.7
+            },
+            caloricity: 160.63
+        },
+        {
+            id: 'kids-9.27.6',
+            name: 'Суфле рыбное (хек) с маслом сливочным',
+            defaultOutput: 75,
+            components: {
+                butter: 10,
+                eggs: 9,
+                fish: 61,
+                flourWheat: 3,
+                milkAndFermentedMilkProducts: 21
+            },
+            macronutrients: {
+                proteins: 14.51,
+                fats: 13.12,
+                carbohydrates: 3.84
+            },
+            caloricity: 194.8
+        },
+        {
+            id: 'kids-9.27.7',
+            name: 'Суфле рыбное (минтай)',
+            defaultOutput: 70,
+            components: {
+                butter: 5,
+                eggs: 9,
+                fish: 61.5,
+                flourWheat: 3,
+                milkAndFermentedMilkProducts: 21
+            },
+            macronutrients: {
+                proteins: 14.96,
+                fats: 7.87,
+                carbohydrates: 4.7
+            },
+            caloricity: 149.64
+        },
+        {
+            id: 'kids-9.27.8',
+            name: 'Суфле рыбное (минтай) с маслом сливочным',
+            defaultOutput: 75,
+            components: {
+                butter: 10,
+                eggs: 9,
+                fish: 61.5,
+                flourWheat: 3,
+                milkAndFermentedMilkProducts: 21
+            },
+            macronutrients: {
+                proteins: 14,
+                fats: 12.19,
+                carbohydrates: 3.84
+            },
+            caloricity: 184.55
+        }
+    ]
+}
+
+const SQUID_IN_SOUR_CREAM_SAUSE: IDish = {
+    id: 'kids-9.28',
+    generalOutput: 70,
+    variants: [
+        {
+            id: 'kids-9.28.1',
+            name: 'Кальмары (филе) в сметанном соусе',
+            components: {
+                fish: 74.1,
+                flourWheat: 1.5,
+                sourCream: 15
+            },
+            macronutrients: {
+                proteins: 17.7,
+                fats: 7.7,
+                carbohydrates: 1.94
+            },
+            caloricity: 150.83
+        },
+        {
+            id: 'kids-9.28.2',
+            name: 'Кальмары (тушка) в сметанном соусе',
+            components: {
+                fish: 81.6,
+                flourWheat: 1.5,
+                sourCream: 15
+            },
+            macronutrients: {
+                proteins: 17.7,
+                fats: 7.7,
+                carbohydrates: 1.94
+            },
+            caloricity: 150.83
+        }
+    ]
+}
