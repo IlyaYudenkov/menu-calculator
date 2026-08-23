@@ -225,3 +225,120 @@ const BOILED_BEEF_BEEFSTROGANOFF: IDish = {
         }
     ]
 }
+
+const STEWED_MEAT: IDish = {
+    id: 'kids-10.6',
+    generalOutput: 100,
+    variants: [
+        {
+            id: 'kids-10.6.1',
+            name: 'Мясо тушеное',
+            components: {
+                flourWheat: 3,
+                meat: 83,
+                oil: 3.5,
+                tomatoPuree: 4,
+                vegetables: 12,
+            },
+            macronutrients: {
+                proteins: 14.88,
+                fats: 5.74,
+                carbohydrates: 3.11
+            },
+            caloricity: 126.71
+        }
+    ]
+}
+
+const MYASO_PO_OSENNEMU: IDish = {
+    id: 'kids-10.7',
+    generalOutput: 100,
+    variants: [
+        {
+            id: 'kids-10.7.1',
+            name: 'Мясо по-осеннему',
+            components: {
+                fruits: 33,
+                meat: 83,
+                oil: 5,
+                vegetables: 8,
+            },
+            macronutrients: {
+                proteins: 14.54,
+                fats: 7.14,
+                carbohydrates: 3.5
+            },
+            caloricity: 139.25
+        }
+    ]
+}
+
+const MYASO_PO_BELORUSSKI: IDish = {
+    id: 'kids-10.8',
+    generalOutput: 100,
+    variants: [
+        {
+            id: 'kids-10.8.1',
+            name: 'Мясо по-белорусски',
+            components: {
+                breadRye: 4,
+                meat: 83,
+                sourCream: 25,
+                vegetables: 18,
+            },
+            macronutrients: {
+                proteins: 15.35,
+                fats: 8.65,
+                carbohydrates: 3.77
+            },
+            caloricity: 158.01
+        }
+    ]
+}
+
+const HOMEMADE_ROAST: IDish = {
+    id: 'kids-10.9',
+    generalOutput: 200,
+    variants: [
+        {
+            id: 'kids-10.9.1',
+            name: 'Жаркое по-домашнему',
+            components: {
+                meat: 79,
+                oil: 6,
+                potato: 125,
+                vegetables: 14,
+            },
+            macronutrients: {
+                proteins: 8.37,
+                fats: 3.73,
+                carbohydrates: 9.74
+            },
+            caloricity: 105.27
+        }
+    ]
+}
+
+const GOULASH: IDish = {
+    id: 'kids-10.10',
+    generalOutput: 100,
+    variants: [
+        {
+            id: 'kids-10.10.1',
+            name: 'Гуляш',
+            components: {
+                flourWheat: 2.5,
+                meat: 79,
+                oil: 3,
+                tomatoPuree: 4,
+                vegetables: 16
+            },
+            macronutrients: {
+                proteins: 14.19,
+                fats: 5.17,
+                carbohydrates: 3.18
+            },
+            caloricity: 118.87
+        }
+    ]
+}
