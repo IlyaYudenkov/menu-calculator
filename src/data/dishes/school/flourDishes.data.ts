@@ -1007,7 +1007,6 @@ const OLADYI: IDish = {
                 eggs: 2.7,
                 flourWheat: 56.4,
                 milkAndFermentedMilkProducts: 76.4,
-                sourCream: 15,
                 sugar: 2,
                 oil: 6
             },
@@ -1025,7 +1024,6 @@ const OLADYI: IDish = {
             components: {
                 eggs: 2.7,
                 flourWheat: 76.4,
-                sourCream: 15,
                 sugar: 2,
                 oil: 6
             },
@@ -1045,7 +1043,6 @@ const OLADYI: IDish = {
                 eggs: 2.7,
                 flourWheat: 56.4,
                 milkAndFermentedMilkProducts: 76.4,
-                sourCream: 15,
                 sugar: 2,
             },
             macronutrients: {
@@ -1063,7 +1060,6 @@ const OLADYI: IDish = {
                 butter: 6,
                 eggs: 2.7,
                 flourWheat: 76.4,
-                sourCream: 15,
                 sugar: 2,
             },
             macronutrients: {
@@ -1082,7 +1078,6 @@ const OLADYI: IDish = {
                 eggs: 2.7,
                 flourWheat: 56.4,
                 milkAndFermentedMilkProducts: 56.4,
-                sourCream: 15,
                 sugar: 2,
                 oil: 6
             },
@@ -1101,7 +1096,6 @@ const OLADYI: IDish = {
                 confectioneryProducts: 20,
                 eggs: 2.7,
                 flourWheat: 76.4,
-                sourCream: 15,
                 sugar: 2,
                 oil: 6
             },
@@ -1122,7 +1116,6 @@ const OLADYI: IDish = {
                 eggs: 2.7,
                 flourWheat: 56.4,
                 milkAndFermentedMilkProducts: 76.4,
-                sourCream: 15,
                 sugar: 2,
             },
             macronutrients: {
@@ -1141,7 +1134,6 @@ const OLADYI: IDish = {
                 confectioneryProducts: 20,
                 eggs: 2.7,
                 flourWheat: 76.4,
-                sourCream: 15,
                 sugar: 2,
             },
             macronutrients: {
@@ -1160,7 +1152,6 @@ const OLADYI: IDish = {
                 eggs: 2.7,
                 flourWheat: 56.4,
                 milkAndFermentedMilkProducts: 56.4,
-                sourCream: 15,
                 sugar: 2,
                 oil: 6
             },
@@ -1179,7 +1170,6 @@ const OLADYI: IDish = {
                 confectioneryProducts: 10,
                 eggs: 2.7,
                 flourWheat: 76.4,
-                sourCream: 15,
                 sugar: 2,
                 oil: 6
             },
@@ -1200,7 +1190,6 @@ const OLADYI: IDish = {
                 eggs: 2.7,
                 flourWheat: 56.4,
                 milkAndFermentedMilkProducts: 76.4,
-                sourCream: 15,
                 sugar: 2,
             },
             macronutrients: {
@@ -1219,7 +1208,6 @@ const OLADYI: IDish = {
                 confectioneryProducts: 10,
                 eggs: 2.7,
                 flourWheat: 76.4,
-                sourCream: 15,
                 sugar: 2,
             },
             macronutrients: {
@@ -2708,6 +2696,60 @@ const VATRUSHKI: IDish = {
     ]
 }
 
+const PIZZA_ZVEZDNAYA: IDish = {
+    id: '14.21',
+    generalOutput: 100,
+    variants: [
+        {
+            id: '14.21.1',
+            name: 'Пицца "Звездная"',
+            components: {
+                cheese: 10,
+                flourWheat: 45,
+                oil: 4,
+                sausageProducts: 20,
+                sugar: 3,
+                tomatoPuree: 5,
+                vegetables: 5,
+                yeasts: 1,
+            },
+            macronutrients: {
+                proteins: 11.32,
+                fats: 12.03,
+                carbohydrates: 36.92
+            },
+            caloricity: 286.38
+        }
+    ]
+}
+
+const VATRUSHKA_BELORUSSKAYA: IDish = {
+    id: '14.22',
+    generalOutput: 75,
+    variants: [
+        {
+            id: '14.22.1',
+            name: 'Ватрушка "Белорусская"',
+            components: {
+                butter: 1.9,
+                cheese: 20,
+                eggs: 8.47,
+                flourWheat: 38.92,
+                oil: 0.25,
+                sourCream: 5,
+                sugar: 1.97,
+                yeasts: 1.1
+            },
+            macronutrients: {
+                proteins: 7.9,
+                fats: 6.5,
+                carbohydrates: 26.2
+            },
+            caloricity: 196.1
+        }
+    ]
+}
+
 export const FLOUR_DISHES_ARRAY: IDish[] = [
     DUMPLINGS,
     BOIED_DUMPLINGS,
@@ -2728,5 +2770,7 @@ export const FLOUR_DISHES_ARRAY: IDish[] = [
     PIZZA_SHKOLNAYA,
     PIZZA_W_CHEESE,
     PIZZA_STUDENCHESKAYA,
-    VATRUSHKI
+    VATRUSHKI,
+    PIZZA_ZVEZDNAYA,
+    VATRUSHKA_BELORUSSKAYA
 ]

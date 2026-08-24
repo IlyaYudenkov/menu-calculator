@@ -21,8 +21,8 @@ export const updateDishesOptions = (dishesArray: IDish[]) => {
             meta: {
                 caloricity: variant.caloricity,
                 components: variant.components,
-                defaultOutput: dish.generalOutput || variant.currentOutput,
-                currentOutput: dish.generalOutput || variant.currentOutput,
+                defaultOutput: dish.generalOutput || variant.defaultOutput,
+                currentOutput: dish.generalOutput || variant.defaultOutput,
                 macronutrients: variant.macronutrients
             }
         }))

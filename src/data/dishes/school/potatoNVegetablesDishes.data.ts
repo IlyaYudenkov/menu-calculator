@@ -1162,6 +1162,39 @@ const PEPPER_STUFFED_W_VEGETABLES_N_RICE: IDish = {
     ]
 }
 
+const VEGETABLES_IN_PORTIONS: IDish = {
+    id: '3.29',
+    generalOutput: 100,
+    variants: [
+        {
+            id: '3.29.1',
+            name: 'Помидоры (порциями)',
+            components: {
+                vegetables: 100,
+            },
+            macronutrients: {
+                proteins: 1.1,
+                fats: 0.2,
+                carbohydrates: 3.8
+            },
+            caloricity: 21
+        },
+        {
+            id: '3.29.2',
+            name: 'Огурцы (порциями)',
+            components: {
+                vegetables: 100,
+            },
+            macronutrients: {
+                proteins: 0.7,
+                fats: 0.1,
+                carbohydrates: 1.9
+            },
+            caloricity: 11
+        }
+    ]
+}
+
 export const POTATO_N_VEGETABLES_DISHES_ARRAY: IDish[] = [
     POTATO_IN_A_MILK,
     CARROTS_W_GREEN_PEAS_IN_MILK_SAUSE,
@@ -1191,4 +1224,5 @@ export const POTATO_N_VEGETABLES_DISHES_ARRAY: IDish[] = [
     ZUCCHINI_BAKED_W_SAUSE,
     PEPPER_STUFFED_W_VEGETABLES,
     PEPPER_STUFFED_W_VEGETABLES_N_RICE,
+    VEGETABLES_IN_PORTIONS
 ]

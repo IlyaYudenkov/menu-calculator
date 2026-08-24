@@ -544,11 +544,11 @@ const CUE_BALL_OR_CUTLETS_OF_SEMOLINA_OR_RICE: IDish = {//учитывал БЖ�
 
 const MANNIK: IDish = {
     id: '4.12',
-    generalOutput: 100,
     variants: [
         {
             id: '4.12.1',
-            name: 'Биточки или котлеты манные',
+            name: 'Манник',
+            defaultOutput: 100,
             components: {
                 butter: 3,
                 cereals: 26.7,
@@ -562,6 +562,62 @@ const MANNIK: IDish = {
                 carbohydrates: 25.6
             },
             caloricity: 168
+        },
+        {
+            id: '4.12.2',
+            name: 'Манник с маслом сливочным',
+            defaultOutput: 105,
+            components: {
+                butter: 8,
+                cereals: 26.7,
+                eggs: 6.7,
+                milkAndFermentedMilkProducts: 80,
+                sugar: 6.7
+            },
+            macronutrients: {
+                proteins: 5.2,
+                fats: 8.1,
+                carbohydrates: 24.5
+            },
+            caloricity: 191
+        },
+        {
+            id: '4.12.3',
+            name: 'Манник со сметаной',
+            defaultOutput: 115,
+            components: {
+                butter: 3,
+                cereals: 26.7,
+                eggs: 6.7,
+                milkAndFermentedMilkProducts: 80,
+                sourCream: 15,
+                sugar: 6.7
+            },
+            macronutrients: {
+                proteins: 5.2,
+                fats: 6.7,
+                carbohydrates: 22.7
+            },
+            caloricity: 172
+        },
+        {
+            id: '4.12.4',
+            name: 'Манник со повидлом',
+            defaultOutput: 115,
+            components: {
+                butter: 3,
+                cereals: 26.7,
+                confectioneryProducts: 15,
+                eggs: 6.7,
+                milkAndFermentedMilkProducts: 80,
+                sugar: 6.7
+            },
+            macronutrients: {
+                proteins: 4.9,
+                fats: 4.1,
+                carbohydrates: 30.6
+            },
+            caloricity: 179
         }
     ]
 }

@@ -2967,6 +2967,154 @@ const CUE_CARDS_SHKOLNIK: IDish = {
     ]
 }
 
+const CUE_CARDS_ULIBKA: IDish = {
+    id: '8.41',
+    generalOutput: 100,
+    variants: [
+        {
+            id: '8.41.1',
+            name: 'Биточки "Улыбка" (на молоке, мука пшеничная)',
+            components: {
+                cereals: 8,
+                flourWheat: 5,
+                meat: 38,
+                milkAndFermentedMilkProducts: 16,
+                oil: 6,
+                poultry: 46,
+                vegetables: 14,
+            },
+            macronutrients: {
+                proteins: 16.64,
+                fats: 22.2,
+                carbohydrates: 11.7
+            },
+            caloricity: 311.82
+        },
+        {
+            id: '8.41.2',
+            name: 'Биточки "Улыбка" (на молоке, сухари панировочные)',
+            components: {
+                breadWheat: 5,
+                cereals: 8,
+                meat: 38,
+                milkAndFermentedMilkProducts: 16,
+                oil: 6,
+                poultry: 46,
+                vegetables: 14,
+            },
+            macronutrients: {
+                proteins: 16.64,
+                fats: 22.2,
+                carbohydrates: 11.7
+            },
+            caloricity: 311.82
+        },
+        {
+            id: '8.41.3',
+            name: 'Биточки "Улыбка" (на воде, мука пшеничная)',
+            components: {
+                cereals: 8,
+                flourWheat: 5,
+                meat: 38,
+                oil: 6,
+                poultry: 46,
+                vegetables: 14,
+            },
+            macronutrients: {
+                proteins: 16.64,
+                fats: 22.2,
+                carbohydrates: 11.7
+            },
+            caloricity: 311.82
+        },
+        {
+            id: '8.41.4',
+            name: 'Биточки "Улыбка" (на воде, сухари панировочные)',
+            components: {
+                breadWheat: 5,
+                cereals: 8,
+                meat: 38,
+                oil: 6,
+                poultry: 46,
+                vegetables: 14,
+            },
+            macronutrients: {
+                proteins: 16.64,
+                fats: 22.2,
+                carbohydrates: 11.7
+            },
+            caloricity: 311.82
+        }
+    ]
+}
+
+const CHOPPED_NATURAL_CUTLET_NEJNAYA: IDish = {
+    id: '8.42',
+    generalOutput: 100,
+    variants: [
+        {
+            id: '8.42.1',
+            name: 'Котлета натуральная рубленная "Нежная"',
+            components: {
+                breadWheat: 12,
+                eggs: 6,
+                meat: 100,
+                oil: 6,
+            },
+            macronutrients: {
+                proteins: 15.7,
+                fats: 29.8,
+                carbohydrates: 6.1
+            },
+            caloricity: 355
+        }
+    ]
+}
+
+const CUTLETS_KLASSNIE: IDish = {
+    id: '8.43',
+    generalOutput: 100,
+    variants: [
+        {
+            id: '8.43.1',
+            name: 'Котлеты "Классные" (на молоке)',
+            components: {
+                breadWheat: 20,
+                eggs: 1,
+                meat: 45,
+                milkAndFermentedMilkProducts: 25,
+                oil: 5,
+                poultry: 27.5,
+                vegetables: 2.5,
+            },
+            macronutrients: {
+                proteins: 15.8,
+                fats: 8.2,
+                carbohydrates: 14
+            },
+            caloricity: 194
+        },
+        {
+            id: '8.43.2',
+            name: 'Котлеты "Классные" (на воде)',
+            components: {
+                breadWheat: 20,
+                eggs: 1,
+                meat: 45,
+                oil: 5,
+                poultry: 27.5,
+                vegetables: 2.5,
+            },
+            macronutrients: {
+                proteins: 15.8,
+                fats: 8.2,
+                carbohydrates: 14
+            },
+            caloricity: 194
+        }
+    ]
+}
+
 export const MEAT_DISHES_ARRAY: IDish[] = [
     BOILED_MEAT,
     BOILED_TONGUE,
@@ -3006,5 +3154,8 @@ export const MEAT_DISHES_ARRAY: IDish[] = [
     POTATO_PIES_W_MEAT,
     POTATO_CASSEROLE_W_MEAT,
     ZRAZI_VYDUMKA,
-    CUE_CARDS_SHKOLNIK
+    CUE_CARDS_SHKOLNIK,
+    CUE_CARDS_ULIBKA,
+    CHOPPED_NATURAL_CUTLET_NEJNAYA,
+    CUTLETS_KLASSNIE
 ]
