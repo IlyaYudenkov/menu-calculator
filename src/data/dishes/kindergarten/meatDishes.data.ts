@@ -85,7 +85,7 @@ const BOILED_TONGUE: IDish = {
             name: 'Язык отварной (говяжий)',
             defaultOutput: 70,
             components: {
-                meat: 118,
+                byProducts: 118,
                 vegetables: 6
             },
             macronutrients: {
@@ -101,7 +101,7 @@ const BOILED_TONGUE: IDish = {
             defaultOutput: 75,
             components: {
                 butter: 5,
-                meat: 118,
+                byProducts: 118,
                 vegetables: 6
             },
             macronutrients: {
@@ -118,7 +118,7 @@ const BOILED_TONGUE: IDish = {
             components: {
                 butter: 2.5,
                 flourWheat: 2.5,
-                meat: 118,
+                byProducts: 118,
                 milkAndFermentedMilkProducts: 50,
                 sugar: 0.5,
                 vegetables: 6
@@ -135,7 +135,7 @@ const BOILED_TONGUE: IDish = {
             name: 'Язык отварной (свиной)',
             defaultOutput: 70,
             components: {
-                meat: 119,
+                byProducts: 119,
                 vegetables: 6
             },
             macronutrients: {
@@ -151,7 +151,7 @@ const BOILED_TONGUE: IDish = {
             defaultOutput: 75,
             components: {
                 butter: 5,
-                meat: 119,
+                byProducts: 119,
                 vegetables: 6
             },
             macronutrients: {
@@ -168,7 +168,7 @@ const BOILED_TONGUE: IDish = {
             components: {
                 butter: 2.5,
                 flourWheat: 2.5,
-                meat: 119,
+                byProducts: 119,
                 milkAndFermentedMilkProducts: 50,
                 sugar: 0.5,
                 vegetables: 6
@@ -339,6 +339,138 @@ const GOULASH: IDish = {
                 carbohydrates: 3.18
             },
             caloricity: 118.87
+        }
+    ]
+}
+
+const GOULASH_W_BOILED_MEAT: IDish = {
+    id: 'kids-10.11',
+    generalOutput: 100,
+    variants: [
+        {
+            id: 'kids-10.11.1',
+            name: 'Гуляш из отварного мяса',
+            components: {
+                butter: 7,
+                flourWheat: 3,
+                meat: 79,
+                tomatoPuree: 4,
+                vegetables: 20,
+            },
+            macronutrients: {
+                proteins: 14.31,
+                fats: 7.62,
+                carbohydrates: 3.79
+            },
+            caloricity: 144.83
+        }
+    ]
+}
+
+const LIVER_STEWED_IN_SAUSE_V1: IDish = {
+    id: 'kids-10.12',
+    generalOutput: 100,
+    variants: [
+        {
+            id: 'kids-10.12.1',
+            name: 'Печень, тушенная в соусе (вариант 1)',
+            components: {
+                byProducts: 71,
+                flourWheat: 5.5,
+                oil: 5,
+                sourCream: 25,
+            },
+            macronutrients: {
+                proteins: 12.44,
+                fats: 11.16,
+                carbohydrates: 4.13
+            },
+            caloricity: 170.43
+        }
+    ]
+}
+
+const LIVER_STEWED_IN_SAUSE_V2: IDish = {
+    id: 'kids-10.13',
+    generalOutput: 100,
+    variants: [
+        {
+            id: 'kids-10.13.1',
+            name: 'Печень, тушенная в соусе (вариант 2)',
+            components: {
+                butter: 5,
+                byProducts: 71,
+                flourWheat: 5.5,
+                sourCream: 25,
+            },
+            macronutrients: {
+                proteins: 12.46,
+                fats: 10.4,
+                carbohydrates: 4.17
+            },
+            caloricity: 163.64
+        }
+    ]
+}
+
+const BOILED_BEEF_PILAF: IDish = {
+    id: 'kids-10.14',
+    generalOutput: 200,
+    variants: [
+        {
+            id: 'kids-10.14.1',
+            name: 'Плов из отварной говядины',
+            components: {
+                butter: 7.5,
+                cereals: 51,
+                meat: 81,
+                vegetables: 26.5,
+            },
+            macronutrients: {
+                proteins: 8.76,
+                fats: 4.24,
+                carbohydrates: 17.34
+            },
+            caloricity: 146.45
+        }
+    ]
+}
+
+const NATURAL_CHOPPED_SCHNITZEL: IDish = {
+    id: 'kids-10.15',
+    generalOutput: 70,
+    variants: [
+        {
+            id: 'kids-10.15.1',
+            name: 'Шницель натуральный рубленый (из говядины)',
+            components: {
+                breadWheat: 11,
+                eggs: 4,
+                meat: 75.5,
+                oil: 5.5
+            },
+            macronutrients: {
+                proteins: 18.33,
+                fats: 10.66,
+                carbohydrates: 9.86
+            },
+            caloricity: 212.51
+        },
+        {
+            id: 'kids-10.15.2',
+            name: 'Шницель натуральный рубленый (из свинины)',
+            components: {
+                breadWheat: 11,
+                eggs: 4,
+                meat: 75.5,
+                oil: 5.5
+            },
+            macronutrients: {
+                proteins: 16.29,
+                fats: 35.6,
+                carbohydrates: 9.86
+            },
+            caloricity: 435.36
         }
     ]
 }
