@@ -3115,6 +3115,49 @@ const CUTLETS_KLASSNIE: IDish = {
     ]
 }
 
+const LIVER_PANCAKES_BAKED_W_CHEESE: IDish = {
+    id: '8.44',
+    generalOutput: 60,
+    variants: [
+        {
+            id: '8.44.1',
+            name: 'Оладьи из печени (говяжьей), запеченные с сыром',
+            components: {
+                breadWheat: 7,
+                butter: 1.5,
+                byProducts: 50,
+                cheese: 7,
+                oil: 5.5,
+                sourCream: 7,
+            },
+            macronutrients: {
+                proteins: 17.83,
+                fats: 17.9,
+                carbohydrates: 5.5
+            },
+            caloricity: 255.41
+        },
+        {
+            id: '8.44.2',
+            name: 'Оладьи из печени (свиной), запеченные с сыром',
+            components: {
+                breadWheat: 7,
+                butter: 1.5,
+                byProducts: 50,
+                cheese: 7,
+                oil: 5.5,
+                sourCream: 7,
+            },
+            macronutrients: {
+                proteins: 18.67,
+                fats: 18.07,
+                carbohydrates: 5.5
+            },
+            caloricity: 258.73
+        }
+    ]
+}
+
 export const MEAT_DISHES_ARRAY: IDish[] = [
     BOILED_MEAT,
     BOILED_TONGUE,
@@ -3157,5 +3200,6 @@ export const MEAT_DISHES_ARRAY: IDish[] = [
     CUE_CARDS_SHKOLNIK,
     CUE_CARDS_ULIBKA,
     CHOPPED_NATURAL_CUTLET_NEJNAYA,
-    CUTLETS_KLASSNIE
+    CUTLETS_KLASSNIE,
+    LIVER_PANCAKES_BAKED_W_CHEESE
 ]

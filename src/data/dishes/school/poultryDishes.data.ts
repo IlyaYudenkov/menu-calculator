@@ -916,6 +916,72 @@ const POTATO_CASSEROLE_W_POULTRY: IDish = {
     ]
 }
 
+const POULTRY_FILLET_SMAK: IDish = {
+    id: '9.22',
+    generalOutput: 100,
+    variants: [
+        {
+            id: '9.22.1',
+            name: 'Филе из птицы "Смак"',
+            components: {
+                breadWheat: 9,
+                eggs: 8,
+                oil: 6,
+                poultry: 95,
+            },
+            macronutrients: {
+                proteins: 23,
+                fats: 7.8,
+                carbohydrates: 6
+            },
+            caloricity: 149.2
+        }
+    ]
+}
+
+const CUTLET_KVETKA: IDish = {
+    id: '9.23',
+    generalOutput: 100,
+    variants: [
+        {
+            id: '9.23.1',
+            name: 'Котлета "Кветка" (цыплята-бройлеры)',
+            components: {
+                breadWheat: 22.7,
+                butter: 4.8,
+                cheese: 9.5,
+                milkAndFermentedMilkProducts: 16.4,
+                oil: 4,
+                poultry: 67,
+            },
+            macronutrients: {
+                proteins: 9.1,
+                fats: 12.2,
+                carbohydrates: 7.29
+            },
+            caloricity: 227.334
+        },
+        {
+            id: '9.23.1',
+            name: 'Котлета "Кветка" (филе птицы)',
+            components: {
+                breadWheat: 22.7,
+                butter: 4.8,
+                cheese: 9.5,
+                milkAndFermentedMilkProducts: 16.4,
+                oil: 4,
+                poultry: 67,
+            },
+            macronutrients: {
+                proteins: 10.8,
+                fats: 7.6,
+                carbohydrates: 7.3
+            },
+            caloricity: 133.735
+        }
+    ]
+}
+
 export const POULTRY_DISHES_ARRAY = [
     FRIED_POULTRY,
     MINCED_POULTRY_CUTLETS,
@@ -935,4 +1001,6 @@ export const POULTRY_DISHES_ARRAY = [
     POULTRY_CUTLETS_ORIGINALNIYE,
     CHICKEN_CHOPS_W_CHEESE,
     POTATO_CASSEROLE_W_POULTRY,
+    POULTRY_FILLET_SMAK,
+    CUTLET_KVETKA
 ]

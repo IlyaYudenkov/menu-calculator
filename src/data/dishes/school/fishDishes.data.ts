@@ -1127,6 +1127,31 @@ const FISH_SAUSAGES: IDish = {
     ]
 }
 
+const FISH_NUGGETS: IDish = {
+    id: '7.19',
+    generalOutput: 60,
+    variants: [
+        {
+            id: '7.19.1',
+            name: 'Рыбные наггетсы',
+            components: {
+                breadWheat: 10,
+                eggs: 5,
+                fish: 50,
+                flourWheat: 3,
+                milkAndFermentedMilkProducts: 7,
+                oil: 6
+            },
+            macronutrients: {
+                proteins: 16.3,
+                fats: 12.4,
+                carbohydrates: 15.03
+            },
+            caloricity: 236.9
+        }
+    ]
+}
+
 export const FISH_DISHES_ARRAY: IDish[] = [
     BOILED_FISH,
     POACHED_FISH,
@@ -1143,5 +1168,6 @@ export const FISH_DISHES_ARRAY: IDish[] = [
     SQUID_IN_SOUR_CREAM_SAUSE,
     FISH_SOUFFLE,
     FISH_CUTLET_FANTAZIA,
-    FISH_SAUSAGES
+    FISH_SAUSAGES,
+    FISH_NUGGETS
 ]

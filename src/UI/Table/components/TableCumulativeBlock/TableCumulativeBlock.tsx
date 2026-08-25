@@ -48,7 +48,7 @@ export const TableCumulativeBlock = ({
                                     {value}
                                 </td>
                             ))}
-                            <td>{total}</td>
+                            <td>{round(total)}</td>
                         </tr>
                     )
                 })

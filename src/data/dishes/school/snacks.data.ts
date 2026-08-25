@@ -1939,6 +1939,101 @@ const SALAD_ZARNICA: IDish = {
     ]
 }
 
+const SALAD_SVETOFORCHIK: IDish = {
+    id: '1.67',
+    generalOutput: 100,
+    variants: [
+        {
+            id: '1.67.1',
+            name: 'Салат "Светофорчик" с маслом растительным',
+            components: {
+                eggs: 13,
+                oil: 10,
+                vegetables: 78,
+            },
+            macronutrients: {
+                proteins: 2.87,
+                fats: 10.19,
+                carbohydrates: 5.77
+            },
+            caloricity: 126.32
+        },
+        {
+            id: '1.67.2',
+            name: 'Салат "Светофорчик" с майонезом',
+            components: {
+                eggs: 13,
+                mayonnaise: 20,
+                vegetables: 68,
+            },
+            macronutrients: {
+                proteins: 2.91,
+                fats: 10.19,
+                carbohydrates: 6.14
+            },
+            caloricity: 127.96
+        }
+    ]
+}
+
+const SALAD_KAK_DOMA: IDish = {
+    id: '1.68',
+    generalOutput: 100,
+    variants: [
+        {
+            id: '1.68.1',
+            name: 'Салат "Как дома" с майонезом',
+            components: {
+                eggs: 10,
+                mayonnaise: 20,
+                meat: 33.4,
+                potato: 10,
+                vegetables: 40,
+            },
+            macronutrients: {
+                proteins: 2.87,
+                fats: 10.19,
+                carbohydrates: 5.77
+            },
+            caloricity: 126.32
+        },
+        {
+            id: '1.68.2',
+            name: 'Салат "Как дома" с маслом растительным',
+            components: {
+                eggs: 10,
+                meat: 33.4,
+                oil: 20,
+                potato: 10,
+                vegetables: 40,
+            },
+            macronutrients: {
+                proteins: 2.87,
+                fats: 10.19,
+                carbohydrates: 5.77
+            },
+            caloricity: 126.32
+        },
+        {
+            id: '1.68.3',
+            name: 'Салат "Как дома" со сметаной',
+            components: {
+                eggs: 10,
+                meat: 33.4,
+                potato: 10,
+                sourCream: 20,
+                vegetables: 40,
+            },
+            macronutrients: {
+                proteins: 2.87,
+                fats: 10.19,
+                carbohydrates: 5.77
+            },
+            caloricity: 126.32
+        }
+    ]
+}
+
 export const SNACKS_ARRAY: IDish[] = [
     SANDWICH_W_BUTTER,
     SANDWICH_W_JAM,
@@ -2007,5 +2102,7 @@ export const SNACKS_ARRAY: IDish[] = [
     SELD_S_LUKOM,
     ZHARENAYA_RYBA_POD_MARINADOM,
     SALAD_SEKUNDA,
-    SALAD_ZARNICA
+    SALAD_ZARNICA,
+    SALAD_SVETOFORCHIK,
+    SALAD_KAK_DOMA
 ]

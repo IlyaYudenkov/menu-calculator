@@ -144,7 +144,6 @@ const STEWED_CABAGGE: IDish = {
                 tomatoPuree: 6,
                 sugar: 3.2,
                 vegetables: 120
-
             },
             macronutrients: {
                 proteins: 2.5,
@@ -162,7 +161,6 @@ const STEWED_CABAGGE: IDish = {
                 tomatoPuree: 6,
                 sugar: 3.2,
                 vegetables: 106
-
             },
             macronutrients: {
                 proteins: 2.5,

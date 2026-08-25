@@ -888,7 +888,6 @@ const STEWED_CABBAGE: IDish = {
                 sugar: 6,
                 tomatoPuree: 12,
                 vegetables: 241.2,
-
             },
             macronutrients: {
                 proteins: 2.4,
@@ -906,7 +905,6 @@ const STEWED_CABBAGE: IDish = {
                 sugar: 6,
                 tomatoPuree: 12,
                 vegetables: 241.2,
-
             },
             macronutrients: {
                 proteins: 2.4,
@@ -924,7 +922,6 @@ const STEWED_CABBAGE: IDish = {
                 sugar: 6,
                 tomatoPuree: 12,
                 vegetables: 212,
-
             },
             macronutrients: {
                 proteins: 2.4,
@@ -942,7 +939,6 @@ const STEWED_CABBAGE: IDish = {
                 sugar: 6,
                 tomatoPuree: 12,
                 vegetables: 212,
-
             },
             macronutrients: {
                 proteins: 2.4,

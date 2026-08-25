@@ -430,6 +430,76 @@ const ROSEHIP_FRUIT_DRINK: IDish = {
     ]
 }
 
+const ORANGE_OR_TANGERIN_DRINK: IDish = {
+    id: '13.13',
+    generalOutput: 200,
+    variants: [
+        {
+            id: '13.13.1',
+            name: 'Напиток апельсиновый',
+            components: {
+                fruits: 16,
+                sugar: 16
+            },
+            macronutrients: {
+                proteins: 0.07,
+                fats: 0.02,
+                carbohydrates: 8.65
+            },
+            caloricity: 35.2
+        },
+        {
+            id: '13.13.2',
+            name: 'Напиток мандариновый',
+            components: {
+                fruits: 16,
+                sugar: 16
+            },
+            macronutrients: {
+                proteins: 0.07,
+                fats: 0.03,
+                carbohydrates: 8.65
+            },
+            caloricity: 35.2
+        }
+    ]
+}
+
+const FANTASTIC_DRINK: IDish = {
+    id: '13.14',
+    generalOutput: 200,
+    variants: [
+        {
+            id: '13.14.1',
+            name: 'Напиток "Фантастик" (из апельсина)',
+            components: {
+                fruits: 22.5,
+                sugar: 15
+            },
+            macronutrients: {
+                proteins: 0.09,
+                fats: 0.06,
+                carbohydrates: 8.52
+            },
+            caloricity: 35.02
+        },
+        {
+            id: '13.14.2',
+            name: 'Напиток "Фантастик" (из лимона)',
+            components: {
+                fruits: 22.5,
+                sugar: 15
+            },
+            macronutrients: {
+                proteins: 0.09,
+                fats: 0.06,
+                carbohydrates: 8.26
+            },
+            caloricity: 34.05
+        }
+    ]
+}
+
 export const DRINKS_ARRAY: IDish[] = [
     TEA_W_SUGAR_OR_JAM_OR_HONEY,
     TEA_W_LEMON,
@@ -442,5 +512,7 @@ export const DRINKS_ARRAY: IDish[] = [
     KEFIR_OR_ACIDOPHILUS,
     CRANBERRY_DRINK,
     LEMON_DRINK,
-    ROSEHIP_FRUIT_DRINK
+    ROSEHIP_FRUIT_DRINK,
+    ORANGE_OR_TANGERIN_DRINK,
+    FANTASTIC_DRINK
 ]
