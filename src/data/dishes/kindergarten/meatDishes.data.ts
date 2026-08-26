@@ -474,3 +474,202 @@ const NATURAL_CHOPPED_SCHNITZEL: IDish = {
         }
     ]
 }
+
+const CUE_CARDS_PO_BELORUSSKI: IDish = {
+    id: 'kids-10.16',
+    generalOutput: 70,
+    variants: [
+        {
+            id: 'kids-10.16.1',
+            name: 'Биточки по-белорусски',
+            components: {
+                eggs: 8,
+                meat: 72,
+                milkAndFermentedMilkProducts: 11,
+                oil: 5,
+                vegetables: 9
+            },
+            macronutrients: {
+                proteins: 19.6,
+                fats: 11.04,
+                carbohydrates: 1.8
+            },
+            caloricity: 188.41
+        }
+    ]
+}
+
+const STEAMED_BEEF_CUE_CARDS_V1: IDish = {
+    id: 'kids-10.17',
+    variants: [
+        {
+            id: 'kids-10.17.1',
+            name: 'Биточки из говядины (паровые) (вариант 1)',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 13,
+                butter: 3,
+                meat: 52,
+                milkAndFermentedMilkProducts: 15.5
+            },
+            macronutrients: {
+                proteins: 14.7,
+                fats: 6.11,
+                carbohydrates: 9.01
+            },
+            caloricity: 180.96
+        },
+        {
+            id: 'kids-10.17.2',
+            name: 'Биточки из говядины (паровые) (вариант 1) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 13,
+                butter: 5.5,
+                flourWheat: 2.5,
+                meat: 52,
+                milkAndFermentedMilkProducts: 65.5,
+                sugar: 0.5
+            },
+            macronutrients: {
+                proteins: 9.87,
+                fats: 6.33,
+                carbohydrates: 8.6
+            },
+            caloricity: 132.41
+        }
+    ]
+}
+
+const STEAMED_BEEF_CUE_CARDS_V2: IDish = {
+    id: 'kids-10.18',
+    variants: [
+        {
+            id: 'kids-10.18.1',
+            name: 'Биточки из говядины (паровые) (вариант 2)',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 13,
+                meat: 52,
+                milkAndFermentedMilkProducts: 15.5,
+                oil: 2.5
+            },
+            macronutrients: {
+                proteins: 14.69,
+                fats: 6.14,
+                carbohydrates: 8.99
+            },
+            caloricity: 152.74
+        },
+        {
+            id: 'kids-10.18.2',
+            name: 'Биточки из говядины (паровые) (вариант 2) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 13,
+                butter: 2.5,
+                flourWheat: 2.5,
+                meat: 52,
+                milkAndFermentedMilkProducts: 65.5,
+                oil: 2.5,
+                sugar: 0.5
+            },
+            macronutrients: {
+                proteins: 9.85,
+                fats: 6.34,
+                carbohydrates: 8.58
+            },
+            caloricity: 132.95
+        }
+    ]
+}
+
+const CUE_CARDS_DETSKIYE: IDish = {
+    id: 'kids-10.19',
+    variants: [
+        {
+            id: 'kids-10.19.1',
+            name: 'Биточки детские',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 3.5,
+                cereals: 5.6,
+                meat: 58.8,
+                milkAndFermentedMilkProducts: 11.2,
+                oil: 4,
+                vegetables: 9.8
+            },
+            macronutrients: {
+                proteins: 9.5,
+                fats: 6.16,
+                carbohydrates: 9.84
+            },
+            caloricity: 214.63
+        },
+        {
+            id: 'kids-10.19.2',
+            name: 'Биточки детские с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 3.5,
+                butter: 2.5,
+                cereals: 5.6,
+                flourWheat: 2.5,
+                meat: 58.8,
+                milkAndFermentedMilkProducts: 61.2,
+                oil: 4,
+                sugar: 0.5,
+                vegetables: 9.8
+            },
+            macronutrients: {
+                proteins: 6.93,
+                fats: 6.52,
+                carbohydrates: 9.18
+            },
+            caloricity: 120.36
+        }
+    ]
+}
+
+const CUTLETS_CUE_CARDS_SCHNIZTELS: IDish = {
+    id: 'kids-10.20',
+    variants: [
+        {
+            id: 'kids-10.20.1',
+            name: 'Котлеты, биточки, шницели',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 20,
+                meat: 52,
+                milkAndFermentedMilkProducts: 17,
+                oil: 4,
+            },
+            macronutrients: {
+                proteins: 14.4,
+                fats: 7.61,
+                carbohydrates: 3.59
+            },
+            caloricity: 197.8
+        },
+        {
+            id: 'kids-10.20.2',
+            name: 'Котлеты, биточки, шницели с соусом молочным',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 20,
+                butter: 2.5,
+                flourWheat: 2.5,
+                meat: 52,
+                milkAndFermentedMilkProducts: 67,
+                oil: 4,
+                sugar: 0.5
+            },
+            macronutrients: {
+                proteins: 10.8,
+                fats: 6.82,
+                carbohydrates: 12.02
+            },
+            caloricity: 155.15
+        }
+    ]
+}
