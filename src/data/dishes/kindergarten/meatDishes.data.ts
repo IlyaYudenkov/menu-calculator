@@ -673,3 +673,268 @@ const CUTLETS_CUE_CARDS_SCHNIZTELS: IDish = {
         }
     ]
 }
+
+const CUTLETS_CUE_CARDS_SPECIAL: IDish = {
+    id: 'kids-10.21',
+    variants: [
+        {
+            id: 'kids-10.21.1',
+            name: 'Котлеты (биточки) особые',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 17.5,
+                meat: 56,
+                milkAndFermentedMilkProducts: 14,
+                oil: 3.5
+            },
+            macronutrients: {
+                proteins: 15.86,
+                fats: 12.93,
+                carbohydrates: 13.59
+            },
+            caloricity: 238.66
+        },
+        {
+            id: 'kids-10.21.2',
+            name: 'Котлеты (биточки) особые с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 17.5,
+                butter: 2.5,
+                flourWheat: 2.5,
+                meat: 56,
+                milkAndFermentedMilkProducts: 64,
+                oil: 3.5,
+                sugar: 0.5
+            },
+            macronutrients: {
+                proteins: 10.5,
+                fats: 9.98,
+                carbohydrates: 11.38
+            },
+            caloricity: 180.43
+        },
+    ]
+}
+
+const HOMEMADE_CUTLETS: IDish = {
+    id: 'kids-10.22',
+    variants: [
+        {
+            id: 'kids-10.22.1',
+            name: 'Котлеты домашние',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 14,
+                eggs: 1,
+                meat: 50.7,
+                oil: 3.5,
+                vegetables: 1.8
+            },
+            macronutrients: {
+                proteins: 9.5,
+                fats: 6.16,
+                carbohydrates: 9.84
+            },
+            caloricity: 135.69
+        },
+        {
+            id: 'kids-10.22.2',
+            name: 'Котлеты домашние с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 14,
+                butter: 2.5,
+                eggs: 1,
+                flourWheat: 2.5,
+                meat: 50.7,
+                milkAndFermentedMilkProducts: 50,
+                oil: 3.5,
+                sugar: 0.5,
+                vegetables: 1.8
+            },
+            macronutrients: {
+                proteins: 6.8,
+                fats: 6.04,
+                carbohydrates: 9.2
+            },
+            caloricity: 120.36
+        }
+    ]
+}
+
+const CUTLETS_ZDOROVYE: IDish = {
+    id: 'kids-10.23',
+    variants: [
+        {
+            id: 'kids-10.23.1',
+            name: 'Котлеты "Здоровье" (масло растительное)',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 7,
+                eggs: 5.6,
+                meat: 51.8,
+                milkAndFermentedMilkProducts: 9.8,
+                oil: 4,
+                vegetables: 12.6
+            },
+            macronutrients: {
+                proteins: 15.07,
+                fats: 8.61,
+                carbohydrates: 7.39
+            },
+            caloricity: 170.51
+        },
+        {
+            id: 'kids-10.23.2',
+            name: 'Котлеты "Здоровье" с соусом молочным (масло растительное)',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 7,
+                butter: 2.5,
+                eggs: 5.6,
+                flourWheat: 2.5,
+                meat: 51.8,
+                milkAndFermentedMilkProducts: 59.8,
+                oil: 4,
+                sugar: 0.5,
+                vegetables: 12.6
+            },
+            macronutrients: {
+                proteins: 10.04,
+                fats: 7.48,
+                carbohydrates: 7.76
+            },
+            caloricity: 140.68
+        },
+        {
+            id: 'kids-10.23.3',
+            name: 'Котлеты "Здоровье" с соусом сметанным (масло растительное)',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 7,
+                eggs: 5.6,
+                flourWheat: 3.75,
+                meat: 51.8,
+                milkAndFermentedMilkProducts: 9.8,
+                oil: 4,
+                sourCream: 12.5,
+                vegetables: 12.6
+            },
+            macronutrients: {
+                proteins: 9.34,
+                fats: 6.9,
+                carbohydrates: 6.54
+            },
+            caloricity: 128.17
+        },
+        {
+            id: 'kids-10.23.4',
+            name: 'Котлеты "Здоровье" (масло сливочное)',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 7,
+                butter: 4,
+                eggs: 5.6,
+                meat: 51.8,
+                milkAndFermentedMilkProducts: 9.8,
+                vegetables: 12.6
+            },
+            macronutrients: {
+                proteins: 15.07,
+                fats: 8.61,
+                carbohydrates: 7.39
+            },
+            caloricity: 170.51
+        },
+        {
+            id: 'kids-10.23.5',
+            name: 'Котлеты "Здоровье" с соусом молочным (масло сливочное)',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 7,
+                butter: 6.5,
+                eggs: 5.6,
+                flourWheat: 2.5,
+                meat: 51.8,
+                milkAndFermentedMilkProducts: 59.8,
+                sugar: 0.5,
+                vegetables: 12.6
+            },
+            macronutrients: {
+                proteins: 10.04,
+                fats: 7.48,
+                carbohydrates: 7.76
+            },
+            caloricity: 140.68
+        },
+        {
+            id: 'kids-10.23.6',
+            name: 'Котлеты "Здоровье" с соусом сметанным (масло сливочное)',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 7,
+                butter: 4,
+                eggs: 5.6,
+                flourWheat: 3.75,
+                meat: 51.8,
+                milkAndFermentedMilkProducts: 9.8,
+                sourCream: 12.5,
+                vegetables: 12.6
+            },
+            macronutrients: {
+                proteins: 9.34,
+                fats: 6.9,
+                carbohydrates: 6.54
+            },
+            caloricity: 128.17
+        }
+    ]
+}
+
+const KOLBASKI_PO_MOGILEVSKI: IDish = {
+    id: 'kids-10.24',
+    variants: [
+        {
+            id: 'kids-10.24.1',
+            name: 'Колбаски по-могилевски',
+            defaultOutput: 70,
+            components: {
+                flourWheat: 4,
+                meat: 84,
+                oil: 4,
+                vegetables: 0.7
+            },
+            macronutrients: {
+                proteins: 19.63,
+                fats: 17.96,
+                carbohydrates: 3.59
+            },
+            caloricity: 260.03
+        },
+    ]
+}
+
+const KOLBASKI_PO_SLUCKI: IDish = {
+    id: 'kids-10.25',
+    variants: [
+        {
+            id: 'kids-10.25.1',
+            name: 'Колбаски по-слуцки',
+            defaultOutput: 70,
+            components: {
+                eggs: 6,
+                meat: 49,
+                potatoStarch: 3,
+                oil: 3,
+                vegetables: 24.5,
+            },
+            macronutrients: {
+                proteins: 10.54,
+                fats: 22.63,
+                carbohydrates: 5.44
+            },
+            caloricity: 276.33
+        },
+    ]
+}
