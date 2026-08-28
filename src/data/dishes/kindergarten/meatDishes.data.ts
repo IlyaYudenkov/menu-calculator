@@ -938,3 +938,193 @@ const KOLBASKI_PO_SLUCKI: IDish = {
         },
     ]
 }
+
+const CHOPPED_ZRAZY: IDish = {
+    id: 'kids-10.26',
+    variants: [
+        {
+            id: 'kids-10.26.1',
+            name: 'Зразы рубленные',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 14,
+                eggs: 5,
+                meat: 38,
+                milkAndFermentedMilkProducts: 11,
+                oil: 8,
+                vegetables: 28,
+            },
+            macronutrients: {
+                proteins: 12.77,
+                fats: 13.06,
+                carbohydrates: 14.26
+            },
+            caloricity: 231.09
+        },
+        {
+            id: 'kids-10.26.2',
+            name: 'Зразы рубленные с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 14,
+                butter: 2.5,
+                eggs: 5,
+                flourWheat: 2.5,
+                meat: 38,
+                milkAndFermentedMilkProducts: 61,
+                oil: 8,
+                sugar: 0.5,
+                vegetables: 28,
+            },
+            macronutrients: {
+                proteins: 8.7,
+                fats: 10.07,
+                carbohydrates: 11.4
+            },
+            caloricity: 174.6
+        },
+    ]
+}
+
+const PASTA_ROLL: IDish = {
+    id: 'kids-10.27',
+    variants: [
+        {
+            id: 'kids-10.27.1',
+            name: 'Рулет с макаронами',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 8,
+                butter: 1,
+                eggs: 3,
+                meat: 30.5,
+                milkAndFermentedMilkProducts: 9,
+                oil: 1.5,
+                pastaProducts: 10.5
+            },
+            macronutrients: {
+                proteins: 10.99,
+                fats: 4.86,
+                carbohydrates: 15.49
+            },
+            caloricity: 152.51
+        },
+        {
+            id: 'kids-10.27.2',
+            name: 'Рулет с макаронами с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 8,
+                butter: 3.5,
+                eggs: 3,
+                flourWheat: 2.5,
+                meat: 30.5,
+                milkAndFermentedMilkProducts: 59,
+                oil: 1.5,
+                pastaProducts: 10.5,
+                sugar: 0.5,
+            },
+            macronutrients: {
+                proteins: 7.66,
+                fats: 4.98,
+                carbohydrates: 12.12
+            },
+            caloricity: 125.95
+        }
+    ]
+}
+
+const ROLL_W_ONION_N_ROLL: IDish = {
+    id: 'kids-10.28',
+    generalOutput: 70,
+    variants: [
+        {
+            id: 'kids-10.28.1',
+            name: 'Рулет с луком и яйцом',
+            components: {
+                breadWheat: 9.5,
+                eggs: 7,
+                meat: 39,
+                milkAndFermentedMilkProducts: 11.5,
+                oil: 3.5,
+                vegetables: 30,
+            },
+            macronutrients: {
+                proteins: 13.23,
+                fats: 7.13,
+                carbohydrates: 10.7
+            },
+            caloricity: 163.87
+        }
+    ]
+}
+
+const BAKED_BEEF_ROLL: IDish = {
+    id: 'kids-10.29',
+    variants: [
+        {
+            id: 'kids-10.29.1',
+            name: 'Рулет из говядины запеченный',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 19,
+                butter: 2,
+                eggs: 7,
+                meat: 49,
+                milkAndFermentedMilkProducts: 16,
+            },
+            macronutrients: {
+                proteins: 14.81,
+                fats: 5.93,
+                carbohydrates: 7.24
+            },
+            caloricity: 144.09
+        },
+        {
+            id: 'kids-10.29.2',
+            name: 'Рулет из говядины запеченный с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 19,
+                butter: 4.5,
+                flourWheat: 2.5,
+                eggs: 7,
+                meat: 49,
+                milkAndFermentedMilkProducts: 66,
+                sugar: 0.5
+            },
+            macronutrients: {
+                proteins: 9.88,
+                fats: 5.91,
+                carbohydrates: 7.6
+            },
+            caloricity: 124.98
+        }
+    ]
+}
+
+const MEATBALLS_V1: IDish = {
+    id: 'kids-10.30',
+    generalOutput: 100,
+    variants: [
+        {
+            id: 'kids-10.30.1',
+            name: 'Тефтели (вариант 1)',
+            components: {
+                breadWheat: 7,
+                flourWheat: 5.5,
+                meat: 32,
+                milkAndFermentedMilkProducts: 10,
+                oil: 5,
+                sourCream: 25,
+                vegetables: 16,
+            },
+            macronutrients: {
+                proteins: 7.88,
+                fats: 9.83,
+                carbohydrates: 8.9
+            },
+            caloricity: 159.61
+        }
+    ]
+}
