@@ -1,7 +1,7 @@
-import { HomeScreen } from "./screens/HomeScreen"
+import { AppRouter } from "./config/router/AppRouter"
 
 function App() {
-  return <HomeScreen />;
+  return <AppRouter />
 }
 
 export default App
