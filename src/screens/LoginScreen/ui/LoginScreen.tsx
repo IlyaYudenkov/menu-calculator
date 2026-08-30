@@ -1,44 +1,51 @@
 import { useNavigate } from 'react-router-dom';
 import cl from './_LoginScreen.module.scss'
 import { useState } from 'react';
+import { PRIVATE_PAGES } from '@/config/router/routes';
+import Input from '@/UI/Input/Input';
 
 export const LoginScreen = () => {
-    const navigate = useNavigate();
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
+
+    const navigate = useNavigate();
 
     const handleLogin = (e) => {
         e.preventDefault();
 
         if (username === 'admin' && password === '12345') {
             localStorage.setItem('token', 'fake-jwt-token');
-            navigate('/home');
+            navigate(PRIVATE_PAGES.HOME.path);
         } else {
             alert('Неверный логин или пароль');
         }
     };
     return (
-        <div className={cl.AuthScreen}>
+        <div className={cl.LoginScreen}>
             <form onSubmit={handleLogin} className={cl.form}>
                 <h2>Авторизация</h2>
 
-                <input
-                    type="text"
-                    placeholder="Логин"
+                <Input.Text
+                    type='type'
+                    placeholder='Логин'
                     value={username}
                     onChange={(e) => setUsername(e.target.value)}
                     required
                 />
 
-                <input
-                    type="password"
-                    placeholder="Пароль"
+                <Input.Text
+                    type='password'
+                    placeholder='Пароль'
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
                     required
                 />
 
-                <button type="submit">Войти</button>
+                <button
+                    className={cl.submitButton}
+                    type="submit">
+                    Войти
+                </button>
             </form>
         </div>
     )

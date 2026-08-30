@@ -1,0 +1,38 @@
+.LoginScreen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    height: 70vh;
+
+    & h2 {
+        font-size: 26px;
+        text-align: center;
+        margin-bottom: 2px;
+    }
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 50%;
+}
+
+.submitButton {
+    background-color: var(--text);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 8px 15px;
+    width: 120px;
+    transition: 0.2s ease-out;
+
+    &:hover {
+        background-color: var(--bg);
+        color: var(--text);
+    }
+}
