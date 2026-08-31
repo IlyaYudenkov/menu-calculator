@@ -1128,3 +1128,129 @@ const MEATBALLS_V1: IDish = {
         }
     ]
 }
+
+const MEATBALLS_V2: IDish = {
+    id: 'kids-10.31',
+    generalOutput: 100,
+    variants: [
+        {
+            id: 'kids-10.31.1',
+            name: 'Тефтели (вариант 2)',
+            components: {
+                breadWheat: 7,
+                butter: 2.5,
+                flourWheat: 5.5,
+                meat: 32,
+                milkAndFermentedMilkProducts: 60,
+                oil: 5,
+                sugar: 0.5,
+                vegetables: 16,
+            },
+            macronutrients: {
+                proteins: 6.62,
+                fats: 19.66,
+                carbohydrates: 9.67
+            },
+            caloricity: 246.74
+        }
+    ]
+}
+
+const MEATBALLS_V3: IDish = {
+    id: 'kids-10.32',
+    generalOutput: 100,
+    variants: [
+        {
+            id: 'kids-10.32.1',
+            name: 'Тефтели (вариант 3) из говядины',
+            components: {
+                cereals: 5,
+                flourWheat: 7.1,
+                meat: 38,
+                oil: 5.5,
+                sourCream: 10.2,
+                tomatoPuree: 2.4,
+                vegetables: 18
+            },
+            macronutrients: {
+                proteins: 8.08,
+                fats: 7.95,
+                carbohydrates: 9.64
+            },
+            caloricity: 146.03
+        },
+        {
+            id: 'kids-10.32.2',
+            name: 'Тефтели (вариант 3) из свинины',
+            components: {
+                cereals: 5,
+                flourWheat: 7.1,
+                meat: 38,
+                oil: 5.5,
+                sourCream: 10.2,
+                tomatoPuree: 2.4,
+                vegetables: 18
+            },
+            macronutrients: {
+                proteins: 6.35,
+                fats: 17.88,
+                carbohydrates: 9.64
+            },
+            caloricity: 230.51
+        }
+    ]
+}
+
+const MEATBALLS_YOZHIKI: IDish = {
+    id: 'kids-10.33',
+    generalOutput: 100,
+    variants: [
+        {
+            id: 'kids-10.33.1',
+            name: 'Тефтели "Ёжики"',
+            components: {
+                butter: 0.8,
+                cereals: 10,
+                flourWheat: 2.7,
+                meat: 38,
+                oil: 7,
+                sourCream: 9,
+                tomatoPuree: 4,
+                vegetables: 20,
+            },
+            macronutrients: {
+                proteins: 7.17,
+                fats: 14.6,
+                carbohydrates: 10.43
+            },
+            caloricity: 206.95
+        }
+    ]
+}
+
+const MEATBALLS_PO_DEREVENSKI: IDish = {
+    id: 'kids-10.34',
+    generalOutput: 100,
+    variants: [
+        {
+            id: 'kids-10.34.1',
+            name: 'Тефтели по-деревенски',
+            components: {
+                cereals: 5.7,
+                eggs: 5,
+                flourWheat: 4,
+                meat: 40,
+                oil: 10,
+                sugar: 1,
+                tomatoPuree: 5,
+                vegetables: 44,
+            },
+            macronutrients: {
+                proteins: 8.28,
+                fats: 14.63,
+                carbohydrates: 10.8
+            },
+            caloricity: 214.78
+        }
+    ]
+}
