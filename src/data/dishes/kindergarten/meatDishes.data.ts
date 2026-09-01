@@ -1254,3 +1254,182 @@ const MEATBALLS_PO_DEREVENSKI: IDish = {
         }
     ]
 }
+
+const MEATBALLS_IN_SAUSE: IDish = {
+    id: 'kids-10.35',
+    generalOutput: 100,
+    variants: [
+        {
+            id: 'kids-10.35.1',
+            name: 'Фрикадельки в соусе',
+            components: {
+                breadWheat: 10,
+                butter: 3,
+                flourWheat: 9,
+                meat: 49,
+                milkAndFermentedMilkProducts: 44,
+                oil: 4,
+                vegetables: 4,
+            },
+            macronutrients: {
+                proteins: 10.8,
+                fats: 8.08,
+                carbohydrates: 11.54
+            },
+            caloricity: 165.32
+        }
+    ]
+}
+
+const BEEF_STEAMED_MEATBALLS_STEWED_IN_SAUSE: IDish = {
+    id: 'kids-10.36',
+    generalOutput: 100,
+    variants: [
+        {
+            id: 'kids-10.36.1',
+            name: 'Фрикадельки из говядины (паровые), тушенные в соусе',
+            components: {
+                breadWheat: 11,
+                butter: 3.5,
+                flourWheat: 1.5,
+                meat: 53,
+                milkAndFermentedMilkProducts: 48,
+            },
+            macronutrients: {
+                proteins: 11.28,
+                fats: 5.39,
+                carbohydrates: 7.76
+            },
+            caloricity: 126.67
+        }
+    ]
+}
+
+const LIVER_FRITTERS: IDish = {
+    id: 'kids-10.37',
+    generalOutput: 70,
+    variants: [
+        {
+            id: 'kids-10.37.1',
+            name: 'Оладьи из печени',
+            components: {
+                breadWheat: 10,
+                butter: 2,
+                byProducts: 70,
+                oil: 8,
+            },
+            macronutrients: {
+                proteins: 16.94,
+                fats: 15.5,
+                carbohydrates: 6.2
+            },
+            caloricity: 236.93
+        }
+    ]
+}
+
+const BEEF_DUMPLINGS: IDish = {
+    id: 'kids-10.38',
+    variants: [
+        {
+            id: 'kids-10.38.1',
+            name: 'Кнели из говядины',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 6,
+                butter: 2,
+                eggs: 4,
+                meat: 56,
+                milkAndFermentedMilkProducts: 29,
+            },
+            macronutrients: {
+                proteins: 16.83,
+                fats: 5.4,
+                carbohydrates: 5.53
+            },
+            caloricity: 140.01
+        },
+        {
+            id: 'kids-10.38.2',
+            name: 'Кнели из говядины с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 6,
+                butter: 4.5,
+                flourWheat: 2.5,
+                eggs: 4,
+                meat: 56,
+                milkAndFermentedMilkProducts: 79,
+                sugar: 0.5
+            },
+            macronutrients: {
+                proteins: 11.06,
+                fats: 5.6,
+                carbohydrates: 6.31
+            },
+            caloricity: 121.47
+        }
+    ]
+}
+
+const BEEF_PUDDING_V1: IDish = {
+    id: 'kids-10.39',
+    variants: [
+        {
+            id: 'kids-10.39.1',
+            name: 'Пудинг из говядины (вариант 1)',
+            defaultOutput: 70,
+            components: {
+                butter: 3,
+                eggs: 10,
+                meat: 81,
+                milkAndFermentedMilkProducts: 15,
+                oil: 2
+            },
+            macronutrients: {
+                proteins: 23.19,
+                fats: 10.09,
+                carbohydrates: 1.03
+            },
+            caloricity: 190.49
+        },
+        {
+            id: 'kids-10.39.2',
+            name: 'Пудинг из говядины с маслом сливочным (вариант 1)',
+            defaultOutput: 75,
+            components: {
+                butter: 8,
+                eggs: 10,
+                meat: 81,
+                milkAndFermentedMilkProducts: 15,
+                oil: 2
+            },
+            macronutrients: {
+                proteins: 21.7,
+                fats: 14.25,
+                carbohydrates: 1.01
+            },
+            caloricity: 222.67
+        },
+        {
+            id: 'kids-10.39.3',
+            name: 'Пудинг из говядины с соусом молочным (вариант 1)',
+            defaultOutput: 120,
+            components: {
+                butter: 5.5,
+                eggs: 10,
+                flourWheat: 2.5,
+                meat: 81,
+                milkAndFermentedMilkProducts: 65,
+                oil: 2,
+                sugar: 0.5
+            },
+            macronutrients: {
+                proteins: 14.78,
+                fats: 9.54,
+                carbohydrates: 3.7
+            },
+            caloricity: 162.13
+        }
+    ]
+}
