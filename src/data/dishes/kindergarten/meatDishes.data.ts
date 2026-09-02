@@ -1433,3 +1433,333 @@ const BEEF_PUDDING_V1: IDish = {
         }
     ]
 }
+
+const BEEF_PUDDING_V2: IDish = {
+    id: 'kids-10.40',
+    variants: [
+        {
+            id: 'kids-10.40.1',
+            name: 'Пудинг из говядины (вариант 2)',
+            defaultOutput: 70,
+            components: {
+                eggs: 10,
+                meat: 81,
+                milkAndFermentedMilkProducts: 15,
+                oil: 5
+            },
+            macronutrients: {
+                proteins: 23.16,
+                fats: 10.74,
+                carbohydrates: 1
+            },
+            caloricity: 196.31
+        },
+        {
+            id: 'kids-10.40.2',
+            name: 'Пудинг из говядины с маслом сливочным (вариант 2)',
+            defaultOutput: 75,
+            components: {
+                butter: 5,
+                eggs: 10,
+                meat: 81,
+                milkAndFermentedMilkProducts: 15,
+                oil: 5
+            },
+            macronutrients: {
+                proteins: 21.65,
+                fats: 14.87,
+                carbohydrates: 0.99
+            },
+            caloricity: 228.11
+        },
+        {
+            id: 'kids-10.40.3',
+            name: 'Пудинг из говядины с соусом молочным (вариант 2)',
+            defaultOutput: 120,
+            components: {
+                butter: 2.5,
+                eggs: 10,
+                flourWheat: 2.5,
+                meat: 81,
+                milkAndFermentedMilkProducts: 65,
+                oil: 5,
+                sugar: 0.5,
+            },
+            macronutrients: {
+                proteins: 14.76,
+                fats: 8.72,
+                carbohydrates: 3.7
+            },
+            caloricity: 154.31
+        }
+    ]
+}
+
+const BEEF_SOUFFLE_W_RICE_V1: IDish = {
+    id: 'kids-10.41',
+    variants: [
+        {
+            id: 'kids-10.41.1',
+            name: 'Суфле из говядины с рисом (вариант 1)',
+            defaultOutput: 70,
+            components: {
+                butter: 3,
+                cereals: 4.5,
+                eggs: 8,
+                meat: 77,
+            },
+            macronutrients: {
+                proteins: 20.7,
+                fats: 7.81,
+                carbohydrates: 4.23
+            },
+            caloricity: 173
+        },
+        {
+            id: 'kids-10.41.2',
+            name: 'Суфле из говядины с рисом (вариант 1) с маслом сливочным',
+            defaultOutput: 75,
+            components: {
+                butter: 8,
+                cereals: 4.5,
+                eggs: 8,
+                meat: 77,
+            },
+            macronutrients: {
+                proteins: 19.36,
+                fats: 12.13,
+                carbohydrates: 4
+            },
+            caloricity: 206.35
+        },
+        {
+            id: 'kids-10.41.3',
+            name: 'Суфле из говядины с рисом (вариант 1) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                butter: 5.5,
+                cereals: 4.5,
+                eggs: 8,
+                flourWheat: 2.5,
+                meat: 77,
+                milkAndFermentedMilkProducts: 50,
+                sugar: 0.5,
+            },
+            macronutrients: {
+                proteins: 13.33,
+                fats: 8.22,
+                carbohydrates: 5.56
+            },
+            caloricity: 151.92
+        }
+    ]
+}
+
+const BEEF_SOUFFLE_W_RICE_V2: IDish = {
+    id: 'kids-10.42',
+    variants: [
+        {
+            id: 'kids-10.42.1',
+            name: 'Суфле из говядины с рисом (вариант 2)',
+            defaultOutput: 70,
+            components: {
+                cereals: 4.5,
+                eggs: 8,
+                meat: 77,
+                oil: 3,
+            },
+            macronutrients: {
+                proteins: 20.69,
+                fats: 8.47,
+                carbohydrates: 4.2
+            },
+            caloricity: 178.81
+        },
+        {
+            id: 'kids-10.42.2',
+            name: 'Суфле из говядины с рисом (вариант 2) с маслом сливочным',
+            defaultOutput: 75,
+            components: {
+                butter: 5,
+                cereals: 4.5,
+                eggs: 8,
+                meat: 77,
+                oil: 3,
+            },
+            macronutrients: {
+                proteins: 19.3,
+                fats: 12.75,
+                carbohydrates: 3.97
+            },
+            caloricity: 211.77
+        },
+        {
+            id: 'kids-10.42.3',
+            name: 'Суфле из говядины с рисом (вариант 2) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                butter: 2.5,
+                cereals: 4.5,
+                eggs: 8,
+                flourWheat: 2.5,
+                meat: 77,
+                milkAndFermentedMilkProducts: 50,
+                oil: 3,
+                sugar: 0.5,
+            },
+            macronutrients: {
+                proteins: 13.31,
+                fats: 7.4,
+                carbohydrates: 5.53
+            },
+            caloricity: 144.1
+        }
+    ]
+}
+
+const POTATO_CASSEROLE_W_MEAT_V1: IDish = {
+    id: 'kids-10.43',
+    variants: [
+        {
+            id: 'kids-10.43.1',
+            name: 'Запеканка картофельная с мясом (вариант 1)',
+            defaultOutput: 200,
+            components: {
+                breadWheat: 4,
+                meat: 63.5,
+                oil: 8,
+                potato: 192,
+                vegetables: 16,
+            },
+            macronutrients: {
+                proteins: 7.7,
+                fats: 6.02,
+                carbohydrates: 15.27
+            },
+            caloricity: 150.5
+        },
+        {
+            id: 'kids-10.43.2',
+            name: 'Запеканка картофельная с мясом (вариант 1) с маслом сливочным',
+            defaultOutput: 205,
+            components: {
+                breadWheat: 4,
+                butter: 5,
+                meat: 63.5,
+                oil: 8,
+                potato: 192,
+                vegetables: 16,
+            },
+            macronutrients: {
+                proteins: 7.7,
+                fats: 6.02,
+                carbohydrates: 15.27
+            },
+            caloricity: 150.5
+        },
+        {
+            id: 'kids-10.43.3',
+            name: 'Запеканка картофельная с мясом (вариант 1) со сметаной',
+            defaultOutput: 215,
+            components: {
+                breadWheat: 4,
+                meat: 63.5,
+                oil: 8,
+                potato: 192,
+                sourCream: 15,
+                vegetables: 16,
+            },
+            macronutrients: {
+                proteins: 7.33,
+                fats: 6.82,
+                carbohydrates: 14.4
+            },
+            caloricity: 152.93
+        },
+        {
+            id: 'kids-10.43.4',
+            name: 'Запеканка картофельная с мясом (вариант 1) с соусом молочным',
+            defaultOutput: 250,
+            components: {
+                breadWheat: 4,
+                butter: 2.5,
+                flourWheat: 2.5,
+                meat: 63.5,
+                milkAndFermentedMilkProducts: 50,
+                oil: 8,
+                potato: 192,
+                sugar: 0.5,
+                vegetables: 16,
+            },
+            macronutrients: {
+                proteins: 6.75,
+                fats: 5.99,
+                carbohydrates: 15.92
+            },
+            caloricity: 162.2
+        }
+    ]
+}
+
+const POTATO_CASSEROLE_W_MEAT_V2: IDish = {
+    id: 'kids-10.44',
+    variants: [
+        {
+            id: 'kids-10.44.1',
+            name: 'Запеканка картофельная с мясом (вариант 2)',
+            defaultOutput: 200,
+            components: {
+                breadWheat: 5,
+                butter: 11,
+                eggs: 3,
+                meat: 90,
+                potato: 173,
+            },
+            macronutrients: {
+                proteins: 10.07,
+                fats: 5.46,
+                carbohydrates: 13.64
+            },
+            caloricity: 147.98
+        },
+        {
+            id: 'kids-10.44.2',
+            name: 'Запеканка картофельная с мясом (вариант 2) с маслом сливочным',
+            defaultOutput: 205,
+            components: {
+                breadWheat: 5,
+                butter: 16,
+                eggs: 3,
+                meat: 90,
+                potato: 173,
+            },
+            macronutrients: {
+                proteins: 10,
+                fats: 6.61,
+                carbohydrates: 13.52
+            },
+            caloricity: 157.94
+        },
+        {
+            id: 'kids-10.44.3',
+            name: 'Запеканка картофельная с мясом (вариант 2) с соусом молочным',
+            defaultOutput: 250,
+            components: {
+                breadWheat: 5,
+                butter: 13.5,
+                eggs: 3,
+                flourWheat: 2.5,
+                meat: 90,
+                milkAndFermentedMilkProducts: 50,
+                potato: 173,
+                sugar: 0.5,
+            },
+            macronutrients: {
+                proteins: 8.65,
+                fats: 5.54,
+                carbohydrates: 12.39
+            },
+            caloricity: 137.48
+        }
+    ]
+}
