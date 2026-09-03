@@ -1763,3 +1763,233 @@ const POTATO_CASSEROLE_W_MEAT_V2: IDish = {
         }
     ]
 }
+
+const POTATO_CASSEROLE_W_LIVER: IDish = {
+    id: 'kids-10.45',
+    variants: [
+        {
+            id: 'kids-10.45.1',
+            name: 'Запеканка картофельная с печенью',
+            defaultOutput: 200,
+            components: {
+                breadWheat: 4,
+                byProducts: 59,
+                oil: 8,
+                potato: 192,
+                vegetables: 16
+            },
+            macronutrients: {
+                proteins: 6.65,
+                fats: 3.73,
+                carbohydrates: 15.55
+            },
+            caloricity: 126.52
+        },
+        {
+            id: 'kids-10.45.2',
+            name: 'Запеканка картофельная с печенью с маслом сливочным',
+            defaultOutput: 205,
+            components: {
+                breadWheat: 4,
+                butter: 5,
+                byProducts: 59,
+                oil: 8,
+                potato: 192,
+                vegetables: 16
+            },
+            macronutrients: {
+                proteins: 6.5,
+                fats: 5.41,
+                carbohydrates: 15.19
+            },
+            caloricity: 139.85
+        },
+        {
+            id: 'kids-10.45.3',
+            name: 'Запеканка картофельная с печенью с соусом молочным',
+            defaultOutput: 250,
+            components: {
+                breadWheat: 4,
+                butter: 2.5,
+                byProducts: 59,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 50,
+                oil: 8,
+                potato: 192,
+                sugar: 0.5,
+                vegetables: 16
+            },
+            macronutrients: {
+                proteins: 5.92,
+                fats: 4.16,
+                carbohydrates: 14.1
+            },
+            caloricity: 121
+        }
+    ]
+}
+
+const MAKARONNIK_W_LIVER: IDish = {
+    id: 'kids-10.46',
+    variants: [
+        {
+            id: 'kids-10.46.1',
+            name: 'Макаронник с печенью',
+            defaultOutput: 200,
+            components: {
+                breadWheat: 4,
+                butter: 3,
+                byProducts: 63.5,
+                eggs: 7,
+                oil: 5.5,
+                pastaProducts: 61,
+                vegetables: 14,
+            },
+            macronutrients: {
+                proteins: 6.7,
+                fats: 4.84,
+                carbohydrates: 15.86
+            },
+            caloricity: 138.17
+        },
+        {
+            id: 'kids-10.46.2',
+            name: 'Макаронник с печенью с маслом сливочным',
+            defaultOutput: 205,
+            components: {
+                breadWheat: 4,
+                butter: 8,
+                byProducts: 63.5,
+                eggs: 7,
+                oil: 5.5,
+                pastaProducts: 61,
+                vegetables: 14,
+            },
+            macronutrients: {
+                proteins: 6.55,
+                fats: 6.49,
+                carbohydrates: 15.5
+            },
+            caloricity: 151.21
+        },
+        {
+            id: 'kids-10.46.3',
+            name: 'Макаронник с печенью с соусом молочным',
+            defaultOutput: 250,
+            components: {
+                breadWheat: 4,
+                butter: 5.5,
+                byProducts: 63.5,
+                eggs: 7,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 50,
+                oil: 5.5,
+                pastaProducts: 61,
+                sugar: 0.5,
+                vegetables: 14,
+            },
+            macronutrients: {
+                proteins: 5.94,
+                fats: 5.04,
+                carbohydrates: 14.17
+            },
+            caloricity: 129.63
+        },
+    ]
+}
+
+const CABBAGE_ROLLS_W_BEEF_N_RICE: IDish = {
+    id: 'kids-10.47',
+    generalOutput: 200,
+    variants: [
+        {
+            id: 'kids-10.47.1',
+            name: 'Голубцы с говядиной и рисом',
+            components: {
+                butter: 6,
+                cereals: 9,
+                flourWheat: 3.3,
+                meat: 70,
+                sourCream: 15,
+                vegetables: 98,
+            },
+            macronutrients: {
+                proteins: 7.77,
+                fats: 4.37,
+                carbohydrates: 6.23
+            },
+            caloricity: 98.31
+        }
+    ]
+}
+
+const CABBAGE_ROLLS_LYUBITELSKIYE_V1: IDish = {
+    id: 'kids-10.48',
+    generalOutput: 200,
+    variants: [
+        {
+            id: 'kids-10.48.1',
+            name: 'Голубцы любительские (вариант 1)',
+            components: {
+                breadWheat: 10,
+                cereals: 6.8,
+                flourWheat: 3,
+                meat: 49,
+                oil: 7,
+                sourCream: 30,
+                vegetables: 91,
+            },
+            macronutrients: {
+                proteins: 6.15,
+                fats: 6.64,
+                carbohydrates: 8.83
+            },
+            caloricity: 123.38
+        }
+    ]
+}
+
+const CABBAGE_ROLLS_LYUBITELSKIYE_V2: IDish = {
+    id: 'kids-10.49',
+    generalOutput: 200,
+    variants: [
+        {
+            id: 'kids-10.49.1',
+            name: 'Голубцы любительские (вариант 2) с говядиной',
+            components: {
+                breadWheat: 10,
+                cereals: 6.8,
+                flourWheat: 4.5,
+                meat: 49,
+                oil: 7,
+                sourCream: 15,
+                vegetables: 91,
+            },
+            macronutrients: {
+                proteins: 6.03,
+                fats: 5.33,
+                carbohydrates: 9.08
+            },
+            caloricity: 111.73
+        },
+        {
+            id: 'kids-10.49.2',
+            name: 'Голубцы любительские (вариант 2) с говядиной и свининой',
+            components: {
+                breadWheat: 10,
+                cereals: 6.8,
+                flourWheat: 4.5,
+                meat: 49,
+                oil: 7,
+                sourCream: 15,
+                vegetables: 91,
+            },
+            macronutrients: {
+                proteins: 5.56,
+                fats: 8.04,
+                carbohydrates: 9.08
+            },
+            caloricity: 134.82
+        }
+    ]
+}
