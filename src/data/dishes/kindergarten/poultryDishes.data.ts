@@ -253,3 +253,207 @@ const HOMEMADE_ROAST_MADE_FROM_POULTRY_FILLET: IDish = {
         }
     ]
 }
+
+const BOILED_POULTRY_GOULASH: IDish = {
+    id: 'kids-11.6',
+    generalOutput: 100,
+    variants: [
+        {
+            id: 'kids-11.6.1',
+            name: 'Гуляш из отварной птицы (цыплята-бройлеры)',
+            components: {
+                butter: 7,
+                flourWheat: 3,
+                poultry: 115,
+                tomatoPuree: 3,
+                vegetables: 23,
+            },
+            macronutrients: {
+                proteins: 10.83,
+                fats: 13.76,
+                carbohydrates: 4.17
+            },
+            caloricity: 167.31
+        },
+        {
+            id: 'kids-11.6.2',
+            name: 'Гуляш из отварной птицы (индейки)',
+            components: {
+                butter: 7,
+                flourWheat: 3,
+                poultry: 111,
+                tomatoPuree: 3,
+                vegetables: 23,
+            },
+            macronutrients: {
+                proteins: 10.83,
+                fats: 13.76,
+                carbohydrates: 4.17
+            },
+            caloricity: 167.31
+        }
+    ]
+}
+
+const POULTRY_PILAFF: IDish = {
+    id: 'kids-11.7',
+    generalOutput: 200,
+    variants: [
+        {
+            id: 'kids-11.7.1',
+            name: 'Плов из птицы',
+            components: {
+                cereals: 46,
+                oil: 10,
+                poultry: 68,
+                vegetables: 30,
+            },
+            macronutrients: {
+                proteins: 7.27,
+                fats: 9.43,
+                carbohydrates: 15.99
+            },
+            caloricity: 170.85
+        }
+    ]
+}
+
+const BOILED_POULTRY_PILAFF: IDish = {
+    id: 'kids-11.8',
+    generalOutput: 200,
+    variants: [
+        {
+            id: 'kids-11.8.1',
+            name: 'Плов из отварной птицы (цыплята-бройлеры)',
+            components: {
+                butter: 7.5,
+                cereals: 51,
+                poultry: 115,
+                vegetables: 28.5
+            },
+            macronutrients: {
+                proteins: 6.85,
+                fats: 11.67,
+                carbohydrates: 17.56
+            },
+            caloricity: 197.45
+        },
+        {
+            id: 'kids-11.8.2',
+            name: 'Плов из отварной птицы (индейки)',
+            components: {
+                butter: 7.5,
+                cereals: 51,
+                poultry: 111,
+                vegetables: 28.5
+            },
+            macronutrients: {
+                proteins: 6.85,
+                fats: 11.67,
+                carbohydrates: 17.56
+            },
+            caloricity: 197.45
+        }
+    ]
+}
+
+const STEAMED_POULTRY_CUTLETS: IDish = {
+    id: 'kids-11.9',
+    variants: [
+        {
+            id: 'kids-11.9.1',
+            name: 'Биточки из птицы (паровые)',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 13,
+                butter: 2,
+                milkAndFermentedMilkProducts: 18,
+                poultry: 54,
+            },
+            macronutrients: {
+                proteins: 14.33,
+                fats: 13.33,
+                carbohydrates: 9.49
+            },
+            caloricity: 193.6
+        },
+        {
+            id: 'kids-11.9.2',
+            name: 'Биточки из птицы (паровые) с маслом сливочным',
+            defaultOutput: 75,
+            components: {
+                breadWheat: 13,
+                butter: 7,
+                milkAndFermentedMilkProducts: 18,
+                poultry: 54,
+            },
+            macronutrients: {
+                proteins: 13.4,
+                fats: 17.28,
+                carbohydrates: 8.91
+            },
+            caloricity: 225.55
+        },
+        {
+            id: 'kids-11.9.3',
+            name: 'Биточки из птицы (паровые) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 13,
+                butter: 4.5,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 68,
+                poultry: 54,
+                sugar: 0.5
+            },
+            macronutrients: {
+                proteins: 9.65,
+                fats: 10.65,
+                carbohydrates: 8.98
+            },
+            caloricity: 158.38
+        }
+    ]
+}
+
+const CHOPPED_CUTLETS_MADE_FROM_BROILER_CHICKENS_V1: IDish = {
+    id: 'kids-11.10',
+    variants: [
+        {
+            id: 'kids-11.10.1',
+            name: 'Котлеты рубленые из цыплят-бройлеров (вариант 1)',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 18,
+                butter: 4,
+                milkAndFermentedMilkProducts: 17,
+                potato: 51,
+            },
+            macronutrients: {
+                proteins: 14.36,
+                fats: 14.87,
+                carbohydrates: 14.44
+            },
+            caloricity: 229.61
+        },
+        {
+            id: 'kids-11.10.2',
+            name: 'Котлеты рубленые из цыплят-бройлеров (вариант 1) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 18,
+                butter: 6.5,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 67,
+                potato: 51,
+                sugar: 0.5,
+            },
+            macronutrients: {
+                proteins: 9.9,
+                fats: 11.15,
+                carbohydrates: 13.68
+            },
+            caloricity: 183.92
+        },
+    ]
+}
