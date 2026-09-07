@@ -457,3 +457,257 @@ const CHOPPED_CUTLETS_MADE_FROM_BROILER_CHICKENS_V1: IDish = {
         },
     ]
 }
+
+const CHOPPED_CUTLETS_MADE_FROM_BROILER_CHICKENS_V2: IDish = {
+    id: 'kids-11.11',
+    variants: [
+        {
+            id: 'kids-11.11.1',
+            name: 'Котлеты рубленые из цыплят-бройлеров (вариант 2)',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 18,
+                milkAndFermentedMilkProducts: 17,
+                oil: 4,
+                potato: 51,
+            },
+            macronutrients: {
+                proteins: 14.33,
+                fats: 15.74,
+                carbohydrates: 14.4
+            },
+            caloricity: 237.39
+        },
+        {
+            id: 'kids-11.11.2',
+            name: 'Котлеты рубленые из цыплят-бройлеров (вариант 2) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 18,
+                butter: 2.5,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 67,
+                oil: 4,
+                potato: 51,
+                sugar: 0.5,
+            },
+            macronutrients: {
+                proteins: 9.7,
+                fats: 12.1,
+                carbohydrates: 11.84
+            },
+            caloricity: 183.94
+        },
+    ]
+}
+
+const POULTRY_CUTLETS_ORIGINALNIYE: IDish = {
+    id: 'kids-11.12',
+    variants: [
+        {
+            id: 'kids-11.12.1',
+            name: 'Котлеты из птицы "Оригинальные"',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 6,
+                eggs: 6,
+                oil: 8,
+                poultry: 60,
+                vegetables: 20.5,
+            },
+            macronutrients: {
+                proteins: 14.34,
+                fats: 18.09,
+                carbohydrates: 8.03
+            },
+            caloricity: 236.79
+        },
+        {
+            id: 'kids-11.12.1',
+            name: 'Котлеты из птицы "Оригинальные" с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 6,
+                butter: 2.5,
+                eggs: 6,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 50,
+                oil: 8,
+                poultry: 60,
+                sugar: 0.5,
+                vegetables: 20.5,
+            },
+            macronutrients: {
+                proteins: 10.78,
+                fats: 13,
+                carbohydrates: 8.14
+            },
+            caloricity: 179.3
+        }
+    ]
+}
+
+const POULTRY_CUTLETS_BAKED_W_MILK_SAUSE: IDish = {
+    id: 'kids-11.13',
+    generalOutput: 100,
+    variants: [
+        {
+            id: 'kids-11.13.1',
+            name: 'Котлеты из птицы, запеченные с молочным соусом (с сыром пошехонским)',
+            components: {
+                breadWheat: 11,
+                butter: 12,
+                cheese: 4,
+                flourWheat: 5,
+                milkAndFermentedMilkProducts: 49,
+                poultry: 53,
+            },
+            macronutrients: {
+                proteins: 11.76,
+                fats: 17.95,
+                carbohydrates: 10.26
+            },
+            caloricity: 237.36
+        },
+        {
+            id: 'kids-11.13.2',
+            name: 'Котлеты из птицы, запеченные с молочным соусом (с сыром российским)',
+            components: {
+                breadWheat: 11,
+                butter: 12,
+                cheese: 4,
+                flourWheat: 5,
+                milkAndFermentedMilkProducts: 49,
+                poultry: 53,
+            },
+            macronutrients: {
+                proteins: 11.66,
+                fats: 18.04,
+                carbohydrates: 10.26
+            },
+            caloricity: 237.72
+        },
+        {
+            id: 'kids-11.13.3',
+            name: 'Котлеты из птицы, запеченные с молочным соусом (с сыром голландским)',
+            components: {
+                breadWheat: 11,
+                butter: 12,
+                cheese: 4,
+                flourWheat: 5,
+                milkAndFermentedMilkProducts: 49,
+                poultry: 53,
+            },
+            macronutrients: {
+                proteins: 11.76,
+                fats: 17.96,
+                carbohydrates: 10.26
+            },
+            caloricity: 237.43
+        }
+    ]
+}
+
+const CHOPPED_ZRAZY_MADE_FROM_POULTRY_FILLED_W_OMELET_W_VEGETABLES: IDish = {
+    id: 'kids-11.14',
+    variants: [
+        {
+            id: 'kids-11.14.1',
+            name: 'Зразы рубленые из филе птицы с омлетом с овощами',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 8.5,
+                butter: 1.2,
+                eggs: 6,
+                milkAndFermentedMilkProducts: 15.5,
+                poultry: 46.5,
+                vegetables: 9,
+            },
+            macronutrients: {
+                proteins: 12.16,
+                fats: 17.94,
+                carbohydrates: 8.26
+            },
+            caloricity: 229.03
+        },
+        {
+            id: 'kids-11.14.2',
+            name: 'Зразы рубленые из филе птицы с омлетом с овощами с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 8.5,
+                butter: 3.7,
+                eggs: 6,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 65.5,
+                poultry: 46.5,
+                sugar: 0.5,
+                vegetables: 9,
+            },
+            macronutrients: {
+                proteins: 8.34,
+                fats: 12.92,
+                carbohydrates: 8.28
+            },
+            caloricity: 174.81
+        }
+    ]
+}
+
+const POULTRY_MEATBALLS: IDish = {
+    id: 'kids-11.15',
+    variants: [
+        {
+            id: 'kids-11.15.1',
+            name: 'Фрикадельки из птицы',
+            defaultOutput: 70,
+            components: {
+                breadWheat: 10,
+                milkAndFermentedMilkProducts: 16,
+                poultry: 56,
+            },
+            macronutrients: {
+                proteins: 13.94,
+                fats: 11.16,
+                carbohydrates: 7.49
+            },
+            caloricity: 163.77
+        },
+        {
+            id: 'kids-11.15.2',
+            name: 'Фрикадельки из птицы с маслом сливочным',
+            defaultOutput: 75,
+            components: {
+                breadWheat: 10,
+                butter: 5,
+                milkAndFermentedMilkProducts: 16,
+                poultry: 56,
+            },
+            macronutrients: {
+                proteins: 13.04,
+                fats: 15.25,
+                carbohydrates: 7.04
+            },
+            caloricity: 193.73
+        },
+        {
+            id: 'kids-11.15.3',
+            name: 'Фрикадельки из птицы с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                breadWheat: 10,
+                butter: 2.5,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 56,
+                poultry: 56,
+                sugar: 0.5,
+            },
+            macronutrients: {
+                proteins: 9.42,
+                fats: 9.38,
+                carbohydrates: 7.72
+            },
+            caloricity: 140.5
+        }
+    ]
+}
