@@ -711,3 +711,398 @@ const POULTRY_MEATBALLS: IDish = {
         }
     ]
 }
+
+const TEFTELI_IZ_PTICY: IDish = {
+    id: 'kids-11.16',
+    generalOutput: 100,
+    variants: [
+        {
+            id: 'kids-11.16.1',
+            name: 'Тефтели из птицы',
+            components: {
+                breadWheat: 8,
+                flourWheat: 7,
+                milkAndFermentedMilkProducts: 10,
+                oil: 5,
+                poultry: 43,
+                sourCream: 10,
+                vegetables: 10,
+            },
+            macronutrients: {
+                proteins: 9.06,
+                fats: 15.15,
+                carbohydrates: 9.88
+            },
+            caloricity: 202.44
+        }
+    ]
+}
+
+const POULTRY_SOUFFLE_W_RICE_N_CHEESE: IDish = {
+    id: 'kids-11.17',
+    variants: [
+        {
+            id: 'kids-11.17.1',
+            name: 'Суфле из птицы с рисом и сыром (пошехонским)',
+            defaultOutput: 70,
+            components: {
+                butter: 3,
+                cereals: 4.5,
+                cheese: 2,
+                eggs: 7,
+                poultry: 110,
+            },
+            macronutrients: {
+                proteins: 16.24,
+                fats: 16.79,
+                carbohydrates: 4.6
+            },
+            caloricity: 209.9
+        },
+        {
+            id: 'kids-11.17.2',
+            name: 'Суфле из птицы с рисом и сыром (пошехонским) с маслом сливочным',
+            defaultOutput: 75,
+            components: {
+                butter: 8,
+                cereals: 4.5,
+                cheese: 2,
+                eggs: 7,
+                poultry: 110,
+            },
+            macronutrients: {
+                proteins: 15.17,
+                fats: 19.55,
+                carbohydrates: 4.33
+            },
+            caloricity: 231.8
+        },
+        {
+            id: 'kids-11.17.3',
+            name: 'Суфле из птицы с рисом и сыром (пошехонским) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                butter: 5.5,
+                cereals: 4.5,
+                cheese: 2,
+                eggs: 7,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 50,
+                poultry: 110,
+                sugar: 0.5
+            },
+            macronutrients: {
+                proteins: 10.51,
+                fats: 12.36,
+                carbohydrates: 5.42
+            },
+            caloricity: 161.13
+        },
+        {
+            id: 'kids-11.17.4',
+            name: 'Суфле из птицы с рисом и сыром (российским)',
+            defaultOutput: 70,
+            components: {
+                butter: 3,
+                cereals: 4.5,
+                cheese: 2,
+                eggs: 7,
+                poultry: 110,
+            },
+            macronutrients: {
+                proteins: 16.16,
+                fats: 16.86,
+                carbohydrates: 4.6
+            },
+            caloricity: 210.16
+        },
+        {
+            id: 'kids-11.17.5',
+            name: 'Суфле из птицы с рисом и сыром (российским) с маслом сливочным',
+            defaultOutput: 75,
+            components: {
+                butter: 8,
+                cereals: 4.5,
+                cheese: 2,
+                eggs: 7,
+                poultry: 110,
+            },
+            macronutrients: {
+                proteins: 15.11,
+                fats: 19.6,
+                carbohydrates: 4.33
+            },
+            caloricity: 232.04
+        },
+        {
+            id: 'kids-11.17.6',
+            name: 'Суфле из птицы с рисом и сыром (российским) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                butter: 5.5,
+                cereals: 4.5,
+                cheese: 2,
+                eggs: 7,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 50,
+                poultry: 110,
+                sugar: 0.5
+            },
+            macronutrients: {
+                proteins: 10.47,
+                fats: 12.4,
+                carbohydrates: 5.42
+            },
+            caloricity: 161.3
+        },
+        {
+            id: 'kids-11.17.7',
+            name: 'Суфле из птицы с рисом и сыром (голландским)',
+            defaultOutput: 70,
+            components: {
+                butter: 3,
+                cereals: 4.5,
+                cheese: 2,
+                eggs: 7,
+                poultry: 110,
+            },
+            macronutrients: {
+                proteins: 16.24,
+                fats: 16.8,
+                carbohydrates: 4.6
+            },
+            caloricity: 209.9
+        },
+        {
+            id: 'kids-11.17.8',
+            name: 'Суфле из птицы с рисом и сыром (голландским) с маслом сливочным',
+            defaultOutput: 75,
+            components: {
+                butter: 8,
+                cereals: 4.5,
+                cheese: 2,
+                eggs: 7,
+                poultry: 110,
+            },
+            macronutrients: {
+                proteins: 15.17,
+                fats: 19.55,
+                carbohydrates: 4.33
+            },
+            caloricity: 231.9
+        },
+        {
+            id: 'kids-11.17.9',
+            name: 'Суфле из птицы с рисом и сыром (голландским) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                butter: 5.5,
+                cereals: 4.5,
+                cheese: 2,
+                eggs: 7,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 50,
+                poultry: 110,
+                sugar: 0.5
+            },
+            macronutrients: {
+                proteins: 10.51,
+                fats: 12.37,
+                carbohydrates: 5.42
+            },
+            caloricity: 161.16
+        }
+    ]
+}
+
+const POULTRY_PUDDING_W_VEGETABLES_N_CHEESE: IDish = {
+    id: 'kids-11.18',
+    variants: [
+        {
+            id: 'kids-11.18.1',
+            name: 'Пудинг из птицы с овощами и сыром',
+            defaultOutput: 200,
+            components: {
+                breadWheat: 5,
+                butter: 11,
+                cereals: 6,
+                cheese: 5,
+                eggs: 14,
+                poultry: 191,
+                sourCream: 6,
+                vegetables: 103,
+            },
+            macronutrients: {
+                proteins: 11.22,
+                fats: 13.08,
+                carbohydrates: 6.39
+            },
+            caloricity: 176.38
+        },
+        {
+            id: 'kids-11.18.2',
+            name: 'Пудинг из птицы с овощами и сыром с маслом сливочным',
+            defaultOutput: 205,
+            components: {
+                breadWheat: 5,
+                butter: 16,
+                cereals: 6,
+                cheese: 5,
+                eggs: 14,
+                poultry: 191,
+                sourCream: 6,
+                vegetables: 103,
+            },
+            macronutrients: {
+                proteins: 10.95,
+                fats: 14.53,
+                carbohydrates: 6.25
+            },
+            caloricity: 188.5
+        },
+        {
+            id: 'kids-11.18.3',
+            name: 'Пудинг из птицы с овощами и сыром с соусом молочным',
+            defaultOutput: 250,
+            components: {
+                breadWheat: 5,
+                butter: 13.5,
+                cereals: 6,
+                cheese: 5,
+                eggs: 14,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 50,
+                poultry: 191,
+                sourCream: 6,
+                sugar: 0.5,
+                vegetables: 103,
+            },
+            macronutrients: {
+                proteins: 9.6,
+                fats: 11.2,
+                carbohydrates: 6.84
+            },
+            caloricity: 157.36
+        }
+    ]
+}
+
+const POULTRY_DUMPLINGS_V1: IDish = {
+    id: 'kids-11.19',
+    variants: [
+        {
+            id: 'kids-11.19.1',
+            name: 'Кнели из птицы (вариант 1)',
+            defaultOutput: 70,
+            components: {
+                butter: 3,
+                cereals: 6,
+                milkAndFermentedMilkProducts: 5,
+                poultry: 67,
+            },
+            macronutrients: {
+                proteins: 16.66,
+                fats: 16.9,
+                carbohydrates: 6.3
+            },
+            caloricity: 215.3
+        },
+        {
+            id: 'kids-11.19.2',
+            name: 'Кнели из птицы (вариант 1) с маслом сливочным',
+            defaultOutput: 75,
+            components: {
+                butter: 8,
+                cereals: 6,
+                milkAndFermentedMilkProducts: 5,
+                poultry: 67,
+            },
+            macronutrients: {
+                proteins: 15.59,
+                fats: 20.61,
+                carbohydrates: 5.91
+            },
+            caloricity: 245.83
+        },
+        {
+            id: 'kids-11.19.3',
+            name: 'Кнели из птицы (вариант 1) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                butter: 5.5,
+                cereals: 6,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 55,
+                poultry: 67,
+                sugar: 0.5,
+            },
+            macronutrients: {
+                proteins: 11.03,
+                fats: 13.83,
+                carbohydrates: 7.12
+            },
+            caloricity: 181.15
+        }
+    ]
+}
+
+const POULTRY_DUMPLINGS_V2: IDish = {
+    id: 'kids-11.20',
+    variants: [
+        {
+            id: 'kids-11.20.1',
+            name: 'Кнели из птицы (вариант 2)',
+            defaultOutput: 70,
+            components: {
+                cereals: 6,
+                milkAndFermentedMilkProducts: 5,
+                oil: 3,
+                poultry: 67,
+            },
+            macronutrients: {
+                proteins: 16.64,
+                fats: 17.56,
+                carbohydrates: 6.24
+            },
+            caloricity: 221.11
+        },
+        {
+            id: 'kids-11.20.2',
+            name: 'Кнели из птицы (вариант 2) с маслом сливочным',
+            defaultOutput: 75,
+            components: {
+                butter: 5,
+                cereals: 6,
+                milkAndFermentedMilkProducts: 5,
+                oil: 3,
+                poultry: 67,
+            },
+            macronutrients: {
+                proteins: 15.56,
+                fats: 21.23,
+                carbohydrates: 5.88
+            },
+            caloricity: 251.25
+        },
+        {
+            id: 'kids-11.20.3',
+            name: 'Кнели из птицы (вариант 2) с соусом молочным',
+            defaultOutput: 120,
+            components: {
+                butter: 2.5,
+                cereals: 6,
+                flourWheat: 2.5,
+                milkAndFermentedMilkProducts: 55,
+                oil: 3,
+                poultry: 67,
+                sugar: 0.5,
+            },
+            macronutrients: {
+                proteins: 11.02,
+                fats: 14.21,
+                carbohydrates: 7.1
+            },
+            caloricity: 184.55
+        }
+    ]
+}
