@@ -326,3 +326,165 @@ const CARROTS_STEWED_WITH_PRUNES: IDish = {
         }
     ]
 }
+
+const CARROTS_STEWED_WITH_APPLES: IDish = {
+    id: 'kids-12.16',
+    generalOutput: 150,
+    variants: [
+        {
+            id: 'kids-12.16.1',
+            name: 'Морковь, тушенная с яблоками',
+            components: {
+                butter: 7.5,
+                fruits: 30,
+                sugar: 4,
+                vegetables: 127.5,
+            },
+            macronutrients: {
+                proteins: 1.08,
+                fats: 3.77,
+                carbohydrates: 9.7
+            },
+            caloricity: 85.1
+        }
+    ]
+}
+
+const STEWED_FERMENTED_CABBAGE: IDish = {
+    id: 'kids-12.17',
+    generalOutput: 150,
+    variants: [
+        {
+            id: 'kids-12.17.1',
+            name: 'Капуста тушеная (квашеная)',
+            components: {
+                flourWheat: 2,
+                oil: 5,
+                tomatoPuree: 1.5,
+                sugar: 5,
+                vegetables: 168.5,
+            },
+            macronutrients: {
+                proteins: 1.87,
+                fats: 2.95,
+                carbohydrates: 6.6
+            },
+            caloricity: 64.03
+        }
+    ]
+}
+
+const STEWED_FRESH_CABBAGE: IDish = {
+    id: 'kids-12.18',
+    generalOutput: 150,
+    variants: [
+        {
+            id: 'kids-12.18.1',
+            name: 'Капуста тушеная (белокочанная свежая)',
+            components: {
+                flourWheat: 2,
+                oil: 5,
+                tomatoPuree: 1.5,
+                sugar: 5,
+                vegetables: 191.5,
+            },
+            macronutrients: {
+                proteins: 2.12,
+                fats: 3.05,
+                carbohydrates: 9.47
+            },
+            caloricity: 77.8
+        }
+    ]
+}
+
+const CABBAGE_STEWED_W_APPLES: IDish = {
+    id: 'kids-12.19',
+    generalOutput: 150,
+    variants: [
+        {
+            id: 'kids-12.19.1',
+            name: 'Капуста, тушенная с яблоками',
+            components: {
+                butter: 12,
+                flourWheat: 2,
+                fruits: 30,
+                sugar: 2,
+                vegetables: 158,
+            },
+            macronutrients: {
+                proteins: 1.91,
+                fats: 5.99,
+                carbohydrates: 8.3
+            },
+            caloricity: 98.7
+        }
+    ]
+}
+
+const CABBAGE_STEWED_W_CARROTS_IN_MILK: IDish = {
+    id: 'kids-12.20',
+    generalOutput: 150,
+    variants: [
+        {
+            id: 'kids-12.20.1',
+            name: 'Капуста, тушенная с морковью в молоке',
+            components: {
+                butter: 4,
+                flourWheat: 3,
+                milkAndFermentedMilkProducts: 30,
+                vegetables: 152,
+            },
+            macronutrients: {
+                proteins: 2.16,
+                fats: 2.49,
+                carbohydrates: 7.2
+            },
+            caloricity: 65.23
+        }
+    ]
+}
+
+const COMPLEX_SIDE_DISH_V1: IDish = {
+    id: 'kids-12.21',
+    generalOutput: 150,
+    variants: [
+        {
+            id: 'kids-12.21.1',
+            name: 'Сложный гарнир (вариант 1)',
+            components: {
+                butter: 5,
+                milkAndFermentedMilkProducts: 11.5,
+                potato: 64,
+                vegetables: 73,
+            },
+            macronutrients: {
+                proteins: 2.31,
+                fats: 2.83,
+                carbohydrates: 9.45
+            },
+            caloricity: 71.6
+        }
+    ]
+}
+
+const COMPLEX_SIDE_DISH_V2: IDish = {
+    id: 'kids-12.22',
+    generalOutput: 150,
+    variants: [
+        {
+            id: 'kids-12.22.1',
+            name: 'Сложный гарнир (вариант 2)',
+            components: {
+                butter: 4.5,
+                vegetables: 153,
+            },
+            macronutrients: {
+                proteins: 2.1,
+                fats: 2.31,
+                carbohydrates: 7.23
+            },
+            caloricity: 62.94
+        }
+    ]
+}
