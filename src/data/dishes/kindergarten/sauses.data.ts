@@ -134,3 +134,130 @@ const SOUR_CREAM_SAUSE_W_TOMATO_PUREE: IDish = {
         }
     ]
 }
+
+const POLISH_SAUSE: IDish = {
+    id: 'kids-13.7',
+    generalOutput: 1000,
+    variants: [
+        {
+            id: 'kids-13.7.1',
+            name: 'Соус польский',
+            components: {
+                butter: 250,
+                eggs: 160,
+                flourWheat: 35,
+                vegetables: 20,
+            },
+            macronutrients: {
+                proteins: 2.31,
+                fats: 19.81,
+                carbohydrates: 2.6
+            },
+            caloricity: 202.31
+        }
+    ]
+}
+
+const VEGETABLE_MARINADE_W_TOMATO: IDish = {
+    id: 'kids-13.8',
+    generalOutput: 1000,
+    variants: [
+        {
+            id: 'kids-13.8.1',
+            name: 'Маринад овощной с томатом',
+            components: {
+                oil: 100,
+                sugar: 25,
+                tomatoPuree: 80,
+                vegetables: 850,
+            },
+            macronutrients: {
+                proteins: 1.25,
+                fats: 8.85,
+                carbohydrates: 8.86
+            },
+            caloricity: 128.5
+        }
+    ]
+}
+
+const CHOCOLATE_SAUSE: IDish = {
+    id: 'kids-13.9',
+    generalOutput: 1000,
+    variants: [
+        {
+            id: 'kids-13.9.1',
+            name: 'Соус шоколадный (молоко сгущенное в молочные продукты)',
+            components: {
+                cocoa: 100,
+                milkAndFermentedMilkProducts: 455,
+                sugar: 200,
+            },
+            macronutrients: {
+                proteins: 5.1,
+                fats: 4.94,
+                carbohydrates: 43.41
+            },
+            caloricity: 233.46
+        },
+        {
+            id: 'kids-13.9.2',
+            name: 'Соус шоколадный (молоко сгущенное в кондитерские изделия)',
+            components: {
+                cocoa: 100,
+                confectioneryProducts: 455,
+                sugar: 200,
+            },
+            macronutrients: {
+                proteins: 5.1,
+                fats: 4.94,
+                carbohydrates: 43.41
+            },
+            caloricity: 233.46
+        }
+    ]
+}
+
+const BLACKCURRANT_JUICE_SAUSE: IDish = {
+    id: 'kids-13.10',
+    generalOutput: 1000,
+    variants: [
+        {
+            id: 'kids-13.10.1',
+            name: 'Соус из сока черносмородинового',
+            components: {
+                juices: 300,
+                potatoStarch: 50,
+                sugar: 80,
+            },
+            macronutrients: {
+                proteins: 0.13,
+                fats: 0,
+                carbohydrates: 12.9
+            },
+            caloricity: 52.8
+        }
+    ]
+}
+
+const APPLE_JUICE_SAUSE_: IDish = {
+    id: 'kids-13.11',
+    generalOutput: 1000,
+    variants: [
+        {
+            id: 'kids-13.11.1',
+            name: 'Соус из сока яблочного',
+            components: {
+                juices: 300,
+                potatoStarch: 50,
+                sugar: 80,
+            },
+            macronutrients: {
+                proteins: 0.13,
+                fats: 0,
+                carbohydrates: 13.22
+            },
+            caloricity: 52.3
+        }
+    ]
+}
