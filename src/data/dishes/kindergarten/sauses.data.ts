@@ -240,7 +240,7 @@ const BLACKCURRANT_JUICE_SAUSE: IDish = {
     ]
 }
 
-const APPLE_JUICE_SAUSE_: IDish = {
+const APPLE_JUICE_SAUSE: IDish = {
     id: 'kids-13.11',
     generalOutput: 1000,
     variants: [

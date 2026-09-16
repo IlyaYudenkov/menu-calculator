@@ -3744,7 +3744,7 @@ const SWEET_SOUP_W_DRIED_FRUITS: IDish = {
       },
       caloricity: 71.62
     },
-     {
+    {
       id: 'kids-2.72.2',
       name: 'Сладкий суп из сухофруктов со сметаной',
       defaultOutput: 204,
