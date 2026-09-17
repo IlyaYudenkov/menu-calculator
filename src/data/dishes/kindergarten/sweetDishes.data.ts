@@ -237,3 +237,134 @@ const DRIED_FRUITS_COMPOTE_DRIED_PLUMS_OR_RAISINS: IDish = {
         }
     ]
 }
+
+const MIXTURE_OF_DRIED_FRUITS_COMPOTE: IDish = {
+    id: 'kids-14.11',
+    generalOutput: 200,
+    variants: [
+        {
+            id: 'kids-14.11.1',
+            name: 'Компот из смеси сухофруктов',
+            components: {
+                fruitsDried: 20,
+                sugar: 16
+            },
+            macronutrients: {
+                proteins: 0.19,
+                fats: 0,
+                carbohydrates: 12.17
+            },
+            caloricity: 47.63
+        }
+    ]
+}
+
+const FRESH_APPLES_KISSEL: IDish = {
+    id: 'kids-14.12',
+    generalOutput: 200,
+    variants: [
+        {
+            id: 'kids-14.12.1',
+            name: 'Кисель из свежих яблок',
+            components: {
+                fruits: 30,
+                potatoStarch: 8,
+                sugar: 20
+            },
+            macronutrients: {
+                proteins: 0.06,
+                fats: 0.06,
+                carbohydrates: 13.17
+            },
+            caloricity: 51.96
+        }
+    ]
+}
+
+const APPLE_JUICE_KISSEL: IDish = {
+    id: 'kids-14.13',
+    generalOutput: 200,
+    variants: [
+        {
+            id: 'kids-14.13.1',
+            name: 'Кисель из сока яблочного',
+            components: {
+                juices: 60,
+                potatoStarch: 10,
+                sugar: 20
+            },
+            macronutrients: {
+                proteins: 0.14,
+                fats: 0,
+                carbohydrates: 15.02
+            },
+            caloricity: 59.09
+        }
+    ]
+}
+
+const BLACKCURRANT_JUICE_KISSEL: IDish = {
+    id: 'kids-14.14',
+    generalOutput: 200,
+    variants: [
+        {
+            id: 'kids-14.14.1',
+            name: 'Кисель из сока черносмородинового',
+            components: {
+                juices: 60,
+                potatoStarch: 10,
+                sugar: 20
+            },
+            macronutrients: {
+                proteins: 0.14,
+                fats: 0,
+                carbohydrates: 14.7
+            },
+            caloricity: 59.63
+        }
+    ]
+}
+
+const MILK_KISSEL: IDish = {
+    id: 'kids-14.15',
+    generalOutput: 200,
+    variants: [
+        {
+            id: 'kids-14.15.1',
+            name: 'Кисель молочный',
+            components: {
+                milkAndFermentedMilkProducts: 148,
+                potatoStarch: 10,
+                sugar: 13
+            },
+            macronutrients: {
+                proteins: 1.81,
+                fats: 2.04,
+                carbohydrates: 12.49
+            },
+            caloricity: 74.73
+        }
+    ]
+}
+
+const CARROT_KISSEL: IDish = {
+    id: 'kids-14.16',
+    generalOutput: 200,
+    variants: [
+        {
+            id: 'kids-14.16.1',
+            name: 'Кисель морковный',
+            components: {
+                potatoStarch: 7,
+                sugar: 20,
+                vegetables: 50,
+            },
+            macronutrients: {
+                proteins: 0.29,
+                fats: 0.02,
+                carbohydrates: 13.11
+            },
+            caloricity: 54.48
+        }
+    ]
+}
