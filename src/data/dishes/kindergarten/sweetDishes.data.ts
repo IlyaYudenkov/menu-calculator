@@ -368,3 +368,194 @@ const CARROT_KISSEL: IDish = {
         }
     ]
 }
+
+const CRANBERRY_SUPPLIES_KISSEL: IDish = {
+    id: 'kids-14.17',
+    generalOutput: 200,
+    variants: [
+        {
+            id: 'kids-14.17.1',
+            name: 'Кисель из клюквенного припаса',
+            components: {
+                fruitsDried: 25,
+                potatoStarch: 6,
+                sugar: 10,
+            },
+            macronutrients: {
+                proteins: 0.06,
+                fats: 0,
+                carbohydrates: 7.07
+            },
+            caloricity: 28.81
+        }
+    ]
+}
+
+const APPLE_MOUSSE_MADE_W_SEMOLINA: IDish = {
+    id: 'kids-14.18',
+    generalOutput: 100,
+    variants: [
+        {
+            id: 'kids-14.18.1',
+            name: 'Мусс яблочный (на манной крупе)',
+            components: {
+                cereals: 8,
+                fruits: 30,
+                sugar: 13,
+            },
+            macronutrients: {
+                proteins: 0.84,
+                fats: 0.18,
+                carbohydrates: 19.2
+            },
+            caloricity: 80.11
+        }
+    ]
+}
+
+const FRUIT_N_BERRY_MOUSSE_MADE_W_SEMOLINA: IDish = {
+    id: 'kids-14.19',
+    generalOutput: 100,
+    variants: [
+        {
+            id: 'kids-14.19.1',
+            name: 'Мусс плодово-ягодный (на манной крупе) (пюре из яблок и черной смородины)',
+            components: {
+                cereals: 10,
+                confectioneryProducts: 20,
+                sugar: 14,
+            },
+            macronutrients: {
+                proteins: 0.99,
+                fats: 0.09,
+                carbohydrates: 20.99
+            },
+            caloricity: 86.81
+        },
+        {
+            id: 'kids-14.19.2',
+            name: 'Мусс плодово-ягодный (на манной крупе) (пюре из яблок)',
+            components: {
+                cereals: 10,
+                confectioneryProducts: 20,
+                sugar: 14,
+            },
+            macronutrients: {
+                proteins: 1.02,
+                fats: 0.09,
+                carbohydrates: 22.12
+            },
+            caloricity: 91.31
+        }
+    ]
+}
+
+const PRUNES_IN_MILK: IDish = {
+    id: 'kids-14.20',
+    generalOutput: 100,
+    variants: [
+        {
+            id: 'kids-14.20.1',
+            name: 'Чернослив (c косточкой) в молоке',
+            components: {
+                fruitsDried: 40.8,
+                milkAndFermentedMilkProducts: 132,
+                sugar: 5.3,
+            },
+            macronutrients: {
+                proteins: 4.05,
+                fats: 2.74,
+                carbohydrates: 33.71
+            },
+            caloricity: 174.35
+        },
+        {
+            id: 'kids-14.20.2',
+            name: 'Чернослив (без косточкой) в молоке',
+            components: {
+                fruitsDried: 30.6,
+                milkAndFermentedMilkProducts: 132,
+                sugar: 5.3,
+            },
+            macronutrients: {
+                proteins: 4.05,
+                fats: 2.74,
+                carbohydrates: 33.71
+            },
+            caloricity: 174.35
+        }
+    ]
+}
+
+const BAKED_APPLES: IDish = {
+    id: 'kids-14.21',
+    variants: [
+        {
+            id: 'kids-14.21.1',
+            name: 'Яблоки печеные',
+            defaultOutput: 100,
+            components: {
+                fruits: 113,
+                sugar: 10,
+            },
+            macronutrients: {
+                proteins: 0.42,
+                fats: 0.4,
+                carbohydrates: 17.63
+            },
+            caloricity: 75
+        },
+        {
+            id: 'kids-14.21.2',
+            name: 'Яблоки печеные с рафинадной пудрой',
+            defaultOutput: 105,
+            components: {
+                fruits: 113,
+                sugar: 15,
+            },
+            macronutrients: {
+                proteins: 0.44,
+                fats: 0.42,
+                carbohydrates: 23.23
+            },
+            caloricity: 96.66
+        },
+        {
+            id: 'kids-14.21.3',
+            name: 'Яблоки печеные с вареньем',
+            defaultOutput: 120,
+            components: {
+                confectioneryProducts: 20,
+                fruits: 113,
+                sugar: 10,
+            },
+            macronutrients: {
+                proteins: 0.56,
+                fats: 0.48,
+                carbohydrates: 36.47
+            },
+            caloricity: 148.54
+        }
+    ]
+}
+
+const LEMONS_W_SUGAR: IDish = {
+    id: 'kids-14.22',
+    generalOutput: 30,
+    variants: [
+        {
+            id: 'kids-14.22.1',
+            name: 'Лимоны с сахаром',
+            components: {
+                fruits: 20,
+                sugar: 10,
+            },
+            macronutrients: {
+                proteins: 0.6,
+                fats: 0.07,
+                carbohydrates: 35.27
+            },
+            caloricity: 148.3
+        }
+    ]
+}
