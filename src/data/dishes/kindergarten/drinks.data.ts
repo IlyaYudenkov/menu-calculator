@@ -191,3 +191,124 @@ const TEA_W_MILK_V1: IDish = {
         }
     ]
 }
+
+const TEA_W_MILK_V2: IDish = {
+    id: 'kids-15.6',
+    generalOutput: 200,
+    variants: [
+        {
+            id: 'kids-15.6.1',
+            name: 'Чай с молоком (вариант 2)',
+            components: {
+                milkAndFermentedMilkProducts: 120,
+                sugar: 15,
+                tea: 0.3,
+            },
+            macronutrients: {
+                proteins: 1.54,
+                fats: 1.33,
+                carbohydrates: 9.31
+            },
+            caloricity: 53.67
+        }
+    ]
+}
+
+const COCOA_W_MILK: IDish = {
+    id: 'kids-15.7',
+    generalOutput: 200,
+    variants: [
+        {
+            id: 'kids-15.7.1',
+            name: 'Какао с молоком',
+            components: {
+                cocoa: 4,
+                milkAndFermentedMilkProducts: 100,
+                sugar: 20,
+            },
+            macronutrients: {
+                proteins: 1.69,
+                fats: 1.41,
+                carbohydrates: 11.62
+            },
+            caloricity: 64.35
+        }
+    ]
+}
+
+const COCOA_W_CONDENSED_MILK: IDish = {
+    id: 'kids-15.8',
+    generalOutput: 200,
+    variants: [
+        {
+            id: 'kids-15.8.1',
+            name: 'Какао с молоком сгущенным (молоко сгущенное в кондитерские изделия)',
+            components: {
+                confectioneryProducts: 38,
+                cocoa: 4,
+            },
+            macronutrients: {
+                proteins: 1.15,
+                fats: 1.73,
+                carbohydrates: 11.43
+            },
+            caloricity: 66.68
+        },
+        {
+            id: 'kids-15.8.2',
+            name: 'Какао с молоком сгущенным (молоко сгущенное в молочные продукты)',
+            components: {
+                cocoa: 4,
+                milkAndFermentedMilkProducts: 38,
+            },
+            macronutrients: {
+                proteins: 1.15,
+                fats: 1.73,
+                carbohydrates: 11.43
+            },
+            caloricity: 66.68
+        }
+    ]
+}
+
+const BOILED_MILK: IDish = {
+    id: 'kids-15.9',
+    generalOutput: 200,
+    variants: [
+        {
+            id: 'kids-15.9.1',
+            name: 'Молоко кипяченое',
+            components: {
+                milkAndFermentedMilkProducts: 211
+            },
+            macronutrients: {
+                proteins: 2.65,
+                fats: 2.32,
+                carbohydrates: 4.49
+            },
+            caloricity: 49.38
+        },
+    ]
+}
+
+const COFFEE_DRINK_W_MILK_V1: IDish = {
+    id: 'kids-15.10',
+    generalOutput: 200,
+    variants: [
+        {
+            id: 'kids-15.10.1',
+            name: 'Кофейный напиток с молоком (вариант 1)',
+            components: {
+                coffeeDrink: 8,
+                milkAndFermentedMilkProducts: 100,
+                sugar: 15
+            },
+            macronutrients: {
+                proteins: 1.26,
+                fats: 1.1,
+                carbohydrates: 8.87
+            },
+            caloricity: 48.99
+        },
+    ]
+}
