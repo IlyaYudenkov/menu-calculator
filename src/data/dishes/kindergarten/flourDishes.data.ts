@@ -411,3 +411,279 @@ const OLADYI_W_RAISINS: IDish = {
         }
     ]
 }
+
+const OLADYI_W_APPLES: IDish = {
+    id: 'kids-16.6',
+    variants: [
+        {
+            id: 'kids-16.6.1',
+            name: 'Оладьи с яблоками',
+            defaultOutput: 70,
+            components: {
+                eggs: 2,
+                flourWheat: 36,
+                fruits: 7,
+                milkAndFermentedMilkProducts: 36,
+                oil: 4,
+                sugar: 1.5,
+                yeasts: 1
+            },
+            macronutrients: {
+                proteins: 6.53,
+                fats: 7.01,
+                carbohydrates: 36.9
+            },
+            caloricity: 240.3
+        },
+        {
+            id: 'kids-16.6.2',
+            name: 'Оладьи с яблоками с маслом сливочным',
+            defaultOutput: 75,
+            components: {
+                butter: 5,
+                eggs: 2,
+                flourWheat: 36,
+                fruits: 7,
+                milkAndFermentedMilkProducts: 36,
+                oil: 4,
+                sugar: 1.5,
+                yeasts: 1
+            },
+            macronutrients: {
+                proteins: 6.12,
+                fats: 11.39,
+                carbohydrates: 34.5
+            },
+            caloricity: 269.16
+        },
+        {
+            id: 'kids-16.6.3',
+            name: 'Оладьи с яблоками со сметаной',
+            defaultOutput: 80,
+            components: {
+                eggs: 2,
+                flourWheat: 36,
+                fruits: 7,
+                milkAndFermentedMilkProducts: 36,
+                oil: 4,
+                sourCream: 10,
+                sugar: 1.5,
+                yeasts: 1
+            },
+            macronutrients: {
+                proteins: 6.03,
+                fats: 8.34,
+                carbohydrates: 32.65
+            },
+            caloricity: 233.44
+        },
+        {
+            id: 'kids-16.6.4',
+            name: 'Оладьи с яблоками с сахаром',
+            defaultOutput: 75,
+            components: {
+                eggs: 2,
+                flourWheat: 36,
+                fruits: 7,
+                milkAndFermentedMilkProducts: 36,
+                oil: 4,
+                sugar: 6.5,
+                yeasts: 1
+            },
+            macronutrients: {
+                proteins: 6.1,
+                fats: 6.55,
+                carbohydrates: 40.43
+            },
+            caloricity: 247.01
+        },
+        {
+            id: 'kids-16.6.5',
+            name: 'Оладьи с яблоками с медом',
+            defaultOutput: 80,
+            components: {
+                confectioneryProducts: 10,
+                eggs: 2,
+                flourWheat: 36,
+                fruits: 7,
+                milkAndFermentedMilkProducts: 36,
+                oil: 4,
+                sugar: 1.5,
+                yeasts: 1
+            },
+            macronutrients: {
+                proteins: 5.8,
+                fats: 6.14,
+                carbohydrates: 41.33
+            },
+            caloricity: 245.59
+        }
+    ]
+}
+
+const OLADYI_W_CURD: IDish = {
+    id: 'kids-16.7',
+    variants: [
+        {
+            id: 'kids-16.7.1',
+            name: 'Оладьи с творогом',
+            defaultOutput: 70,
+            components: {
+                curd: 12,
+                eggs: 2,
+                flourWheat: 34,
+                milkAndFermentedMilkProducts: 34.4,
+                oil: 4,
+                sugar: 1,
+                yeasts: 1,
+            },
+            macronutrients: {
+                proteins: 8.71,
+                fats: 8.26,
+                carbohydrates: 33.81
+            },
+            caloricity: 248.69
+        },
+        {
+            id: 'kids-16.7.2',
+            name: 'Оладьи с творогом с маслом сливочным',
+            defaultOutput: 75,
+            components: {
+                butter: 5,
+                curd: 12,
+                eggs: 2,
+                flourWheat: 34,
+                milkAndFermentedMilkProducts: 34.4,
+                oil: 4,
+                sugar: 1,
+                yeasts: 1,
+            },
+            macronutrients: {
+                proteins: 8.17,
+                fats: 12.55,
+                carbohydrates: 31.61
+            },
+            caloricity: 276.99
+        },
+        {
+            id: 'kids-16.7.3',
+            name: 'Оладьи с творогом со сметаной',
+            defaultOutput: 80,
+            components: {
+                curd: 12,
+                eggs: 2,
+                flourWheat: 34,
+                milkAndFermentedMilkProducts: 34.4,
+                oil: 4,
+                sourCream: 10,
+                sugar: 1,
+                yeasts: 1,
+            },
+            macronutrients: {
+                proteins: 7.94,
+                fats: 9.43,
+                carbohydrates: 29.95
+            },
+            caloricity: 240.78
+        },
+        {
+            id: 'kids-16.7.4',
+            name: 'Оладьи с творогом с сахаром',
+            defaultOutput: 75,
+            components: {
+                curd: 12,
+                eggs: 2,
+                flourWheat: 34,
+                milkAndFermentedMilkProducts: 34.4,
+                oil: 4,
+                sugar: 6,
+                yeasts: 1,
+            },
+            macronutrients: {
+                proteins: 8.13,
+                fats: 7.71,
+                carbohydrates: 37.56
+            },
+            caloricity: 254.84
+        }
+    ]
+}
+
+const YEASTS_DOUGH_BAKED_PIES_W_JAM: IDish = {
+    id: 'kids-16.8',
+    generalOutput: 60,
+    variants: [
+        {
+            id: 'kids-16.8.1',
+            name: 'Пирожки печеные из дрожжевого теста с повидлом',
+            components: {
+                butter: 3,
+                confectioneryProducts: 25,
+                eggs: 4.2,
+                flourWheat: 28.8,
+                oil: 0.1,
+                sugar: 2,
+                yeasts: 1,
+            },
+            macronutrients: {
+                proteins: 5.55,
+                fats: 4.98,
+                carbohydrates: 57.33
+            },
+            caloricity: 294.3
+        }
+    ]
+}
+
+const SMAZHANKA_W_BOILED_BEEF_N_ONIONS: IDish = {
+    id: 'kids-16.9',
+    generalOutput: 100,
+    variants: [
+        {
+            id: 'kids-16.9.1',
+            name: 'Смажанка с отварной говядиной и луком',
+            components: {
+                eggs: 11.5,
+                flourWheat: 32,
+                meat: 32,
+                oil: 5.2,
+                sourCream: 10,
+                sugar: 1,
+                vegetables: 10,
+                yeasts: 1,
+            },
+            macronutrients: {
+                proteins: 10.53,
+                fats: 8.53,
+                carbohydrates: 21.92
+            },
+            caloricity: 210.53
+        }
+    ]
+}
+
+const VATRUSHKA_W_JAM: IDish = {
+    id: 'kids-16.10',
+    generalOutput: 75,
+    variants: [
+        {
+            id: 'kids-16.10.1',
+            name: 'Ватрушка с повидлом',
+            components: {
+                butter: 1.8,
+                confectioneryProducts: 30,
+                eggs: 3.4,
+                flourWheat: 39,
+                oil: 0.2,
+                sugar: 2,
+                yeasts: 1.2
+            },
+            macronutrients: {
+                proteins: 5.61,
+                fats: 2.97,
+                carbohydrates: 58.2
+            },
+            caloricity: 280.13
+        }
+    ]
+}
