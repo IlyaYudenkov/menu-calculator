@@ -687,3 +687,135 @@ const VATRUSHKA_W_JAM: IDish = {
         }
     ]
 }
+
+const DESSERT_BUN_V1: IDish = {
+    id: 'kids-16.11',
+    generalOutput: 50,
+    variants: [
+        {
+            id: 'kids-16.11.1',
+            name: 'Булочка десертная (вариант 1)',
+            components: {
+                butter: 3.2,
+                confectioneryProducts: 11,
+                eggs: 3.15,
+                flourWheat: 27,
+                milkAndFermentedMilkProducts: 11.6,
+                oil: 0.13,
+                sugar: 5.25,
+                yeasts: 1
+            },
+            macronutrients: {
+                proteins: 6.56,
+                fats: 6.54,
+                carbohydrates: 58.94
+            },
+            caloricity: 320.14
+        }
+    ]
+}
+
+const DESSERT_BUN_V2: IDish = {
+    id: 'kids-16.12',
+    generalOutput: 50,
+    variants: [
+        {
+            id: 'kids-16.12.1',
+            name: 'Булочка десертная (вариант 2)',
+            components: {
+                butter: 2.8,
+                confectioneryProducts: 11,
+                eggs: 3.15,
+                flourWheat: 27,
+                milkAndFermentedMilkProducts: 12,
+                oil: 0.13,
+                sugar: 5.25,
+                yeasts: 1
+            },
+            macronutrients: {
+                proteins: 6.58,
+                fats: 5.96,
+                carbohydrates: 56.86
+            },
+            caloricity: 306.6
+        }
+    ]
+}
+
+const VITBA_BUN_V1: IDish = {
+    id: 'kids-16.13',
+    generalOutput: 50,
+    variants: [
+        {
+            id: 'kids-16.13.1',
+            name: 'Булочка "Витьба" (вариант 1)',
+            components: {
+                butter: 2.8,
+                eggs: 5.75,
+                flourWheat: 31.5,
+                milkAndFermentedMilkProducts: 11.7,
+                oil: 0.13,
+                sugar: 5,
+                yeasts: 1
+            },
+            macronutrients: {
+                proteins: 7.9,
+                fats: 6.56,
+                carbohydrates: 49.16
+            },
+            caloricity: 289.86
+        }
+    ]
+}
+
+const VITBA_BUN_V2: IDish = {
+    id: 'kids-16.14',
+    generalOutput: 50,
+    variants: [
+        {
+            id: 'kids-16.14.1',
+            name: 'Булочка "Витьба" (вариант 2)',
+            components: {
+                butter: 2.5,
+                eggs: 5.75,
+                flourWheat: 31.5,
+                milkAndFermentedMilkProducts: 12,
+                oil: 0.13,
+                sugar: 5,
+                yeasts: 1
+            },
+            macronutrients: {
+                proteins: 7.92,
+                fats: 6.14,
+                carbohydrates: 49.18
+            },
+            caloricity: 286.1
+        }
+    ]
+}
+
+const VKUSNAYA_BUN_V1: IDish = {
+    id: 'kids-16.15',
+    generalOutput: 50,
+    variants: [
+        {
+            id: 'kids-16.15.1',
+            name: 'Булочка "Вкусная" (вариант 1)',
+            components: {
+                butter: 5.3,
+                confectioneryProducts: 2,
+                eggs: 1.9,
+                flourWheat: 32,
+                oil: 0.13,
+                sugar: 6,
+                yeasts: 1.8
+            },
+            macronutrients: {
+                proteins: 6.76,
+                fats: 8.96,
+                carbohydrates: 52.92
+            },
+            caloricity: 320.66
+        }
+    ]
+}
