@@ -819,3 +819,156 @@ const VKUSNAYA_BUN_V1: IDish = {
         }
     ]
 }
+
+const VKUSNAYA_BUN_V2: IDish = {
+    id: 'kids-16.16',
+    generalOutput: 50,
+    variants: [
+        {
+            id: 'kids-16.16.1',
+            name: 'Булочка "Вкусная" (вариант 2)',
+            components: {
+                butter: 4.6,
+                confectioneryProducts: 2,
+                eggs: 1.9,
+                flourWheat: 32,
+                oil: 0.13,
+                sugar: 6,
+                yeasts: 1.8
+            },
+            macronutrients: {
+                proteins: 6.76,
+                fats: 7.94,
+                carbohydrates: 52.9
+            },
+            caloricity: 311.24
+        }
+    ]
+}
+
+const CHILDRENS_PASTRY_V1: IDish = {
+    id: 'kids-16.17',
+    generalOutput: 50,
+    variants: [
+        {
+            id: 'kids-16.17.1',
+            name: 'Сдоба детская (вариант 1)',
+            components: {
+                butter: 5.2,
+                eggs: 3.4,
+                flourWheat: 30.3,
+                milkAndFermentedMilkProducts: 12.4,
+                oil: 0.13,
+                sugar: 7.6,
+                yeasts: 1.2
+            },
+            macronutrients: {
+                proteins: 7.26,
+                fats: 9.6,
+                carbohydrates: 52.4
+            },
+            caloricity: 326.86
+        }
+    ]
+}
+
+const CHILDRENS_PASTRY_V2: IDish = {
+    id: 'kids-16.18',
+    generalOutput: 50,
+    variants: [
+        {
+            id: 'kids-16.18.1',
+            name: 'Сдоба детская (вариант 2)',
+            components: {
+                butter: 4.55,
+                eggs: 3.4,
+                flourWheat: 30.3,
+                milkAndFermentedMilkProducts: 13,
+                oil: 0.13,
+                sugar: 7.6,
+                yeasts: 1.2
+            },
+            macronutrients: {
+                proteins: 7.28,
+                fats: 8.62,
+                carbohydrates: 52.44
+            },
+            caloricity: 318
+        }
+    ]
+}
+
+const SUGAR_PRETZEL_V1: IDish = {
+    id: 'kids-16.19',
+    generalOutput: 50,
+    variants: [
+        {
+            id: 'kids-16.19.1',
+            name: 'Крендель сахарный (вариант 1)',
+            components: {
+                butter: 9.1,
+                eggs: 4.3,
+                flourWheat: 32,
+                sugar: 8.5,
+                yeasts: 1
+            },
+            macronutrients: {
+                proteins: 7.14,
+                fats: 14.76,
+                carbohydrates: 55.14
+            },
+            caloricity: 385.04
+        }
+    ]
+}
+
+const SUGAR_PRETZEL_V2: IDish = {
+    id: 'kids-16.20',
+    generalOutput: 50,
+    variants: [
+        {
+            id: 'kids-16.20.1',
+            name: 'Крендель сахарный (вариант 2)',
+            components: {
+                butter: 8,
+                eggs: 4.3,
+                flourWheat: 32,
+                sugar: 8.5,
+                yeasts: 1
+            },
+            macronutrients: {
+                proteins: 7.36,
+                fats: 13.2,
+                carbohydrates: 55.12
+            },
+            caloricity: 370.24
+        }
+    ]
+}
+
+const CURD_PASTRY: IDish = {
+    id: 'kids-16.21',
+    generalOutput: 70,
+    variants: [
+        {
+            id: 'kids-16.21.1',
+            name: 'Сочник с творогом',
+            components: {
+                butter: 8,
+                curd: 22,
+                eggs: 7,
+                flourWheat: 26,
+                milkAndFermentedMilkProducts: 5,
+                oil: 4,
+                sourCream: 9,
+                sugar: 6,
+            },
+            macronutrients: {
+                proteins: 10.41,
+                fats: 20.03,
+                carbohydrates: 32.09
+            },
+            caloricity: 357
+        }
+    ]
+}
