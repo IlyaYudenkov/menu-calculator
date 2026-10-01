@@ -262,7 +262,7 @@ const APPLE_JUICE_SAUSE: IDish = {
     ]
 }
 
-export const SAUSES_DISHES_KINDERGARTEN_ARRAY: IDish[] = [
+export const SAUSES_KINDERGARTEN_ARRAY: IDish[] = [
     RED_MAIN_SAUSE,
     WHITE_MAIN_SAUSE,
     MILK_SAUSE,
