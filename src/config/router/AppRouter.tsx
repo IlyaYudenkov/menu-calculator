@@ -1,10 +1,11 @@
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import { privateRoutes, publicRoutes } from "./router.config";
 import { PRIVATE_PAGES, PUBLIC_PAGES } from "./routes";
+import { useAuth } from "@/context/authContext";
 
 export const AppRouter = () => {
 
-    const token = localStorage.getItem('token');
+    const { isAuth } = useAuth()
 
     return (
         <BrowserRouter>
@@ -13,7 +14,7 @@ export const AppRouter = () => {
                     <Route
                         key={path}
                         path={path}
-                        element={token ?
+                        element={isAuth ?
                             <Navigate to={PRIVATE_PAGES.HOME.path} replace /> :
                             element}
                     />
@@ -23,7 +24,7 @@ export const AppRouter = () => {
                     <Route
                         key={path}
                         path={path}
-                        element={token ?
+                        element={isAuth ?
                             element :
                             <Navigate to={PUBLIC_PAGES.LOGIN.path} replace />
                         }
@@ -33,7 +34,7 @@ export const AppRouter = () => {
                 <Route
                     path="*"
                     element={
-                        <Navigate to={token ? PRIVATE_PAGES.HOME.path : PUBLIC_PAGES.LOGIN.path}
+                        <Navigate to={isAuth ? PRIVATE_PAGES.HOME.path : PUBLIC_PAGES.LOGIN.path}
                             replace
                         />
                     }

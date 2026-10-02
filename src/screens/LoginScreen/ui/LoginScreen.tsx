@@ -3,6 +3,7 @@ import cl from './_LoginScreen.module.scss'
 import { useState } from 'react';
 import { PRIVATE_PAGES } from '@/config/router/routes';
 import Input from '@/UI/Input/Input';
+import { useAuth } from '@/context/authContext';
 
 export const LoginScreen = () => {
     const [username, setUsername] = useState('');
@@ -10,16 +11,19 @@ export const LoginScreen = () => {
 
     const navigate = useNavigate();
 
+    const { login } = useAuth();
+
     const handleLogin = (e) => {
         e.preventDefault();
 
         if (username === 'admin' && password === '12345') {
-            localStorage.setItem('token', 'fake-jwt-token');
-            navigate(PRIVATE_PAGES.HOME.path);
+            login('fake-jwt-token');
+            navigate(PRIVATE_PAGES.HOME.path, { replace: true });
         } else {
             alert('Неверный логин или пароль');
         }
     };
+
     return (
         <div className={cl.LoginScreen}>
             <form onSubmit={handleLogin} className={cl.form}>
