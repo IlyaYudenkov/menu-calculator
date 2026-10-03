@@ -7,7 +7,7 @@ import { TableDishRow } from '../TableDishRow/TableDishRow'
 import { TableTotalRow } from '../TableTotalRow/TableTotalRow'
 import { calcMealTotal } from '@/lib/calc.lib'
 import { updateDishesOptions } from '@/data/dishes/dishes.data'
-import { DishesByAgeCategoryArrayContext } from '@/context/dishesArrayContext'
+import { DishesByAgeCategoryArrayContext } from '@/context/dishes/dishesArrayContext'
 
 interface TableMealBlockProps<T> {
     meal: IMeal

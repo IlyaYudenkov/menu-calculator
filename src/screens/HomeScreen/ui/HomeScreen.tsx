@@ -34,7 +34,8 @@ import {
 import type { IOption } from '@/model/option.model'
 import { type IDish, type TAgeCategoryKey } from '@/model/dish.model'
 import { ALL_DISHES_BY_SELECTED_AGE_CATEGORY } from '@/data/dishes/dishes.data'
-import { DishesByAgeCategoryArrayContext } from '@/context/dishesArrayContext'
+import { DishesByAgeCategoryArrayContext } from '@/context/dishes/dishesArrayContext'
+import { useAuth } from '@/context/auth/AuthProvider'
 
 export const HomeScreen = () => {
     const [days, setDays] = useState<IDay[]>([])
@@ -45,6 +46,8 @@ export const HomeScreen = () => {
 
     const [menuDuration, setMenuDuration] = useState<IOption>(JSON.parse(localStorage.getItem(MENU_DURATION_LS_VARIABLE))
         || TEN_DAYS_DURATION_MENU_ITEM);
+
+    const { logout } = useAuth()
 
     useEffect(() => {
         if (menuDuration) {
@@ -217,8 +220,12 @@ export const HomeScreen = () => {
                     setDays={setDays}
                     selectedAgeCategoryValue={+ageCategory?.value || 0}
                 />
+                <button
+                    className={cl.logoutBtn}
+                    onClick={() => logout()}>
+                    Выйти
+                </button>
             </div>
         </DishesByAgeCategoryArrayContext>
-
     )
 }

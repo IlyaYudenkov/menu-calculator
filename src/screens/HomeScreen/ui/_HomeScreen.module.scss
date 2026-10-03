@@ -5,3 +5,17 @@
     gap: 10px;
     padding: 10px;
 }
+
+.logoutBtn{
+    background-color: var(--text);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 8px 15px;
+    width: 120px;
+    transition: 0.2s ease-out;
+
+    &:hover {
+        background-color: var(--bg);
+        color: var(--text);
+    }
+}
