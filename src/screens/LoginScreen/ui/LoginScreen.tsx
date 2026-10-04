@@ -3,7 +3,7 @@ import cl from './_LoginScreen.module.scss'
 import { useState } from 'react';
 import { PRIVATE_PAGES } from '@/config/router/routes';
 import Input from '@/UI/Input/Input';
-import { useAuth } from '@/context/auth/AuthProvider';
+import { useAuth } from '@/context/auth/useAuth';
 
 export const LoginScreen = () => {
     const [username, setUsername] = useState('');

@@ -1,7 +1,7 @@
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import { privateRoutes, publicRoutes } from "./router.config";
 import { PRIVATE_PAGES, PUBLIC_PAGES } from "./routes";
-import { useAuth } from "@/context/auth/AuthProvider";
+import { useAuth } from "@/context/auth/useAuth";
 
 export const AppRouter = () => {
 

@@ -35,7 +35,7 @@ import type { IOption } from '@/model/option.model'
 import { type IDish, type TAgeCategoryKey } from '@/model/dish.model'
 import { ALL_DISHES_BY_SELECTED_AGE_CATEGORY } from '@/data/dishes/dishes.data'
 import { DishesByAgeCategoryArrayContext } from '@/context/dishes/dishesArrayContext'
-import { useAuth } from '@/context/auth/AuthProvider'
+import { useAuth } from '@/context/auth/useAuth'
 
 export const HomeScreen = () => {
     const [days, setDays] = useState<IDay[]>([])
