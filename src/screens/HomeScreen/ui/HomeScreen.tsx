@@ -176,6 +176,11 @@ export const HomeScreen = () => {
         ]
     }, [baseDays])
 
+    const handleMenuReset = () => {
+        setDays([])
+        localStorage.setItem(DAYS_LS_VARIABLE, JSON.stringify(days));
+    }
+
     const isCumulative = activeDayId === CUMULATIVE_TABLE_ITEM.id;
     const isAverage = activeDayId === TOTAL_AVERAGE_NAME_ITEM.id;
 
@@ -220,11 +225,18 @@ export const HomeScreen = () => {
                     setDays={setDays}
                     selectedAgeCategoryValue={+ageCategory?.value || 0}
                 />
-                <button
-                    className={cl.logoutBtn}
-                    onClick={() => logout()}>
-                    Выйти
-                </button>
+                <div className={cl.btnContainer}>
+                    <button
+                        className={cl.btn}
+                        onClick={() => logout()}>
+                        Выйти
+                    </button>
+                    <button
+                        className={cl.btn}
+                        onClick={() => handleMenuReset()}>
+                        Очистить меню
+                    </button>
+                </div>
             </div>
         </DishesByAgeCategoryArrayContext>
     )

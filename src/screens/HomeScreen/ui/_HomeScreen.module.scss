@@ -6,12 +6,17 @@
     padding: 10px;
 }
 
-.logoutBtn{
+.btnContainer{
+    display: flex;
+    gap: 20px;
+}
+
+.btn{
+    display: flex;
     background-color: var(--text);
     border: 1px solid var(--border);
     border-radius: 10px;
     padding: 8px 15px;
-    width: 120px;
     transition: 0.2s ease-out;
 
     &:hover {
