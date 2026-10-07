@@ -462,7 +462,7 @@ const CRANBERRY_SUPPLY_DRINK: IDish = {
     ]
 }
 
-export const DRINKS_DISHES_KINDERGARTEN_ARRAY: IDish[] = [
+export const DRINKS_KINDERGARTEN_ARRAY: IDish[] = [
     TEA_W_SUGAR_V1,
     TEA_W_SUGAR_V2,
     TEA_W_LEMON_V1,
