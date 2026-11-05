@@ -2034,6 +2034,90 @@ const SALAD_KAK_DOMA: IDish = {
     ]
 }
 
+const SALAD_BELKA: IDish = {
+    id: '1.69',
+    generalOutput: 100,
+    variants: [
+        {
+            id: '1.69.1',
+            name: 'Салат "Белка"',
+            components: {
+                eggs: 16,
+                oil: 8,
+                vegetables: 77,
+            },
+            macronutrients: {
+                proteins: 3.42,
+                fats: 9.98,
+                carbohydrates: 5.36
+            },
+            caloricity: 125.65
+        }
+    ]
+}
+
+const SALAD_VESELYE_REBYATA: IDish = {
+    id: '1.70',
+    generalOutput: 100,
+    variants: [
+        {
+            id: '1.70.1',
+            name: 'Салат "Весёлые ребята"',
+            components: {
+                eggs: 16.5,
+                oil: 7,
+                sugar: 1,
+                vegetables: 97.6
+            },
+            macronutrients: {
+                proteins: 3.4,
+                fats: 7.9,
+                carbohydrates: 5.68
+            },
+            caloricity: 113.85
+        }
+    ]
+}
+
+const SALAD_CYPLENOK: IDish = {
+    id: '1.71',
+    generalOutput: 100,
+    variants: [
+        {
+            id: '1.71.1',
+            name: 'Салат "Цыплёнок" (с маслом растительным)',
+            components: {
+                cheese: 30,
+                eggs: 30,
+                oil: 11,
+                vegetables: 30,
+            },
+            macronutrients: {
+                proteins: 11.4,
+                fats: 23.3,
+                carbohydrates: 3.4
+            },
+            caloricity: 271.4
+        },
+        {
+            id: '1.71.2',
+            name: 'Салат "Цыплёнок" (с майонезом)',
+            components: {
+                cheese: 30,
+                eggs: 30,
+                mayonnaise: 11,
+                vegetables: 30,
+            },
+            macronutrients: {
+                proteins: 11.5,
+                fats: 17.2,
+                carbohydrates: 4
+            },
+            caloricity: 219.8
+        }
+    ]
+}
+
 export const SNACKS_ARRAY: IDish[] = [
     SANDWICH_W_BUTTER,
     SANDWICH_W_JAM,

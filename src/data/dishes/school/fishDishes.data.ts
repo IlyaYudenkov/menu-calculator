@@ -1152,6 +1152,30 @@ const FISH_NUGGETS: IDish = {
     ]
 }
 
+const OLADUSHKI_RYBNAYA_FANTAZIA: IDish = {
+    id: '7.20',
+    generalOutput: 50,
+    variants: [
+        {
+            id: '7.20.1',
+            name: 'Оладушки "Рыбная фантазия"',
+            components: {
+                cereals: 2.5,
+                eggs: 8,
+                fish: 36,
+                oil: 3,
+                sourCream: 12,
+            },
+            macronutrients: {
+                proteins: 13.7,
+                fats: 12.5,
+                carbohydrates: 0.8
+            },
+            caloricity: 171.7
+        }
+    ]
+}
+
 export const FISH_DISHES_ARRAY: IDish[] = [
     BOILED_FISH,
     POACHED_FISH,

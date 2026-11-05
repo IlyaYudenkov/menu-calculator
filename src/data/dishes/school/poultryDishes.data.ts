@@ -982,6 +982,128 @@ const CUTLET_KVETKA: IDish = {
     ]
 }
 
+const CUE_CARDS_CUTLETS_SECRET: IDish = {
+    id: '9.24',
+    generalOutput: 75,
+    variants: [
+        {
+            id: '9.24.1',
+            name: 'Биточек, котлета "Секрет" (печень свиная)',
+            components: {
+                breadWheat: 14.18,
+                byProducts: 35.17,
+                eggs: 1.665,
+                oil: 4.2,
+                poultry: 31.8,
+            },
+            macronutrients: {
+                proteins: 15.3,
+                fats: 6.5,
+                carbohydrates: 5
+            },
+            caloricity: 141.1
+        },
+        {
+            id: '9.24.2',
+            name: 'Биточек, котлета "Секрет" (печень говяжья)',
+            components: {
+                breadWheat: 14.18,
+                byProducts: 35.17,
+                eggs: 1.665,
+                oil: 4.2,
+                poultry: 31.8,
+            },
+            macronutrients: {
+                proteins: 15,
+                fats: 6.5,
+                carbohydrates: 5
+            },
+            caloricity: 139.6
+        }
+    ]
+}
+
+const CUE_CARDS_ULIBKA: IDish = {
+    id: '9.25',
+    generalOutput: 100,
+    variants: [
+        {
+            id: '9.25.1',
+            name: 'Биточки "Улыбка" (на молоке, мука пшеничная)',
+            components: {
+                cereals: 8,
+                flourWheat: 5,
+                meat: 38,
+                milkAndFermentedMilkProducts: 16,
+                oil: 6,
+                poultry: 46,
+                vegetables: 14,
+            },
+            macronutrients: {
+                proteins: 16.64,
+                fats: 22.2,
+                carbohydrates: 11.7
+            },
+            caloricity: 311.82
+        },
+        {
+            id: '9.25.2',
+            name: 'Биточки "Улыбка" (на воде, мука пшеничная)',
+            components: {
+                cereals: 8,
+                flourWheat: 5,
+                meat: 38,
+                oil: 6,
+                poultry: 46,
+                vegetables: 14,
+            },
+            macronutrients: {
+                proteins: 16.64,
+                fats: 22.2,
+                carbohydrates: 11.7
+            },
+            caloricity: 311.82
+        },
+        {
+            id: '9.25.3',
+            name: 'Биточки "Улыбка" (на молоке, сухари панировочные)',
+            components: {
+                breadWheat: 5,
+                cereals: 8,
+                meat: 38,
+                milkAndFermentedMilkProducts: 16,
+                oil: 6,
+                poultry: 46,
+                vegetables: 14,
+            },
+            macronutrients: {
+                proteins: 16.64,
+                fats: 22.2,
+                carbohydrates: 11.7
+            },
+            caloricity: 311.82
+        },
+        {
+            id: '9.25.4',
+            name: 'Биточки "Улыбка" (на воде, сухари панировочные)',
+            components: {
+                breadWheat: 5,
+                cereals: 8,
+                meat: 38,
+                oil: 6,
+                poultry: 46,
+                vegetables: 14,
+            },
+            macronutrients: {
+                proteins: 16.64,
+                fats: 22.2,
+                carbohydrates: 11.7
+            },
+            caloricity: 311.82
+        }
+    ]
+}
+
 export const POULTRY_DISHES_ARRAY = [
     FRIED_POULTRY,
     MINCED_POULTRY_CUTLETS,
