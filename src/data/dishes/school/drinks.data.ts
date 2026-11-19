@@ -500,6 +500,41 @@ const FANTASTIC_DRINK: IDish = {
     ]
 }
 
+const APPLE_DRINK: IDish = {
+    id: '13.15',
+    generalOutput: 200,
+    variants: [
+        {
+            id: '13.15.1',
+            name: 'Напиток яблочный (вариант 1)',
+            components: {
+                fruits: 47,
+                sugar: 16
+            },
+            macronutrients: {
+                proteins: 0.1,
+                fats: 0.1,
+                carbohydrates: 10.5
+            },
+            caloricity: 41
+        },
+        {
+            id: '13.15.2',
+            name: 'Напиток яблочный (вариант 2)',
+            components: {
+                fruits: 40,
+                sugar: 15
+            },
+            macronutrients: {
+                proteins: 0.08,
+                fats: 0.07,
+                carbohydrates: 6.32
+            },
+            caloricity: 26.23
+        },
+    ]
+}
+
 export const DRINKS_ARRAY: IDish[] = [
     TEA_W_SUGAR_OR_JAM_OR_HONEY,
     TEA_W_LEMON,
@@ -514,5 +549,6 @@ export const DRINKS_ARRAY: IDish[] = [
     LEMON_DRINK,
     ROSEHIP_FRUIT_DRINK,
     ORANGE_OR_TANGERIN_DRINK,
-    FANTASTIC_DRINK
+    FANTASTIC_DRINK,
+    APPLE_DRINK
 ]
