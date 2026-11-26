@@ -6,7 +6,7 @@ const SANDWICH_W_BUTTER: IDish = {
         {
             id: '1.1.1',
             name: 'Бутерброд с маслом (15/20)',
-            currentOutput: 35,
+            defaultOutput: 35,
             components: {
                 breadWheat: 20,
                 butter: 15,
@@ -21,7 +21,7 @@ const SANDWICH_W_BUTTER: IDish = {
         {
             id: '1.1.2',
             name: 'Бутерброд с маслом (10/20)',
-            currentOutput: 30,
+            defaultOutput: 30,
             components: {
                 breadWheat: 20,
                 butter: 10,
@@ -635,7 +635,7 @@ const BUTTER_IN_PORTIONS: IDish = {
 
 const CHEESE_IN_PORTIONS: IDish = {
     id: '1.20',
-    generalOutput: 30,
+    generalOutput: 10,
     variants: [
         {
             id: '1.20.1',
@@ -2118,6 +2118,141 @@ const SALAD_CYPLENOK: IDish = {
     ]
 }
 
+const SALAD_SNEGOPAD: IDish = {
+    id: '1.72',
+    generalOutput: 100,
+    variants: [
+        {
+            id: '1.72.1',
+            name: 'Салат "Снегопад"',
+            components: {
+                cereals: 11.1,
+                cheese: 15,
+                eggs: 10,
+                fruits: 20,
+                mayonnaise: 20,
+                vegetables: 5,
+            },
+            macronutrients: {
+                proteins: 10.4,
+                fats: 18.3,
+                carbohydrates: 8
+            },
+            caloricity: 181
+        }
+    ]
+}
+
+const SALAD_ZAGADKA: IDish = {
+    id: '1.73',
+    generalOutput: 100,
+    variants: [
+        {
+            id: '1.73.1',
+            name: 'Салат "Загадка" (треска) с майонезом',
+            components: {
+                cereals: 6.4,
+                eggs: 10,
+                fish: 42.7,
+                fruits: 18,
+                mayonnaise: 20
+            },
+            macronutrients: {
+                proteins: 8.7,
+                fats: 14.7,
+                carbohydrates: 6.5
+            },
+            caloricity: 193
+        },
+        {
+            id: '1.73.2',
+            name: 'Салат "Загадка" (треска) с маслом растительным',
+            components: {
+                cereals: 7.1,
+                eggs: 11.1,
+                fish: 47.4,
+                fruits: 20,
+                oil: 11.1
+            },
+            macronutrients: {
+                proteins: 9,
+                fats: 12.6,
+                carbohydrates: 6.5
+            },
+            caloricity: 175
+        },
+        {
+            id: '1.73.3',
+            name: 'Салат "Загадка" (окунь) с майонезом',
+            components: {
+                cereals: 6.4,
+                eggs: 10,
+                fish: 42.7,
+                fruits: 18,
+                mayonnaise: 20
+            },
+            macronutrients: {
+                proteins: 9.5,
+                fats: 15.8,
+                carbohydrates: 6.5
+            },
+            caloricity: 205
+        },
+        {
+            id: '1.73.4',
+            name: 'Салат "Загадка" (окунь) с маслом растительным',
+            components: {
+                cereals: 7.1,
+                eggs: 11.1,
+                fish: 47.4,
+                fruits: 20,
+                oil: 11.1
+            },
+            macronutrients: {
+                proteins: 10,
+                fats: 13.9,
+                carbohydrates: 6.5
+            },
+            caloricity: 191
+        },
+        {
+            id: '1.73.5',
+            name: 'Салат "Загадка" (хек) с майонезом',
+            components: {
+                cereals: 6.4,
+                eggs: 10,
+                fish: 42.7,
+                fruits: 18,
+                mayonnaise: 20
+            },
+            macronutrients: {
+                proteins: 8.9,
+                fats: 15.4,
+                carbohydrates: 6.5
+            },
+            caloricity: 200
+        },
+        {
+            id: '1.73.6',
+            name: 'Салат "Загадка" (хек) с маслом растительным',
+            components: {
+                cereals: 7.1,
+                eggs: 11.1,
+                fish: 47.4,
+                fruits: 20,
+                oil: 11.1
+            },
+            macronutrients: {
+                proteins: 9.3,
+                fats: 13.4,
+                carbohydrates: 6.5
+            },
+            caloricity: 184
+        }
+    ]
+}
+
+
 export const SNACKS_ARRAY: IDish[] = [
     SANDWICH_W_BUTTER,
     SANDWICH_W_JAM,
@@ -2191,5 +2326,7 @@ export const SNACKS_ARRAY: IDish[] = [
     SALAD_KAK_DOMA,
     SALAD_BELKA,
     SALAD_VESELYE_REBYATA,
-    SALAD_CYPLENOK
+    SALAD_CYPLENOK,
+    SALAD_SNEGOPAD,
+    SALAD_ZAGADKA
 ]

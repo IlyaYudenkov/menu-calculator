@@ -1,5 +1,54 @@
 import type { IDish } from "@/model/dish.model";
 
+const BOILED_POULTRY: IDish = {
+    id: '9.1',
+    generalOutput: 50,
+    variants: [
+        {
+            id: '9.1.1',
+            name: 'Птица отварная (цыплята-бройлеры)',
+            components: {
+                poultry: 63,
+                vegetables: 1.5,
+            },
+            macronutrients: {
+                proteins: 12,
+                fats: 10,
+                carbohydrates: 0.2
+            },
+            caloricity: 138
+        },
+        {
+            id: '9.1.2',
+            name: 'Птица отварная (куры)',
+            components: {
+                poultry: 72,
+                vegetables: 1.5,
+            },
+            macronutrients: {
+                proteins: 14.8,
+                fats: 14,
+                carbohydrates: 0
+            },
+            caloricity: 186
+        },
+        {
+            id: '9.1.3',
+            name: 'Птица отварная (индейки)',
+            components: {
+                poultry: 69,
+                vegetables: 1.5,
+            },
+            macronutrients: {
+                proteins: 17.8,
+                fats: 18.8,
+                carbohydrates: 0
+            },
+            caloricity: 240
+        },
+    ]
+}
+
 const FRIED_POULTRY: IDish = {
     id: '9.4',
     generalOutput: 50,
@@ -1105,6 +1154,7 @@ const CUE_CARDS_ULIBKA: IDish = {
 }
 
 export const POULTRY_DISHES_ARRAY = [
+    BOILED_POULTRY,
     FRIED_POULTRY,
     MINCED_POULTRY_CUTLETS,
     ZRAZY_CHOPPED_TURKEY,
@@ -1124,5 +1174,7 @@ export const POULTRY_DISHES_ARRAY = [
     CHICKEN_CHOPS_W_CHEESE,
     POTATO_CASSEROLE_W_POULTRY,
     POULTRY_FILLET_SMAK,
-    CUTLET_KVETKA
+    CUTLET_KVETKA,
+    CUE_CARDS_CUTLETS_SECRET,
+    CUE_CARDS_ULIBKA
 ]

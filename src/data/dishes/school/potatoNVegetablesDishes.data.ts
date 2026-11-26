@@ -1189,7 +1189,20 @@ const VEGETABLES_IN_PORTIONS: IDish = {
                 carbohydrates: 1.9
             },
             caloricity: 11
-        }
+        },
+        {
+            id: '3.29.3',
+            name: 'Горошек зеленый консервированный (порциями)',
+            components: {
+                vegetables: 100,
+            },
+            macronutrients: {
+                proteins: 3.2,
+                fats: 0.2,
+                carbohydrates: 6.2
+            },
+            caloricity: 40
+        },
     ]
 }
 

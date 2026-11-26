@@ -700,7 +700,7 @@ const BAKED_PASTA_W_CHEESE: IDish = {//учитывал выход  и БЖУ с
     variants: [
         {
             id: '4.17.1',
-            name: 'Макароны, запеченные с яйцом',
+            name: 'Макароны, запеченные с сыром',
             components: {
                 butter: 5,
                 cheese: 7.6,

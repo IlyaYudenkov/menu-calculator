@@ -1498,7 +1498,7 @@ const CHOPPED_STEAK: IDish = {
             id: '8.16.1',
             name: 'Бифштекс рубленый (на молоке)',
             components: {
-                meat: 66,
+                meat: 59,
                 milkAndFermentedMilkProducts: 5,
                 oil: 5,
             },
@@ -1513,7 +1513,7 @@ const CHOPPED_STEAK: IDish = {
             id: '8.16.2',
             name: 'Бифштекс рубленый (на воде)',
             components: {
-                meat: 66,
+                meat: 59,
                 oil: 5,
             },
             macronutrients: {
