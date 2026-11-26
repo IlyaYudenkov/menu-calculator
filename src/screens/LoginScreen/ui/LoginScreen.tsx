@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import cl from './_LoginScreen.module.scss'
-import { useState } from 'react';
+import { useState, type FormEvent } from 'react';
 import { PRIVATE_PAGES } from '@/config/router/routes';
 import Input from '@/UI/Input/Input';
 import { useAuth } from '@/context/auth/useAuth';
@@ -13,7 +13,7 @@ export const LoginScreen = () => {
 
     const { login } = useAuth();
 
-    const handleLogin = (e) => {
+    const handleLogin = (e: FormEvent<HTMLFormElement>) => {
         e.preventDefault();
 
         if (username === 'admin' && password === '12345') {

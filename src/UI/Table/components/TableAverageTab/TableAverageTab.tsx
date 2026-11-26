@@ -21,12 +21,12 @@ export const TableAverageTab = ({
 
     const finalTableElementsAverageCcal: IOption[] = TABLE_AVERAGE_CCAL_ELEMENTS.map((it: IOption) => ({
         ...it,
-        value: String(round(macros[it.id]))
+        value: String(round(macros[it.id as TMacroType]))
     }))
 
     const finalTableElementsAverageMealPercentage: IOption[] = TABLE_AVERAGE_MEALS_ELEMENTS.map((it: IOption<unknown>) => ({
         ...it,
-        value: String(round(mealsAverages[it.id] * 100 / selectedAgeCategoryValue))
+        value: String(round(mealsAverages[it.id as TMealTypeValue] * 100 / selectedAgeCategoryValue))
     }))
 
     return (

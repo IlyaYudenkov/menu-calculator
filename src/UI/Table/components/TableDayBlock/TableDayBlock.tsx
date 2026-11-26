@@ -53,9 +53,9 @@ export const TableDayBlock = ({
                         id: option.value as TMealTypeValue,
                         value: option.label,
                         minPercentageOfCaloricity:
-                            option.meta.minPercentageOfCaloricity,
+                            option.meta!.minPercentageOfCaloricity,
                         maxPercentageOfCaloricity:
-                            option.meta.maxPercentageOfCaloricity,
+                            option.meta!.maxPercentageOfCaloricity,
                     }
             )
         )

@@ -41,11 +41,11 @@ export const HomeScreen = () => {
     const [days, setDays] = useState<IDay[]>([])
     const [activeDayId, setActiveDayId] = useState<number | null>(null)
 
-    const [ageCategory, setAgeCategory] = useState<IOption>(JSON.parse(localStorage.getItem(AGE_CATEGORY_LS_VARIABLE))
-        || SIX_TO_TEN_AGE_CATEGORIES_CCAL_ITEM)
+    const [ageCategory, setAgeCategory] = useState<IOption>(
+        JSON.parse(localStorage.getItem(AGE_CATEGORY_LS_VARIABLE) ?? 'null') || SIX_TO_TEN_AGE_CATEGORIES_CCAL_ITEM)
 
-    const [menuDuration, setMenuDuration] = useState<IOption>(JSON.parse(localStorage.getItem(MENU_DURATION_LS_VARIABLE))
-        || TEN_DAYS_DURATION_MENU_ITEM);
+    const [menuDuration, setMenuDuration] = useState<IOption>(
+        JSON.parse(localStorage.getItem(MENU_DURATION_LS_VARIABLE) ?? 'null') || TEN_DAYS_DURATION_MENU_ITEM);
 
     const { logout } = useAuth()
 
